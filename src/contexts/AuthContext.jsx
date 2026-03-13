@@ -70,32 +70,30 @@ export function AuthProvider({ children }) {
     setProfile(data)
   }
 
-  /**
-   * completePasswordChange
-   * Called by PasswordChangeModal on first-login force-change.
-   * Steps (all awaited in sequence — no timers, no races):
-   *   1. Update password in Supabase Auth
-   *   2. Update must_change_password=false in user_profiles
-   *   3. Patch the in-memory profile so React re-renders with the new value
-   * Returns the updated profile so the caller can navigate immediately.
-   */
   async function completePasswordChange(newPassword) {
     // Step 1 — update auth password
     const { error: authErr } = await supabase.auth.updateUser({ password: newPassword })
     if (authErr) throw authErr
 
-    // Step 2 — update DB flag, await the confirmed write
+    // Step 2 — get current user id
     const { data: { user: currentUser } } = await supabase.auth.getUser()
-    const { data: updatedProfile, error: dbErr } = await supabase
+
+    // Step 3 — update DB flag (plain update, no .select() to avoid RLS PGRST116)
+    const { error: dbErr } = await supabase
       .from('user_profiles')
       .update({ must_change_password: false, updated_at: new Date().toISOString() })
       .eq('id', currentUser.id)
-      .select('*')   // return the updated row
-      .single()
     if (dbErr) throw dbErr
 
-    // Step 3 — set in-memory profile to the confirmed DB row
-    // This is the single source of truth — no re-fetch needed
+    // Step 4 — fetch the fresh profile in a separate SELECT (RLS allows own row read)
+    const { data: updatedProfile, error: fetchErr } = await supabase
+      .from('user_profiles')
+      .select('*')
+      .eq('id', currentUser.id)
+      .single()
+    if (fetchErr) throw fetchErr
+
+    // Step 5 — patch in-memory state directly so navigate() sees the new value instantly
     setProfile(updatedProfile)
 
     return updatedProfile
