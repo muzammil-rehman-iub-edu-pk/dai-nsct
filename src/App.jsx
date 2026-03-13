@@ -58,24 +58,18 @@ function RequireAuth({ children, role }) {
 }
 
 // Gate: shows force-password-change modal if must_change_password is true.
-// Renders children only after password has been changed (or was never required).
+// The modal itself handles navigation after password is changed.
 function ForcePasswordChange({ children }) {
-  const { profile, refreshProfile } = useAuth()
+  const { profile } = useAuth()
   const mustChange = profile?.must_change_password === true
-
-  async function handleChanged() {
-    await refreshProfile()
-  }
 
   return (
     <>
-      {/* Modal is always mounted when mustChange is true; required=true prevents dismissal */}
       <PasswordChangeModal
         open={mustChange}
         required={true}
-        onClose={handleChanged}
+        onClose={() => {}}   // required=true means modal navigates itself; this is never called
       />
-      {/* Only render the page once password is set */}
       {!mustChange && children}
     </>
   )

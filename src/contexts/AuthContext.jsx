@@ -55,7 +55,9 @@ export function AuthProvider({ children }) {
         return
       }
 
-      // SIGNED_IN, TOKEN_REFRESHED, USER_UPDATED
+      // SIGNED_IN, TOKEN_REFRESHED, USER_UPDATED — reload profile
+      // For USER_UPDATED (password change) this ensures must_change_password
+      // is fresh when the modal navigates to the dashboard
       loadProfile(session?.user ?? null)
     })
 
