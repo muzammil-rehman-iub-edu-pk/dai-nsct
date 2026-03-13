@@ -1,35 +1,37 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
 import { BookOpen, Eye, EyeOff } from 'lucide-react'
-import { PasswordChangeModal } from '../components/shared/PasswordChangeModal'
 
 export default function Login() {
-  const { signIn, profile } = useAuth()
+  const { signIn, profile, loading } = useAuth()
   const navigate = useNavigate()
   const [form, setForm]         = useState({ email: '', password: '' })
   const [showPass, setShowPass] = useState(false)
   const [error, setError]       = useState('')
-  const [loading, setLoading]   = useState(false)
-  const [changePw, setChangePw] = useState(false)
+  const [submitting, setSubmitting] = useState(false)
+
+  // When profile loads after sign-in, redirect to the role's home page.
+  // ForcePasswordChange in App.jsx will intercept and show the modal if needed.
+  useEffect(() => {
+    if (!loading && profile) {
+      const dest = `/${profile.role}`
+      navigate(dest, { replace: true })
+    }
+  }, [profile, loading, navigate])
 
   async function handleSubmit(e) {
     e.preventDefault()
     setError('')
-    setLoading(true)
+    setSubmitting(true)
     try {
       await signIn(form.email, form.password)
-      // After sign in, profile will be loaded by AuthContext
-      // We check must_change_password via effect below
+      // Navigation handled by the useEffect above once profile loads
     } catch (err) {
-      setError(err.message || 'Invalid credentials')
-    } finally {
-      setLoading(false)
+      setError(err.message || 'Invalid email or password')
+      setSubmitting(false)
     }
   }
-
-  // Watch profile load — redirect or show pw change
-  useState(() => {})  // placeholder; routing handled in App.jsx
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary-dark via-primary to-secondary-dark flex items-center justify-center p-4">
@@ -51,7 +53,7 @@ export default function Login() {
         <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-xl3 p-8 shadow-lift">
           <h2 className="font-display text-2xl text-white mb-6">Sign In</h2>
 
-          <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+          <form onSubmit={handleSubmit} className="flex flex-col gap-4" noValidate>
             <div>
               <label className="form-label text-white/80">Email Address</label>
               <input
@@ -88,9 +90,11 @@ export default function Login() {
               </div>
             )}
 
-            <button type="submit" disabled={loading}
+            <button
+              type="submit"
+              disabled={submitting || loading}
               className="btn bg-white text-primary font-semibold hover:bg-white/90 w-full justify-center mt-2">
-              {loading ? 'Signing in…' : 'Sign In'}
+              {submitting || loading ? 'Signing in…' : 'Sign In'}
             </button>
           </form>
 
@@ -99,8 +103,6 @@ export default function Login() {
           </p>
         </div>
       </div>
-
-      <PasswordChangeModal open={changePw} onClose={() => setChangePw(false)} required />
     </div>
   )
 }

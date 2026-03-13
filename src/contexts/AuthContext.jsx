@@ -1,31 +1,61 @@
-import { createContext, useContext, useEffect, useState } from 'react'
+import { createContext, useContext, useEffect, useState, useRef } from 'react'
 import { supabase } from '../lib/supabase'
 
 const AuthContext = createContext(null)
 
 export function AuthProvider({ children }) {
-  const [user, setUser]       = useState(null)   // Supabase auth user
-  const [profile, setProfile] = useState(null)   // user_profiles row
+  const [user, setUser]       = useState(null)
+  const [profile, setProfile] = useState(null)
   const [loading, setLoading] = useState(true)
+  // Prevent the initial getSession + onAuthStateChange SIGNED_IN from double-loading
+  const initialised = useRef(false)
 
   async function loadProfile(authUser) {
-    if (!authUser) { setProfile(null); setUser(null); setLoading(false); return }
-    const { data } = await supabase
-      .from('user_profiles')
-      .select('*')
-      .eq('id', authUser.id)
-      .single()
-    setUser(authUser)
-    setProfile(data)
-    setLoading(false)
+    if (!authUser) {
+      setUser(null)
+      setProfile(null)
+      setLoading(false)
+      return
+    }
+    try {
+      const { data, error } = await supabase
+        .from('user_profiles')
+        .select('*')
+        .eq('id', authUser.id)
+        .single()
+      if (error) throw error
+      setUser(authUser)
+      setProfile(data)
+    } catch (err) {
+      console.error('loadProfile error:', err.message)
+      setUser(authUser)
+      setProfile(null)
+    } finally {
+      setLoading(false)
+    }
   }
 
   useEffect(() => {
+    // 1. Load existing session on mount
     supabase.auth.getSession().then(({ data: { session } }) => {
+      initialised.current = true
       loadProfile(session?.user ?? null)
     })
 
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_ev, session) => {
+    // 2. Listen for future auth changes (login, logout, token refresh)
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+      // Skip the SIGNED_IN that fires immediately after getSession on page load
+      // to avoid a redundant profile fetch that races with the one above
+      if (!initialised.current) return
+
+      if (event === 'SIGNED_OUT') {
+        setUser(null)
+        setProfile(null)
+        setLoading(false)
+        return
+      }
+
+      // SIGNED_IN, TOKEN_REFRESHED, USER_UPDATED
       loadProfile(session?.user ?? null)
     })
 
@@ -33,20 +63,30 @@ export function AuthProvider({ children }) {
   }, [])
 
   async function signIn(email, password) {
+    setLoading(true)
     const { data, error } = await supabase.auth.signInWithPassword({ email, password })
-    if (error) throw error
+    if (error) {
+      setLoading(false)
+      throw error
+    }
+    // loadProfile will be called by onAuthStateChange SIGNED_IN event
     return data
   }
 
   async function signOut() {
+    setLoading(true)
     await supabase.auth.signOut()
-    setUser(null)
-    setProfile(null)
+    // onAuthStateChange SIGNED_OUT will clear state
   }
 
   async function refreshProfile() {
-    if (!user) return
-    const { data } = await supabase.from('user_profiles').select('*').eq('id', user.id).single()
+    const currentUser = user
+    if (!currentUser) return
+    const { data } = await supabase
+      .from('user_profiles')
+      .select('*')
+      .eq('id', currentUser.id)
+      .single()
     setProfile(data)
   }
 

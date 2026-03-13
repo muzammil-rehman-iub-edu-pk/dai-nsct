@@ -1,11 +1,9 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate, useNavigate } from 'react-router-dom'
 import { AuthProvider, useAuth } from './contexts/AuthContext'
 import { Spinner } from './components/ui/Spinner'
 import { PasswordChangeModal } from './components/shared/PasswordChangeModal'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, lazy, Suspense } from 'react'
 
-// Lazy load pages for code splitting
-import { lazy, Suspense } from 'react'
 const Login            = lazy(() => import('./pages/Login'))
 const AdminDashboard   = lazy(() => import('./pages/admin/Dashboard'))
 const AdminTeachers    = lazy(() => import('./pages/admin/Teachers'))
@@ -16,7 +14,7 @@ const AdminDataBank    = lazy(() => import('./pages/admin/DataBank'))
 const AdminSettings    = lazy(() => import('./pages/admin/Settings'))
 const TeacherDashboard = lazy(() => import('./pages/teacher/Dashboard'))
 const TeacherSections  = lazy(() => import('./pages/teacher/SectionProgress'))
-const TeacherDataBank  = lazy(() => import('./pages/admin/DataBank'))  // reuse
+const TeacherDataBank  = lazy(() => import('./pages/admin/DataBank'))
 const StudentDashboard = lazy(() => import('./pages/student/Dashboard'))
 const ExamLanding      = lazy(() => import('./pages/student/ExamLanding'))
 const ExamRoom         = lazy(() => import('./pages/student/ExamRoom'))
@@ -34,41 +32,59 @@ function LoadingScreen() {
   )
 }
 
+// Guard: redirects to /login if not authenticated, checks role match
 function RequireAuth({ children, role }) {
   const { user, profile, loading } = useAuth()
+
   if (loading) return <LoadingScreen />
   if (!user || !profile) return <Navigate to="/login" replace />
-  if (!profile.is_active) return (
-    <div className="h-screen flex items-center justify-center">
-      <div className="text-center">
-        <h2 className="font-display text-2xl text-danger mb-2">Account Disabled</h2>
-        <p className="text-ink-muted">Your account has been deactivated. Contact your administrator.</p>
+
+  if (!profile.is_active) {
+    return (
+      <div className="h-screen flex items-center justify-center bg-surface">
+        <div className="text-center max-w-sm">
+          <h2 className="font-display text-2xl text-danger mb-2">Account Disabled</h2>
+          <p className="text-ink-muted">Your account has been deactivated. Contact your administrator.</p>
+        </div>
       </div>
-    </div>
-  )
-  if (role && profile.role !== role) return <Navigate to={`/${profile.role}`} replace />
+    )
+  }
+
+  if (role && profile.role !== role) {
+    return <Navigate to={`/${profile.role}`} replace />
+  }
+
   return children
 }
 
+// Gate: shows force-password-change modal if must_change_password is true.
+// Renders children only after password has been changed (or was never required).
 function ForcePasswordChange({ children }) {
   const { profile, refreshProfile } = useAuth()
-  const [show, setShow] = useState(false)
+  const mustChange = profile?.must_change_password === true
 
-  useEffect(() => {
-    if (profile?.must_change_password) setShow(true)
-  }, [profile])
+  async function handleChanged() {
+    await refreshProfile()
+  }
 
   return (
     <>
-      <PasswordChangeModal open={show} required
-        onClose={(changed) => { if (changed) { setShow(false); refreshProfile() } }} />
-      {!show && children}
+      {/* Modal is always mounted when mustChange is true; required=true prevents dismissal */}
+      <PasswordChangeModal
+        open={mustChange}
+        required={true}
+        onClose={handleChanged}
+      />
+      {/* Only render the page once password is set */}
+      {!mustChange && children}
     </>
   )
 }
 
+// Root redirect: sends authenticated users to their role home
 function AuthRedirect() {
   const { user, profile, loading } = useAuth()
+
   if (loading) return <LoadingScreen />
   if (!user || !profile) return <Navigate to="/login" replace />
   return <Navigate to={`/${profile.role}`} replace />
@@ -83,7 +99,7 @@ export default function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/" element={<AuthRedirect />} />
 
-            {/* Admin */}
+            {/* ── Admin ── */}
             <Route path="/admin" element={
               <RequireAuth role="admin"><ForcePasswordChange><AdminDashboard /></ForcePasswordChange></RequireAuth>
             } />
@@ -106,7 +122,7 @@ export default function App() {
               <RequireAuth role="admin"><ForcePasswordChange><AdminSettings /></ForcePasswordChange></RequireAuth>
             } />
 
-            {/* Teacher */}
+            {/* ── Teacher ── */}
             <Route path="/teacher" element={
               <RequireAuth role="teacher"><ForcePasswordChange><TeacherDashboard /></ForcePasswordChange></RequireAuth>
             } />
@@ -117,17 +133,18 @@ export default function App() {
               <RequireAuth role="teacher"><ForcePasswordChange><TeacherDataBank /></ForcePasswordChange></RequireAuth>
             } />
 
-            {/* Student */}
+            {/* ── Student ── */}
             <Route path="/student" element={
               <RequireAuth role="student"><ForcePasswordChange><StudentDashboard /></ForcePasswordChange></RequireAuth>
             } />
             <Route path="/student/exam" element={
-              <RequireAuth role="student"><ExamLanding /></RequireAuth>
+              <RequireAuth role="student"><ForcePasswordChange><ExamLanding /></ForcePasswordChange></RequireAuth>
             } />
             <Route path="/student/exam/room" element={
               <RequireAuth role="student"><ExamRoom /></RequireAuth>
             } />
 
+            {/* Fallback */}
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </Suspense>

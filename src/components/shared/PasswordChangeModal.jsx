@@ -48,7 +48,7 @@ export function PasswordChangeModal({ open, onClose, required = false }) {
         .eq('id', user.id)
 
       setForm({ newPass: '', confirm: '' })
-      onClose(true)
+      onClose()   // ForcePasswordChange will call refreshProfile which re-reads must_change_password
     } catch (err) {
       setError(err.message)
     } finally {
@@ -59,7 +59,7 @@ export function PasswordChangeModal({ open, onClose, required = false }) {
   return (
     <Modal
       open={open}
-      onClose={required ? undefined : () => onClose(false)}
+      onClose={required ? undefined : () => onClose()}
       title={required ? 'Set Your New Password' : 'Change Password'}
       size="sm"
       required={required}
@@ -130,7 +130,7 @@ export function PasswordChangeModal({ open, onClose, required = false }) {
 
         <div className="flex justify-end gap-2 pt-1">
           {!required && (
-            <button type="button" className="btn-outline" onClick={() => onClose(false)}>
+            <button type="button" className="btn-outline" onClick={() => onClose()}>
               Cancel
             </button>
           )}
