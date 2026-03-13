@@ -1,19 +1,29 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Modal } from '../ui/Modal'
-import { supabase } from '../../lib/supabase'
 import { useAuth } from '../../contexts/AuthContext'
 import { Eye, EyeOff, ShieldCheck, CheckCircle } from 'lucide-react'
 
+/**
+ * PasswordChangeModal
+ *
+ * required=true  — first-login force change. Cannot be dismissed.
+ *                  Calls completePasswordChange() from AuthContext, which:
+ *                    1. Updates Supabase Auth password
+ *                    2. Sets must_change_password=false in DB (awaited)
+ *                    3. Patches in-memory profile state directly
+ *                  Then navigates immediately — no timers, no reloads.
+ *
+ * required=false — optional change from Settings. Calls onClose() when done.
+ */
 export function PasswordChangeModal({ open, onClose, required = false }) {
-  const { profile } = useAuth()
+  const { profile, completePasswordChange } = useAuth()
   const navigate = useNavigate()
 
   const [form, setForm]       = useState({ newPass: '', confirm: '' })
   const [show, setShow]       = useState(false)
   const [error, setError]     = useState('')
   const [loading, setLoading] = useState(false)
-  const [done, setDone]       = useState(false)
 
   const rules = [
     { test: v => v.length >= 8,   label: 'At least 8 characters' },
@@ -34,60 +44,31 @@ export function PasswordChangeModal({ open, onClose, required = false }) {
     const err = validate()
     if (err) { setError(err); return }
 
-    // ✅ Capture role NOW — before any async that might clear profile
-    const destinationRole = profile?.role
-    if (required && !destinationRole) {
-      setError('Session error — please refresh the page and try again.')
-      return
-    }
-
     setLoading(true)
     setError('')
+
     try {
-      // 1. Update password
-      const { error: authErr } = await supabase.auth.updateUser({ password: form.newPass })
-      if (authErr) throw authErr
-
-      // 2. Flip flag in DB
-      const { data: { user } } = await supabase.auth.getUser()
-      const { error: dbErr } = await supabase
-        .from('user_profiles')
-        .update({ must_change_password: false, updated_at: new Date().toISOString() })
-        .eq('id', user.id)
-      if (dbErr) throw dbErr
-
-      setForm({ newPass: '', confirm: '' })
-      setDone(true)
-
       if (required) {
-        // Navigate using the role we captured before the async chain
-        // Use replace so back-button doesn't return to the password screen
-        setTimeout(() => navigate(`/${destinationRole}`, { replace: true }), 900)
+        // completePasswordChange does everything in sequence and patches
+        // the in-memory profile before returning — so profile.must_change_password
+        // is already false by the time navigate() runs below.
+        const updatedProfile = await completePasswordChange(form.newPass)
+        // Navigate immediately — RequireAuth will see must_change_password=false
+        // and render the dashboard instead of the modal
+        navigate(`/${updatedProfile.role}`, { replace: true })
       } else {
-        setTimeout(() => { setDone(false); onClose() }, 900)
+        // Non-required flow (Settings page) — just update password
+        const { supabase } = await import('../../lib/supabase')
+        const { error: authErr } = await supabase.auth.updateUser({ password: form.newPass })
+        if (authErr) throw authErr
+        setForm({ newPass: '', confirm: '' })
+        onClose()
       }
     } catch (err) {
       setError(err.message)
-      setDone(false)
     } finally {
       setLoading(false)
     }
-  }
-
-  if (done) {
-    return (
-      <Modal open={open} title="Password Updated" size="sm" required>
-        <div className="flex flex-col items-center gap-3 py-6 text-center">
-          <div className="w-14 h-14 rounded-full bg-success/10 flex items-center justify-center">
-            <CheckCircle size={28} className="text-success" />
-          </div>
-          <p className="font-medium text-ink">Password changed successfully!</p>
-          <p className="text-sm text-ink-muted">
-            {required ? 'Redirecting to your dashboard…' : 'Closing…'}
-          </p>
-        </div>
-      </Modal>
-    )
   }
 
   return (
@@ -126,7 +107,8 @@ export function PasswordChangeModal({ open, onClose, required = false }) {
           {form.newPass && (
             <ul className="mt-2 space-y-1">
               {rules.map(r => (
-                <li key={r.label} className={`text-xs flex items-center gap-1.5 ${r.test(form.newPass) ? 'text-success' : 'text-ink-faint'}`}>
+                <li key={r.label}
+                  className={`text-xs flex items-center gap-1.5 ${r.test(form.newPass) ? 'text-success' : 'text-ink-faint'}`}>
                   <span>{r.test(form.newPass) ? '✓' : '○'}</span> {r.label}
                 </li>
               ))}
@@ -153,7 +135,9 @@ export function PasswordChangeModal({ open, onClose, required = false }) {
             <button type="button" className="btn-outline" onClick={() => onClose()}>Cancel</button>
           )}
           <button type="submit" className="btn-primary" disabled={loading}>
-            {loading ? 'Saving…' : 'Update Password'}
+            {loading
+              ? <span className="flex items-center gap-2"><span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" /> Saving…</span>
+              : 'Update Password'}
           </button>
         </div>
       </form>

@@ -7,8 +7,7 @@ export function AuthProvider({ children }) {
   const [user, setUser]       = useState(null)
   const [profile, setProfile] = useState(null)
   const [loading, setLoading] = useState(true)
-  // Prevent the initial getSession + onAuthStateChange SIGNED_IN from double-loading
-  const initialised = useRef(false)
+  const initialised           = useRef(false)
 
   async function loadProfile(authUser) {
     if (!authUser) {
@@ -24,12 +23,10 @@ export function AuthProvider({ children }) {
         .eq('id', authUser.id)
         .single()
       if (error) throw error
-      // Set user + profile atomically — never clear profile mid-reload
       setUser(authUser)
       setProfile(data)
     } catch (err) {
       console.error('loadProfile error:', err.message)
-      // Keep whatever user/profile we had rather than clearing on transient error
       setUser(authUser)
     } finally {
       setLoading(false)
@@ -37,28 +34,19 @@ export function AuthProvider({ children }) {
   }
 
   useEffect(() => {
-    // 1. Load existing session on mount
     supabase.auth.getSession().then(({ data: { session } }) => {
       initialised.current = true
       loadProfile(session?.user ?? null)
     })
 
-    // 2. Listen for future auth changes (login, logout, token refresh)
     const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
-      // Skip the SIGNED_IN that fires immediately after getSession on page load
-      // to avoid a redundant profile fetch that races with the one above
       if (!initialised.current) return
-
       if (event === 'SIGNED_OUT') {
-        setUser(null)
-        setProfile(null)
-        setLoading(false)
+        setUser(null); setProfile(null); setLoading(false)
         return
       }
-
-      // SIGNED_IN, TOKEN_REFRESHED, USER_UPDATED — reload profile
-      // For USER_UPDATED (password change) this ensures must_change_password
-      // is fresh when the modal navigates to the dashboard
+      // Skip USER_UPDATED — completePasswordChange handles state directly
+      if (event === 'USER_UPDATED') return
       loadProfile(session?.user ?? null)
     })
 
@@ -68,28 +56,52 @@ export function AuthProvider({ children }) {
   async function signIn(email, password) {
     const { data, error } = await supabase.auth.signInWithPassword({ email, password })
     if (error) throw error
-    // onAuthStateChange SIGNED_IN will call loadProfile and set loading/profile
     return data
   }
 
   async function signOut() {
-    setLoading(true)
     await supabase.auth.signOut()
-    // onAuthStateChange SIGNED_OUT will clear state
   }
 
   async function refreshProfile() {
-    const currentUser = user
-    if (!currentUser) return
+    if (!user) return
     const { data } = await supabase
-      .from('user_profiles')
-      .select('*')
-      .eq('id', currentUser.id)
-      .single()
+      .from('user_profiles').select('*').eq('id', user.id).single()
     setProfile(data)
   }
 
-  const value = { user, profile, loading, signIn, signOut, refreshProfile }
+  /**
+   * completePasswordChange
+   * Called by PasswordChangeModal on first-login force-change.
+   * Steps (all awaited in sequence — no timers, no races):
+   *   1. Update password in Supabase Auth
+   *   2. Update must_change_password=false in user_profiles
+   *   3. Patch the in-memory profile so React re-renders with the new value
+   * Returns the updated profile so the caller can navigate immediately.
+   */
+  async function completePasswordChange(newPassword) {
+    // Step 1 — update auth password
+    const { error: authErr } = await supabase.auth.updateUser({ password: newPassword })
+    if (authErr) throw authErr
+
+    // Step 2 — update DB flag, await the confirmed write
+    const { data: { user: currentUser } } = await supabase.auth.getUser()
+    const { data: updatedProfile, error: dbErr } = await supabase
+      .from('user_profiles')
+      .update({ must_change_password: false, updated_at: new Date().toISOString() })
+      .eq('id', currentUser.id)
+      .select('*')   // return the updated row
+      .single()
+    if (dbErr) throw dbErr
+
+    // Step 3 — set in-memory profile to the confirmed DB row
+    // This is the single source of truth — no re-fetch needed
+    setProfile(updatedProfile)
+
+    return updatedProfile
+  }
+
+  const value = { user, profile, loading, signIn, signOut, refreshProfile, completePasswordChange }
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
 }
