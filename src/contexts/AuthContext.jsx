@@ -24,12 +24,13 @@ export function AuthProvider({ children }) {
         .eq('id', authUser.id)
         .single()
       if (error) throw error
+      // Set user + profile atomically — never clear profile mid-reload
       setUser(authUser)
       setProfile(data)
     } catch (err) {
       console.error('loadProfile error:', err.message)
+      // Keep whatever user/profile we had rather than clearing on transient error
       setUser(authUser)
-      setProfile(null)
     } finally {
       setLoading(false)
     }
@@ -65,13 +66,9 @@ export function AuthProvider({ children }) {
   }, [])
 
   async function signIn(email, password) {
-    setLoading(true)
     const { data, error } = await supabase.auth.signInWithPassword({ email, password })
-    if (error) {
-      setLoading(false)
-      throw error
-    }
-    // loadProfile will be called by onAuthStateChange SIGNED_IN event
+    if (error) throw error
+    // onAuthStateChange SIGNED_IN will call loadProfile and set loading/profile
     return data
   }
 
