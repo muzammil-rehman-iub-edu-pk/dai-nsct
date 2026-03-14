@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react'
 import { AdminLayout } from '../../components/layout/Layout'
 import { supabase } from '../../lib/supabase'
+import { dbQuery } from '../../lib/db'
 import { createStudentUser } from '../../lib/adminApi'
+import { useApiCall } from '../../hooks/useApiCall'
+import { useToast } from '../../hooks/useToast'
 import { Modal } from '../../components/ui/Modal'
 import { ConfirmDialog } from '../../components/ui/ConfirmDialog'
 import { PageSpinner } from '../../components/ui/Spinner'
-import { useToast } from '../../hooks/useToast'
 import { ToastContainer } from '../../components/ui/Toast'
 import { Plus, Edit2, Trash2, ToggleLeft, ToggleRight, Search, GraduationCap } from 'lucide-react'
 
@@ -14,29 +16,31 @@ const emptyForm = { reg_number: '', student_name: '', father_name: '', section_i
 export default function AdminStudents() {
   const [students, setStudents] = useState([])
   const [sections, setSections] = useState([])
-  const [loading, setLoading]   = useState(true)
   const [modalOpen, setModal]   = useState(false)
   const [editRow, setEditRow]   = useState(null)
   const [form, setForm]         = useState(emptyForm)
   const [confirm, setConfirm]   = useState(null)
   const [search, setSearch]     = useState('')
-  const [saving, setSaving]     = useState(false)
+
   const { toasts, toast, dismiss } = useToast()
+  const loader  = useApiCall()
+  const saver   = useApiCall()
+  const mutator = useApiCall()
 
   useEffect(() => { load() }, [])
 
   async function load() {
-    setLoading(true)
-    const [{ data: studs }, { data: secs }] = await Promise.all([
-      supabase.from('students').select('*, sections(section_name)').order('student_name'),
-      supabase.from('sections').select('id, section_name').eq('is_active', true).order('section_name'),
-    ])
-    setStudents(studs || [])
-    setSections(secs || [])
-    setLoading(false)
+    await loader.run(async () => {
+      const [studs, secs] = await Promise.all([
+        dbQuery(supabase.from('students').select('*, sections(section_name)').order('student_name')),
+        dbQuery(supabase.from('sections').select('id, section_name').eq('is_active', true).order('section_name')),
+      ])
+      setStudents(studs || [])
+      setSections(secs || [])
+    })
   }
 
-  function openAdd() { setForm(emptyForm); setEditRow(null); setModal(true) }
+  function openAdd()   { setForm(emptyForm); setEditRow(null); setModal(true) }
   function openEdit(s) {
     setForm({ reg_number: s.reg_number, student_name: s.student_name, father_name: s.father_name,
               section_id: s.section_id, email: s.email, password: '' })
@@ -51,42 +55,54 @@ export default function AdminStudents() {
     if (!editRow && password.length < 8) {
       toast('Password must be at least 8 characters', 'error'); return
     }
-    setSaving(true)
     try {
-      if (editRow) {
-        const { error } = await supabase.from('students').update({
-          student_name, father_name, section_id, updated_at: new Date().toISOString()
-        }).eq('id', editRow.id)
-        if (error) throw error
-        // Also update section display name in user_profiles if needed
-        toast('Student updated', 'success')
-      } else {
-        await createStudentUser({
-          email:        email.trim().toLowerCase(),
-          password,
-          student_name: student_name.trim(),
-          father_name:  father_name.trim(),
-          reg_number:   reg_number.trim(),
-          section_id,
-        })
-        toast('Student created — they can now log in', 'success')
-      }
-      setModal(false); load()
+      await saver.run(async () => {
+        if (editRow) {
+          await dbQuery(supabase.from('students').update({
+            student_name, father_name, section_id, updated_at: new Date().toISOString()
+          }).eq('id', editRow.id))
+          toast('Student updated', 'success')
+        } else {
+          await createStudentUser({
+            email: email.trim().toLowerCase(), password,
+            student_name: student_name.trim(),
+            father_name: father_name.trim(),
+            reg_number: reg_number.trim(), section_id,
+          })
+          toast('Student created — they can now log in', 'success')
+        }
+      })
+      setModal(false)
+      await load()
     } catch (err) {
       toast(err.message, 'error')
-    } finally { setSaving(false) }
+    }
   }
 
   async function toggleActive(s) {
-    const v = !s.is_active
-    await supabase.from('students').update({ is_active: v }).eq('id', s.id)
-    if (s.user_id) await supabase.from('user_profiles').update({ is_active: v }).eq('id', s.user_id)
-    toast(v ? 'Student activated' : 'Student deactivated', 'success'); load()
+    const newActive = !s.is_active
+    try {
+      await mutator.run(async () => {
+        await dbQuery(supabase.from('students').update({ is_active: newActive }).eq('id', s.id))
+        if (s.user_id) {
+          await dbQuery(supabase.from('user_profiles').update({ is_active: newActive }).eq('id', s.user_id))
+        }
+      })
+      toast(newActive ? 'Student activated' : 'Student deactivated', 'success')
+      await load()
+    } catch (err) {
+      toast(err.message, 'error')
+    }
   }
 
   async function deleteStudent(s) {
-    await supabase.from('students').delete().eq('id', s.id)
-    toast('Student deleted', 'success'); load()
+    try {
+      await mutator.run(() => dbQuery(supabase.from('students').delete().eq('id', s.id)))
+      toast('Student deleted', 'success')
+      await load()
+    } catch (err) {
+      toast(err.message, 'error')
+    }
   }
 
   const filtered = students.filter(s =>
@@ -94,7 +110,7 @@ export default function AdminStudents() {
     s.reg_number.toLowerCase().includes(search.toLowerCase())
   )
 
-  if (loading) return <AdminLayout><PageSpinner /></AdminLayout>
+  if (loader.loading && !students.length) return <AdminLayout><PageSpinner /></AdminLayout>
 
   return (
     <AdminLayout>
@@ -139,7 +155,7 @@ export default function AdminStudents() {
                 <td>
                   <div className="flex items-center gap-1">
                     <button className="btn-ghost p-1.5" onClick={() => openEdit(s)}><Edit2 size={14} /></button>
-                    <button className="btn-ghost p-1.5" onClick={() => toggleActive(s)}>
+                    <button className="btn-ghost p-1.5" onClick={() => toggleActive(s)} disabled={mutator.loading}>
                       {s.is_active ? <ToggleRight size={14} className="text-success" /> : <ToggleLeft size={14} className="text-ink-faint" />}
                     </button>
                     <button className="btn-ghost p-1.5 text-danger"
@@ -150,7 +166,7 @@ export default function AdminStudents() {
                 </td>
               </tr>
             ))}
-            {!filtered.length && (
+            {!filtered.length && !loader.loading && (
               <tr><td colSpan={6} className="text-center py-10 text-ink-muted">
                 <GraduationCap size={32} className="mx-auto mb-2 opacity-30" />No students found
               </td></tr>
@@ -164,8 +180,8 @@ export default function AdminStudents() {
           <div className="grid grid-cols-2 gap-3">
             <div>
               <label className="form-label">Registration No. <span className="text-danger">*</span></label>
-              <input className="form-input" value={form.reg_number} disabled={!!editRow}
-                     onChange={e => setForm(f => ({ ...f, reg_number: e.target.value }))} placeholder="e.g. 2024-001" />
+              <input className="form-input" value={form.reg_number} disabled={!!editRow} autoFocus
+                     onChange={e => setForm(f => ({ ...f, reg_number: e.target.value }))} />
             </div>
             <div>
               <label className="form-label">Section <span className="text-danger">*</span></label>
@@ -191,7 +207,7 @@ export default function AdminStudents() {
               <div>
                 <label className="form-label">Email <span className="text-danger">*</span></label>
                 <input className="form-input" type="email" value={form.email}
-                       onChange={e => setForm(f => ({ ...f, email: e.target.value }))} placeholder="student@school.edu" />
+                       onChange={e => setForm(f => ({ ...f, email: e.target.value }))} />
               </div>
               <div>
                 <label className="form-label">Temporary Password <span className="text-danger">*</span></label>
@@ -203,8 +219,8 @@ export default function AdminStudents() {
           )}
           <div className="flex justify-end gap-2 pt-2">
             <button className="btn-outline" onClick={() => setModal(false)}>Cancel</button>
-            <button className="btn-primary" onClick={handleSave} disabled={saving}>
-              {saving ? 'Saving…' : editRow ? 'Update' : 'Create Student'}
+            <button className="btn-primary" onClick={handleSave} disabled={saver.loading}>
+              {saver.loading ? 'Saving…' : editRow ? 'Update' : 'Create Student'}
             </button>
           </div>
         </div>

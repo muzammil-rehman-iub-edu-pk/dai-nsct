@@ -1,40 +1,39 @@
 import { useEffect, useState } from 'react'
 import { TeacherLayout } from '../../components/layout/Layout'
 import { supabase } from '../../lib/supabase'
+import { dbQuery } from '../../lib/db'
+import { useApiCall } from '../../hooks/useApiCall'
 import { useAuth } from '../../contexts/AuthContext'
 import { PageSpinner } from '../../components/ui/Spinner'
 import { TrendingUp, Users, ClipboardList, Award } from 'lucide-react'
 
 export default function TeacherDashboard() {
   const { user } = useAuth()
-  const [data, setData]     = useState(null)
-  const [loading, setLoading] = useState(true)
+  const [data, setData] = useState(null)
+  const loader = useApiCall()
 
   useEffect(() => { load() }, [])
 
   async function load() {
-    // Get teacher record
-    const { data: teacher } = await supabase.from('teachers')
-      .select('id, teacher_name').eq('user_id', user.id).single()
-    if (!teacher) { setLoading(false); return }
-
-    // Get sections for this teacher
-    const { data: sections } = await supabase.from('sections')
-      .select('id, section_name, students(id, student_name, exam_attempts(score_percent, status))')
-      .eq('teacher_id', teacher.id)
-
-    const allAttempts = (sections || []).flatMap(sec =>
-      sec.students.flatMap(stu => stu.exam_attempts.filter(a => a.status === 'completed'))
-    )
-    const avgScore = allAttempts.length
-      ? allAttempts.reduce((s, a) => s + a.score_percent, 0) / allAttempts.length
-      : 0
-
-    setData({ teacher, sections: sections || [], allAttempts, avgScore })
-    setLoading(false)
+    await loader.run(async () => {
+      const teacher = await dbQuery(
+        supabase.from('teachers').select('id, teacher_name').eq('user_id', user.id).single()
+      )
+      const sections = await dbQuery(
+        supabase.from('sections')
+          .select('id, section_name, students(id, student_name, exam_attempts(score_percent, status))')
+          .eq('teacher_id', teacher.id)
+      )
+      const allAttempts = (sections || []).flatMap(sec =>
+        sec.students.flatMap(stu => stu.exam_attempts.filter(a => a.status === 'completed'))
+      )
+      const avgScore = allAttempts.length
+        ? allAttempts.reduce((s, a) => s + a.score_percent, 0) / allAttempts.length : 0
+      setData({ teacher, sections: sections || [], allAttempts, avgScore })
+    })
   }
 
-  if (loading) return <TeacherLayout><PageSpinner /></TeacherLayout>
+  if (loader.loading && !data) return <TeacherLayout><PageSpinner /></TeacherLayout>
   if (!data) return <TeacherLayout><p className="text-ink-muted">Teacher profile not found.</p></TeacherLayout>
 
   const totalStudents = data.sections.reduce((s, sec) => s + sec.students.length, 0)
@@ -48,10 +47,10 @@ export default function TeacherDashboard() {
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         {[
-          { label: 'My Sections',    value: data.sections.length,       icon: ClipboardList, color: 'text-secondary bg-secondary/10' },
-          { label: 'Total Students', value: totalStudents,               icon: Users,         color: 'text-primary bg-primary/10'    },
-          { label: 'Total Attempts', value: data.allAttempts.length,     icon: TrendingUp,    color: 'text-success bg-success/10'    },
-          { label: 'Avg Score',      value: `${data.avgScore.toFixed(1)}%`, icon: Award,      color: 'text-accent bg-accent/10'      },
+          { label: 'My Sections',    value: data.sections.length,          icon: ClipboardList, color: 'text-secondary bg-secondary/10' },
+          { label: 'Total Students', value: totalStudents,                  icon: Users,         color: 'text-primary bg-primary/10'    },
+          { label: 'Total Attempts', value: data.allAttempts.length,        icon: TrendingUp,    color: 'text-success bg-success/10'    },
+          { label: 'Avg Score',      value: `${data.avgScore.toFixed(1)}%`, icon: Award,         color: 'text-accent bg-accent/10'      },
         ].map(({ label, value, icon: Icon, color }) => (
           <div key={label} className="card p-4">
             <div className={`w-9 h-9 rounded-xl flex items-center justify-center mb-3 ${color}`}>
@@ -63,7 +62,6 @@ export default function TeacherDashboard() {
         ))}
       </div>
 
-      {/* Sections summary */}
       <div className="card">
         <h3 className="font-display text-lg text-ink mb-4">Sections Overview</h3>
         <div className="space-y-3">

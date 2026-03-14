@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react'
 import { AdminLayout } from '../../components/layout/Layout'
 import { supabase } from '../../lib/supabase'
+import { dbQuery } from '../../lib/db'
 import { createTeacherUser } from '../../lib/adminApi'
+import { useApiCall } from '../../hooks/useApiCall'
+import { useToast } from '../../hooks/useToast'
 import { Modal } from '../../components/ui/Modal'
 import { ConfirmDialog } from '../../components/ui/ConfirmDialog'
 import { PageSpinner } from '../../components/ui/Spinner'
-import { useToast } from '../../hooks/useToast'
 import { ToastContainer } from '../../components/ui/Toast'
 import { Plus, Edit2, Trash2, ToggleLeft, ToggleRight, Search, UserCheck } from 'lucide-react'
 
@@ -13,29 +15,29 @@ const emptyForm = { teacher_name: '', designation: '', expertise: '', email: '',
 
 export default function AdminTeachers() {
   const [teachers, setTeachers] = useState([])
-  const [loading, setLoading]   = useState(true)
   const [modalOpen, setModal]   = useState(false)
   const [editRow, setEditRow]   = useState(null)
   const [form, setForm]         = useState(emptyForm)
   const [confirm, setConfirm]   = useState(null)
   const [search, setSearch]     = useState('')
-  const [saving, setSaving]     = useState(false)
+
   const { toasts, toast, dismiss } = useToast()
+  const loader  = useApiCall()
+  const saver   = useApiCall()
+  const mutator = useApiCall()
 
   useEffect(() => { load() }, [])
 
   async function load() {
-    setLoading(true)
-    const { data, error } = await supabase
-      .from('teachers')
-      .select('*, user_profiles(is_active)')
-      .order('teacher_name')
-    if (error) toast(error.message, 'error')
-    setTeachers(data || [])
-    setLoading(false)
+    await loader.run(async () => {
+      const data = await dbQuery(
+        supabase.from('teachers').select('*, user_profiles(is_active)').order('teacher_name')
+      )
+      setTeachers(data || [])
+    })
   }
 
-  function openAdd() { setForm(emptyForm); setEditRow(null); setModal(true) }
+  function openAdd()   { setForm(emptyForm); setEditRow(null); setModal(true) }
   function openEdit(t) {
     setForm({ teacher_name: t.teacher_name, designation: t.designation || '',
               expertise: t.expertise || '', email: t.email, password: '' })
@@ -49,44 +51,58 @@ export default function AdminTeachers() {
     if (!editRow && form.password.length < 8) {
       toast('Password must be at least 8 characters', 'error'); return
     }
-    setSaving(true)
     try {
-      if (editRow) {
-        const { error } = await supabase.from('teachers').update({
-          teacher_name: form.teacher_name.trim(),
-          designation:  form.designation.trim() || null,
-          expertise:    form.expertise.trim()   || null,
-          updated_at:   new Date().toISOString(),
-        }).eq('id', editRow.id)
-        if (error) throw error
-        toast('Teacher updated', 'success')
-      } else {
-        await createTeacherUser({
-          email:        form.email.trim().toLowerCase(),
-          password:     form.password,
-          teacher_name: form.teacher_name.trim(),
-          designation:  form.designation.trim() || null,
-          expertise:    form.expertise.trim()   || null,
-        })
-        toast('Teacher created — they can now log in', 'success')
-      }
-      setModal(false); load()
+      await saver.run(async () => {
+        if (editRow) {
+          await dbQuery(supabase.from('teachers').update({
+            teacher_name: form.teacher_name.trim(),
+            designation:  form.designation.trim() || null,
+            expertise:    form.expertise.trim()   || null,
+            updated_at:   new Date().toISOString(),
+          }).eq('id', editRow.id))
+          toast('Teacher updated', 'success')
+        } else {
+          await createTeacherUser({
+            email:        form.email.trim().toLowerCase(),
+            password:     form.password,
+            teacher_name: form.teacher_name.trim(),
+            designation:  form.designation.trim() || null,
+            expertise:    form.expertise.trim()   || null,
+          })
+          toast('Teacher created — they can now log in', 'success')
+        }
+      })
+      setModal(false)
+      await load()
     } catch (err) {
       toast(err.message, 'error')
-    } finally { setSaving(false) }
+    }
   }
 
   async function toggleActive(t) {
     const newActive = !t.is_active
-    await supabase.from('teachers').update({ is_active: newActive }).eq('id', t.id)
-    if (t.user_id) await supabase.from('user_profiles').update({ is_active: newActive }).eq('id', t.user_id)
-    toast(newActive ? 'Teacher activated' : 'Teacher deactivated', 'success')
-    load()
+    try {
+      await mutator.run(async () => {
+        await dbQuery(supabase.from('teachers').update({ is_active: newActive }).eq('id', t.id))
+        if (t.user_id) {
+          await dbQuery(supabase.from('user_profiles').update({ is_active: newActive }).eq('id', t.user_id))
+        }
+      })
+      toast(newActive ? 'Teacher activated' : 'Teacher deactivated', 'success')
+      await load()
+    } catch (err) {
+      toast(err.message, 'error')
+    }
   }
 
   async function deleteTeacher(t) {
-    await supabase.from('teachers').delete().eq('id', t.id)
-    toast('Teacher deleted', 'success'); load()
+    try {
+      await mutator.run(() => dbQuery(supabase.from('teachers').delete().eq('id', t.id)))
+      toast('Teacher deleted', 'success')
+      await load()
+    } catch (err) {
+      toast(err.message, 'error')
+    }
   }
 
   const filtered = teachers.filter(t =>
@@ -94,11 +110,12 @@ export default function AdminTeachers() {
     t.email.toLowerCase().includes(search.toLowerCase())
   )
 
-  if (loading) return <AdminLayout><PageSpinner /></AdminLayout>
+  if (loader.loading && !teachers.length) return <AdminLayout><PageSpinner /></AdminLayout>
 
   return (
     <AdminLayout>
       <ToastContainer toasts={toasts} dismiss={dismiss} />
+
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="page-title">Teachers</h1>
@@ -116,10 +133,7 @@ export default function AdminTeachers() {
       <div className="table-wrap">
         <table className="table-base">
           <thead>
-            <tr>
-              <th>Teacher</th><th>Designation</th><th>Expertise</th>
-              <th>Email</th><th>Status</th><th>Actions</th>
-            </tr>
+            <tr><th>Teacher</th><th>Designation</th><th>Expertise</th><th>Email</th><th>Status</th><th>Actions</th></tr>
           </thead>
           <tbody>
             {filtered.map(t => (
@@ -139,7 +153,7 @@ export default function AdminTeachers() {
                 <td>
                   <div className="flex items-center gap-1">
                     <button className="btn-ghost p-1.5" onClick={() => openEdit(t)}><Edit2 size={14} /></button>
-                    <button className="btn-ghost p-1.5" onClick={() => toggleActive(t)}>
+                    <button className="btn-ghost p-1.5" onClick={() => toggleActive(t)} disabled={mutator.loading}>
                       {t.is_active ? <ToggleRight size={14} className="text-success" /> : <ToggleLeft size={14} className="text-ink-faint" />}
                     </button>
                     <button className="btn-ghost p-1.5 text-danger"
@@ -150,7 +164,7 @@ export default function AdminTeachers() {
                 </td>
               </tr>
             ))}
-            {!filtered.length && (
+            {!filtered.length && !loader.loading && (
               <tr><td colSpan={6} className="text-center py-10 text-ink-muted">
                 <UserCheck size={32} className="mx-auto mb-2 opacity-30" />No teachers found
               </td></tr>
@@ -163,8 +177,8 @@ export default function AdminTeachers() {
         <div className="flex flex-col gap-4">
           <div>
             <label className="form-label">Teacher Name <span className="text-danger">*</span></label>
-            <input className="form-input" value={form.teacher_name}
-                   onChange={e => setForm(f => ({ ...f, teacher_name: e.target.value }))} placeholder="Full name" />
+            <input className="form-input" value={form.teacher_name} autoFocus
+                   onChange={e => setForm(f => ({ ...f, teacher_name: e.target.value }))} />
           </div>
           <div className="grid grid-cols-2 gap-3">
             <div>
@@ -183,7 +197,7 @@ export default function AdminTeachers() {
               <div>
                 <label className="form-label">Email <span className="text-danger">*</span></label>
                 <input className="form-input" type="email" value={form.email}
-                       onChange={e => setForm(f => ({ ...f, email: e.target.value }))} placeholder="teacher@school.edu" />
+                       onChange={e => setForm(f => ({ ...f, email: e.target.value }))} />
               </div>
               <div>
                 <label className="form-label">Temporary Password <span className="text-danger">*</span></label>
@@ -200,8 +214,8 @@ export default function AdminTeachers() {
           )}
           <div className="flex justify-end gap-2 pt-2">
             <button className="btn-outline" onClick={() => setModal(false)}>Cancel</button>
-            <button className="btn-primary" onClick={handleSave} disabled={saving}>
-              {saving ? 'Saving…' : editRow ? 'Update' : 'Create Teacher'}
+            <button className="btn-primary" onClick={handleSave} disabled={saver.loading}>
+              {saver.loading ? 'Saving…' : editRow ? 'Update' : 'Create Teacher'}
             </button>
           </div>
         </div>
