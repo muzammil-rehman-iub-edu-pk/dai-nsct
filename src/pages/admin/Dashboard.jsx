@@ -101,7 +101,7 @@ export default function AdminDashboard() {
         <p className="text-ink-muted text-sm mt-1">System overview and performance metrics</p>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-8">
+      <div className="stat-grid-responsive mb-8">
         {statCards.map(({ label, value, icon: Icon, color }) => (
           <div key={label} className="card p-4">
             <div className={`w-9 h-9 rounded-xl flex items-center justify-center mb-3 ${color}`}>
@@ -113,7 +113,7 @@ export default function AdminDashboard() {
         ))}
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
         <div className="card">
           <div className="flex items-center gap-2 mb-4">
             <TrendingUp size={18} className="text-secondary" />

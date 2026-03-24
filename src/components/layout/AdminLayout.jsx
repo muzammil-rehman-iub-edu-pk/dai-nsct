@@ -1,17 +1,17 @@
-import { Sidebar } from './Sidebar'
+import { Sidebar, MobileNav } from './Sidebar'
 
-/**
- * AdminLayout — full-screen layout with fixed sidebar for admin pages.
- */
 export function AdminLayout({ children }) {
   return (
     <div className="flex h-screen overflow-hidden bg-surface">
       <Sidebar />
-      <main className="flex-1 overflow-y-auto">
-        <div className="p-6 fade-up min-h-full">
-          {children}
-        </div>
-      </main>
+      <div className="flex-1 flex flex-col min-w-0 overflow-hidden">
+        <MobileNav />
+        <main className="flex-1 overflow-y-auto">
+          <div className="p-4 sm:p-6 fade-up">
+            {children}
+          </div>
+        </main>
+      </div>
     </div>
   )
 }

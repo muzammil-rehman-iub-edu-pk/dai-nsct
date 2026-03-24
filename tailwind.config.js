@@ -5,8 +5,8 @@ export default {
     extend: {
       fontFamily: {
         display: ['"Playfair Display"', 'serif'],
-        body: ['"DM Sans"', 'sans-serif'],
-        mono: ['"JetBrains Mono"', 'monospace'],
+        body:    ['"DM Sans"', 'sans-serif'],
+        mono:    ['"JetBrains Mono"', 'monospace'],
       },
       colors: {
         primary:   { DEFAULT: '#1a56db', light: '#3b82f6', dark: '#1e3a8a' },
@@ -23,7 +23,21 @@ export default {
         glow: '0 0 0 3px rgba(26,86,219,.25)',
       },
       borderRadius: { xl2: '1rem', xl3: '1.5rem' },
+      screens: {
+        xs: '375px',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    // scrollbar-hide utility
+    function({ addUtilities }) {
+      addUtilities({
+        '.scrollbar-none': {
+          '-ms-overflow-style': 'none',
+          'scrollbar-width': 'none',
+          '&::-webkit-scrollbar': { display: 'none' },
+        },
+      })
+    },
+  ],
 }

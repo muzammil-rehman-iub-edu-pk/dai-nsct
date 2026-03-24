@@ -92,7 +92,7 @@ export default function AdminSections() {
     <AdminLayout>
       <ToastContainer toasts={toasts} dismiss={dismiss} />
 
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex flex-wrap items-start justify-between gap-3 mb-6">
         <div>
           <h1 className="page-title">Sections</h1>
           <p className="text-ink-muted text-sm mt-1">{sections.length} sections</p>
@@ -100,7 +100,7 @@ export default function AdminSections() {
         <button className="btn-primary" onClick={openAdd}><Plus size={16} /> Add Section</button>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="card-grid">
         {sections.map(s => (
           <div key={s.id} className="card flex flex-col gap-3">
             <div className="flex items-start justify-between">

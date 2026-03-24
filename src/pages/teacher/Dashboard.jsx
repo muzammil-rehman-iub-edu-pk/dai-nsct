@@ -45,7 +45,7 @@ export default function TeacherDashboard() {
         <p className="text-ink-muted text-sm mt-1">Your teaching overview</p>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         {[
           { label: 'My Sections',    value: data.sections.length,          icon: ClipboardList, color: 'text-secondary bg-secondary/10' },
           { label: 'Total Students', value: totalStudents,                  icon: Users,         color: 'text-primary bg-primary/10'    },

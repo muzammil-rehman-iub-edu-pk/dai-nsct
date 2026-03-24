@@ -115,7 +115,7 @@ export default function AdminStudents() {
   return (
     <AdminLayout>
       <ToastContainer toasts={toasts} dismiss={dismiss} />
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex flex-wrap items-start justify-between gap-3 mb-6">
         <div>
           <h1 className="page-title">Students</h1>
           <p className="text-ink-muted text-sm mt-1">{students.length} enrolled</p>

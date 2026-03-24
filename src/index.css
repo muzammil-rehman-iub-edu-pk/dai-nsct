@@ -136,3 +136,47 @@
   from { width: 0; }
 }
 .progress-anim { animation: progressFill 0.4s ease-out; }
+
+/* ─── Responsive utilities ──────────────────────────────────── */
+
+/* Tables scroll horizontally on small screens */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Minimum touch target size for interactive elements */
+@media (max-width: 1024px) {
+  .btn { min-height: 40px; }
+  .sidebar-link { min-height: 44px; }
+  .form-input { min-height: 42px; font-size: 16px; } /* prevents iOS zoom */
+  select.form-input { font-size: 16px; }             /* prevents iOS zoom */
+}
+
+/* Stat grid — 2 col on mobile, flexible on larger */
+.stat-grid-responsive {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+@media (min-width: 640px)  { .stat-grid-responsive { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 1024px) { .stat-grid-responsive { grid-template-columns: repeat(6, 1fr); } }
+
+/* Card grid — 1 col mobile, 2 tablet, 3 desktop */
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+@media (min-width: 640px)  { .card-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .card-grid { grid-template-columns: repeat(3, 1fr); } }
+
+/* Make modals use full screen on small phones */
+@media (max-width: 480px) {
+  .modal-inner {
+    border-radius: 0 !important;
+    max-height: 100dvh !important;
+    height: 100dvh;
+    margin: 0 !important;
+  }
+}

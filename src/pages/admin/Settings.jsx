@@ -61,13 +61,13 @@ export default function AdminSettings() {
         <p className="text-ink-muted text-sm mt-1">Configure exam parameters and account settings</p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl">
         <div className="card col-span-full">
           <div className="flex items-center gap-2 mb-5">
             <Settings size={18} className="text-primary" />
             <h2 className="font-display text-xl text-ink">Exam Configuration</h2>
           </div>
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div>
               <label className="form-label flex items-center gap-1.5">
                 <HelpCircle size={14} className="text-primary" /> Total Questions per Exam

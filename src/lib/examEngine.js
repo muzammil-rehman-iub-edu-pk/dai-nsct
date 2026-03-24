@@ -1,11 +1,16 @@
 /**
- * Exam Engine
- * Handles weighted question selection, shuffling, and option randomization.
+ * examEngine.js
+ * Handles weighted question selection, option shuffling, scoring,
+ * and bulk question text parsing.
+ *
+ * DATABASE CONTRACT (unchanged):
+ *   option_a  = the correct answer
+ *   option_b–e = wrong answers (nullable)
+ *
+ * The form and bulk parser both normalise to this contract before saving.
  */
 
-/**
- * Fisher-Yates shuffle
- */
+// ─── Fisher-Yates shuffle ────────────────────────────────────────────────────
 export function shuffle(arr) {
   const a = [...arr]
   for (let i = a.length - 1; i > 0; i--) {
@@ -15,57 +20,38 @@ export function shuffle(arr) {
   return a
 }
 
-/**
- * Build weighted question set from active subjects.
- *
- * @param {Array} subjectQuestions - [{subject_id, weightage, questions:[...]}]
- * @param {number} totalNeeded - total questions for exam (e.g. 100)
- * @returns {Array} selected question rows
- */
+// ─── Weighted exam builder ───────────────────────────────────────────────────
 export function buildWeightedExam(subjectQuestions, totalNeeded) {
-  // Calculate total weightage across active subjects that have questions
   const available = subjectQuestions.filter(s => s.questions.length > 0)
   if (!available.length) return []
 
   const totalWeight = available.reduce((sum, s) => sum + s.weightage, 0)
-
-  // Allocate questions per subject based on weightage
   const allocations = available.map(s => ({
     ...s,
-    allocated: Math.round((s.weightage / totalWeight) * totalNeeded)
+    allocated: Math.round((s.weightage / totalWeight) * totalNeeded),
   }))
 
-  // Adjust rounding drift
+  // Fix rounding drift on the first subject
   const allocTotal = allocations.reduce((sum, s) => sum + s.allocated, 0)
   const diff = totalNeeded - allocTotal
-  if (diff !== 0 && allocations.length > 0) {
-    allocations[0].allocated += diff
-  }
+  if (diff !== 0 && allocations.length > 0) allocations[0].allocated += diff
 
-  // Pick random questions per subject
   const selected = []
   for (const subj of allocations) {
     const pool = shuffle(subj.questions)
     selected.push(...pool.slice(0, Math.min(subj.allocated, pool.length)))
   }
-
   return shuffle(selected)
 }
 
+// ─── Prepare question for exam snapshot ──────────────────────────────────────
 /**
- * Prepare a question for display: snapshot text, shuffle options,
- * track correct answer label.
- *
- * Raw DB format: option_a = correct answer, option_b–e = wrong
- * We shuffle and assign labels A–E, recording which label is correct.
- *
- * @param {Object} q - raw question row from DB
- * @param {number} order - question order in this exam
- * @returns {Object} snapshot ready for storage
+ * Takes a raw DB question row (option_a = correct) and returns an exam
+ * snapshot object with options shuffled into random positions.
  */
 export function prepareQuestion(q, order) {
   const rawOptions = [
-    { text: q.option_a, is_correct: true },
+    { text: q.option_a, is_correct: true  },
     { text: q.option_b, is_correct: false },
     { text: q.option_c, is_correct: false },
     { text: q.option_d, is_correct: false },
@@ -73,59 +59,88 @@ export function prepareQuestion(q, order) {
   ].filter(o => o.text && o.text.trim() !== '')
 
   const shuffled = shuffle(rawOptions)
-  const labels = ['A', 'B', 'C', 'D', 'E']
-
-  const options = shuffled.map((opt, i) => ({
-    label: labels[i],
-    text: opt.text,
-    is_correct: opt.is_correct,
-  }))
+  const labels   = ['A', 'B', 'C', 'D', 'E']
 
   return {
-    question_id: q.id,
-    question_text: q.question_text,
-    options,
+    question_id:    q.id,
+    question_text:  q.question_text,
+    options:        shuffled.map((opt, i) => ({ label: labels[i], text: opt.text, is_correct: opt.is_correct })),
     question_order: order,
     selected_label: null,
-    is_correct: null,
+    is_correct:     null,
   }
 }
 
-/**
- * Calculate score from answered snapshot questions
- */
+// ─── Score calculator ────────────────────────────────────────────────────────
 export function calculateScore(questions) {
-  const total = questions.length
+  const total   = questions.length
   const correct = questions.filter(q => q.is_correct === true).length
   const percent = total > 0 ? Math.round((correct / total) * 10000) / 100 : 0
   return { total, correct, percent }
 }
 
+// ─── Bulk question text parser ───────────────────────────────────────────────
 /**
- * Parse bulk question upload text format:
- * Line 1: question text
- * Lines 2–6: options (first = correct)
- * Blank line = separator
- * EOF = end
+ * FORMAT:
+ *
+ *   This is a question text.
+ *   first option
+ *   correct:second option
+ *   third option
+ *
+ *   Another question.
+ *   wrong one
+ *   wrong two
+ *   correct:right answer
+ *   wrong three
+ *
+ * Rules:
+ *   • First non-blank line = question text
+ *   • Remaining lines      = options (2–5). Prefix the correct one with "correct:"
+ *   • "correct:" is case-insensitive, e.g. "Correct:Paris" also works
+ *   • If NO option has "correct:" prefix, the first option is assumed correct
+ *     (backward-compatible with any existing upload files)
+ *   • The "correct:" prefix is stripped before storing
+ *   • Blank line separates questions
+ *
+ * Output always stores the correct answer as option_a (DB contract).
  */
 export function parseBulkQuestions(text) {
-  const questions = []
-  const blocks = text.split(/\n\s*\n/).map(b => b.trim()).filter(Boolean)
+  const questions      = []
+  const correctPrefixRe = /^correct\s*:/i
+  const blocks         = text.split(/\n[ \t]*\n/).map(b => b.trim()).filter(Boolean)
 
   for (const block of blocks) {
     const lines = block.split('\n').map(l => l.trim()).filter(Boolean)
-    if (lines.length < 2) continue  // need at least question + 1 option
+    if (lines.length < 2) continue   // need at least question + 1 option
 
     const question_text = lines[0]
-    const opts = lines.slice(1, 6)  // max 5 options
+    const optionLines   = lines.slice(1, 6)   // max 5 options
+    if (!optionLines.length) continue
+
+    // Find which line is prefixed with "correct:"
+    const correctIdx = optionLines.findIndex(l => correctPrefixRe.test(l))
+    const resolvedIdx = correctIdx !== -1 ? correctIdx : 0   // default: first option
+
+    // Strip the "correct:" prefix from the matched line
+    const cleanOptions = optionLines.map((l, i) =>
+      i === resolvedIdx ? l.replace(correctPrefixRe, '').trim() : l
+    )
+
+    // Rotate so the correct answer sits at index 0 → option_a in DB
+    const rotated = [
+      cleanOptions[resolvedIdx],
+      ...cleanOptions.slice(0, resolvedIdx),
+      ...cleanOptions.slice(resolvedIdx + 1),
+    ]
 
     questions.push({
       question_text,
-      option_a: opts[0] || '',  // correct
-      option_b: opts[1] || null,
-      option_c: opts[2] || null,
-      option_d: opts[3] || null,
-      option_e: opts[4] || null,
+      option_a: rotated[0] || '',
+      option_b: rotated[1] || null,
+      option_c: rotated[2] || null,
+      option_d: rotated[3] || null,
+      option_e: rotated[4] || null,
     })
   }
 

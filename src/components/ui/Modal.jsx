@@ -24,25 +24,26 @@ export function Modal({ open, onClose, title, children, size = 'md', required = 
   if (!open) return null
 
   const sizes = {
-    sm: 'max-w-sm',
-    md: 'max-w-lg',
-    lg: 'max-w-2xl',
-    xl: 'max-w-4xl',
+    sm:   'max-w-sm',
+    md:   'max-w-lg',
+    lg:   'max-w-2xl',
+    xl:   'max-w-4xl',
     full: 'max-w-6xl',
   }
 
   return (
     <div
-      className="fixed inset-0 z-40 flex items-center justify-center p-4"
+      className="fixed inset-0 z-40 flex items-end sm:items-center justify-center sm:p-4"
       onClick={e => { if (e.target === e.currentTarget && !required) onClose() }}
-      role="dialog"
-      aria-modal="true"
-    >
-      {/* Backdrop */}
+      role="dialog" aria-modal="true">
       <div className="absolute inset-0 bg-ink/40 backdrop-blur-sm" />
-
-      {/* Panel */}
-      <div className={`relative z-50 w-full ${sizes[size] || sizes.md} bg-white rounded-xl2 shadow-lift fade-up max-h-[90vh] flex flex-col`}>
+      <div className={`
+        relative z-50 w-full ${sizes[size] || sizes.md}
+        bg-white shadow-lift fade-up
+        rounded-t-xl2 sm:rounded-xl2
+        max-h-[95dvh] sm:max-h-[90vh]
+        flex flex-col
+      `}>
         {/* Header */}
         <div className="flex items-center justify-between px-6 py-4 border-b border-surface-border flex-shrink-0">
           <h2 className="text-lg font-display text-ink leading-tight">{title}</h2>

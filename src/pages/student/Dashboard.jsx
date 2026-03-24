@@ -50,7 +50,7 @@ export default function StudentDashboard() {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8">
         {[
           { label: 'Total Attempts', value: completed.length,          icon: ClipboardList, color: 'text-primary bg-primary/10'    },
           { label: 'Average Score',  value: `${avgScore.toFixed(1)}%`, icon: TrendingUp,    color: 'text-secondary bg-secondary/10' },
@@ -65,7 +65,7 @@ export default function StudentDashboard() {
       </div>
 
       <div className="card mb-6 bg-gradient-to-r from-primary/5 to-secondary/5 border-primary/20">
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
             <h3 className="font-display text-xl text-ink">Ready for a new attempt?</h3>
             <p className="text-sm text-ink-muted mt-1">Each exam is uniquely generated with randomized questions.</p>

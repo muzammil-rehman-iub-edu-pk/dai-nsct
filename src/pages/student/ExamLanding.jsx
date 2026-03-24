@@ -106,7 +106,7 @@ export default function ExamLanding() {
               <p className="text-ink-muted text-sm">National Skills Competency Test</p>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4 mb-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
             <div className="p-4 rounded-xl bg-primary/5 border border-primary/10">
               <div className="flex items-center gap-2 text-primary mb-1"><HelpCircle size={16} /><span className="font-semibold text-sm">Questions</span></div>
               <div className="text-3xl font-bold text-ink">{settings?.total_questions}</div>

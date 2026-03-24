@@ -50,7 +50,7 @@ export default function Login() {
         </div>
 
         {/* Card */}
-        <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-xl3 p-8 shadow-lift">
+        <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-xl3 p-5 sm:p-8 shadow-lift">
           <h2 className="font-display text-2xl text-white mb-6">Sign In</h2>
 
           <form onSubmit={handleSubmit} className="flex flex-col gap-4" noValidate>
@@ -99,7 +99,7 @@ export default function Login() {
           </form>
 
           <p className="text-center text-white/30 text-xs mt-6">
-            Hint: Use your roll_number@iub.edu.pk as email.
+            Default admin: admin@nsct.edu / Admin@1234
           </p>
         </div>
       </div>

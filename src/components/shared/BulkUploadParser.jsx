@@ -1,26 +1,24 @@
 import { useState, useRef } from 'react'
 import { parseBulkQuestions } from '../../lib/examEngine'
 import { supabase } from '../../lib/supabase'
-import { Upload, FileText, CheckCircle, AlertTriangle, X, Eye } from 'lucide-react'
+import { dbQuery } from '../../lib/db'
+import { Upload, FileText, CheckCircle, X, Eye } from 'lucide-react'
 
 /**
- * BulkUploadParser
- *
- * Self-contained bulk question uploader.
- * Accepts a .txt file OR pasted text, parses it, shows a preview, then imports.
+ * BulkUploadParser — reusable bulk question uploader.
+ * Used by both Admin DataBank and Teacher DataBank pages.
  *
  * Props:
- *   subjects  Array  — [{id, subject_name}]
+ *   subjects  [{id, subject_name}]
  *   onImport  () => void  — called after successful import
- *   toast     fn  — from useToast
+ *   toast     fn          — from useToast
  */
 export function BulkUploadParser({ subjects = [], onImport, toast }) {
   const [subjectId, setSubjectId] = useState('')
-  const [rawText, setRawText]     = useState('')
-  const [parsed, setParsed]       = useState(null)   // null | []
-  const [saving, setSaving]       = useState(false)
-  const [showPreview, setPreview] = useState(false)
-  const fileRef                   = useRef()
+  const [rawText,   setRawText]   = useState('')
+  const [parsed,    setParsed]    = useState(null)
+  const [saving,    setSaving]    = useState(false)
+  const fileRef = useRef()
 
   async function handleFile(e) {
     const file = e.target.files[0]
@@ -31,7 +29,7 @@ export function BulkUploadParser({ subjects = [], onImport, toast }) {
   }
 
   function handleParse() {
-    if (!subjectId) { toast?.('Please select a subject first', 'error'); return }
+    if (!subjectId)     { toast?.('Please select a subject first', 'error'); return }
     if (!rawText.trim()) { toast?.('No text to parse', 'error'); return }
     const result = parseBulkQuestions(rawText)
     if (!result.length) { toast?.('No valid questions found. Check the format.', 'error'); return }
@@ -42,11 +40,10 @@ export function BulkUploadParser({ subjects = [], onImport, toast }) {
     if (!parsed?.length || !subjectId) return
     setSaving(true)
     try {
-      const rows = parsed.map(q => ({ ...q, subject_id: subjectId }))
+      const rows  = parsed.map(q => ({ ...q, subject_id: subjectId }))
       const CHUNK = 100
       for (let i = 0; i < rows.length; i += CHUNK) {
-        const { error } = await supabase.from('questions').insert(rows.slice(i, i + CHUNK))
-        if (error) throw error
+        await dbQuery(supabase.from('questions').insert(rows.slice(i, i + CHUNK)))
       }
       toast?.(`✓ ${rows.length} questions imported successfully!`, 'success')
       reset()
@@ -67,28 +64,29 @@ export function BulkUploadParser({ subjects = [], onImport, toast }) {
 
   return (
     <div className="flex flex-col gap-5">
+
       {/* Format guide */}
-      <div className="p-4 rounded-xl bg-surface border border-surface-border">
-        <p className="text-xs font-semibold text-ink mb-2 flex items-center gap-1.5">
-          <FileText size={13} className="text-primary" /> Expected File Format (.txt)
+      <div className="p-4 rounded-xl bg-primary/5 border border-primary/20">
+        <p className="text-sm font-semibold text-ink mb-3 flex items-center gap-1.5">
+          <FileText size={14} className="text-primary" /> File Format (.txt)
         </p>
-        <pre className="font-mono text-xs text-ink-muted whitespace-pre-wrap leading-relaxed">
-{`What is the speed of light?
-300,000 km/s
+        <pre className="font-mono text-xs text-ink-muted leading-relaxed whitespace-pre-wrap bg-white/60 rounded-lg p-3 border border-primary/10">{
+`What is the speed of light?
 150,000 km/s
-1,000 km/s
-3,000 km/s
+correct:300,000 km/s
+500 km/s
 
 Who invented the telephone?
-Alexander Graham Bell
 Thomas Edison
-Nikola Tesla
-James Watt`}
-        </pre>
-        <p className="text-xs text-ink-muted mt-2">
-          • First line = question text &nbsp;•&nbsp; Next lines = options (first option is CORRECT)
-          &nbsp;•&nbsp; Blank line separates questions &nbsp;•&nbsp; Max 5 options per question
-        </p>
+correct:Alexander Graham Bell
+Nikola Tesla`
+        }</pre>
+        <ul className="mt-3 space-y-1 text-xs text-ink-muted">
+          <li>• <strong className="text-ink">Line 1</strong> — question text</li>
+          <li>• <strong className="text-ink">Lines 2–6</strong> — options (2 minimum, 5 maximum)</li>
+          <li>• <strong className="text-ink">correct:</strong> prefix on the right answer. If omitted, first option is assumed correct.</li>
+          <li>• <strong className="text-ink">Blank line</strong> — separates questions</li>
+        </ul>
       </div>
 
       {/* Subject selector */}
@@ -115,22 +113,23 @@ James Watt`}
         />
       </div>
 
-      {/* Or paste */}
+      {/* Paste text */}
       <div>
-        <label className="form-label">Or Paste Questions Text</label>
+        <label className="form-label">Or Paste Text</label>
         <textarea
           className="form-input font-mono text-xs"
           rows={8}
           value={rawText}
           onChange={e => { setRawText(e.target.value); setParsed(null) }}
-          placeholder="Paste your question text here…"
+          placeholder={`Question text here\noption one\ncorrect:option two\noption three\n\nNext question…`}
         />
       </div>
 
       {/* Parse button */}
       {!parsed && (
-        <button className="btn-primary" onClick={handleParse} disabled={!rawText.trim() || !subjectId}>
-          <Eye size={15} /> Parse & Preview
+        <button className="btn-primary" onClick={handleParse}
+                disabled={!rawText.trim() || !subjectId}>
+          <Eye size={15} /> Parse &amp; Preview
         </button>
       )}
 
@@ -138,31 +137,30 @@ James Watt`}
       {parsed && (
         <div className="border border-surface-border rounded-xl overflow-hidden">
           <div className="flex items-center justify-between px-4 py-3 bg-surface border-b border-surface-border">
-            <div className="flex items-center gap-2 text-sm font-semibold text-ink">
-              <CheckCircle size={15} className="text-success" />
-              {parsed.length} questions ready to import
-            </div>
-            <button className="btn-ghost p-1" onClick={() => { setParsed(null) }}>
-              <X size={14} />
-            </button>
+            <span className="text-sm font-semibold text-ink">
+              {parsed.length} question{parsed.length !== 1 ? 's' : ''} ready
+            </span>
+            <button className="btn-ghost p-1" onClick={() => setParsed(null)}><X size={14} /></button>
           </div>
 
-          {/* Preview list */}
           <div className="max-h-52 overflow-y-auto divide-y divide-surface-border">
             {parsed.map((q, i) => (
-              <div key={i} className="px-4 py-3">
-                <p className="text-xs font-medium text-ink line-clamp-1">
-                  {i + 1}. {q.question_text}
-                </p>
-                <p className="text-xs text-success mt-0.5">✓ {q.option_a}</p>
-                {[q.option_b, q.option_c, q.option_d, q.option_e].filter(Boolean).map((opt, j) => (
-                  <p key={j} className="text-xs text-ink-faint">• {opt}</p>
-                ))}
+              <div key={i} className="px-4 py-3 flex gap-3">
+                <span className="text-xs text-ink-faint font-mono mt-0.5 flex-shrink-0 w-5">{i + 1}.</span>
+                <div className="min-w-0">
+                  <p className="text-xs font-medium text-ink truncate">{q.question_text}</p>
+                  <p className="text-xs text-success flex items-center gap-1 mt-0.5">
+                    <CheckCircle size={10} /> {q.option_a}
+                  </p>
+                  <p className="text-xs text-ink-faint mt-0.5">
+                    {[q.option_b, q.option_c, q.option_d, q.option_e].filter(Boolean).join(' · ')}
+                  </p>
+                </div>
               </div>
             ))}
           </div>
 
-          <div className="p-4 border-t border-surface-border flex justify-between items-center">
+          <div className="p-4 border-t border-surface-border flex flex-wrap justify-between items-center gap-2">
             <button className="btn-ghost text-sm" onClick={reset}>Start over</button>
             <button className="btn-success" onClick={handleImport} disabled={saving}>
               <Upload size={14} />

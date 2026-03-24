@@ -64,7 +64,7 @@ export default function TeacherSectionProgress() {
         <p className="text-ink-muted text-sm mt-1">View student attempts and scores by section</p>
       </div>
 
-      <div className="flex gap-2 mb-6 flex-wrap">
+      <div className="flex gap-2 mb-6 flex-wrap overflow-x-auto pb-1">
         {sections.map(sec => (
           <button key={sec.id}
             className={`px-4 py-2 rounded-xl text-sm font-medium transition-colors
