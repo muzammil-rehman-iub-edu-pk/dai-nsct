@@ -1,0 +1,972 @@
+[
+  {
+    "subject": "Python Programming",
+    "question_text": "Which of the following is not a valid Python expression?",
+    "option_a": "+ 3  3",
+    "option_b": "7",
+    "option_c": "((3))",
+    "option_d": "(1 * (2 * (3 * 4)))",
+    "option_e": "(((7)))",
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Which of the following is a valid string in Python?",
+    "option_a": "‘’’Ada’’’",
+    "option_b": "\"Ada'",
+    "option_c": "'Ada\"",
+    "option_d": "'\"Ada",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "The value of the expressions 4/(5 + (2-1)) and 4/5 + (2-1) is the same.",
+    "option_a": "False",
+    "option_b": "True",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "What is the answer to this expression, 3 % 22 is?",
+    "option_a": "3",
+    "option_b": "7",
+    "option_c": "1",
+    "option_d": "0",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "(10<20) and not(10>30)",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": "Error",
+    "option_d": "No output",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Which of the following evaluate to -1?",
+    "option_a": "'test'.find('d')",
+    "option_b": "\"test\".find('st')",
+    "option_c": "\"east\".find('st')",
+    "option_d": "'Test'.find('Te')",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "For any string, s = '<any string>', which of the following does not always has the value 0?",
+    "option_a": "s.find('d')",
+    "option_b": "s.find(s)",
+    "option_c": "'s'.find('s')",
+    "option_d": "s.find('')",
+    "option_e": "s.find(s + '!!!') +1",
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "return n - 1",
+    "option_a": "Takes a number as input, and outputs that number minus one",
+    "option_b": "Nothing",
+    "option_c": "Takes a number as input, and outputs the same number",
+    "option_d": "Takes two numbers as inputs, and outputs their difference",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "a = a + b",
+    "option_a": "Nothing",
+    "option_b": "Takes two numbers as its inputs, and outputs their sum",
+    "option_c": "Takes two strings as its inputs, and outputs the concatenation of the two strings",
+    "option_d": "Takes two numbers as its inputs, and changes the value of the first input to be the sum of the two numbers",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(i)",
+    "option_a": "Nothing",
+    "option_b": "Print out 2, 4, 6, 8, 10.",
+    "option_c": "Print out 0, 2, 4, 6, 8.",
+    "option_d": "Print out 0, 2, 4, 6, 8, 10.",
+    "option_e": "Run forever",
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(x)",
+    "option_a": "none of the mentioned",
+    "option_b": "[‘ab’, ‘cd’]",
+    "option_c": "[‘ab’, ‘cd’ , ‘AB’, ‘CD’]",
+    "option_d": "[‘AB’, ‘CD’]",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "What will be the output of the “hello” +”1”+”2”+”3”?",
+    "option_a": "hello123",
+    "option_b": "hello",
+    "option_c": "Error",
+    "option_d": "hello6",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Consider f=5.5 what will be the return value of type(f)?",
+    "option_a": "Float",
+    "option_b": "bool",
+    "option_c": "str",
+    "option_d": "String",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "To check whether string s1 does not contain another string s2, use:",
+    "option_a": "s1 not in s2",
+    "option_b": "s2 in s1",
+    "option_c": "s1.contains(s2)",
+    "option_d": "si.in(s2)",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "len(p) → ?",
+    "option_a": "5",
+    "option_b": "4",
+    "option_c": "3",
+    "option_d": "2",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "return results",
+    "option_a": "Returns the intersection of p and q",
+    "option_b": "Returns the union of p and q",
+    "option_c": "None of the above",
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Suppose s = “test”, Which of the following is not correct syntax for slicing operation for the string s?",
+    "option_a": "print(s[5:-1])",
+    "option_b": "print(s[0])",
+    "option_c": "print(s[1:2])",
+    "option_d": "print(s[:])",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Suppose list1 =[2, 33, 222, 14, 25], What is list1[-1]?",
+    "option_a": "25",
+    "option_b": "Error",
+    "option_c": "None",
+    "option_d": "2",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(len(list1 + list2))",
+    "option_a": "8",
+    "option_b": "2",
+    "option_c": "4",
+    "option_d": "5",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Which are the advantages of functions in python?",
+    "option_a": "All of the mentioned",
+    "option_b": "Reducing duplication of code",
+    "option_c": "Decomposing complex problems into simpler pieces",
+    "option_d": "Improving clarity of the code",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(x)",
+    "option_a": "8",
+    "option_b": "9",
+    "option_c": "3",
+    "option_d": "27",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(c)",
+    "option_a": "[1, 2, 3, 4, [5]]",
+    "option_b": "[1, 2, 3, 4]",
+    "option_c": "[1, 2, 3, 4, 5]",
+    "option_d": "[1, 2, 3, 5]",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "What is thr role of the procedure lookup?",
+    "option_a": "To find the urls associated with a given keyword",
+    "option_b": "To find the keywords associated with a given url",
+    "option_c": "Both A and B",
+    "option_d": "None of the above",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "One of the primary differences between strings and lists in Python is:",
+    "option_a": "Lists can have data items of heterogeneous types whereas strings can have characters only",
+    "option_b": "List can be indexed whereas strings cannot be indexed",
+    "option_c": "Strings can be sliced whereas lists cannot be sliced",
+    "option_d": "All of the above",
+    "option_e": "None of the above",
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(s.split())",
+    "option_a": "[‘Hello’, ‘everyone’]",
+    "option_b": "[‘Hello’, ‘everyone’, ”]",
+    "option_c": "(‘Hello’)",
+    "option_d": "(‘hello’, ‘everyone’)",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "What is Python?",
+    "option_a": "It is a high level computer programming language",
+    "option_b": "It is machine language to write computer programs",
+    "option_c": "It is a high level language to write pseudocodes that can be implemented in any computer language",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "i = 2 + ‘2’",
+    "option_a": "TypeError",
+    "option_b": "SyntaxError",
+    "option_c": "NameError",
+    "option_d": "ValueError",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "which of these are equivalent to s.find(t,i):",
+    "option_a": "None of the above",
+    "option_b": "s[i: ].find(t)",
+    "option_c": "s.find(t)[ :i]",
+    "option_d": "s[i: ].find(t) + i",
+    "option_e": "s[i: ].find(t[i: ])",
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "What should the outputs be for get_next_target?",
+    "option_a": "url, end_quote",
+    "option_b": "a string giving the value of the next target url (url)",
+    "option_c": "url, page",
+    "option_d": "url, start_link",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(a, b)",
+    "option_a": "6 6",
+    "option_b": "6 7",
+    "option_c": "7 6",
+    "option_d": "7 7",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "For any string, s= '<any string>', which of these is not always equivalent to s?",
+    "option_a": "s[:3] + s[3:]",
+    "option_b": "s[:]",
+    "option_c": "s[0:]",
+    "option_d": "s[:-1]",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Why is the equality comparison done using == instead of =?",
+    "option_a": "Because = means assignment.",
+    "option_b": "Because = means approximately equal.",
+    "option_c": "Because not equal uses two characters !=.",
+    "option_d": "Because Guido (van Rossum, the creator of Python) really likes = signs.",
+    "option_e": "It doesn’t matter, we can use either == or =.",
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(i)",
+    "option_a": "Print out 2, 4, 6, 8, 10.",
+    "option_b": "Produce an error",
+    "option_c": "Print out 0, 2, 4, 6, 8.",
+    "option_d": "Print out 0, 2, 4, 6, 8, 10.",
+    "option_e": "Run forever",
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "What arithmetic operators cannot be used with strings?",
+    "option_a": "–",
+    "option_b": "+",
+    "option_c": "*",
+    "option_d": "All of the mentioned",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Which of the following commands will create a list?",
+    "option_a": "all of the mentioned",
+    "option_b": "list1 = list()",
+    "option_c": "list1 = []",
+    "option_d": "list1 = [1, 2, 3]",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "______________________",
+    "option_a": "1. [], 2. links.append(url), 3. return links",
+    "option_b": "1. [], 2. links.append(url), 3. print(links)",
+    "option_c": "1. [seed], 2. links.append(url), 3. return links",
+    "option_d": "1. [seed], 2. links.append(url), 3. print(links)",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Suppose list1 = [4, 2, 2, 4, 5, 2, 1, 0], Which of the following is correct syntax for slicing operation?",
+    "option_a": "all of the mentioned",
+    "option_b": "print(list1[0])",
+    "option_c": "print(list1[:2])",
+    "option_d": "print(list1[:-2])",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Suppose list1 = [2, 33, 222, 14, 25], What is list1.pop()?",
+    "option_a": "[2, 33, 222, 14]",
+    "option_b": "Error",
+    "option_c": "25",
+    "option_d": "[25, 14, 222, 33, 2]",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Suppose list1 is [3, 4, 5, 20, 5], what is list1.index(5)?",
+    "option_a": "2",
+    "option_b": "0",
+    "option_c": "1",
+    "option_d": "4",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Which keyword is used for function?",
+    "option_a": "def",
+    "option_b": "fun",
+    "option_c": "define",
+    "option_d": "function",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Features like aliasing should be frequently used.",
+    "option_a": "False",
+    "option_b": "True",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "What does the seed page mean?",
+    "option_a": "A webpage for the search engine to start extracting the links and perform all related tasks relevant to building a search engine",
+    "option_b": "A webpage having information about the different crops seeds",
+    "option_c": "A webpage that contains a preliminary index for the search engine",
+    "option_d": "None of the above",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "break",
+    "option_a": "Error",
+    "option_b": "False",
+    "option_c": "True",
+    "option_d": "None of these",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "i + = 1",
+    "option_a": "1 2",
+    "option_b": "1 2 3",
+    "option_c": "Syntax Error",
+    "option_d": "None of these",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "not(1&1)",
+    "option_a": "True False",
+    "option_b": "True True",
+    "option_c": "False False",
+    "option_d": "False True",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(i)",
+    "option_a": "0 1 2 3 4",
+    "option_b": "0 1 2 3 4 5",
+    "option_c": "0 1 2 3",
+    "option_d": "1 2 3 5",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(len(mylist))",
+    "option_a": "5",
+    "option_b": "1",
+    "option_c": "4",
+    "option_d": "8",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Is Python case sensitive when dealing with identifiers?",
+    "option_a": "Yes",
+    "option_b": "No",
+    "option_c": "Machine dependent",
+    "option_d": "None of the above",
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Mathematical operators behave the same with strings as with numbers",
+    "option_a": "Flase",
+    "option_b": "True",
+    "option_c": "It depends",
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Python Programming- Part I.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "What is a programming language?",
+    "option_a": "a language designed to be read and written by humans, and executed by computers",
+    "option_b": "a language designed to be executed by computers",
+    "option_c": "a language designed for describing programs",
+    "option_d": "a language designed to be written by humans, and executed by computers",
+    "option_e": "a language designed to be read by humans, and written by computers",
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Which of the following is not a valid Python expression?",
+    "option_a": "((3)",
+    "option_b": "3",
+    "option_c": "(1 * (2 * (3 * 4)))",
+    "option_d": "3 + 3",
+    "option_e": "(((7)))",
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Which of the following is a valid string in Python?",
+    "option_a": "'Ada'",
+    "option_b": "\"Ada'",
+    "option_c": "'Ada\"",
+    "option_d": "\"Ada",
+    "option_e": "'\"Ada",
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "str[:2]",
+    "option_a": "he",
+    "option_b": "lo",
+    "option_c": "olleh",
+    "option_d": "hello",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "apple = mango",
+    "option_a": "NameError",
+    "option_b": "SyntaxError",
+    "option_c": "ValueError",
+    "option_d": "TypeError",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "l = [1, 23, 'hello', 1]",
+    "option_a": "list",
+    "option_b": "dictionary",
+    "option_c": "array",
+    "option_d": "tuple",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "vi) Subtraction",
+    "option_a": "i,ii,iii,iv,v,vi",
+    "option_b": "ii,i,iii,iv,v,vi",
+    "option_c": "ii,i,iv,iii,v,vi",
+    "option_d": "None of the above",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "The value of the expressions 4/(3*(2-1)) and 4/3*(2-1) is the same.",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "What is the answer to this expression, 22 % 3 is?",
+    "option_a": "1",
+    "option_b": "7",
+    "option_c": "0",
+    "option_d": "5",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "not(10<20) and not(10>30)",
+    "option_a": "False",
+    "option_b": "True",
+    "option_c": "Error",
+    "option_d": "No output",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Given the variable, s = '<any string>', which of these pairs are not two things with the exact same value?",
+    "option_a": "s[0] + s[1], s[0+1]",
+    "option_b": "s[3], s[1+1+1]",
+    "option_c": "s[0], (s+s)[0]",
+    "option_d": "s[-1], (s + s)[-1]",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Which of the following evaluate to -1?",
+    "option_a": "'Test'.find('test')",
+    "option_b": "'test'.find('t')",
+    "option_c": "\"test\".find('st')",
+    "option_d": "\"east\".find('st')",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "For any string, s = '<any string>', which of the following does not always has the value 0?",
+    "option_a": "s.find('s')",
+    "option_b": "s.find(s)",
+    "option_c": "'s'.find('s')",
+    "option_d": "s.find('')",
+    "option_e": "s.find(s + '!!!') +1",
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "What are the inputs for the procedure, get_next_target?",
+    "option_a": "a string giving contents of the rest of the web page",
+    "option_b": "a number giving position of start of link",
+    "option_c": "a number giving position of start of next quote",
+    "option_d": "a number giving position of start of link and a string giving page contents",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Why is the equality comparison done using == instead of =?",
+    "option_a": "Because = means assignment.",
+    "option_b": "Because = means approximately equal.",
+    "option_c": "Because not equal uses two characters !=.",
+    "option_d": "Because Guido (van Rossum, the creator of Python) really likes = signs.",
+    "option_e": "It doesn’t matter, we can use either == or =.",
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "return n + 1",
+    "option_a": "Takes a number as input, and outputs that number plus one",
+    "option_b": "Nothing",
+    "option_c": "Takes a number as input, and outputs the same number",
+    "option_d": "Takes two numbers as inputs, and outputs their sum",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(i)",
+    "option_a": "Run forever.",
+    "option_b": "Produce an error.",
+    "option_c": "Print out 2, 4, 6, 8.",
+    "option_d": "Print out 1, 3, 5, 7, 9.",
+    "option_e": "Print out 3, 5, 7, 9.",
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "s, t = t, s",
+    "option_a": "Swaps the values of s and t",
+    "option_b": "Nothing",
+    "option_c": "Makes s and t both refer to the original value of t",
+    "option_d": "Error",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(y)",
+    "option_a": "[‘AB’, ‘CD’]",
+    "option_b": "[‘ab’, ‘cd’]",
+    "option_c": "[None, None]",
+    "option_d": "none of the mentioned",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(x)",
+    "option_a": "none of the mentioned",
+    "option_b": "[‘ab’, ‘cd’]",
+    "option_c": "[‘ab’, ‘cd’ , ‘AB’, ‘CD’]",
+    "option_d": "[‘AB’, ‘CD’]",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(i)",
+    "option_a": "0 1 2 3 4",
+    "option_b": "0 1 2 3 4 Here",
+    "option_c": "0 1 2 3 4 5 Here",
+    "option_d": "1 2 3 4 5",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "What will be the output of the “hello” +1+2+3?",
+    "option_a": "Error",
+    "option_b": "hello123",
+    "option_c": "hello",
+    "option_d": "hello6",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Consider s=”hello” what will be the return value of type(s)?",
+    "option_a": "str",
+    "option_b": "int",
+    "option_c": "bool",
+    "option_d": "String",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "To check whether string s1 contains another string s2, use:",
+    "option_a": "s2 in s1",
+    "option_b": "s1 not in s2",
+    "option_c": "s1.contains(s2)",
+    "option_d": "si.in(s2)",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(\"ccdcddcd\".find(\"c\"))",
+    "option_a": "0",
+    "option_b": "4",
+    "option_c": "Error",
+    "option_d": "True",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Suppose listExample = [‘h’,’e’,’l’,’l’,’o’], what is len(listExample)?",
+    "option_a": "5",
+    "option_b": "4",
+    "option_c": "None",
+    "option_d": "Error",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "s[0] = ‘h’",
+    "option_a": "Error, because strings are immutable",
+    "option_b": "s will contain ‘hello’",
+    "option_c": "s will contain ‘h’ only",
+    "option_d": "None of the above",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "len(p) → ?",
+    "option_a": "3",
+    "option_b": "4",
+    "option_c": "2",
+    "option_d": "1",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "p.append(e)",
+    "option_a": "The list p contains the union of p and q",
+    "option_b": "The list p contains the intersection of p and q",
+    "option_c": "None of the above",
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "return crawled",
+    "option_a": "1. [seed], 2. tocrawl.pop(), 3. page not in crawled",
+    "option_b": "1. [], 2. tocrawl.pop(), 3. page in crawled",
+    "option_c": "1. [seed], 2. tocrawl.pop(), 3. page in crawled",
+    "option_d": "1. [], 2. crawled.pop(), 3. page not in crawled",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "break",
+    "option_a": "1. True, 2. url, 3. page[endpos:]",
+    "option_b": "1. True, 2. page, 3. url",
+    "option_c": "1. True, 2. url, 3. page",
+    "option_d": "1. True, 2. url, 3. endpos",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Suppose s =’test’, What is s[-1]?",
+    "option_a": "‘t’",
+    "option_b": "Error",
+    "option_c": "None",
+    "option_d": "‘e’",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(names[-1][-1])",
+    "option_a": "n",
+    "option_b": "A",
+    "option_c": "Daman",
+    "option_d": "Error",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "To add a new element to a list we use which of the following?",
+    "option_a": "list1.append(5)",
+    "option_b": "list1.add(5)",
+    "option_c": "list1.addLast(5)",
+    "option_d": "list1.addEnd(5)",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Suppose listExample is [3, 4, 5, 20, 5, 25, 1, 3], what is list1 after listExample.pop()?",
+    "option_a": "[3, 4, 5, 20, 5, 25, 1]",
+    "option_b": "[1, 3, 3, 4, 5, 5, 20, 25]",
+    "option_c": "[3, 5, 20, 5, 25, 1, 3]",
+    "option_d": "[1, 3, 4, 5, 20, 5, 25]",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(list2)",
+    "option_a": "[4, 3]",
+    "option_b": "[1, 3]",
+    "option_c": "[1, 4]",
+    "option_d": "[1, 3, 4]",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(v)",
+    "option_a": "[44, 2, 3]",
+    "option_b": "[1, 44]",
+    "option_c": "[1, 2, 3, 44]",
+    "option_d": "[1, 2, 3]",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(2)",
+    "option_a": "2",
+    "option_b": "None",
+    "option_c": "1",
+    "option_d": "Error",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(len(numbers))",
+    "option_a": "5",
+    "option_b": "4",
+    "option_c": "8",
+    "option_d": "12",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(x)",
+    "option_a": "27",
+    "option_b": "9",
+    "option_c": "3",
+    "option_d": "30",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(i)",
+    "option_a": "0",
+    "option_b": "1",
+    "option_c": "Nothing is displayed",
+    "option_d": "An exception is thrown",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print(len(c))",
+    "option_a": "5",
+    "option_b": "4",
+    "option_c": "1",
+    "option_d": "An exception is thrown",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "Which of these data structures would be a good way to represent the index for your search engine?",
+    "option_a": "[[<keyword1>, <url1, 1>, <url1, 2>]], [<keyword2>, [<url2, 1>]], …]",
+    "option_b": "[<keyword1>, <url1, 1>, <url1, 2>, <keyword2>, …]",
+    "option_c": "[[<keyword1>, <url1, 1>, <url1, 2>], [<keyword2>, <url2, 1>, …]",
+    "option_d": "[[<url1, 1>, [<keyword1>, <keyword23>, … ]], [<url2, 1>, [<keyword2>, …]]",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "What does the procedure add_to_index do?",
+    "option_a": "Adds a given url and keyword to the index if it does not already exists in the index",
+    "option_b": "Adds a given url to the index",
+    "option_c": "Adds a given url and keyword to the index",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "What is the difference between the procedures add_to_index and add_page_to_index?",
+    "option_a": "add_to_index adds a single word, url pair at a time whereas add_page_to_index does it for the whole page",
+    "option_b": "Both procedures do the same thing. There is barely any difference",
+    "option_c": "add_to_index uses add_page_to_index to complete its task",
+    "option_d": "None of the above",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "The procedure crawl_web maintains following three lists:",
+    "option_a": "One for the urls already crawled, second for the ones not crawled yet, and third for the index",
+    "option_b": "One for words, second for the urls, and third for the index",
+    "option_c": "One for the urls already crawled, second for the ones not crawled yet, and third for the words",
+    "option_d": "None of the above",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "One of the primary differences between strings and lists in Python is:",
+    "option_a": "Lists are mutable whereas strings are immutable",
+    "option_b": "List can be indexed whereas strings cannot be indexed",
+    "option_c": "Strings can be sliced whereas lists cannot be sliced",
+    "option_d": "All of the above",
+    "option_e": "None of the above",
+    "source_file": "Python Programming- Part II.docx"
+  },
+  {
+    "subject": "Python Programming",
+    "question_text": "print('abcdefcdghcd'.split('cd'))",
+    "option_a": "[‘ab’, ‘ef’, ‘gh’, ”]",
+    "option_b": "[‘ab’, ‘ef’, ‘gh’]",
+    "option_c": "(‘ab’, ‘ef’, ‘gh’)",
+    "option_d": "(‘ab’, ‘ef’, ‘gh’, ”)",
+    "option_e": null,
+    "source_file": "Python Programming- Part II.docx"
+  }
+]

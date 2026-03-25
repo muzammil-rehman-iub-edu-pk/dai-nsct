@@ -1,0 +1,1462 @@
+[
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "A___________is a specialized format for organizing and storing data.",
+    "option_a": "Data Structure",
+    "option_b": "Database",
+    "option_c": "Data",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Types of liner data structure are:",
+    "option_a": "All of above",
+    "option_b": "Array",
+    "option_c": "Link List",
+    "option_d": "Stack",
+    "option_e": "Queue",
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "A type of data structure in which the data elements are stored in linear sequence (sequential sequence) is known as.",
+    "option_a": "Both A & B.",
+    "option_b": "Non-primitive data structure",
+    "option_c": "Linear Data Structure",
+    "option_d": "Primitive data structure",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Arranging the records in some logical order in a data structure is called?",
+    "option_a": "Sorting",
+    "option_b": "Arranging",
+    "option_c": "Ordering",
+    "option_d": "Tracing",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "A technique in which a function calls itself is known as?",
+    "option_a": "Recursion",
+    "option_b": "Calling",
+    "option_c": "Merging",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "The step by step procedure to solve a particular problem is called algorithm.",
+    "option_a": "TRUE",
+    "option_b": "FALSE",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which is/are Advantages of algorithms:",
+    "option_a": "All of above",
+    "option_b": "Reduce complexity",
+    "option_c": "Increased flexibility",
+    "option_d": "Ease of understanding",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "The time required by an algorithm falls under ------------ types.",
+    "option_a": "3",
+    "option_b": "1",
+    "option_c": "2",
+    "option_d": "4",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "The commonly used asymptotic notations to calculate the running time complexity of an algorithm.",
+    "option_a": "All of above",
+    "option_b": "Ο Notation",
+    "option_c": "Ω Notation",
+    "option_d": "θ Notation",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Worst Case − Maximum time required for program execution.",
+    "option_a": "TRUE",
+    "option_b": "FALSE",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Performance based criteria of an algorithm, which has to do with its storage requirements is",
+    "option_a": "Space Complexity",
+    "option_b": "Time Complexity",
+    "option_c": "Input and out put",
+    "option_d": "Feasibility",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "O (1) means computing time is ____________",
+    "option_a": "Constant",
+    "option_b": "Quadratic",
+    "option_c": "Linear",
+    "option_d": "Cubic",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "O(n) means computing time is ____________",
+    "option_a": "Linear",
+    "option_b": "Constant",
+    "option_c": "Quadratic",
+    "option_d": "Cubic",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which is/are the application(s) of stack.",
+    "option_a": "All of above",
+    "option_b": "Functions calls",
+    "option_c": "Large number Arithmetic",
+    "option_d": "Evaluation of arithmetic expressions",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following data structure store the homogeneous data elements?",
+    "option_a": "Records",
+    "option_b": "Arrays",
+    "option_c": "Pointers",
+    "option_d": "Lists",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following are the operations applicable a primitive data structures?",
+    "option_a": "all of above",
+    "option_b": "create",
+    "option_c": "destroy",
+    "option_d": "update",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "The simplest type of data structure is?",
+    "option_a": "Linear array",
+    "option_b": "Multidimensional array",
+    "option_c": "Two dimensional array",
+    "option_d": "Three dimensional array",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Each node in a linked list has two pairs of------------_and _________",
+    "option_a": "Linked field & avail field",
+    "option_b": "Information field & avail field",
+    "option_c": "Avail field & information field",
+    "option_d": "Address field & link field",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Linear arrays are also called_______.",
+    "option_a": "One-Dimensional array",
+    "option_b": "Straight line array",
+    "option_c": "Vertical array",
+    "option_d": "Horizontal array",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following is an POSTFIX expression?",
+    "option_a": "ab+c*",
+    "option_b": "(a+b) *(c+d)",
+    "option_c": "+ab",
+    "option_d": "NONE",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "WHICH OF THE FOLLOWING STACK OPERATIONS COULD RESULT IN STACK UNDERFLOW?",
+    "option_a": "is_empty",
+    "option_b": "push",
+    "option_c": "pop",
+    "option_d": "Two or more of the above",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "+ * 2 + / 14 2 5 1",
+    "option_a": "25",
+    "option_b": "40",
+    "option_c": "50",
+    "option_d": "15",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "a/b^c-d",
+    "option_a": "abc^/d-",
+    "option_b": "ab/cd^-",
+    "option_c": "ab/^cd-",
+    "option_d": "abcd^/-",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "- + 1 2 * 3 / 6 2",
+    "option_a": "-6",
+    "option_b": "6",
+    "option_c": "3",
+    "option_d": "-3",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "The postfix form of the expression (A+ B)*(C*D- E)*F / G is?",
+    "option_a": "AB+ CD*E - FG /**",
+    "option_b": "AB + CD* E - F **G /",
+    "option_c": "AB + CD* E - *F *G /",
+    "option_d": "AB + CDE * - * F *G /",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What data structure would you mostly likely see in a non-recursive implementation of a recursive algorithm?",
+    "option_a": "Link List",
+    "option_b": "Stack",
+    "option_c": "Queue",
+    "option_d": "Tree",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "The process of accessing data stored in a serial access memory is similar to manipulating data on a ------?",
+    "option_a": "Stack",
+    "option_b": "Heap",
+    "option_c": "Binary Tree",
+    "option_d": "Array",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "The prefix form of A-B/ (C * D ⋀ E) is?",
+    "option_a": "-A/B*C⋀DE",
+    "option_b": "-/*⋀ACBDE",
+    "option_c": "-ABCD*⋀DE",
+    "option_d": "-A/BC*⋀DE",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Top (Push (S, X))",
+    "option_a": "X",
+    "option_b": "Null",
+    "option_c": "S",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Consider the linked list implementation of a stack. Which of the following node is considered as Top of the stack?",
+    "option_a": "First node",
+    "option_b": "Last node",
+    "option_c": "Any node",
+    "option_d": "Middle node",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "In a circular linked list",
+    "option_a": "There is no beginning and no end.",
+    "option_b": "Components are all linked together in some sequential manner.",
+    "option_c": "Components are arranged hierarchically.",
+    "option_d": "Forward and backward traversal within the list is permitted.",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following operations is performed more efficiently by doubly linked list than by singly linked list?",
+    "option_a": "Deleting a node whose location in given",
+    "option_b": "Searching of an unsorted list for a given item",
+    "option_c": "Inverting a node after the node with given location",
+    "option_d": "Traversing a list to process each node",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "In linked list each node contains minimum of two fields. One field is data field to store the data second field is?",
+    "option_a": "Pointer to node",
+    "option_b": "Pointer to character",
+    "option_c": "Pointer to integer",
+    "option_d": "Node",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What would be the asymptotic time complexity to find an element in the linked list?",
+    "option_a": "O(n)",
+    "option_b": "O(1)",
+    "option_c": "O(n2)",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following is non-liner data structure?",
+    "option_a": "Trees",
+    "option_b": "Stacks",
+    "option_c": "List",
+    "option_d": "Strings",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What would be the asymptotic time complexity to insert an element at the second position in the linked list?",
+    "option_a": "O (1)",
+    "option_b": "O(n)",
+    "option_c": "O(n2)",
+    "option_d": "O(n3)",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What is the worst case time complexity of inserting a node in a doubly linked list?",
+    "option_a": "O(n)",
+    "option_b": "O(nlogn)",
+    "option_c": "O(logn)",
+    "option_d": "O (1)",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following application makes use of a circular linked list?",
+    "option_a": "Allocating CPU to resources",
+    "option_b": "Undo operation in a text editor",
+    "option_c": "Recursive function calls",
+    "option_d": "Implement Hash Tables",
+    "option_e": null,
+    "source_file": "PART 1(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following case does not exist in complexity theory?",
+    "option_a": "Null case",
+    "option_b": "Best case",
+    "option_c": "Worst case",
+    "option_d": "Average case",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Two main measures for the efficiency of an algorithm are",
+    "option_a": "Time and space",
+    "option_b": "Processor and memory",
+    "option_c": "Complexity and capacity",
+    "option_d": "Data and space",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "The complexity of linear search algorithm is",
+    "option_a": "O(n)",
+    "option_b": "O (log n)",
+    "option_c": "O(n2)",
+    "option_d": "O (n log n)",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "The complexity of Binary search algorithm is",
+    "option_a": "O (n log n)",
+    "option_b": "O(n)",
+    "option_c": "O (log)",
+    "option_d": "O(n2)",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "The complexity of Bubble sort algorithm is",
+    "option_a": "O(n2)",
+    "option_b": "O(n)",
+    "option_c": "O (log n)",
+    "option_d": "O (n log n)",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "The elements of an array are stored successively in memory cells because",
+    "option_a": "by this way computer can keep track only the address of the first element and the addresses of other elements can be calculated",
+    "option_b": "the architecture of computer memory does not allow arrays to store other than serially",
+    "option_c": "both of above",
+    "option_d": "none of above",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Linked lists are best suited.",
+    "option_a": "for the size of the structure and the data in the structure are constantly changing",
+    "option_b": "for relatively permanent collections of data",
+    "option_c": "for both of above situation",
+    "option_d": "for none of above situation",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Arrays are best data structures.",
+    "option_a": "for relatively permanent collections of data",
+    "option_b": "for the size of the structure and the data in the structure are         constantly changing",
+    "option_c": "for both of above situation",
+    "option_d": "for none of above situation",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "An algorithm is",
+    "option_a": "a step by step procedure to solve problem.",
+    "option_b": "a piece of code to be executed.",
+    "option_c": "a loosely written code to make final code.",
+    "option_d": "all of the above.",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Index of arrays in C programming language starts from",
+    "option_a": "0",
+    "option_b": "1",
+    "option_c": "either 0 or 1",
+    "option_d": "undefined",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Stack is also known as:",
+    "option_a": "Last –in-First Out",
+    "option_b": "First-in-Last-out",
+    "option_c": "Last-in-Last Out",
+    "option_d": "First-in-Last Out",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "The operation of processing each element in the list is known as",
+    "option_a": "Traversal",
+    "option_b": "Sorting",
+    "option_c": "Merging",
+    "option_d": "Inserting",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Finding the location of the element with a given value is:",
+    "option_a": "Search",
+    "option_b": "Traversal",
+    "option_c": "Sort",
+    "option_d": "None of above",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following data structure is not linear data structure?",
+    "option_a": "None of above",
+    "option_b": "Arrays",
+    "option_c": "Linked lists",
+    "option_d": "Both of above",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of these best describes an array?",
+    "option_a": "Container of objects of similar types",
+    "option_b": "A data structure that shows a hierarchical behavior",
+    "option_c": "Arrays are immutable once initialized",
+    "option_d": "Array is not a data structure",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "O(n^2) means computing time is ____________",
+    "option_a": "Quadratic",
+    "option_b": "Constant",
+    "option_c": "Linear",
+    "option_d": "Cubic",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "When new data are to be inserted into a data structure, but there is not available space: this situation is usually called?",
+    "option_a": "Overflow",
+    "option_b": "Underflow",
+    "option_c": "Houseful",
+    "option_d": "Saturated",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Operations on a data structure may be",
+    "option_a": "all of above",
+    "option_b": "creation",
+    "option_c": "destruction",
+    "option_d": "selection",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "The way in which the data item or items re logically related defines",
+    "option_a": "Data structure",
+    "option_b": "Storage Structure",
+    "option_c": "Data relationship",
+    "option_d": "Data operation",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following is an infix expression?",
+    "option_a": "(a+b)*(c+d)",
+    "option_b": "ab+c*",
+    "option_c": "+ab",
+    "option_d": "abc+*",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Parentheses are simply ignored in the conversion of infix to postfix expression.",
+    "option_a": "False",
+    "option_b": "True",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "a-b-c",
+    "option_a": "ab – c –",
+    "option_b": "-ab-c",
+    "option_c": "– -abc",
+    "option_d": "-ab-c",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "a+b*(c^d-e)^(f+g*h)-i",
+    "option_a": "abcd^e-fgh*+^*+i-",
+    "option_b": "abc^de-fg+*^*+i-",
+    "option_c": "abcde^-fg*+*^h*+i-",
+    "option_d": "ab^-dc*+ef^gh*+i-",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "- + 5 / 10 5 5",
+    "option_a": "2",
+    "option_b": "5",
+    "option_c": "10",
+    "option_d": "7",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "+ 9 * 3 / 8 4",
+    "option_a": "15",
+    "option_b": "14",
+    "option_c": "18",
+    "option_d": "12",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "The data structure required to check whether an expression contains balanced parenthesis is?",
+    "option_a": "Stack",
+    "option_b": "Queue",
+    "option_c": "Array",
+    "option_d": "Tree",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which data structure is needed to convert infix notation to postfix notation?",
+    "option_a": "Stack",
+    "option_b": "Branch",
+    "option_c": "Tree",
+    "option_d": "Queue",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "The prefix form of an infix expression p + q - r * t is?",
+    "option_a": "- +pq * rt",
+    "option_b": "+ pq - *rt",
+    "option_c": "- +pqr * t",
+    "option_d": "- + * pqrt",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "A linear collection of data elements where the linear node is given by means of pointer is called?",
+    "option_a": "Linked list",
+    "option_b": "Node list",
+    "option_c": "Primitive list",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What would be the asymptotic time complexity to add a node at the end of singly linked list, if the pointer is initially pointing to the head of the list?",
+    "option_a": "θ (n)",
+    "option_b": "O (1)",
+    "option_c": "O(n)",
+    "option_d": "θ (1)",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "In doubly linked lists, traversal can be performed?",
+    "option_a": "In both directions",
+    "option_b": "Only in forward direction",
+    "option_c": "Only in reverse direction",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "A variant of the linked list in which none of the node contains NULL pointer is?",
+    "option_a": "Circular linked list",
+    "option_b": "Singly linked list",
+    "option_c": "Doubly linked list",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "In circular linked list, insertion of node requires modification of?",
+    "option_a": "Two pointer",
+    "option_b": "One pointer",
+    "option_c": "Three pointer",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following is not a stable sorting algorithm?",
+    "option_a": "Selection sort",
+    "option_b": "Insertion sort",
+    "option_c": "Bubble sort",
+    "option_d": "Merge sort",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "An ADT is defined to be a mathematical model of a user-defined type along with the collection of all ------------------ operations on that model.",
+    "option_a": "Primitive",
+    "option_b": "Cardinality",
+    "option_c": "Assignment",
+    "option_d": "Structured",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following is not the required condition for binary search algorithm?",
+    "option_a": "There must be mechanism to delete and/or insert elements in list",
+    "option_b": "The list must be sorted",
+    "option_c": "there should be the direct access to the middle element in any sublist",
+    "option_d": "none of above",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "When new data are to be inserted into a data structure, but there is no available space; this situation is usually called",
+    "option_a": "overflow",
+    "option_b": "underflow",
+    "option_c": "houseful",
+    "option_d": "saturated",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "…………… is not the component of data structure.",
+    "option_a": "None of the above",
+    "option_b": "Operations",
+    "option_c": "Storage Structures",
+    "option_d": "Algorithms",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following is not the part of ADT description?",
+    "option_a": "None of the above",
+    "option_b": "Data",
+    "option_c": "Operations",
+    "option_d": "Both of the above",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "In Linked List implementation, a node carries information regarding ----------___________",
+    "option_a": "Link",
+    "option_b": "Data",
+    "option_c": "Data and Link",
+    "option_d": "Node",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Linked list data structure offers considerable saving in _____________",
+    "option_a": "Space Utilization and Computational Time",
+    "option_b": "Computational Time",
+    "option_c": "Space Utilization",
+    "option_d": "Speed Utilization",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "A linear collection of data elements where the linear node is given by means of pointer is called?",
+    "option_a": "Linked list",
+    "option_b": "Node list",
+    "option_c": "Primitive list",
+    "option_d": "Unordered list",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following is false about a doubly linked list?",
+    "option_a": "Implementing a doubly linked list is easier than singly linked list",
+    "option_b": "We can navigate in both the directions",
+    "option_c": "It requires more space than a singly linked list",
+    "option_d": "The insertion and deletion of a node take a bit longer",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following application makes use of a circular linked list?",
+    "option_a": "Allocating CPU to resources",
+    "option_b": "Undo operation in a text editor",
+    "option_c": "Recursive function calls",
+    "option_d": "Implement Hash Tables",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "The equivalent infix expression and value for the postfix form                    1 2 + 3 * 4 5 * – will be",
+    "option_a": "(1 + 2) * 3 – (4 * 5) and -11",
+    "option_b": "1 + 2 * 3 – 4 * 5 and -13",
+    "option_c": "(2 + 1) * (3 – 4) * 5 and 13",
+    "option_d": "1 + 2 * (3 – 4) * 5 and -11",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "To convert the postfix expression into the infix expression we use stack and scan the postfix expression from left to right.",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "49.Which of the following is valid reverse polish expression?",
+    "option_a": "a b op",
+    "option_b": "a op b",
+    "option_c": "op a b",
+    "option_d": "both op a b and a b op",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "The result of the postfix expression 5 3 * 9 + 6 / 8 4 / + is _____________",
+    "option_a": "6",
+    "option_b": "8",
+    "option_c": "10",
+    "option_d": "9",
+    "option_e": null,
+    "source_file": "PART 2(BSCS-CSIT-01306-Data Structure & Algorithms-03-Computer Science & IT).doc"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following is true about arrays?",
+    "option_a": "Arrays are mutable",
+    "option_b": "Arrays are immutable",
+    "option_c": "Arrays can store elements of different types",
+    "option_d": "Arrays have a dynamic size",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "In Python, how is a 2D array represented?",
+    "option_a": "List of lists",
+    "option_b": "Array of tuples",
+    "option_c": "Dictionary of lists",
+    "option_d": "List of dictionaries",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What is the time complexity of accessing an element in a 1D array by index?",
+    "option_a": "O(1)",
+    "option_b": "O(n)",
+    "option_c": "O(log n)",
+    "option_d": "O(n log n)",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What is the correct way to declare an array in Python?",
+    "option_a": "array = []",
+    "option_b": "array = {}",
+    "option_c": "array = ()",
+    "option_d": "array = set()",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Python?",
+    "option_a": "O(1)",
+    "option_b": "O(n)",
+    "option_c": "O(log n)",
+    "option_d": "O(n log n)",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What happens when you try to access an index that is out of bounds in an array?",
+    "option_a": "Raises an IndexError",
+    "option_b": "Returns None",
+    "option_c": "Array wraps around",
+    "option_d": "Ignores the command",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which operation has the worst time complexity in a dynamic array (Python list)?",
+    "option_a": "Inserting at the beginning",
+    "option_b": "Accessing",
+    "option_c": "Appending",
+    "option_d": "Modifying an element",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "How are multi-dimensional arrays stored in memory?",
+    "option_a": "Both A and B",
+    "option_b": "Row-major order",
+    "option_c": "Column-major order",
+    "option_d": "Depends on the language",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What differentiates a linked list from an array?",
+    "option_a": "Dynamic size",
+    "option_b": "Random access",
+    "option_c": "Fixed size",
+    "option_d": "Constant time insertions",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following is true for a singly linked list?",
+    "option_a": "Every node has one pointer",
+    "option_b": "Every node has two pointers",
+    "option_c": "Every node is isolated",
+    "option_d": "Every node has three pointers",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What is the time complexity for searching an element in a singly linked list?",
+    "option_a": "O(n)",
+    "option_b": "O(log n)",
+    "option_c": "O(1)",
+    "option_d": "O(n^2)",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "In a singly linked list, how do you detect a cycle?",
+    "option_a": "Two-pointer technique",
+    "option_b": "Recursion",
+    "option_c": "Hashing",
+    "option_d": "Inserting null pointers",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which data structure is ideal for implementing an undo function?",
+    "option_a": "Stack",
+    "option_b": "Queue",
+    "option_c": "Linked List",
+    "option_d": "Array",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "How do you insert a new node at the head of a singly linked list?",
+    "option_a": "Update the head pointer to the new node",
+    "option_b": "Traverse to the end of the list and add the new node",
+    "option_c": "Shift all nodes to the right",
+    "option_d": "Replace the tail node",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "linked list?",
+    "option_a": "O(1)",
+    "option_b": "O(n)",
+    "option_c": "O(log n)",
+    "option_d": "O(n^2)",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "In a circular linked list, where is the last node’s next pointer pointed?",
+    "option_a": "Head node",
+    "option_b": "Itself",
+    "option_c": "Null",
+    "option_d": "Tail node",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which type of linked list allows traversal in both directions?",
+    "option_a": "Doubly linked list",
+    "option_b": "Circular linked list",
+    "option_c": "Singly linked list",
+    "option_d": "Skip list",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What is the disadvantage of a linked list over an array?",
+    "option_a": "Lack of random access",
+    "option_b": "No dynamic resizing",
+    "option_c": "Fixed memory allocation",
+    "option_d": "Expensive traversal",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which linked list is most appropriate for fast insertions and deletions at both ends?",
+    "option_a": "Doubly linked list",
+    "option_b": "Singly linked list",
+    "option_c": "Circular linked list",
+    "option_d": "Static linked list",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What is the space complexity of a singly linked list with n elements?",
+    "option_a": "O(n)",
+    "option_b": "O(n^2)",
+    "option_c": "O(1)",
+    "option_d": "O(log n)",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which data structure follows the Last In First Out (LIFO) principle?",
+    "option_a": "Stack",
+    "option_b": "Queue",
+    "option_c": "Linked list",
+    "option_d": "Heap",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "linked list?",
+    "option_a": "O(1)",
+    "option_b": "O(n)",
+    "option_c": "O(log n)",
+    "option_d": "O(n log n)",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "In stack operations, which function removes the top element?",
+    "option_a": "pop()",
+    "option_b": "push()",
+    "option_c": "peek()",
+    "option_d": "insert()",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which application is ideal for a stack?",
+    "option_a": "Depth-first search",
+    "option_b": "Breadth-first search",
+    "option_c": "Dijkstra's algorithm",
+    "option_d": "Kruskal's algorithm",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What is the time complexity for searching an element in a stack?",
+    "option_a": "O(n)",
+    "option_b": "O(1)",
+    "option_c": "O(log n)",
+    "option_d": "O(n log n)",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What does the stack operation peek() do?",
+    "option_a": "Returns the top element without removing it",
+    "option_b": "Removes the top element",
+    "option_c": "Inserts an element at the top",
+    "option_d": "Checks if the stack is empty",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which data structure is used in function call management (recursion)?",
+    "option_a": "Stack",
+    "option_b": "Queue",
+    "option_c": "Array",
+    "option_d": "Heap",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What is the result of trying to pop() an element from an empty stack?",
+    "option_a": "Raises an IndexError",
+    "option_b": "Returns None",
+    "option_c": "Returns the last element inserted",
+    "option_d": "Re-initializes the stack",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What is the auxiliary space complexity of a stack-based recursive algorithm?",
+    "option_a": "O(n)",
+    "option_b": "O(1)",
+    "option_c": "O(log n)",
+    "option_d": "O(n^2)",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following operations is not associated with a stack?",
+    "option_a": "Enqueue",
+    "option_b": "Push",
+    "option_c": "Pop",
+    "option_d": "Peek",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which data structure follows the First In First Out (FIFO) principle?",
+    "option_a": "Queue",
+    "option_b": "Stack",
+    "option_c": "Heap",
+    "option_d": "Linked list",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What is the time complexity of inserting an element in a queue?",
+    "option_a": "O(1)",
+    "option_b": "O(n)",
+    "option_c": "O(log n)",
+    "option_d": "O(n log n)",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following is not a type of queue?",
+    "option_a": "Stack Queue",
+    "option_b": "Priority Queue",
+    "option_c": "Circular Queue",
+    "option_d": "Deque",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What is the result of attempting to dequeue() from an empty queue?",
+    "option_a": "Raises an IndexError",
+    "option_b": "Returns None",
+    "option_c": "Returns False",
+    "option_d": "Inserts a null value",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which operation is used to add an element to the rear of a queue?",
+    "option_a": "Enqueue",
+    "option_b": "Dequeue",
+    "option_c": "Insert",
+    "option_d": "Push",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What is the best data structure for simulating a line of customers waiting for service?",
+    "option_a": "Queue",
+    "option_b": "Stack",
+    "option_c": "Linked List",
+    "option_d": "Heap",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What is the time complexity for removing an element from a queue?",
+    "option_a": "O(1)",
+    "option_b": "O(n)",
+    "option_c": "O(log n)",
+    "option_d": "O(n log n)",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "In a circular queue, when is the queue considered full?",
+    "option_a": "Rear is one step ahead of front",
+    "option_b": "Rear points to the last slot",
+    "option_c": "Rear is equal to front",
+    "option_d": "Rear has reached the end",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What is the benefit of a circular queue over a linear queue?",
+    "option_a": "Efficient memory usage",
+    "option_b": "Easier implementation",
+    "option_c": "Better data management",
+    "option_d": "Simplified enqueue operation",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "In a priority queue, how are elements ordered?",
+    "option_a": "Based on their priority",
+    "option_b": "Based on their value",
+    "option_c": "Based on insertion order",
+    "option_d": null,
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following is true for arrays?",
+    "option_a": "Fixed size",
+    "option_b": "Dynamic resizing",
+    "option_c": "Insertions are O(1)",
+    "option_d": "Requires linked memory locations",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "How is a 2D array stored in memory?",
+    "option_a": "Both row and column-major order",
+    "option_b": "Row-major order",
+    "option_c": "Column-major order",
+    "option_d": "Random order",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which operation is costly in arrays compared to linked lists?",
+    "option_a": "Insertion/Deletion",
+    "option_b": "Access",
+    "option_c": "Traversal",
+    "option_d": "All operations",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "search?",
+    "option_a": "O(log n)",
+    "option_b": "O(n)",
+    "option_c": "O(n^2)",
+    "option_d": "O(1)",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What is the time complexity of inserting an element into a sorted array?",
+    "option_a": "O(n)",
+    "option_b": "O(1)",
+    "option_c": "O(n log n)",
+    "option_d": "O(n^2)",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "after i positions?",
+    "option_a": "(i+1)%n",
+    "option_b": "(i+n)%n",
+    "option_c": "(i-1)%n",
+    "option_d": "(i*2)%n",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "In a dynamic array, what happens when the array becomes full?",
+    "option_a": "The array is copied to a new, larger array",
+    "option_b": "Error",
+    "option_c": "The array shrinks",
+    "option_d": "No change",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What is the advantage of arrays over linked lists?",
+    "option_a": "Faster access time",
+    "option_b": "Dynamic size",
+    "option_c": "Easy memory management",
+    "option_d": "Better for sequential access",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following is not true for arrays?",
+    "option_a": "The size of an array can be changed dynamically",
+    "option_b": "Elements are stored in contiguous memory locations",
+    "option_c": "Elements can be accessed directly using the index",
+    "option_d": "Insertion in an unsorted array takes O(1) time",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What is the time complexity of inserting a node at the beginning of a singly linked list?",
+    "option_a": "O(1)",
+    "option_b": "O(n)",
+    "option_c": "O(log n)",
+    "option_d": "O(n^2)",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "In a singly linked list, what does each node contain?",
+    "option_a": "Data and pointer to the next node",
+    "option_b": "Data only",
+    "option_c": "Only a pointer to the next node",
+    "option_d": "Data and pointer to the previous node",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following is a disadvantage of singly linked lists compared to arrays?",
+    "option_a": "Inefficient access time",
+    "option_b": "Fixed size",
+    "option_c": "Inefficient memory usage",
+    "option_d": "Insertions and deletions are costly",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "How do you search for an element in a singly linked list?",
+    "option_a": "Linear search",
+    "option_b": "Binary search",
+    "option_c": "Hashing",
+    "option_d": "Divide and conquer",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What is a doubly linked list?",
+    "option_a": "A list where each node has pointers to both the next and previous nodes",
+    "option_b": "A list where each node has a pointer to the next node only",
+    "option_c": "A list where each node has two pointers to the next two nodes",
+    "option_d": "A list with two heads",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which operation is more efficient in a doubly linked list than in a singly linked list?",
+    "option_a": "Traversing backward",
+    "option_b": "Traversing forward",
+    "option_c": "Insertion",
+    "option_d": "Searching",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "In a circular linked list, the last node points to:",
+    "option_a": "Head node",
+    "option_b": "NULL",
+    "option_c": "Itself",
+    "option_d": "The previous node",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "In a singly linked list, how can you traverse the list?",
+    "option_a": "Using next pointers",
+    "option_b": "Using previous pointers",
+    "option_c": "Using both next and previous pointers",
+    "option_d": "Traversal is not possible",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which of the following is true about circular linked lists?",
+    "option_a": "They can be singly or doubly linked",
+    "option_b": "They must be doubly linked",
+    "option_c": "They do not use pointers",
+    "option_d": "They cannot be traversed",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "What type of data structure is a stack?",
+    "option_a": "LIFO",
+    "option_b": "FIFO",
+    "option_c": "LILO",
+    "option_d": "FILO",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  },
+  {
+    "subject": "Data Structures & Algorithms",
+    "question_text": "Which operation is not allowed in a stack?",
+    "option_a": "Enqueue",
+    "option_b": "Push",
+    "option_c": "Pop",
+    "option_d": "Peek",
+    "option_e": null,
+    "source_file": "MCQ bank Data Structures.pdf"
+  }
+]

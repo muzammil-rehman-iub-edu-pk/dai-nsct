@@ -1,0 +1,12 @@
+id,subject_name,description,weightage,is_active,created_at,updated_at
+ef9d65f3-726a-488a-af86-4074b784d357,Database Systems,"DBMS concepts, relational model, SQL, normalization, transactions, ER modeling",41.45,true,2026-03-25 00:16:11.193916+00,2026-03-25 00:16:11.193916+00
+6b8be341-7fa6-4791-9d7d-68df5909f7ed,Computer Networks,"Network models, protocols, TCP/IP, routing, switching, LAN/WAN, security",10.71,true,2026-03-25 00:16:11.193916+00,2026-03-25 00:16:11.193916+00
+846bb4e7-894e-4946-9074-e7534ddae770,AI / ML / Data Analytics,"Artificial intelligence, machine learning algorithms, data analytics, neural networks",10.57,true,2026-03-25 00:16:11.193916+00,2026-03-25 00:16:11.193916+00
+8cb3a76b-984d-429c-bcdc-701aac209302,Problem Solving & Analytical Skills,"Logical reasoning, analytical thinking, problem decomposition, algorithms",10.55,true,2026-03-25 00:16:11.193916+00,2026-03-25 00:16:11.193916+00
+3814bdcb-f731-4586-a054-389ff2db0171,Web Development,"HTML, CSS, JavaScript, DOM, HTTP, REST APIs, responsive design",6.13,true,2026-03-25 00:16:11.193916+00,2026-03-25 00:16:11.193916+00
+68a019e3-f379-486a-a5e5-7faa17e409ea,Cyber Security,"CIA triad, threats, cryptography, firewalls, access control, ethical hacking",5.73,true,2026-03-25 00:16:11.193916+00,2026-03-25 00:16:11.193916+00
+26c87516-2f56-4456-96a0-7ca9133556e8,Software Engineering,"SDLC models, Agile/Scrum, requirements, design patterns, testing, project management",4.23,true,2026-03-25 00:16:11.193916+00,2026-03-25 00:16:11.193916+00
+3c061ec0-14e7-4707-8b41-aaa185b2ab95,Java Programming,"OOP concepts, Java syntax, collections, exception handling, multithreading",3.44,true,2026-03-25 00:16:11.193916+00,2026-03-25 00:16:11.193916+00
+dfc76923-0226-4165-ae7e-39f6a4f6885d,Data Structures & Algorithms,"Arrays, linked lists, stacks, queues, trees, graphs, sorting, searching, complexity",3.09,true,2026-03-25 00:16:11.193916+00,2026-03-25 00:16:11.193916+00
+0f341f67-5412-4f52-86d9-1326290e6a44,Operating System,"Process management, scheduling, memory management, file systems, synchronization",2.05,true,2026-03-25 00:16:11.193916+00,2026-03-25 00:16:11.193916+00
+8599b5b4-bd41-47c8-b16d-408b8d83ab5b,Python Programming,"Python syntax, data types, functions, OOP, standard library, scripting",2.05,true,2026-03-25 00:16:11.193916+00,2026-03-25 00:16:11.193916+00

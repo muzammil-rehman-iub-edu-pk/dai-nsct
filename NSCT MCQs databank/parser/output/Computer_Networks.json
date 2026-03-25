@@ -1,0 +1,5072 @@
+[
+  {
+    "subject": "Computer Networks",
+    "question_text": "What are the fundamental characteristics of a data communication system?",
+    "option_a": "Delivery, accuracy, timeliness, jitter",
+    "option_b": "Security, privacy, topology, cost",
+    "option_c": "Speed, bandwidth, voltage, jitter",
+    "option_d": "Routing, switching, bandwidth, delay",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which component of data communication refers to the information to be communicated?",
+    "option_a": "Message",
+    "option_b": "Sender",
+    "option_c": "Protocol",
+    "option_d": "Transmission medium",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which device sends the data message in a communication system?",
+    "option_a": "Sender",
+    "option_b": "Receiver",
+    "option_c": "Protocol",
+    "option_d": "Hub",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which transmission mode allows communication in both directions but not simultaneously?",
+    "option_a": "Half-duplex",
+    "option_b": "Simplex",
+    "option_c": "Full-duplex",
+    "option_d": "Multiplex",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which topology connects every device to every other device with a dedicated link?",
+    "option_a": "Mesh topology",
+    "option_b": "Star topology",
+    "option_c": "Bus topology",
+    "option_d": "Ring topology",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which topology uses a central controller or hub?",
+    "option_a": "Star topology",
+    "option_b": "Mesh topology",
+    "option_c": "Bus topology",
+    "option_d": "Ring topology",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which topology uses a single backbone cable?",
+    "option_a": "Bus topology",
+    "option_b": "Star topology",
+    "option_c": "Mesh topology",
+    "option_d": "Hybrid topology",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which topology connects each device to exactly two neighboring devices?",
+    "option_a": "Ring topology",
+    "option_b": "Bus topology",
+    "option_c": "Star topology",
+    "option_d": "Mesh topology",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A LAN typically spans what area?",
+    "option_a": "A building or campus",
+    "option_b": "A city",
+    "option_c": "A country",
+    "option_d": "Worldwide",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A WAN typically spans what area?",
+    "option_a": "A country or world",
+    "option_b": "A room",
+    "option_c": "A building",
+    "option_d": "A campus",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is an internetwork?",
+    "option_a": "Two or more connected networks",
+    "option_b": "A LAN",
+    "option_c": "A WAN",
+    "option_d": "A single switch network",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which network type uses packets for communication?",
+    "option_a": "Packet-switched network",
+    "option_b": "Circuit-switched network",
+    "option_c": "Analog network",
+    "option_d": "Mesh network",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which network type uses dedicated communication paths?",
+    "option_a": "Circuit-switched network",
+    "option_b": "Packet-switched network",
+    "option_c": "LAN",
+    "option_d": "WAN",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which organization created ARPANET?",
+    "option_a": "ARPA",
+    "option_b": "NSF",
+    "option_c": "IEEE",
+    "option_d": "IETF",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which protocol suite became the official protocol for ARPANET in 1983?",
+    "option_a": "TCP/IP",
+    "option_b": "UDP",
+    "option_c": "ICMP",
+    "option_d": "FTP",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which organization oversees the development of the TCP/IP protocol suite?",
+    "option_a": "IAB",
+    "option_b": "ISOC",
+    "option_c": "IETF",
+    "option_d": "IRTF",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which body focuses on long-term research topics?",
+    "option_a": "IRTF",
+    "option_b": "IETF",
+    "option_c": "ISOC",
+    "option_d": "IEEE",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which standard document begins as a working Internet draft?",
+    "option_a": "RFC",
+    "option_b": "ISO",
+    "option_c": "IEEE standard",
+    "option_d": "ITU recommendation",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which RFC maturity level represents a thoroughly tested specification?",
+    "option_a": "Internet standard",
+    "option_b": "Draft standard",
+    "option_c": "Proposed standard",
+    "option_d": "Experimental",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which connection type provides a dedicated link between two devices?",
+    "option_a": "Point-to-point",
+    "option_b": "Multipoint",
+    "option_c": "Mesh",
+    "option_d": "Ring",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which connection type shares the same link among multiple devices?",
+    "option_a": "Multipoint",
+    "option_b": "Point-to-point",
+    "option_c": "Duplex",
+    "option_d": "Simplex",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which factor is NOT used to measure network performance?",
+    "option_a": "Price",
+    "option_b": "Throughput",
+    "option_c": "Delay",
+    "option_d": "Response time",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which service converts data to voice for dial-up Internet?",
+    "option_a": "Modem",
+    "option_b": "Router",
+    "option_c": "Switch",
+    "option_d": "Repeater",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What does DSL allow simultaneously?",
+    "option_a": "Voice and data communication",
+    "option_b": "Video calling only",
+    "option_c": "Only data communication",
+    "option_d": "Only voice communication",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which encoding system represents characters using 32 bits?",
+    "option_a": "Unicode",
+    "option_b": "ASCII",
+    "option_c": "Binary-coded decimal",
+    "option_d": "Gray code",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which system represents only the first 127 characters of Unicode?",
+    "option_a": "ASCII",
+    "option_b": "YCM",
+    "option_c": "RGB",
+    "option_d": "UTF-16",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which term refers to variation in packet arrival time?",
+    "option_a": "Jitter",
+    "option_b": "Delay",
+    "option_c": "Throughput",
+    "option_d": "Response time",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is the main disadvantage of a star topology?",
+    "option_a": "Hub failure disables entire network",
+    "option_b": "Requires too many cables",
+    "option_c": "Difficult to install",
+    "option_d": "Not scalable",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is the main disadvantage of a bus topology?",
+    "option_a": "A cable fault disables entire network",
+    "option_b": "Most expensive",
+    "option_c": "High security",
+    "option_d": "Difficult to understand",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is the main advantage of packet-switched networks?",
+    "option_a": "Efficient use of capacity",
+    "option_b": "Guaranteed real-time communication",
+    "option_c": "No delay",
+    "option_d": "Dedicated circuits",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is the largest Internet in the world called?",
+    "option_a": "The Internet",
+    "option_b": "WAN",
+    "option_c": "ARPANET",
+    "option_d": "Intranet",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which device regenerates signals in a ring topology?",
+    "option_a": "Repeater",
+    "option_b": "Hub",
+    "option_c": "Switch",
+    "option_d": "Router",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which network level connects customer networks to backbones?",
+    "option_a": "Provider networks",
+    "option_b": "Regional ISPs",
+    "option_c": "Intranets",
+    "option_d": "Gateways",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which invention led to rapid Internet growth in the 1990s?",
+    "option_a": "World Wide Web",
+    "option_b": "Token Ring",
+    "option_c": "ARPANET",
+    "option_d": "Fiber optics",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which application sends continuous data?",
+    "option_a": "Audio",
+    "option_b": "Text",
+    "option_c": "Numbers",
+    "option_d": "Binary files",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which metric measures the speed of data transfer in a network?",
+    "option_a": "Throughput",
+    "option_b": "Latency",
+    "option_c": "Jitter",
+    "option_d": "Noise",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which metric refers to the time a message takes to travel from sender to receiver?",
+    "option_a": "Delay",
+    "option_b": "Jitter",
+    "option_c": "Throughput",
+    "option_d": "Bandwidth",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which mode allows simultaneous communication in both directions?",
+    "option_a": "Full-duplex",
+    "option_b": "Half-duplex",
+    "option_c": "Simplex",
+    "option_d": "Time-division",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which layer concept ensures communication is bidirectional?",
+    "option_a": "Protocol layering principle",
+    "option_b": "Flow control",
+    "option_c": "Error detection",
+    "option_d": "Addressing",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which device connects networks together?",
+    "option_a": "Router",
+    "option_b": "Hub",
+    "option_c": "Repeater",
+    "option_d": "Bridge",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which device connects multiple devices within the same LAN and forwards frames intelligently?",
+    "option_a": "Switch",
+    "option_b": "Router",
+    "option_c": "Hub",
+    "option_d": "Modem",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which coding system directly converts numbers to binary?",
+    "option_a": "Binary representation",
+    "option_b": "ASCII",
+    "option_c": "Unicode",
+    "option_d": "BCD",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which medium uses light for data transmission?",
+    "option_a": "Fiber-optic cable",
+    "option_b": "Twisted pair",
+    "option_c": "Coaxial cable",
+    "option_d": "Radio waves",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In which topology do all devices share a single communication line?",
+    "option_a": "Bus topology",
+    "option_b": "Star topology",
+    "option_c": "Mesh topology",
+    "option_d": "Tree topology",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which data type is continuous in nature?",
+    "option_a": "Audio",
+    "option_b": "Text",
+    "option_c": "Numbers",
+    "option_d": "Binary documents",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which network type generally interconnects routers and switches over long distances?",
+    "option_a": "WAN",
+    "option_b": "LAN",
+    "option_c": "MAN",
+    "option_d": "PAN",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which term refers to breaking data into smaller units for transmission?",
+    "option_a": "Packetizing",
+    "option_b": "Digitizing",
+    "option_c": "Encoding",
+    "option_d": "Framing",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is the main function of an ISP?",
+    "option_a": "Provide Internet connectivity",
+    "option_b": "Design LANs",
+    "option_c": "Build hardware",
+    "option_d": "Provide CPU scheduling",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which early network became the foundation of the Internet?",
+    "option_a": "ARPANET",
+    "option_b": "NSFNET",
+    "option_c": "MILNET",
+    "option_d": "ANSNET",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which Internet access method allows using phone and Internet simultaneously?",
+    "option_a": "DSL",
+    "option_b": "Dial-up",
+    "option_c": "Satellite",
+    "option_d": "Optical carrier",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is the main purpose of a network model?",
+    "option_a": "To structure communication tasks into layers",
+    "option_b": "To increase hardware speed",
+    "option_c": "To eliminate routers",
+    "option_d": "To replace operating systems",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In layered communication, each layer provides services to the layer ______ it.",
+    "option_a": "above",
+    "option_b": "below",
+    "option_c": "far",
+    "option_d": "parallel to",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which organization developed the OSI model?",
+    "option_a": "ISO",
+    "option_b": "IEEE",
+    "option_c": "IETF",
+    "option_d": "ITU",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "How many layers are in the OSI model?",
+    "option_a": "7",
+    "option_b": "5",
+    "option_c": "4",
+    "option_d": "3",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which OSI layer is responsible for bit transmission?",
+    "option_a": "Physical layer",
+    "option_b": "Data link layer",
+    "option_c": "Transport layer",
+    "option_d": "Application layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which layer organizes bits into frames?",
+    "option_a": "Data link layer",
+    "option_b": "Network layer",
+    "option_c": "Session layer",
+    "option_d": "Presentation layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which layer handles logical addressing?",
+    "option_a": "Network layer",
+    "option_b": "Data link layer",
+    "option_c": "Physical layer",
+    "option_d": "Application layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which layer is responsible for routing?",
+    "option_a": "Network layer",
+    "option_b": "Transport layer",
+    "option_c": "Session layer",
+    "option_d": "Data link layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which OSI layer ensures reliable process-to-process delivery?",
+    "option_a": "Transport layer",
+    "option_b": "Network layer",
+    "option_c": "Physical layer",
+    "option_d": "Data link layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which OSI layer establishes, maintains, and terminates sessions?",
+    "option_a": "Session layer",
+    "option_b": "Transport layer",
+    "option_c": "Network layer",
+    "option_d": "Presentation layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which layer handles data encryption and compression?",
+    "option_a": "Presentation layer",
+    "option_b": "Data link layer",
+    "option_c": "Network layer",
+    "option_d": "Physical layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which layer provides network services such as email and remote login?",
+    "option_a": "Application layer",
+    "option_b": "Presentation layer",
+    "option_c": "Session layer",
+    "option_d": "Transport layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is encapsulation in the OSI model?",
+    "option_a": "Wrapping data with headers/trailers",
+    "option_b": "Compressing data",
+    "option_c": "Encrypting data",
+    "option_d": "Removing headers",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Peer-to-peer processes occur between ______.",
+    "option_a": "same layers on different devices",
+    "option_b": "any layers",
+    "option_c": "session and transport layers only",
+    "option_d": "application and physical layers only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which TCP/IP layer corresponds to OSI’s physical and data link layers?",
+    "option_a": "Host-to-network",
+    "option_b": "Internet",
+    "option_c": "Application",
+    "option_d": "Transport",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which TCP/IP layer corresponds to OSI’s network layer?",
+    "option_a": "Internet layer",
+    "option_b": "Transport layer",
+    "option_c": "Application layer",
+    "option_d": "Session layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "How many layers does the TCP/IP model have in the textbook approach?",
+    "option_a": "5",
+    "option_b": "4",
+    "option_c": "6",
+    "option_d": "3",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which protocol provides unreliable, connectionless transmission?",
+    "option_a": "IP",
+    "option_b": "TCP",
+    "option_c": "SCTP",
+    "option_d": "HTTP",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which protocol provides reliable, connection-oriented transmission?",
+    "option_a": "TCP",
+    "option_b": "UDP",
+    "option_c": "IP",
+    "option_d": "ARP",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which protocol helps find the physical address corresponding to an IP address?",
+    "option_a": "ARP",
+    "option_b": "RARP",
+    "option_c": "ICMP",
+    "option_d": "IGMP",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which protocol helps a host discover its IP address from its physical address?",
+    "option_a": "RARP",
+    "option_b": "ARP",
+    "option_c": "IP",
+    "option_d": "DNS",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which protocol reports network errors?",
+    "option_a": "ICMP",
+    "option_b": "IGMP",
+    "option_c": "TCP",
+    "option_d": "FTP",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which protocol supports multicast communication?",
+    "option_a": "IGMP",
+    "option_b": "ICMP",
+    "option_c": "SCTP",
+    "option_d": "UDP",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is the unit of data at the transport layer?",
+    "option_a": "Segment",
+    "option_b": "Frame",
+    "option_c": "Bit",
+    "option_d": "Packet",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is the unit of data at the network layer?",
+    "option_a": "Packet",
+    "option_b": "Segment",
+    "option_c": "Frame",
+    "option_d": "Bit",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is the unit of data at the data link layer?",
+    "option_a": "Frame",
+    "option_b": "Packet",
+    "option_c": "Segment",
+    "option_d": "Message",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is the unit of data at the physical layer?",
+    "option_a": "Bits",
+    "option_b": "Frames",
+    "option_c": "Segments",
+    "option_d": "Packets",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Logical addresses operate at which layer?",
+    "option_a": "Network layer",
+    "option_b": "Data link layer",
+    "option_c": "Transport layer",
+    "option_d": "Physical layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Physical addresses operate at which layer?",
+    "option_a": "Data link layer",
+    "option_b": "Network layer",
+    "option_c": "Transport layer",
+    "option_d": "Session layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Port addresses operate at which layer?",
+    "option_a": "Transport layer",
+    "option_b": "Network layer",
+    "option_c": "Data link layer",
+    "option_d": "Physical layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which address type is 16 bits in TCP/IP?",
+    "option_a": "Port address",
+    "option_b": "IP address",
+    "option_c": "MAC address",
+    "option_d": "Specific address",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which IP address length is used in the chapter?",
+    "option_a": "32-bit",
+    "option_b": "16-bit",
+    "option_c": "48-bit",
+    "option_d": "64-bit",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What changes at every hop in network communication?",
+    "option_a": "Physical address",
+    "option_b": "Logical address",
+    "option_c": "Port address",
+    "option_d": "Data unit type",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What usually remains unchanged from source to destination?",
+    "option_a": "Logical address",
+    "option_b": "Physical address",
+    "option_c": "Router MAC address",
+    "option_d": "Frame trailer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which layer performs flow control end-to-end?",
+    "option_a": "Transport layer",
+    "option_b": "Data link layer",
+    "option_c": "Network layer",
+    "option_d": "Physical layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which layer performs hop-to-hop flow control?",
+    "option_a": "Data link layer",
+    "option_b": "Transport layer",
+    "option_c": "Network layer",
+    "option_d": "Application layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which layer handles dialog control?",
+    "option_a": "Session layer",
+    "option_b": "Transport layer",
+    "option_c": "Network layer",
+    "option_d": "Presentation layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which layer handles translation of data formats?",
+    "option_a": "Presentation layer",
+    "option_b": "Session layer",
+    "option_c": "Application layer",
+    "option_d": "Network layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which layer provides compression?",
+    "option_a": "Presentation layer",
+    "option_b": "Transport layer",
+    "option_c": "Network layer",
+    "option_d": "Data link layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which TCP/IP transport protocol is simpler and connectionless?",
+    "option_a": "UDP",
+    "option_b": "TCP",
+    "option_c": "RARP",
+    "option_d": "IGMP",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which TCP/IP protocol is used for web browsing?",
+    "option_a": "HTTP",
+    "option_b": "FTP",
+    "option_c": "ICMP",
+    "option_d": "ARP",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which protocol divides data into segments with sequence numbers?",
+    "option_a": "TCP",
+    "option_b": "UDP",
+    "option_c": "IP",
+    "option_d": "ARP",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What does SCTP combine?",
+    "option_a": "Features of TCP and UDP",
+    "option_b": "Features of IP and ARP",
+    "option_c": "Features of HTTP and FTP",
+    "option_d": "Features of ICMP and IGMP",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which address type is used by email and URLs?",
+    "option_a": "Specific address",
+    "option_b": "Logical address",
+    "option_c": "Port address",
+    "option_d": "Physical address",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which layer adds trailers typically?",
+    "option_a": "Data link layer",
+    "option_b": "Network layer",
+    "option_c": "Transport layer",
+    "option_d": "Session layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which layer defines voltages, timing, and media?",
+    "option_a": "Physical layer",
+    "option_b": "Network layer",
+    "option_c": "Session layer",
+    "option_d": "Transport layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which layer provides internetworking?",
+    "option_a": "Network layer",
+    "option_b": "Data link layer",
+    "option_c": "Physical layer",
+    "option_d": "Application layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Routers operate at which OSI layer?",
+    "option_a": "Network layer",
+    "option_b": "Transport layer",
+    "option_c": "Session layer",
+    "option_d": "Physical layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Switches operate at which OSI layer?",
+    "option_a": "Data link layer",
+    "option_b": "Network layer",
+    "option_c": "Transport layer",
+    "option_d": "Application layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which OSI layer segments and reassembles messages?",
+    "option_a": "Transport layer",
+    "option_b": "Network layer",
+    "option_c": "Session layer",
+    "option_d": "Application layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which layer provides user services such as file transfer?",
+    "option_a": "Application layer",
+    "option_b": "Presentation layer",
+    "option_c": "Session layer",
+    "option_d": "Network layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which layer handles synchronization points like checkpoints?",
+    "option_a": "Session layer",
+    "option_b": "Transport layer",
+    "option_c": "Data link layer",
+    "option_d": "Presentation layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is the main job of the physical layer?",
+    "option_a": "Transmit raw bits",
+    "option_b": "Provide segmentation",
+    "option_c": "Manage user applications",
+    "option_d": "Provide routing",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is the primary function of the physical layer?",
+    "option_a": "To move data as electromagnetic signals",
+    "option_b": "To format packets",
+    "option_c": "To route frames",
+    "option_d": "To manage user access",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Analog data are ______.",
+    "option_a": "Continuous",
+    "option_b": "Discrete",
+    "option_c": "Binary only",
+    "option_d": "Non‑varying",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Digital data are ______.",
+    "option_a": "Discrete",
+    "option_b": "Continuous",
+    "option_c": "Always analog",
+    "option_d": "Wave‑based only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A human voice is an example of ______ data.",
+    "option_a": "Analog",
+    "option_b": "Digital",
+    "option_c": "Binary",
+    "option_d": "Non‑periodic only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Computer memory stores data in the form of ______.",
+    "option_a": "0s and 1s",
+    "option_b": "Continuous waves",
+    "option_c": "Light pulses only",
+    "option_d": "Analog tones",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Analog signals have ______ levels.",
+    "option_a": "Infinite",
+    "option_b": "Two",
+    "option_c": "Four",
+    "option_d": "Non‑repeatable",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Digital signals have ______ values.",
+    "option_a": "Limited",
+    "option_b": "Infinite",
+    "option_c": "Uncountable",
+    "option_d": "Undefined",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A periodic signal repeats its pattern every ______.",
+    "option_a": "Period",
+    "option_b": "Phase shift",
+    "option_c": "Random interval",
+    "option_d": "Amplitude cycle",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A nonperiodic signal ______.",
+    "option_a": "Does not repeat",
+    "option_b": "Repeats regularly",
+    "option_c": "Is always analog",
+    "option_d": "Requires no bandwidth",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A sine wave is a ______ periodic signal.",
+    "option_a": "Simple",
+    "option_b": "Composite",
+    "option_c": "Non‑periodic",
+    "option_d": "Digital",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Peak amplitude is measured in ______.",
+    "option_a": "Volts",
+    "option_b": "Hertz",
+    "option_c": "Seconds",
+    "option_d": "Bytes",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which parameter represents the number of cycles per second?",
+    "option_a": "Frequency",
+    "option_b": "Phase",
+    "option_c": "Amplitude",
+    "option_d": "Wavelength",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Frequency is measured in ______.",
+    "option_a": "Hertz",
+    "option_b": "Volts",
+    "option_c": "Meters",
+    "option_d": "Seconds",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Period is the ______ of frequency.",
+    "option_a": "Inverse",
+    "option_b": "Double",
+    "option_c": "Square",
+    "option_d": "Derivative",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Phase represents ______.",
+    "option_a": "Wave position in time",
+    "option_b": "Wave height",
+    "option_c": "Wave color",
+    "option_d": "Wave direction only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Wavelength depends on ______.",
+    "option_a": "Frequency and medium",
+    "option_b": "Amplitude only",
+    "option_c": "Voltage only",
+    "option_d": "Time only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A composite signal consists of ______.",
+    "option_a": "Multiple sine waves",
+    "option_b": "One frequency only",
+    "option_c": "Digital pulses only",
+    "option_d": "Zero frequencies",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Fourier proved that composite signals are made of ______.",
+    "option_a": "Simple sine waves",
+    "option_b": "Square waves only",
+    "option_c": "Noise components",
+    "option_d": "Digital frames",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Most digital signals are ______.",
+    "option_a": "Nonperiodic",
+    "option_b": "Periodic",
+    "option_c": "Analog",
+    "option_d": "Continuous",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Bit rate is measured in ______.",
+    "option_a": "Bits per second",
+    "option_b": "Cycles per second",
+    "option_c": "Volts",
+    "option_d": "Ohms",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Transmission impairment means ______.",
+    "option_a": "Signal received ≠ signal sent",
+    "option_b": "Bandwidth is infinite",
+    "option_c": "Signals improve over distance",
+    "option_d": "Noise is eliminated",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Attenuation refers to ______.",
+    "option_a": "Loss of energy",
+    "option_b": "Gain of frequency",
+    "option_c": "Phase increase",
+    "option_d": "Digital noise only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Distortion happens because components ______.",
+    "option_a": "Have different propagation speeds",
+    "option_b": "Arrive with more amplitude",
+    "option_c": "Change to digital",
+    "option_d": "Shift into analog",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which is NOT a type of noise?",
+    "option_a": "Cycle noise",
+    "option_b": "Thermal noise",
+    "option_c": "Induced noise",
+    "option_d": "Impulse noise",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Thermal noise is caused by ______.",
+    "option_a": "Random electron motion",
+    "option_b": "High bandwidth",
+    "option_c": "Weak signals only",
+    "option_d": "Strong magnetic fields",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Induced noise comes from ______.",
+    "option_a": "Motors and appliances",
+    "option_b": "Binary data",
+    "option_c": "Fiber optics",
+    "option_d": "Voltage mismatch",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Crosstalk is caused by ______.",
+    "option_a": "Signal leakage between wires",
+    "option_b": "Digital errors",
+    "option_c": "Higher amplitude",
+    "option_d": "Clock mismatch",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Impulse noise appears as ______.",
+    "option_a": "Spikes",
+    "option_b": "Smooth waves",
+    "option_c": "Constant hum",
+    "option_d": "Low‑frequency tones",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Digital‑to‑digital conversion is also called ______.",
+    "option_a": "Encoding",
+    "option_b": "Modulation",
+    "option_c": "Filtering",
+    "option_d": "Sampling",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Analog‑to‑digital conversion is also called ______.",
+    "option_a": "Digitizing",
+    "option_b": "Demodulating",
+    "option_c": "Attenuating",
+    "option_d": "Compressing",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Digital‑to‑analog conversion is ______.",
+    "option_a": "Modulation",
+    "option_b": "Encoding",
+    "option_c": "Sampling",
+    "option_d": "Demapping",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Analog‑to‑analog conversion is ______.",
+    "option_a": "Modulation",
+    "option_b": "Decoding",
+    "option_c": "Digitizing",
+    "option_d": "Filtering",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Parallel transmission sends ______ bits at a time.",
+    "option_a": "Multiple",
+    "option_b": "One",
+    "option_c": "Infinite",
+    "option_d": "Zero",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Serial transmission sends ______.",
+    "option_a": "One bit at a time",
+    "option_b": "Eight bits at a time",
+    "option_c": "Two bytes at a time",
+    "option_d": "Frames in parallel",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Parallel transmission requires ______ wires.",
+    "option_a": "n wires for n bits",
+    "option_b": "One wire only",
+    "option_c": "Two twisted pairs",
+    "option_d": "A coaxial cable only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Asynchronous transmission uses ______.",
+    "option_a": "Start and stop bits",
+    "option_b": "Clock sharing",
+    "option_c": "Idle framing only",
+    "option_d": "Continuous stream only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Synchronous transmission sends data ______.",
+    "option_a": "As a continuous stream",
+    "option_b": "In random bursts",
+    "option_c": "Without grouping",
+    "option_d": "One byte at a time only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Isochronous transmission guarantees ______.",
+    "option_a": "Fixed-rate delivery",
+    "option_b": "Higher amplitude",
+    "option_c": "Unlimited bandwidth",
+    "option_d": "Noise-free data",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which transmission mode is required for real‑time audio/video?",
+    "option_a": "Isochronous",
+    "option_b": "Asynchronous",
+    "option_c": "Parallel",
+    "option_d": "Nonperiodic",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In parallel transmission, the advantage is ______.",
+    "option_a": "Speed",
+    "option_b": "Low cost",
+    "option_c": "Long distance",
+    "option_d": "Error‑free operation",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In serial transmission, the main advantage is ______.",
+    "option_a": "Lower cost",
+    "option_b": "Higher noise",
+    "option_c": "Multiple wires",
+    "option_d": "Unlimited speed",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Start bits in asynchronous transmission are usually ______.",
+    "option_a": "0",
+    "option_b": "1",
+    "option_c": "Alternating",
+    "option_d": "Neutral",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Stop bits in asynchronous transmission are usually ______.",
+    "option_a": "1",
+    "option_b": "0",
+    "option_c": "Random",
+    "option_d": "Variable length",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Bit rate describes ______.",
+    "option_a": "Bits per second",
+    "option_b": "Cycles per period",
+    "option_c": "Amplitude change",
+    "option_d": "Phase movement",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Distortion mainly affects ______ signals.",
+    "option_a": "Composite",
+    "option_b": "Simple sine",
+    "option_c": "Digital only",
+    "option_d": "Parallel",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Attenuation is corrected using ______.",
+    "option_a": "Amplifiers",
+    "option_b": "Noise filters",
+    "option_c": "Converters",
+    "option_d": "Dampers",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Noise that causes spikes is ______.",
+    "option_a": "Impulse noise",
+    "option_b": "Thermal noise",
+    "option_c": "Induced noise",
+    "option_d": "Crosstalk",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "The signal characteristic that represents height is ______.",
+    "option_a": "Amplitude",
+    "option_b": "Phase",
+    "option_c": "Wavelength",
+    "option_d": "Bit rate",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A signal’s number of cycles per second is its ______.",
+    "option_a": "Frequency",
+    "option_b": "Period",
+    "option_c": "Amplitude",
+    "option_d": "Phase",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "The time required for a wave to complete one cycle is ______.",
+    "option_a": "Period",
+    "option_b": "Phase",
+    "option_c": "Speed",
+    "option_d": "Wavelength",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Wavelength is the distance a signal travels during one ______.",
+    "option_a": "Period",
+    "option_b": "Phase shift",
+    "option_c": "Amplitude peak",
+    "option_d": "Noise cycle",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is the goal of multiplexing?",
+    "option_a": "Efficient use of bandwidth",
+    "option_b": "Increasing noise",
+    "option_c": "Reducing signal strength",
+    "option_d": "Creating more channels than needed",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Multiplexing allows ______.",
+    "option_a": "Multiple signals on one link",
+    "option_b": "One signal on many links",
+    "option_c": "Only analog signals",
+    "option_d": "Only digital signals",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A link is ______.",
+    "option_a": "The physical path",
+    "option_b": "A logical address",
+    "option_c": "A channel",
+    "option_d": "A switching node",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A channel is ______.",
+    "option_a": "A portion of a link",
+    "option_b": "A physical wire",
+    "option_c": "A router output",
+    "option_d": "A dedicated device",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which multiplexing method is analog?",
+    "option_a": "FDM",
+    "option_b": "TDM",
+    "option_c": "Statistical TDM",
+    "option_d": "CDMA",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which multiplexing method is used for optical fiber?",
+    "option_a": "WDM",
+    "option_b": "FDM",
+    "option_c": "TDM",
+    "option_d": "FHSS",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which multiplexing technique is digital?",
+    "option_a": "TDM",
+    "option_b": "FDM",
+    "option_c": "WDM",
+    "option_d": "FM",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "FDM uses ______ to separate channels.",
+    "option_a": "Different carrier frequencies",
+    "option_b": "Different time slots",
+    "option_c": "Different wavelengths",
+    "option_d": "Different addresses",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Guard bands are used to ______.",
+    "option_a": "Prevent overlap",
+    "option_b": "Add redundancy",
+    "option_c": "Increase speed",
+    "option_d": "Reduce bandwidth",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "WDM combines ______.",
+    "option_a": "Optical signals",
+    "option_b": "Analog waves only",
+    "option_c": "Digital signals only",
+    "option_d": "Radio frequencies only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "DWDM allows ______.",
+    "option_a": "More channels with closer spacing",
+    "option_b": "Fewer channels",
+    "option_c": "Lower bandwidth usage",
+    "option_d": "No optical multiplexing",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "TDM divides channels in ______.",
+    "option_a": "Time",
+    "option_b": "Frequency",
+    "option_c": "Wavelength",
+    "option_d": "Spectrum",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Synchronous TDM assigns slots ______.",
+    "option_a": "Even if no data",
+    "option_b": "Only if data exists",
+    "option_c": "Randomly",
+    "option_d": "On demand",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Statistical TDM assigns slots ______.",
+    "option_a": "Only when data exists",
+    "option_b": "Even if empty",
+    "option_c": "By fixed rules",
+    "option_d": "Sequentially only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Interleaving means ______.",
+    "option_a": "Taking turns sending bits",
+    "option_b": "Sending all bits at once",
+    "option_c": "Modulating frequencies",
+    "option_d": "Assigning wavelengths",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which TDM method may contain empty slots?",
+    "option_a": "Synchronous TDM",
+    "option_b": "Statistical TDM",
+    "option_c": "Both",
+    "option_d": "Neither",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Pulse stuffing adds ______.",
+    "option_a": "Dummy bits",
+    "option_b": "New channels",
+    "option_c": "More frames",
+    "option_d": "Noise",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Multilevel multiplexing is used when ______.",
+    "option_a": "One data rate is multiple of another",
+    "option_b": "All data rates equal",
+    "option_c": "Only one channel exists",
+    "option_d": "FDM is used",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Multiple-slot allocation assigns ______.",
+    "option_a": "More than one slot to a source",
+    "option_b": "One slot per frame",
+    "option_c": "A slot only if active",
+    "option_d": "A slot only if high priority",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Frame synchronization uses ______.",
+    "option_a": "Framing bits",
+    "option_b": "Guard bands",
+    "option_c": "Pulse stuffing",
+    "option_d": "Multiple wavelengths",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Spread spectrum is designed for ______.",
+    "option_a": "Wireless security",
+    "option_b": "Fiber optics",
+    "option_c": "Digital telephony only",
+    "option_d": "Copper lines",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Spread spectrum goal is ______.",
+    "option_a": "Privacy and antijamming",
+    "option_b": "Higher speed",
+    "option_c": "More users",
+    "option_d": "Less bandwidth",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "FHSS uses ______.",
+    "option_a": "Multiple carrier frequencies",
+    "option_b": "Multiple wavelengths",
+    "option_c": "Multiple time slots",
+    "option_d": "Multiple wires",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In FHSS, hopping frequencies are selected by ______.",
+    "option_a": "PN sequence",
+    "option_b": "MAC address",
+    "option_c": "IP address",
+    "option_d": "Amplitude levels",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "DSSS uses ______.",
+    "option_a": "Chip sequences",
+    "option_b": "Hopping carriers",
+    "option_c": "Guard bands",
+    "option_d": "Frames",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A chip in DSSS is ______.",
+    "option_a": "An encoded bit",
+    "option_b": "A carrier wave",
+    "option_c": "A time slot",
+    "option_d": "A frequency",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Barker sequence length is ______.",
+    "option_a": "11 chips",
+    "option_b": "7 chips",
+    "option_c": "5 chips",
+    "option_d": "20 chips",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In DSSS, each bit is replaced by ______.",
+    "option_a": "n chips",
+    "option_b": "1 chip",
+    "option_c": "n frames",
+    "option_d": "n wavelengths",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "FHSS reduces jamming because ______.",
+    "option_a": "Hops make interception difficult",
+    "option_b": "It uses low bandwidth",
+    "option_c": "It repeats signals",
+    "option_d": "It uses no carriers",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Bandwidth spreading means ______.",
+    "option_a": "Expanding bandwidth beyond requirement",
+    "option_b": "Shrinking bandwidth",
+    "option_c": "Sharing bandwidth equally",
+    "option_d": "Using minimal bandwidth",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In FHSS, M stations can share bandwidth because ______.",
+    "option_a": "Each uses one frequency per hop",
+    "option_b": "They use guard bands",
+    "option_c": "They use optical signals",
+    "option_d": "They use pulse stuffing",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "FHSS uses a hopping period called ______.",
+    "option_a": "T_h",
+    "option_b": "T_d",
+    "option_c": "T_s",
+    "option_d": "T_c",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Statistical TDM must include ______.",
+    "option_a": "Address bits",
+    "option_b": "Start bits",
+    "option_c": "Guard bands",
+    "option_d": "Phase information",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Empty slots waste bandwidth in ______.",
+    "option_a": "Synchronous TDM",
+    "option_b": "Statistical TDM",
+    "option_c": "FDM",
+    "option_d": "DSSS",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "DSSS increases bandwidth by ______.",
+    "option_a": "Multiplying data rate by chips",
+    "option_b": "Dividing data rate",
+    "option_c": "Adding guard bands",
+    "option_d": "Reducing frequency",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "FDM example in real life is ______.",
+    "option_a": "AM/FM radio",
+    "option_b": "Wi-Fi",
+    "option_c": "DSL",
+    "option_d": "Ethernet",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "WDM uses prisms because ______.",
+    "option_a": "Light bends by frequency",
+    "option_b": "Sound waves reflect",
+    "option_c": "Electrons slow down",
+    "option_d": "Digital bits require it",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "TDM example in telephony is ______.",
+    "option_a": "T-1 lines",
+    "option_b": "FM radio",
+    "option_c": "TV broadcasting",
+    "option_d": "AM stations",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "FHSS privacy comes from ______.",
+    "option_a": "Unknown hopping sequence",
+    "option_b": "Long wavelengths",
+    "option_c": "High amplitude",
+    "option_d": "Minimized noise",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "DSSS uses spreading codes to provide ______.",
+    "option_a": "Interference resistance",
+    "option_b": "Higher amplitude",
+    "option_c": "Time division",
+    "option_d": "Better modulation",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Transmission media are located ______.",
+    "option_a": "Below the physical layer",
+    "option_b": "At the network layer",
+    "option_c": "Inside application layer",
+    "option_d": "At transport layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Transmission media categories are ______.",
+    "option_a": "Guided and unguided",
+    "option_b": "Copper and fiber",
+    "option_c": "Radio and microwave",
+    "option_d": "Wired and infrared",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Guided media include ______.",
+    "option_a": "Twisted pair, coaxial, fiber optic",
+    "option_b": "Radio, microwave, infrared",
+    "option_c": "Satellite only",
+    "option_d": "Ethernet only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Unguided media refer to ______.",
+    "option_a": "Free-space transmission",
+    "option_b": "Copper cabling",
+    "option_c": "Optical reflection",
+    "option_d": "Ground wires",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Twisted‑pair cable uses ______.",
+    "option_a": "Two insulated copper wires twisted",
+    "option_b": "A hollow metallic tube",
+    "option_c": "A glass core",
+    "option_d": "Shielded plastic rods",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Twisting in UTP reduces ______.",
+    "option_a": "Noise & crosstalk",
+    "option_b": "Attenuation",
+    "option_c": "Wavelength",
+    "option_d": "Signal strength",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "UTP stands for ______.",
+    "option_a": "Unshielded twisted pair",
+    "option_b": "Universal twisted pair",
+    "option_c": "Ultra transmission pair",
+    "option_d": "Unified twisted protocol",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "STP includes ______.",
+    "option_a": "Metallic shielding",
+    "option_b": "More twists",
+    "option_c": "Glass fiber",
+    "option_d": "Plastic tubes",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which connector is used for UTP?",
+    "option_a": "RJ‑45",
+    "option_b": "BNC",
+    "option_c": "SC",
+    "option_d": "ST",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Higher UTP categories support ______.",
+    "option_a": "Higher bandwidth",
+    "option_b": "Lower voltage",
+    "option_c": "More twisting only",
+    "option_d": "Less shielding",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Coaxial cable contains ______.",
+    "option_a": "Central core + shield",
+    "option_b": "Twisted copper pair",
+    "option_c": "Glass cladding",
+    "option_d": "Infrared emitters",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "The outer conductor in coaxial cable acts as ______.",
+    "option_a": "Shield & return path",
+    "option_b": "Amplifier",
+    "option_c": "Light guide",
+    "option_d": "Heat sink",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which RG type is used for cable TV?",
+    "option_a": "RG‑59",
+    "option_b": "RG‑58",
+    "option_c": "RG‑11",
+    "option_d": "RG‑6A",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which connector is used for coaxial cable?",
+    "option_a": "BNC",
+    "option_b": "RJ45",
+    "option_c": "ST",
+    "option_d": "SC",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Coaxial cable attenuation is ______.",
+    "option_a": "Higher than UTP",
+    "option_b": "Lower than fiber",
+    "option_c": "Zero",
+    "option_d": "Constant",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Fiber‑optic cable uses ______ for transmission.",
+    "option_a": "Light",
+    "option_b": "Electric pulses",
+    "option_c": "Radio signals",
+    "option_d": "Microwave beams",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In optical fiber, cladding has ______.",
+    "option_a": "Lower refractive index",
+    "option_b": "Higher density",
+    "option_c": "Same density as core",
+    "option_d": "Metal covering",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Condition for total internal reflection: incidence angle ______ critical angle.",
+    "option_a": ">=",
+    "option_b": "<=",
+    "option_c": "=only",
+    "option_d": "Irrelevant",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Single‑mode fiber supports ______.",
+    "option_a": "Long‑distance high‑bandwidth",
+    "option_b": "Short‑distance only",
+    "option_c": "Multiple beams",
+    "option_d": "High attenuation",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Multimode step‑index fiber suffers from ______.",
+    "option_a": "High distortion",
+    "option_b": "Low distortion",
+    "option_c": "Zero dispersion",
+    "option_d": "Infinite speed",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Graded‑index multimode fiber reduces ______.",
+    "option_a": "Pulse distortion",
+    "option_b": "Attenuation to zero",
+    "option_c": "Crosstalk",
+    "option_d": "Cladding reflection",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Common fiber sizes include ______.",
+    "option_a": "50/125 µm",
+    "option_b": "5/10 µm",
+    "option_c": "200/300 µm",
+    "option_d": "100/300 µm",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "SC connector uses ______.",
+    "option_a": "Push‑pull lock",
+    "option_b": "Bayonet lock",
+    "option_c": "Threaded coupling",
+    "option_d": "Crimping",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "ST connector uses ______.",
+    "option_a": "Bayonet lock",
+    "option_b": "Push‑pull",
+    "option_c": "Infrared alignment",
+    "option_d": "Magnetic lock",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "MT‑RJ is similar in size to ______.",
+    "option_a": "RJ‑45",
+    "option_b": "SC",
+    "option_c": "ST",
+    "option_d": "USB",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Fiber offers immunity to ______.",
+    "option_a": "Electromagnetic interference",
+    "option_b": "Light reflection",
+    "option_c": "Radio jamming",
+    "option_d": "Heat",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "One disadvantage of fiber is ______.",
+    "option_a": "Higher installation cost",
+    "option_b": "High EMI",
+    "option_c": "Low bandwidth",
+    "option_d": "Heavy weight",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Unguided media propagate signals through ______.",
+    "option_a": "Air / space",
+    "option_b": "Fiber core",
+    "option_c": "Copper shielding",
+    "option_d": "Plastic conduits",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Ground propagation works for ______.",
+    "option_a": "Low‑frequency radio waves",
+    "option_b": "Microwaves",
+    "option_c": "Infrared waves",
+    "option_d": "Optical beams",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Sky propagation uses ______.",
+    "option_a": "Ionospheric reflection",
+    "option_b": "Earth surface",
+    "option_c": "Line‑of‑sight only",
+    "option_d": "Fiber cladding",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Line‑of‑sight propagation is required for ______.",
+    "option_a": "Microwaves",
+    "option_b": "AM radio",
+    "option_c": "UTP cables",
+    "option_d": "Infrared only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Radio waves are ______.",
+    "option_a": "Omnidirectional",
+    "option_b": "Unidirectional",
+    "option_c": "Narrow‑beam",
+    "option_d": "Irreversible",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Microwaves are ______.",
+    "option_a": "Unidirectional",
+    "option_b": "Omnidirectional",
+    "option_c": "Based on ionosphere",
+    "option_d": "Unlimited range",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Microwave antennas include ______.",
+    "option_a": "Parabolic dish & horn",
+    "option_b": "Omni dipole",
+    "option_c": "Loop antenna",
+    "option_d": "Spiral patch",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Radio waves can ______.",
+    "option_a": "Penetrate walls",
+    "option_b": "Not travel in air",
+    "option_c": "Travel only upward",
+    "option_d": "Not reflect",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Microwaves cannot ______.",
+    "option_a": "Penetrate walls",
+    "option_b": "Be focused",
+    "option_c": "Carry data",
+    "option_d": "Use antennas",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Infrared waves cannot be used ______.",
+    "option_a": "Through walls",
+    "option_b": "Indoors",
+    "option_c": "For remote controls",
+    "option_d": "For short range",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Infrared communication requires ______.",
+    "option_a": "Line‑of‑sight",
+    "option_b": "High voltage",
+    "option_c": "Long distance",
+    "option_d": "High temperature",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "IrDA defines standards for ______.",
+    "option_a": "Infrared communication",
+    "option_b": "Microwave alignment",
+    "option_c": "Coaxial shielding",
+    "option_d": "Fiber splicing",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Fiber‑optic performance shows attenuation is ______.",
+    "option_a": "Low and flat",
+    "option_b": "High and variable",
+    "option_c": "Zero",
+    "option_d": "Chaotic",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "UTP attenuation ______ with frequency.",
+    "option_a": "Increases",
+    "option_b": "Decreases",
+    "option_c": "Remains zero",
+    "option_d": "Is unpredictable",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Coaxial cable replaced by ______ in telecom backbone.",
+    "option_a": "Fiber‑optic",
+    "option_b": "UTP",
+    "option_c": "Microwave",
+    "option_d": "Infrared",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Microwave links require ______.",
+    "option_a": "Repeaters",
+    "option_b": "Twisted wires",
+    "option_c": "Coaxial loops",
+    "option_d": "Ionospheric support",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Infrared waves operate between ______.",
+    "option_a": "300 GHz – 400 THz",
+    "option_b": "3 kHz – 3 MHz",
+    "option_c": "30 MHz – 300 MHz",
+    "option_d": "1 GHz – 3 GHz",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Radio wave band is ______.",
+    "option_a": "3 kHz – 1 GHz",
+    "option_b": "1 GHz – 300 GHz",
+    "option_c": "300 GHz – 400 THz",
+    "option_d": "1 MHz – 3 MHz",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Wide bandwidth medium is ______.",
+    "option_a": "Fiber optic",
+    "option_b": "UTP",
+    "option_c": "Coaxial",
+    "option_d": "Radio waves",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Best medium for backbone networks ______.",
+    "option_a": "Fiber optic",
+    "option_b": "UTP",
+    "option_c": "Radio",
+    "option_d": "Infrared",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Twisted‑pair cable gauge indicates ______.",
+    "option_a": "Wire thickness",
+    "option_b": "Bandwidth",
+    "option_c": "Loss value",
+    "option_d": "Speed",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "WDM is mostly used with ______.",
+    "option_a": "Fiber optic",
+    "option_b": "Coax",
+    "option_c": "UTP",
+    "option_d": "Microwave",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Microwave communication used in ______.",
+    "option_a": "Cellular & satellite",
+    "option_b": "Twisted‑pair lines",
+    "option_c": "Coax TV only",
+    "option_d": "Infrared remotes",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Infrared is best for ______.",
+    "option_a": "Short‑range indoor",
+    "option_b": "Long‑range outdoor",
+    "option_c": "Backbone cabling",
+    "option_d": "Satellite",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Radio waves ideal for ______.",
+    "option_a": "Multicasting",
+    "option_b": "Unicast only",
+    "option_c": "Point‑to‑point",
+    "option_d": "Laser links",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Fiber’s attenuation requires repeaters every ______.",
+    "option_a": "50 km",
+    "option_b": "5 km",
+    "option_c": "1 km",
+    "option_d": "Half km",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Coaxial cable requires repeaters every ______.",
+    "option_a": "5 km",
+    "option_b": "50 km",
+    "option_c": "100 km",
+    "option_d": "1 m",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Single‑mode fiber uses ______.",
+    "option_a": "Laser source",
+    "option_b": "LED source",
+    "option_c": "UHF carrier",
+    "option_d": "Infrared diode only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Multimode fiber uses ______.",
+    "option_a": "LED source",
+    "option_b": "Laser only",
+    "option_c": "Coax feeder",
+    "option_d": "Dipole emitter",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Infrared cannot be used ______.",
+    "option_a": "Outdoor due to sunlight interference",
+    "option_b": "Inside room",
+    "option_c": "With IrDA",
+    "option_d": "For printers",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Radio waves are useful for ______.",
+    "option_a": "Broadcasting",
+    "option_b": "Fiber links",
+    "option_c": "Metallic channels",
+    "option_d": "ST connectors",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is the main purpose of switching?",
+    "option_a": "Connecting multiple devices efficiently",
+    "option_b": "Increasing cable length",
+    "option_c": "Improving signal modulation",
+    "option_d": "Replacing routers",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A switched network is made of interconnected ______.",
+    "option_a": "Switches",
+    "option_b": "Routers only",
+    "option_c": "Hosts only",
+    "option_d": "Repeaters",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Circuit switching occurs at which TCP/IP layer?",
+    "option_a": "Physical layer",
+    "option_b": "Data-link layer",
+    "option_c": "Network layer",
+    "option_d": "Application layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Packet switching occurs at ______.",
+    "option_a": "Data-link and network layers",
+    "option_b": "Physical layer",
+    "option_c": "Transport layer",
+    "option_d": "Application layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Message switching conceptually belongs to ______.",
+    "option_a": "Application layer",
+    "option_b": "Physical layer",
+    "option_c": "Network layer",
+    "option_d": "Data-link layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In circuit switching, communication involves ______ phases.",
+    "option_a": "Three",
+    "option_b": "Two",
+    "option_c": "One",
+    "option_d": "Four",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "The three phases of circuit switching are ______.",
+    "option_a": "Setup, data transfer, teardown",
+    "option_b": "Dial, talk, drop",
+    "option_c": "Start, hold, end",
+    "option_d": "Request, forward, drop",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Circuit switching requires ______ before data transfer.",
+    "option_a": "Resource reservation",
+    "option_b": "Packet segmentation",
+    "option_c": "IP addressing",
+    "option_d": "Error coding",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "During circuit-switched communication, resources remain ______.",
+    "option_a": "Dedicated",
+    "option_b": "Shared",
+    "option_c": "Unallocated",
+    "option_d": "Dynamic",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In circuit-switched data transfer, data are ______.",
+    "option_a": "Not packetized",
+    "option_b": "Packetized",
+    "option_c": "Compressed",
+    "option_d": "Encrypted",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "One disadvantage of circuit switching is ______.",
+    "option_a": "Low efficiency",
+    "option_b": "High delay",
+    "option_c": "Unordered packets",
+    "option_d": "No connection setup",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "One advantage of circuit switching is ______.",
+    "option_a": "Low delay during transfer",
+    "option_b": "High flexibility",
+    "option_c": "Packet ordering",
+    "option_d": "Less setup time",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Circuit switching uses ______ for channel division.",
+    "option_a": "FDM/TDM",
+    "option_b": "WDM",
+    "option_c": "CSMA/CD",
+    "option_d": "ALOHA",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Packet switching allocates resources ______.",
+    "option_a": "On demand",
+    "option_b": "Permanently",
+    "option_c": "Via reservation",
+    "option_d": "In advance",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A datagram network is also known as ______.",
+    "option_a": "Connectionless network",
+    "option_b": "Connection-oriented network",
+    "option_c": "Reserved network",
+    "option_d": "Virtual-circuit network",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In a datagram network, packets may arrive ______.",
+    "option_a": "Out of order",
+    "option_b": "In strict order",
+    "option_c": "Duplicated always",
+    "option_d": "Simultaneously",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Virtual-circuit networks combine features of ______.",
+    "option_a": "Circuit & datagram switching",
+    "option_b": "Satellite & fiber",
+    "option_c": "Analog & digital",
+    "option_d": "Mesh & star",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In a virtual circuit, all packets follow ______.",
+    "option_a": "Same path",
+    "option_b": "Different paths",
+    "option_c": "Random paths",
+    "option_d": "Shortest path only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A virtual-circuit identifier (VCI) is used for ______.",
+    "option_a": "Local switching",
+    "option_b": "Global routing",
+    "option_c": "IP addressing",
+    "option_d": "Frame error control",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "VCI changes ______.",
+    "option_a": "At each switch",
+    "option_b": "End-to-end",
+    "option_c": "Randomly",
+    "option_d": "Never",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In datagram switching, routing tables are ______.",
+    "option_a": "Dynamic",
+    "option_b": "Static",
+    "option_c": "Pre-reserved",
+    "option_d": "Unused",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In circuit switching, delay occurs mainly due to ______.",
+    "option_a": "Setup time",
+    "option_b": "Queueing time",
+    "option_c": "Processing time",
+    "option_d": "Congestion",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In packet switching, packets may experience ______.",
+    "option_a": "Queueing delay",
+    "option_b": "Zero delay",
+    "option_c": "Dedicated resources",
+    "option_d": "Guaranteed bandwidth",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Datagram switching advantage is ______.",
+    "option_a": "Efficiency",
+    "option_b": "Guaranteed order",
+    "option_c": "Dedicated bandwidth",
+    "option_d": "Minimal overhead",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Virtual-circuit networks have ______.",
+    "option_a": "Setup & teardown phases",
+    "option_b": "Per-packet path discovery",
+    "option_c": "No addressing",
+    "option_d": "Fixed channels only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A VCI is valid ______.",
+    "option_a": "Between two switches",
+    "option_b": "End-to-end",
+    "option_c": "Globally",
+    "option_d": "Across all networks",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "During setup phase, switches create ______.",
+    "option_a": "Table entries",
+    "option_b": "Frames",
+    "option_c": "Signals",
+    "option_d": "Waveforms",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In virtual circuits, teardown phase removes ______.",
+    "option_a": "Table entries",
+    "option_b": "Packets",
+    "option_c": "OS processes",
+    "option_d": "Addresses",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In circuit switching, there is no need for ______.",
+    "option_a": "Addressing during transfer",
+    "option_b": "Bandwidth reservation",
+    "option_c": "Setup phase",
+    "option_d": "Synchronization",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Packet switching is used in ______.",
+    "option_a": "Internet",
+    "option_b": "Telephony only",
+    "option_c": "Analog TV",
+    "option_d": "Optical filtering",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which switching keeps per-connection state?",
+    "option_a": "Virtual-circuit switching",
+    "option_b": "Datagram switching",
+    "option_c": "Message switching",
+    "option_d": "Time switching",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which switching keeps no state information?",
+    "option_a": "Datagram switching",
+    "option_b": "Virtual-circuit switching",
+    "option_c": "Circuit switching",
+    "option_d": "Message switching",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In datagram networks, each packet carries ______.",
+    "option_a": "Destination address",
+    "option_b": "VCI",
+    "option_c": "Setup header",
+    "option_d": "Reserved path",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Circuit switching divides a link into ______.",
+    "option_a": "Channels",
+    "option_b": "Packets",
+    "option_c": "Cells",
+    "option_d": "Frames",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Packet switching divides data into ______.",
+    "option_a": "Packets",
+    "option_b": "Channels",
+    "option_c": "Slots",
+    "option_d": "Guard bands",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "An advantage of packet switching is ______.",
+    "option_a": "Better channel utilization",
+    "option_b": "Dedicated capacity",
+    "option_c": "Minimal processing",
+    "option_d": "Zero loss",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Message switching divides data into ______.",
+    "option_a": "Whole messages",
+    "option_b": "Packets",
+    "option_c": "Bytes",
+    "option_d": "Frames",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Switching nodes in packet switching are called ______.",
+    "option_a": "Routers",
+    "option_b": "Repeaters",
+    "option_c": "Amplifiers",
+    "option_d": "Codecs",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In circuit switching, communication path is ______.",
+    "option_a": "Dedicated",
+    "option_b": "Shared",
+    "option_c": "Virtual",
+    "option_d": "Random",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Packet switching delay includes ______.",
+    "option_a": "Queueing, transmission, propagation",
+    "option_b": "Circuit creation",
+    "option_c": "Analog modulation",
+    "option_d": "Frequency shifting",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "VCI is selected during ______.",
+    "option_a": "Setup phase",
+    "option_b": "Teardown phase",
+    "option_c": "Data transfer",
+    "option_d": "Addressing",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Virtual-circuit is established ______.",
+    "option_a": "Before sending data",
+    "option_b": "After sending data",
+    "option_c": "Only during teardown",
+    "option_d": "Never",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Datagram networks do not use ______.",
+    "option_a": "Setup phase",
+    "option_b": "Headers",
+    "option_c": "Routing tables",
+    "option_d": "Addresses",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Routing tables in datagram networks map ______.",
+    "option_a": "Destination → output port",
+    "option_b": "VCI → port",
+    "option_c": "Path → circuit",
+    "option_d": "Frequency → channel",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Circuit-switched delay includes ______.",
+    "option_a": "Setup + transfer + teardown",
+    "option_b": "Queueing only",
+    "option_c": "Processing only",
+    "option_d": "Propagation only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Switches in circuit networks route based on ______.",
+    "option_a": "Channel number",
+    "option_b": "IP address",
+    "option_c": "VCI",
+    "option_d": "MAC address",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In packet switching, packets may be ______.",
+    "option_a": "Lost",
+    "option_b": "Dedicated",
+    "option_c": "Ordered strictly",
+    "option_d": "Guaranteed",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Virtual-circuit switching ensures ______.",
+    "option_a": "Single path for all packets",
+    "option_b": "Random routing",
+    "option_c": "Broadcasting",
+    "option_d": "Free switching",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Packet-switched networks divide links using ______.",
+    "option_a": "Statistical sharing",
+    "option_b": "Dedicated channels",
+    "option_c": "Static allocation",
+    "option_d": "Fixed slots",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Circuit-switching efficiency is ______.",
+    "option_a": "Low",
+    "option_b": "High",
+    "option_c": "Variable",
+    "option_d": "Zero",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Datagram-switching efficiency is ______.",
+    "option_a": "High",
+    "option_b": "Low",
+    "option_c": "Fixed",
+    "option_d": "Zero",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In virtual-circuit networks, VCI maps ______.",
+    "option_a": "Incoming to outgoing labels",
+    "option_b": "Global to local IP",
+    "option_c": "MAC to IP",
+    "option_d": "Route to table",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Routers in datagram networks forward packets based on ______.",
+    "option_a": "Destination address",
+    "option_b": "VCI",
+    "option_c": "Reserved channel",
+    "option_d": "Setup ID",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Packet switching reduces ______.",
+    "option_a": "Idle resources",
+    "option_b": "Bursty traffic",
+    "option_c": "Packetization",
+    "option_d": "Routing tables",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Circuit switching is used in ______.",
+    "option_a": "Traditional telephony",
+    "option_b": "Internet routing",
+    "option_c": "Ethernet LANs",
+    "option_d": "Wi-Fi",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Datagram switching is used in ______.",
+    "option_a": "IP networks",
+    "option_b": "ATM",
+    "option_c": "Old PSTN",
+    "option_d": "Analog TV",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Virtual circuits are used in ______.",
+    "option_a": "ATM networks",
+    "option_b": "IP core only",
+    "option_c": "FM radio",
+    "option_d": "DSL modulation",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Switch fabric in circuit switching may use ______.",
+    "option_a": "Crossbar",
+    "option_b": "CSMA/CD",
+    "option_c": "WDM only",
+    "option_d": "Polling",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "MAC stands for ______.",
+    "option_a": "Media Access Control",
+    "option_b": "Multiple Access Channel",
+    "option_c": "Medium Allocation Code",
+    "option_d": "Message Access Cycle",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "MAC protocols belong to which OSI layer?",
+    "option_a": "Data-link layer",
+    "option_b": "Physical layer",
+    "option_c": "Network layer",
+    "option_d": "Transport layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Random-access protocols are also called ______.",
+    "option_a": "Contention methods",
+    "option_b": "Polling methods",
+    "option_c": "Reservation methods",
+    "option_d": "Token methods",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In random access, stations compete for ______.",
+    "option_a": "Medium access",
+    "option_b": "Token",
+    "option_c": "Assigned slot",
+    "option_d": "Frequency",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Collision occurs when ______.",
+    "option_a": "Two stations transmit simultaneously",
+    "option_b": "One station stops transmitting",
+    "option_c": "Medium is idle",
+    "option_d": "Frames are small",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Pure ALOHA vulnerable time is ______.",
+    "option_a": "2 × Tfr",
+    "option_b": "Tfr",
+    "option_c": "Tp",
+    "option_d": "Tfr/2",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Slotted ALOHA vulnerable time is ______.",
+    "option_a": "Tfr",
+    "option_b": "2×Tfr",
+    "option_c": "Tp",
+    "option_d": "2Tp",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Max throughput of Pure ALOHA is ______.",
+    "option_a": "18.4%",
+    "option_b": "36.8%",
+    "option_c": "50%",
+    "option_d": "9%",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Max throughput of Slotted ALOHA is ______.",
+    "option_a": "36.8%",
+    "option_b": "18.4%",
+    "option_c": "50%",
+    "option_d": "90%",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "CSMA stands for ______.",
+    "option_a": "Carrier Sense Multiple Access",
+    "option_b": "Carrier Send Multiple Access",
+    "option_c": "Collision Sense Medium Access",
+    "option_d": "Code Sense Multi Access",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "CSMA reduces collisions by ______.",
+    "option_a": "Sensing channel before transmission",
+    "option_b": "Using tokens",
+    "option_c": "Assigning frequencies",
+    "option_d": "Reservation frames",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "CSMA vulnerable time is ______.",
+    "option_a": "Propagation time",
+    "option_b": "Frame time",
+    "option_c": "RTT",
+    "option_d": "Processing time",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "1-persistent CSMA sends ______.",
+    "option_a": "Immediately when channel idle",
+    "option_b": "After random wait",
+    "option_c": "After slot time",
+    "option_d": "After acknowledgement",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Nonpersistent CSMA waits ______.",
+    "option_a": "Random time if busy",
+    "option_b": "Fixed time",
+    "option_c": "Until token arrives",
+    "option_d": "Until collision",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "p-persistent CSMA works with ______.",
+    "option_a": "Slotted channels",
+    "option_b": "Token bus",
+    "option_c": "Ethernet only",
+    "option_d": "Polling",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "CSMA/CD is used in ______.",
+    "option_a": "Wired LANs",
+    "option_b": "Wi-Fi",
+    "option_c": "Cellular",
+    "option_d": "Optical fiber",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "CSMA/CD detects collision by monitoring ______.",
+    "option_a": "Energy levels",
+    "option_b": "ACK frames",
+    "option_c": "Backoff values",
+    "option_d": "Slot times",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Minimum Ethernet frame size (to detect collision) is ______.",
+    "option_a": "64 bytes",
+    "option_b": "32 bytes",
+    "option_c": "128 bytes",
+    "option_d": "256 bytes",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "CSMA/CD requires frame time >= ______.",
+    "option_a": "2Tp",
+    "option_b": "Tp",
+    "option_c": "Tfr",
+    "option_d": "2Tfr",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Collision detection requires ______ in CSMA/CD.",
+    "option_a": "Monitoring transmission while sending",
+    "option_b": "Sending RTS/CTS",
+    "option_c": "Polling",
+    "option_d": "Token passing",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "CSMA/CD sends _____ after detecting collision.",
+    "option_a": "Jamming signal",
+    "option_b": "ACK",
+    "option_c": "CTS",
+    "option_d": "Reservation frame",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "CSMA/CA is used in ______.",
+    "option_a": "Wireless LANs",
+    "option_b": "Ethernet",
+    "option_c": "Fiber links",
+    "option_d": "Cellular cores",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "CSMA/CA avoids collision using ______.",
+    "option_a": "IFS + Contention window",
+    "option_b": "Jamming signal",
+    "option_c": "Collision amplitude",
+    "option_d": "Backpressure",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "IFS stands for ______.",
+    "option_a": "Interframe Space",
+    "option_b": "Internal frame slot",
+    "option_c": "Interference space",
+    "option_d": "Interflow spacing",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Contention window is divided into ______.",
+    "option_a": "Slots",
+    "option_b": "Frames",
+    "option_c": "Bytes",
+    "option_d": "Channels",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "RTS stands for ______.",
+    "option_a": "Request to Send",
+    "option_b": "Ready to Send",
+    "option_c": "Receive to Send",
+    "option_d": "Random Time Slot",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "CTS stands for ______.",
+    "option_a": "Clear to Send",
+    "option_b": "Carrier to Send",
+    "option_c": "Channel Time Slot",
+    "option_d": "Clear Transmission Set",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "NAV stands for ______.",
+    "option_a": "Network Allocation Vector",
+    "option_b": "Network Access Value",
+    "option_c": "Node Allocation Variable",
+    "option_d": "Normalized Access Vector",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "NAV helps stations ______.",
+    "option_a": "Defer access for reserved duration",
+    "option_b": "Detect collision",
+    "option_c": "Assign slots",
+    "option_d": "Change frequency",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Hidden station problem is solved by ______.",
+    "option_a": "RTS/CTS",
+    "option_b": "Jamming",
+    "option_c": "Polling",
+    "option_d": "Token passing",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Controlled access protocols avoid collisions by ______.",
+    "option_a": "Coordination",
+    "option_b": "Random delay",
+    "option_c": "Jamming",
+    "option_d": "Energy sensing",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Reservation access divides channel into ______.",
+    "option_a": "Minislots",
+    "option_b": "Slots",
+    "option_c": "Frames",
+    "option_d": "Tokens",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Polling uses one ______.",
+    "option_a": "Primary station",
+    "option_b": "Token",
+    "option_c": "Frequency band",
+    "option_d": "Slave hub",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In polling, secondaries reply via ______.",
+    "option_a": "NAK or data",
+    "option_b": "RTS",
+    "option_c": "CTS",
+    "option_d": "ACK only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Drawback of polling is ______.",
+    "option_a": "Primary failure stops system",
+    "option_b": "High collisions",
+    "option_c": "Hidden nodes",
+    "option_d": "High bandwidth",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Token passing uses ______.",
+    "option_a": "A special packet called token",
+    "option_b": "Polling table",
+    "option_c": "RTS/CTS",
+    "option_d": "Slot assignment",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Token grants ______.",
+    "option_a": "Right to transmit",
+    "option_b": "Channel reservation",
+    "option_c": "Priority drop",
+    "option_d": "Address translation",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Token management ensures ______.",
+    "option_a": "Token not lost",
+    "option_b": "Slots synchronized",
+    "option_c": "Frequencies stable",
+    "option_d": "Buffers empty",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Logical ring can be implemented on ______.",
+    "option_a": "Ring, bus, star",
+    "option_b": "Only ring",
+    "option_c": "Only star",
+    "option_d": "Only bus",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Token Bus is based on ______.",
+    "option_a": "Logical ring over bus",
+    "option_b": "Physical ring",
+    "option_c": "Star-routing",
+    "option_d": "Dual fiber",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "FDDI uses ______.",
+    "option_a": "Dual ring",
+    "option_b": "Star",
+    "option_c": "Bus",
+    "option_d": "Tree",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Channelization divides ______.",
+    "option_a": "Bandwidth",
+    "option_b": "Frames",
+    "option_c": "Packets",
+    "option_d": "Queue",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "FDMA divides bandwidth by ______.",
+    "option_a": "Frequency bands",
+    "option_b": "Time slots",
+    "option_c": "Codes",
+    "option_d": "Tokens",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "TDMA divides bandwidth by ______.",
+    "option_a": "Time slots",
+    "option_b": "Codes",
+    "option_c": "Frequencies",
+    "option_d": "Tokens",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "CDMA divides channel by ______.",
+    "option_a": "Codes",
+    "option_b": "Frequency",
+    "option_c": "Time",
+    "option_d": "Reservation",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In FDMA each station gets ______.",
+    "option_a": "Frequency band",
+    "option_b": "Time slot",
+    "option_c": "Code word",
+    "option_d": "Token",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In TDMA stations share channel using ______.",
+    "option_a": "Time slots",
+    "option_b": "Codes",
+    "option_c": "Tokens",
+    "option_d": "Priority",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In CDMA, users share channel using ______.",
+    "option_a": "Unique codes",
+    "option_b": "Time slots",
+    "option_c": "Carrier sense",
+    "option_d": "Polling",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "ALOHA retransmission uses ______.",
+    "option_a": "Random backoff",
+    "option_b": "Immediate retry",
+    "option_c": "Polling",
+    "option_d": "Token",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Binary exponential backoff increases range after ______.",
+    "option_a": "Each collision",
+    "option_b": "Each success",
+    "option_c": "Each ACK",
+    "option_d": "Each CTS",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Slotted ALOHA improves pure ALOHA by ______.",
+    "option_a": "Slotting time",
+    "option_b": "Reducing band",
+    "option_c": "Adding RTS",
+    "option_d": "Using CDMA",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Throughput of CSMA/CD is approx ______.",
+    "option_a": "50% max",
+    "option_b": "10% max",
+    "option_c": "100%",
+    "option_d": "5%",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Nonpersistent CSMA improves performance by ______.",
+    "option_a": "Avoiding reattempt synchronization",
+    "option_b": "Sending faster",
+    "option_c": "Splitting frames",
+    "option_d": "Using RTS",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Polling primary sends ______.",
+    "option_a": "SEL frames",
+    "option_b": "RTS",
+    "option_c": "Tokens",
+    "option_d": "CTS",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Hidden stations exist when ______.",
+    "option_a": "Nodes cannot hear each other",
+    "option_b": "Nodes collide always",
+    "option_c": "Nodes share token",
+    "option_d": "Nodes share minislots",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Exposed terminal problem occurs when ______.",
+    "option_a": "Node defers unnecessarily",
+    "option_b": "Collision happens",
+    "option_c": "Token lost",
+    "option_d": "Queue overload",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "CSMA/CD fails in wireless because ______.",
+    "option_a": "Cannot detect collisions",
+    "option_b": "Frames too large",
+    "option_c": "Propagation too small",
+    "option_d": "Energy too weak",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Token passing avoids collisions because ______.",
+    "option_a": "Only token-holder sends",
+    "option_b": "Slots are fixed",
+    "option_c": "Codes are unique",
+    "option_d": "Polling fixed",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "CDMA allows many users because ______.",
+    "option_a": "Codes are orthogonal",
+    "option_b": "Time divided equally",
+    "option_c": "Frequencies unique",
+    "option_d": "Tokens rotate",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "TDMA requires ______.",
+    "option_a": "Synchronization",
+    "option_b": "Codes",
+    "option_c": "Frequencies",
+    "option_d": "RTS/CTS",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Polling cycle time affects ______.",
+    "option_a": "Efficiency",
+    "option_b": "Frame size",
+    "option_c": "Bandwidth",
+    "option_d": "Topology",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Reservation suffers if ______.",
+    "option_a": "Many idle minislots",
+    "option_b": "High collisions",
+    "option_c": "Long codes",
+    "option_d": "Short frames",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is the purpose of an IP address?",
+    "option_a": "Identify a host on a network",
+    "option_b": "Encrypt data",
+    "option_c": "Assign MAC addresses",
+    "option_d": "Check connectivity",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "IPv4 uses how many bits?",
+    "option_a": "32 bits",
+    "option_b": "64 bits",
+    "option_c": "16 bits",
+    "option_d": "128 bits",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "How many octets does an IPv4 address have?",
+    "option_a": "4",
+    "option_b": "8",
+    "option_c": "2",
+    "option_d": "6",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Dotted‑decimal notation represents ______.",
+    "option_a": "Human‑readable IPv4 addresses",
+    "option_b": "Binary MAC addresses",
+    "option_c": "Hexadecimal VLANs",
+    "option_d": "Encrypted packets",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A NIC is assigned ______.",
+    "option_a": "An IP address",
+    "option_b": "A subnet router ID",
+    "option_c": "A DNS domain",
+    "option_d": "A broadcast ID",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Every IP packet contains ______.",
+    "option_a": "Source and destination IP",
+    "option_b": "Gateway and DNS IP",
+    "option_c": "MAC and VLAN ID",
+    "option_d": "Sender’s hostname",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "The two parts of an IPv4 address are ______.",
+    "option_a": "Network and host",
+    "option_b": "Layer and segment",
+    "option_c": "Port and VLAN",
+    "option_d": "Domain and group",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Subnet mask indicates ______.",
+    "option_a": "Which bits are network or host",
+    "option_b": "TTL value",
+    "option_c": "Default route",
+    "option_d": "Broadcast domain size",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A 24‑bit network mask is ______.",
+    "option_a": "255.255.255.0",
+    "option_b": "255.255.0.0",
+    "option_c": "255.0.0.0",
+    "option_d": "255.255.255.128",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "An octet ranges from ______.",
+    "option_a": "0–255",
+    "option_b": "1–255",
+    "option_c": "0–127",
+    "option_d": "1–256",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Binary 10010011 equals decimal ______.",
+    "option_a": "147",
+    "option_b": "155",
+    "option_c": "139",
+    "option_d": "129",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which class uses 255.0.0.0 as default mask?",
+    "option_a": "Class A",
+    "option_b": "Class B",
+    "option_c": "Class C",
+    "option_d": "Class D",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which class uses 255.255.0.0?",
+    "option_a": "Class B",
+    "option_b": "Class A",
+    "option_c": "Class C",
+    "option_d": "Class D",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which class uses 255.255.255.0?",
+    "option_a": "Class C",
+    "option_b": "Class A",
+    "option_c": "Class B",
+    "option_d": "Class E",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Class A first‑octet range is ______.",
+    "option_a": "1–127",
+    "option_b": "128–191",
+    "option_c": "192–223",
+    "option_d": "224–239",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Class B first‑octet range is ______.",
+    "option_a": "128–191",
+    "option_b": "1–127",
+    "option_c": "192–223",
+    "option_d": "224–239",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Class C first‑octet range is ______.",
+    "option_a": "192–223",
+    "option_b": "224–239",
+    "option_c": "128–191",
+    "option_d": "1–127",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Class D is used for ______.",
+    "option_a": "Multicast",
+    "option_b": "Unicast",
+    "option_c": "Broadcast",
+    "option_d": "Experimental use",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Class E is reserved for ______.",
+    "option_a": "Experimental use",
+    "option_b": "Broadcast",
+    "option_c": "Multicast",
+    "option_d": "Public use",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "CIDR notation /24 means ______.",
+    "option_a": "24 network bits",
+    "option_b": "24 host bits",
+    "option_c": "8 network bits",
+    "option_d": "16 host bits",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "10.0.0.0/8 belongs to ______.",
+    "option_a": "Private Class A",
+    "option_b": "Public Class A",
+    "option_c": "Loopback",
+    "option_d": "Multicast",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "172.16.0.0–172.31.0.0 belongs to ______.",
+    "option_a": "Private Class B",
+    "option_b": "Private Class C",
+    "option_c": "Public Class B",
+    "option_d": "Link‑local",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "192.168.0.0/16 belongs to ______.",
+    "option_a": "Private Class C",
+    "option_b": "Private Class A",
+    "option_c": "Multicast",
+    "option_d": "Experimental",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "127.0.0.0/8 is reserved for ______.",
+    "option_a": "Loopback",
+    "option_b": "Broadcast",
+    "option_c": "APIPA",
+    "option_d": "Private use",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "APIPA uses which range?",
+    "option_a": "169.254.0.1–169.254.255.254",
+    "option_b": "127.0.0.1–127.0.0.255",
+    "option_c": "192.0.2.0/24",
+    "option_d": "100.64.0.0/10",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "APIPA default mask is ______.",
+    "option_a": "255.255.0.0",
+    "option_b": "255.0.0.0",
+    "option_c": "255.255.255.0",
+    "option_d": "255.255.255.128",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Private addresses are ______ on the Internet.",
+    "option_a": "Not routed",
+    "option_b": "Routed normally",
+    "option_c": "NAT‑free",
+    "option_d": "Always blocked by switches",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "The router interface used to leave the subnet is ______.",
+    "option_a": "Default gateway",
+    "option_b": "DNS server",
+    "option_c": "ARP server",
+    "option_d": "MAC gateway",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Limited broadcast IP address is ______.",
+    "option_a": "255.255.255.255",
+    "option_b": "0.0.0.0",
+    "option_c": "192.168.1.255",
+    "option_d": "224.0.0.1",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Unicast communication is ______.",
+    "option_a": "One‑to‑one",
+    "option_b": "One‑to‑all",
+    "option_c": "One‑to‑many",
+    "option_d": "One‑to‑router",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Broadcast means ______.",
+    "option_a": "One‑to‑all in subnet",
+    "option_b": "One‑to‑one",
+    "option_c": "Many‑to‑many",
+    "option_d": "One‑to‑gateway",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Multicast means ______.",
+    "option_a": "One‑to‑group",
+    "option_b": "One‑to‑all",
+    "option_c": "All‑to‑one",
+    "option_d": "One‑to‑router",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Static addressing requires ______.",
+    "option_a": "Manual configuration",
+    "option_b": "DHCP server",
+    "option_c": "ARP broadcast",
+    "option_d": "DNS caching",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Dynamic addressing is provided by ______.",
+    "option_a": "DHCP",
+    "option_b": "DNS",
+    "option_c": "NAT",
+    "option_d": "ARP",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "DHCP provides ______.",
+    "option_a": "IP, mask, gateway, DNS",
+    "option_b": "Only IP address",
+    "option_c": "Only mask",
+    "option_d": "Only DNS",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "DHCP leases are ______.",
+    "option_a": "Temporary",
+    "option_b": "Permanent",
+    "option_c": "MAC‑based",
+    "option_d": "Random",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Home routers usually act as ______.",
+    "option_a": "DHCP server for LAN",
+    "option_b": "DHCP server for ISP",
+    "option_c": "DNS root servers",
+    "option_d": "NAT clients only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "DHCP server listens on port ______.",
+    "option_a": "UDP 67",
+    "option_b": "TCP 67",
+    "option_c": "UDP 53",
+    "option_d": "TCP 80",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "DHCP Discover is sent as ______.",
+    "option_a": "Broadcast",
+    "option_b": "Unicast",
+    "option_c": "Multicast",
+    "option_d": "Directed unicast",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "DHCP process begins with ______.",
+    "option_a": "DHCP Discover",
+    "option_b": "DHCP Request",
+    "option_c": "DHCP ACK",
+    "option_d": "ARP",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "DHCP message sent by server offering an IP is ______.",
+    "option_a": "DHCP Offer",
+    "option_b": "DHCP Discover",
+    "option_c": "DHCP ACK",
+    "option_d": "DHCP Hello",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Correct DHCP message order is ______.",
+    "option_a": "Discover → Offer → Request → ACK",
+    "option_b": "Discover → Request → Offer → ACK",
+    "option_c": "Offer → Discover → ACK → Request",
+    "option_d": "Discover → ACK → Request → Offer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Broadcast MAC address is ______.",
+    "option_a": "FF‑FF‑FF‑FF‑FF‑FF",
+    "option_b": "00‑00‑00‑00‑00‑00",
+    "option_c": "33‑33‑00‑00‑00‑01",
+    "option_d": "01‑00‑5E‑00‑00‑00",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which device typically runs DHCP at home?",
+    "option_a": "Wireless router",
+    "option_b": "Switch",
+    "option_c": "Laptop",
+    "option_d": "Printer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "192.0.2.0/24 is reserved for ______.",
+    "option_a": "Documentation",
+    "option_b": "APIPA",
+    "option_c": "Private networks",
+    "option_d": "Loopback",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "203.0.113.0/24 is ______.",
+    "option_a": "Documentation network",
+    "option_b": "Private network",
+    "option_c": "Multicast block",
+    "option_d": "Loopback",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "198.51.100.0/24 is ______.",
+    "option_a": "TEST‑NET‑2",
+    "option_b": "Multicast",
+    "option_c": "CGNAT",
+    "option_d": "APIPA",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "100.64.0.0/10 is used for ______.",
+    "option_a": "Carrier‑grade NAT",
+    "option_b": "APIPA",
+    "option_c": "Loopback",
+    "option_d": "Multicast",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which describes 0.0.0.0?",
+    "option_a": "Unspecified address",
+    "option_b": "Broadcast",
+    "option_c": "Loopback",
+    "option_d": "Multicast",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A device checks local/remote by comparing ______.",
+    "option_a": "Network bits after masking",
+    "option_b": "MAC vendors",
+    "option_c": "DNS names",
+    "option_d": "TTL values",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Router interfaces behave as ______.",
+    "option_a": "Hosts on each network",
+    "option_b": "Switch ports",
+    "option_c": "DNS relays",
+    "option_d": "ARP proxies only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which is a link‑local address group?",
+    "option_a": "169.254.0.0/16",
+    "option_b": "192.0.2.0/24",
+    "option_c": "10.0.0.0/8",
+    "option_d": "203.0.113.0/24",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "DHCP ACK indicates ______.",
+    "option_a": "Client may use the assigned IP",
+    "option_b": "Server rejects IP",
+    "option_c": "DNS server not found",
+    "option_d": "Lease expired",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "DHCP Release is used to ______.",
+    "option_a": "Return IP to pool",
+    "option_b": "Request new DNS",
+    "option_c": "Extend lease",
+    "option_d": "Broadcast MAC",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Loopback main address is ______.",
+    "option_a": "127.0.0.1",
+    "option_b": "0.0.0.1",
+    "option_c": "224.0.0.5",
+    "option_d": "169.254.1.1",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is NAT used for?",
+    "option_a": "Translate private IP to public",
+    "option_b": "Assign DNS names",
+    "option_c": "Encrypt packets",
+    "option_d": "Detect collisions",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "ARP maps ______.",
+    "option_a": "IP to MAC",
+    "option_b": "MAC to IP",
+    "option_c": "DNS to IP",
+    "option_d": "Port to service",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "224.0.0.1 is ______.",
+    "option_a": "All‑hosts multicast",
+    "option_b": "All‑routers multicast",
+    "option_c": "Broadcast",
+    "option_d": "Private network",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "224.0.0.2 is ______.",
+    "option_a": "All‑routers multicast",
+    "option_b": "NTP group",
+    "option_c": "Broadcast",
+    "option_d": "Internet gateway",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "DHCP can also assign ______.",
+    "option_a": "DNS servers",
+    "option_b": "MAC address",
+    "option_c": "Loopback",
+    "option_d": "VLAN trunk",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "The default gateway must ______.",
+    "option_a": "Be in the same subnet",
+    "option_b": "Be on another subnet",
+    "option_c": "Use APIPA",
+    "option_d": "Match DNS",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "An IP address uniquely identifies ______.",
+    "option_a": "A host interface",
+    "option_b": "An entire LAN",
+    "option_c": "A VLAN",
+    "option_d": "A router only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "255.255.255.255 is used for ______.",
+    "option_a": "Broadcast to all hosts",
+    "option_b": "Private routing",
+    "option_c": "Default gateway",
+    "option_d": "DNS query",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "DNS resolves ______.",
+    "option_a": "Names to IPs",
+    "option_b": "MACs to IPs",
+    "option_c": "IPs to MACs",
+    "option_d": "Ports to services",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A router forwards packets based on ______.",
+    "option_a": "Network portion of IP",
+    "option_b": "MAC address",
+    "option_c": "Hostname",
+    "option_d": "TTL value",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which range is internet‑routable?",
+    "option_a": "Public IP range",
+    "option_b": "APIPA range",
+    "option_c": "Loopback range",
+    "option_d": "Private ranges",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "DHCP assigns addresses from ______.",
+    "option_a": "A configured pool",
+    "option_b": "Static table",
+    "option_c": "DNS zone file",
+    "option_d": "ARP cache",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "DHCP Request is sent by ______.",
+    "option_a": "Client",
+    "option_b": "Server",
+    "option_c": "Router only",
+    "option_d": "Switch",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What does a MAC address uniquely identify?",
+    "option_a": "A network interface",
+    "option_b": "A router",
+    "option_c": "A switch",
+    "option_d": "An IP network",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "How many bits are in a MAC address?",
+    "option_a": "48 bits",
+    "option_b": "32 bits",
+    "option_c": "64 bits",
+    "option_d": "16 bits",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "MAC addresses are typically written in ______.",
+    "option_a": "Hexadecimal",
+    "option_b": "Binary",
+    "option_c": "Decimal",
+    "option_d": "Octal",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "The first 24 bits of a MAC address represent the ______.",
+    "option_a": "OUI (vendor ID)",
+    "option_b": "Host ID",
+    "option_c": "Subnet ID",
+    "option_d": "Port number",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which organization assigns OUIs to manufacturers?",
+    "option_a": "IEEE",
+    "option_b": "IETF",
+    "option_c": "ISO",
+    "option_d": "ANSI",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Ethernet uses which device to regenerate electrical signals?",
+    "option_a": "Hub",
+    "option_b": "Switch",
+    "option_c": "Router",
+    "option_d": "Bridge",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A hub operates as a ______ device.",
+    "option_a": "Shared bandwidth",
+    "option_b": "Switched bandwidth",
+    "option_c": "Filtered traffic",
+    "option_d": "Routed",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A hub creates how many collision domains?",
+    "option_a": "One",
+    "option_b": "Two",
+    "option_c": "One per port",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A switch creates how many collision domains?",
+    "option_a": "One per port",
+    "option_b": "One per VLAN",
+    "option_c": "One shared domain",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What table does a switch build?",
+    "option_a": "MAC address table",
+    "option_b": "Routing table",
+    "option_c": "ARP table",
+    "option_d": "Forwarding table",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Switches forward frames based on ______.",
+    "option_a": "MAC addresses",
+    "option_b": "IP addresses",
+    "option_c": "Port numbers",
+    "option_d": "Protocols",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "If a switch does not know the destination MAC, it will ______.",
+    "option_a": "Flood the frame",
+    "option_b": "Drop the frame",
+    "option_c": "Send ARP",
+    "option_d": "Broadcast IP",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A broadcast MAC address is ______.",
+    "option_a": "FF:FF:FF:FF:FF:FF",
+    "option_b": "00:00:00:00:00:00",
+    "option_c": "AA:AA:AA:AA:AA:AA",
+    "option_d": "11:11:11:11:11:11",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What is a broadcast domain?",
+    "option_a": "A network where all devices receive broadcast messages",
+    "option_b": "A point‑to‑point link",
+    "option_c": "A router-only zone",
+    "option_d": "A VLAN trunk",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which device breaks up broadcast domains?",
+    "option_a": "Router",
+    "option_b": "Switch",
+    "option_c": "Hub",
+    "option_d": "Repeater",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Ethernet frame minimum size is ______ bytes.",
+    "option_a": "64",
+    "option_b": "32",
+    "option_c": "128",
+    "option_d": "46",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Ethernet frame maximum size is ______ bytes.",
+    "option_a": "1518",
+    "option_b": "1500",
+    "option_c": "1522",
+    "option_d": "1600",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which field detects frame errors?",
+    "option_a": "FCS",
+    "option_b": "Preamble",
+    "option_c": "Type",
+    "option_d": "SFD",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "The preamble in Ethernet is used for ______.",
+    "option_a": "Timing",
+    "option_b": "Addressing",
+    "option_c": "Error detection",
+    "option_d": "Routing",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which field marks the start of an Ethernet frame?",
+    "option_a": "SFD",
+    "option_b": "FCS",
+    "option_c": "Type field",
+    "option_d": "Payload",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "At which layer do switches primarily operate?",
+    "option_a": "Data Link layer",
+    "option_b": "Network layer",
+    "option_c": "Physical layer",
+    "option_d": "Transport layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "At which layer do routers operate?",
+    "option_a": "Network layer",
+    "option_b": "Data Link layer",
+    "option_c": "Transport layer",
+    "option_d": "Application layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Routers forward packets based on ______.",
+    "option_a": "IP addresses",
+    "option_b": "MAC addresses",
+    "option_c": "Port numbers",
+    "option_d": "Frame size",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Routers do NOT forward ______.",
+    "option_a": "Broadcast frames",
+    "option_b": "Unicast packets",
+    "option_c": "Multicast IP",
+    "option_d": "Routed traffic",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "ARP is used to map ______.",
+    "option_a": "IP to MAC",
+    "option_b": "MAC to IP",
+    "option_c": "IP to port",
+    "option_d": "IP to VLAN",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "What type of message does ARP initially send?",
+    "option_a": "Broadcast",
+    "option_b": "Unicast",
+    "option_c": "Multicast",
+    "option_d": "Anycast",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which device always floods broadcasts?",
+    "option_a": "Hub",
+    "option_b": "Router",
+    "option_c": "Firewall",
+    "option_d": "IDS",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "The ARP table stores which information?",
+    "option_a": "IP‑MAC mappings",
+    "option_b": "MAC‑port mappings",
+    "option_c": "IP‑port mappings",
+    "option_d": "Subnet routes",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A switch learns MAC addresses by examining the ______ MAC address of frames.",
+    "option_a": "Source",
+    "option_b": "Destination",
+    "option_c": "Broadcast",
+    "option_d": "Multicast",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which device forms a separate collision domain per port?",
+    "option_a": "Switch",
+    "option_b": "Hub",
+    "option_c": "Repeater",
+    "option_d": "Bridge",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which device increases the number of collision domains?",
+    "option_a": "Switch",
+    "option_b": "Hub",
+    "option_c": "Repeater",
+    "option_d": "Modem",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Flooding occurs when a switch ______.",
+    "option_a": "Doesn't know the destination MAC",
+    "option_b": "Detects a collision",
+    "option_c": "Has full table",
+    "option_d": "Encounters a loop",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A hierarchical network has how many basic layers?",
+    "option_a": "Three",
+    "option_b": "Two",
+    "option_c": "Four",
+    "option_d": "Five",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which is NOT a hierarchical layer?",
+    "option_a": "Firewall layer",
+    "option_b": "Core layer",
+    "option_c": "Access layer",
+    "option_d": "Distribution layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "The access layer mainly connects ______.",
+    "option_a": "End devices",
+    "option_b": "Routers",
+    "option_c": "Core switches",
+    "option_d": "Servers only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "The distribution layer mainly connects ______.",
+    "option_a": "Access networks",
+    "option_b": "End hosts",
+    "option_c": "Core routers",
+    "option_d": "Wireless devices",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "The core layer provides ______.",
+    "option_a": "High‑speed backbone",
+    "option_b": "User authentication",
+    "option_c": "MAC learning",
+    "option_d": "Firewalling",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which device is found in the access layer?",
+    "option_a": "Switch",
+    "option_b": "Core router",
+    "option_c": "Firewall cluster",
+    "option_d": "Load balancer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which device is found in the core layer?",
+    "option_a": "High‑speed router",
+    "option_b": "Hub",
+    "option_c": "Access point",
+    "option_d": "IP phone",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A switch operating with one host per port eliminates ______.",
+    "option_a": "Collisions",
+    "option_b": "Broadcasts",
+    "option_c": "Loops",
+    "option_d": "Routing",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A hub operates at which OSI layer?",
+    "option_a": "Layer 1",
+    "option_b": "Layer 2",
+    "option_c": "Layer 3",
+    "option_d": "Layer 4",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A switch operates at which OSI layer?",
+    "option_a": "Layer 2",
+    "option_b": "Layer 1",
+    "option_c": "Layer 3",
+    "option_d": "Layer 4",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A router operates at which OSI layer?",
+    "option_a": "Layer 3",
+    "option_b": "Layer 2",
+    "option_c": "Layer 1",
+    "option_d": "Layer 5",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "An ARP reply is sent as ______.",
+    "option_a": "Unicast",
+    "option_b": "Broadcast",
+    "option_c": "Multicast",
+    "option_d": "Anycast",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Routers use which table?",
+    "option_a": "Routing table",
+    "option_b": "MAC table",
+    "option_c": "Forwarding database",
+    "option_d": "Bridge table",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Switches use which table?",
+    "option_a": "MAC table",
+    "option_b": "Routing table",
+    "option_c": "ARP table",
+    "option_d": "NAT table",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which device reduces collision domains?",
+    "option_a": "Switch",
+    "option_b": "Hub",
+    "option_c": "Repeater",
+    "option_d": "Modem",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which device reduces broadcast domains?",
+    "option_a": "Router",
+    "option_b": "Switch",
+    "option_c": "Hub",
+    "option_d": "NIC",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "An Ethernet frame carries the ______ inside it.",
+    "option_a": "IP packet",
+    "option_b": "Route table",
+    "option_c": "Switch log",
+    "option_d": "DNS answer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A default gateway is required to reach ______.",
+    "option_a": "Remote networks",
+    "option_b": "Local hosts",
+    "option_c": "Same subnet devices",
+    "option_d": "Multicast",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Incorrect default gateway leads to ______.",
+    "option_a": "No remote connectivity",
+    "option_b": "No local communication",
+    "option_c": "IP conflict",
+    "option_d": "Duplicate MACs",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Broadcast messages are forwarded by ______.",
+    "option_a": "Switches and hubs",
+    "option_b": "Routers",
+    "option_c": "Firewalls only",
+    "option_d": "Core routers only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Routers drop frames addressed to ______.",
+    "option_a": "Broadcast MAC",
+    "option_b": "Unicast MAC",
+    "option_c": "Multicast IP",
+    "option_d": "Known MAC",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which protocol discovers MAC addresses?",
+    "option_a": "ARP",
+    "option_b": "ICMP",
+    "option_c": "DNS",
+    "option_d": "TCP",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Each router interface has its own ______.",
+    "option_a": "ARP table",
+    "option_b": "DNS table",
+    "option_c": "Switching table",
+    "option_d": "VLAN database",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Routing is the process of forwarding packets toward ______.",
+    "option_a": "Destination network",
+    "option_b": "Destination MAC",
+    "option_c": "Source host",
+    "option_d": "Default VLAN",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A LAN refers to ______.",
+    "option_a": "Local networks under one admin",
+    "option_b": "Large enterprise WAN",
+    "option_c": "Cloud‑based network",
+    "option_d": "Wireless hotzone only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "In a LAN, all networks are under ______.",
+    "option_a": "One administrative control",
+    "option_b": "Multiple ISPs",
+    "option_c": "Dynamic routing only",
+    "option_d": "Cloud providers",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Which device prevents broadcast flooding across networks?",
+    "option_a": "Router",
+    "option_b": "Switch",
+    "option_c": "Hub",
+    "option_d": "Repeater",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "The frame’s destination MAC determines ______.",
+    "option_a": "Which host receives it",
+    "option_b": "Which VLAN is used",
+    "option_c": "Which router processes it",
+    "option_d": "Which subnet applies",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "If too many hosts exist in one broadcast domain, ______.",
+    "option_a": "Excessive broadcast traffic occurs",
+    "option_b": "Collisions disappear",
+    "option_c": "Switches stop forwarding",
+    "option_d": "Routers shut down",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Broadcasts occur at which addressing level?",
+    "option_a": "MAC layer",
+    "option_b": "IP layer",
+    "option_c": "Transport layer",
+    "option_d": "Application layer",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "ARP requests are sent to ______.",
+    "option_a": "All hosts on LAN",
+    "option_b": "Router only",
+    "option_c": "Switch only",
+    "option_d": "Destination host only",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "Routers use ______ to determine outgoing interfaces.",
+    "option_a": "Routing table",
+    "option_b": "MAC table",
+    "option_c": "DHCP table",
+    "option_d": "Broadcast list",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "A switch port connected to a hub shares a ______.",
+    "option_a": "Collision domain",
+    "option_b": "Broadcast domain only",
+    "option_c": "Routing path",
+    "option_d": "Subnet mask",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "MAC address size in hexadecimal characters is ______.",
+    "option_a": "12 characters",
+    "option_b": "8 characters",
+    "option_c": "16 characters",
+    "option_d": "24 characters",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  },
+  {
+    "subject": "Computer Networks",
+    "question_text": "When a switch receives a corrupted frame, it will ______.",
+    "option_a": "Drop it",
+    "option_b": "Forward it",
+    "option_c": "Flood it",
+    "option_d": "Retry it",
+    "option_e": null,
+    "source_file": "Computer Networks MCQs.xlsx"
+  }
+]

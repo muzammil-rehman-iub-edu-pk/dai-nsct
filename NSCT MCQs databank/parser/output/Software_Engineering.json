@@ -1,0 +1,2002 @@
+[
+  {
+    "subject": "Software Engineering",
+    "question_text": "Software is defined as:",
+    "option_a": "Programs, documentation, and operating procedures",
+    "option_b": "Only the compiled code",
+    "option_c": "Hardware instructions",
+    "option_d": "Data structures only",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The \"Software Crisis\" was characterized by:",
+    "option_a": "Projects running over budget and behind schedule",
+    "option_b": "Hardware becoming too expensive",
+    "option_c": "Lack of internet connectivity",
+    "option_d": "High energy consumption",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Software Engineering is a ___________ discipline.",
+    "option_a": "Systematic, disciplined, and quantifiable",
+    "option_b": "Purely theoretical",
+    "option_c": "Random and creative",
+    "option_d": "Hardware-centric",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which is not a characteristic of software?",
+    "option_a": "Software is a physical entity",
+    "option_b": "Software is developed or engineered",
+    "option_c": "Software doesn’t \"wear out\"",
+    "option_d": "Software is custom-built, not manufactured",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which of the following is an umbrella activity in software engineering?",
+    "option_a": "Software quality assurance",
+    "option_b": "Coding",
+    "option_c": "Requirements gathering",
+    "option_d": "Design",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The Waterfall Model is best suited for:",
+    "option_a": "Small projects with well-defined requirements",
+    "option_b": "Projects with changing requirements",
+    "option_c": "High-risk projects",
+    "option_d": "Complex web applications",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which model follows an iterative approach and focuses on risk analysis?",
+    "option_a": "Spiral Model",
+    "option_b": "Waterfall Model",
+    "option_c": "V-Model",
+    "option_d": "RAD Model",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The V-Model emphasizes:",
+    "option_a": "Relationship between testing and development phases",
+    "option_b": "Rapid prototyping",
+    "option_c": "Coding efficiency",
+    "option_d": "Maintenance costs",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "In the Incremental Model, the first increment is usually the:",
+    "option_a": "Core product",
+    "option_b": "User interface",
+    "option_c": "Final product",
+    "option_d": "Documentation",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Prototyping is used to:",
+    "option_a": "Help clarify user requirements",
+    "option_b": "Finish the project faster",
+    "option_c": "Replace the final system",
+    "option_d": "Minimize coding effort",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The Manifesto for Agile Software Development values:",
+    "option_a": "Responding to change over following a plan",
+    "option_b": "Processes and tools over individuals",
+    "option_c": "Comprehensive documentation over software",
+    "option_d": "Contract negotiation over collaboration",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "In Scrum, who is responsible for prioritizing the Product Backlog?",
+    "option_a": "Product Owner",
+    "option_b": "Scrum Master",
+    "option_c": "Development Team",
+    "option_d": "Stakeholders",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Sprint\" in Scrum usually lasts for:",
+    "option_a": "1 to 4 weeks",
+    "option_b": "1 day",
+    "option_c": "6 months",
+    "option_d": "1 year",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which Agile method uses \"User Stories\" and \"Pair Programming\"?",
+    "option_a": "XP (Extreme Programming)",
+    "option_b": "Kanban",
+    "option_c": "Lean",
+    "option_d": "Waterfall",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The Daily Stand-up meeting is intended to:",
+    "option_a": "Synchronize activities and report impediments",
+    "option_b": "Assign new tasks",
+    "option_c": "Demo the product to the client",
+    "option_d": "Conduct performance reviews",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Requirement Engineering includes which of the following steps?",
+    "option_a": "Elicitation, Analysis, Specification, Validation",
+    "option_b": "Coding, Testing, Maintenance",
+    "option_c": "Design, Implementation, Security",
+    "option_d": "Risk Management and Deployment",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "What is an SRS?",
+    "option_a": "Software Requirements Specification",
+    "option_b": "Software Resource System",
+    "option_c": "System Risk Solution",
+    "option_d": "Software Requirement Schedule",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Non-functional requirements refer to:",
+    "option_a": "System constraints and quality attributes (performance, security)",
+    "option_b": "What the system does",
+    "option_c": "User login details",
+    "option_d": "Database tables",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Ambiguity in requirements means:",
+    "option_a": "Requirements can be interpreted in multiple ways",
+    "option_b": "Requirements are too long",
+    "option_c": "Requirements are very clear",
+    "option_d": "Requirements are missing",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which tool is often used to model functional requirements?",
+    "option_a": "Use Case Diagram",
+    "option_b": "Class Diagram",
+    "option_c": "Deployment Diagram",
+    "option_d": "Gantt Chart",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The \"Project Triangle\" consists of:",
+    "option_a": "Time, Cost, Scope",
+    "option_b": "Code, Test, Deploy",
+    "option_c": "Manager, Developer, Client",
+    "option_d": "Risk, Quality, Value",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A Gantt Chart is used for:",
+    "option_a": "Project scheduling and tracking",
+    "option_b": "Managing code versions",
+    "option_c": "Writing requirements",
+    "option_d": "Designing UI",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "COCOMO stands for:",
+    "option_a": "Constructive Cost Model",
+    "option_b": "Common Cost Model",
+    "option_c": "Computer Costing Mode",
+    "option_d": "Conceptual Coding Model",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The \"Critical Path\" in a project network refers to:",
+    "option_a": "The longest path of planned activities to the end of the project",
+    "option_b": "The easiest tasks",
+    "option_c": "The path with the most bugs",
+    "option_d": "The documentation phase",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "WBS stands for:",
+    "option_a": "Work Breakdown Structure",
+    "option_b": "Work Break Schedule",
+    "option_c": "Weekly Business Summary",
+    "option_d": "Website Building System",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which of the following is a \"Good Design\" principle?",
+    "option_a": "Low Coupling, High Cohesion",
+    "option_b": "High Coupling, Low Cohesion",
+    "option_c": "High Complexity",
+    "option_d": "Large monolithic modules",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Cohesion is a measure of:",
+    "option_a": "Functional strength within a module",
+    "option_b": "Interdependence between modules",
+    "option_c": "Number of lines of code",
+    "option_d": "Project cost",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Coupling is a measure of:",
+    "option_a": "Strength of relationship between modules",
+    "option_b": "Comments in the code",
+    "option_c": "Speed of execution",
+    "option_d": "Number of developers",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Abstraction helps in:",
+    "option_a": "Hiding unnecessary details",
+    "option_b": "Increasing complexity",
+    "option_c": "Writing more code",
+    "option_d": "Slowing down the system",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Modularity refers to:",
+    "option_a": "Dividing a system into smaller, independent parts",
+    "option_b": "Building software as a single large block",
+    "option_c": "Using only one programming language",
+    "option_d": "Skipping the design phase",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The \"Golden Rule\" of UI design includes:",
+    "option_a": "Place the user in control",
+    "option_b": "Make the UI complex to look professional",
+    "option_c": "Use as many colors as possible",
+    "option_d": "Limit user interaction",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"User Persona\"",
+    "option_a": "A fictional representation of a target user",
+    "option_b": "A piece of hardware",
+    "option_c": "A database admin",
+    "option_d": "A type of computer virus",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Consistency in UI design means:",
+    "option_a": "Elements should look and behave the same across the application",
+    "option_b": "Every page should look different",
+    "option_c": "Using random fonts",
+    "option_d": "Changing button locations frequently",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The \"F-pattern\" in UI design refers to:",
+    "option_a": "The way users often scan web pages",
+    "option_b": "A coding style",
+    "option_c": "A type of error",
+    "option_d": "Keyboard shortcuts",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Affordance in UI design means:",
+    "option_a": "A property in which the physical characteristics of an object influence its function",
+    "option_b": "The cost of the UI",
+    "option_c": "The speed of the UI",
+    "option_d": "The number of images used",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The Client-Server architecture is a type of:",
+    "option_a": "Distributed architecture",
+    "option_b": "Monolithic architecture",
+    "option_c": "Sequential architecture",
+    "option_d": "Local architecture",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "MVC stands for:",
+    "option_a": "Model View Controller",
+    "option_b": "Main Video Codec",
+    "option_c": "Module Variable Class",
+    "option_d": "Multi-View Component",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "In MVC, the \"Model\" is responsible for:",
+    "option_a": "Data and business logic",
+    "option_b": "The user interface",
+    "option_c": "Handling user input",
+    "option_d": "Routing",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Layered architecture helps in:",
+    "option_a": "Separation of concerns",
+    "option_b": "Making the system slower",
+    "option_c": "Combining all logic in one file",
+    "option_d": "Reducing security",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Microservices architecture involves:",
+    "option_a": "Small, independent services communicating over a network",
+    "option_b": "One giant database",
+    "option_c": "A single executable file",
+    "option_d": "No documentation",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Refactoring is the process of:",
+    "option_a": "Improving internal code structure without changing external behavior",
+    "option_b": "Adding new features",
+    "option_c": "Deleting the whole project",
+    "option_d": "Changing the project manager",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Code reviews are conducted to:",
+    "option_a": "Find bugs and ensure coding standards",
+    "option_b": "Embarrass the developer",
+    "option_c": "Increase the cost",
+    "option_d": "Stop the project",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Technical Debt\" occurs when:",
+    "option_a": "You choose an easy, quick solution now instead of a better approach that takes longer",
+    "option_b": "You borrow money for a project",
+    "option_c": "The client doesn't pay",
+    "option_d": "The hardware is too old",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which is the best practice for variable naming?",
+    "option_a": "Use descriptive and meaningful names",
+    "option_b": "Use single letters like a, b, c",
+    "option_c": "Use random numbers",
+    "option_d": "Use as many characters as possible",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Integrated Development Environment (IDE) is used to:",
+    "option_a": "Provide comprehensive facilities to programmers for software development",
+    "option_b": "Print documents",
+    "option_c": "Manage payroll",
+    "option_d": "Replace the developer",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Black-box testing focuses on:",
+    "option_a": "Functional requirements and inputs/outputs",
+    "option_b": "Internal code logic",
+    "option_c": "Variable names",
+    "option_d": "Loop structures",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "White-box testing focuses on:",
+    "option_a": "Internal paths, structures, and implementation",
+    "option_b": "System external behavior",
+    "option_c": "User experience",
+    "option_d": "Documentation quality",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Unit testing is performed on:",
+    "option_a": "Individual modules or components",
+    "option_b": "The entire system",
+    "option_c": "The user manual",
+    "option_d": "The hardware",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Regression testing is done to:",
+    "option_a": "Ensure that new changes haven't broken existing functionality",
+    "option_b": "Test new features only",
+    "option_c": "Check the spelling",
+    "option_d": "Test the database speed",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Alpha testing is performed by:",
+    "option_a": "The developers/testers at the developer's site",
+    "option_b": "The end-users at their own site",
+    "option_c": "The government",
+    "option_d": "Competitors",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Corrective maintenance is done to:",
+    "option_a": "Fix bugs found after delivery",
+    "option_b": "Add new features",
+    "option_c": "Improve performance",
+    "option_d": "Change the UI color",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Adaptive maintenance involves:",
+    "option_a": "Modifying software to work in a new environment (e.g., new OS)",
+    "option_b": "Fixing errors",
+    "option_c": "Rewriting the entire code",
+    "option_d": "Deleting old files",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Perfective maintenance aims to:",
+    "option_a": "Enhance existing functions and improve performance",
+    "option_b": "Fix critical crashes",
+    "option_c": "Move to a new database",
+    "option_d": "Update the user list",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Software evolution refers to:",
+    "option_a": "The process of continuous change throughout the software lifecycle",
+    "option_b": "The software becoming slower over time",
+    "option_c": "Software being replaced by AI",
+    "option_d": "The death of a project",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "maintain it",
+    "option_a": "Complex software is always better",
+    "option_b": "Only hardware is complex",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Quality Assurance is ___________ oriented.",
+    "option_a": "Process",
+    "option_b": "Product",
+    "option_c": "Error",
+    "option_d": "Management",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "ISO 9126 is a standard for:",
+    "option_a": "Software quality characteristics",
+    "option_b": "Hardware safety",
+    "option_c": "Network protocols",
+    "option_d": "Database design",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Verification answers the question:",
+    "option_a": "Are we building the right product?",
+    "option_b": "Are we building the product right?",
+    "option_c": "Is the product expensive?",
+    "option_d": "Does the client like it?",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Validation answers the question:",
+    "option_a": "Are we building the product right?",
+    "option_b": "Are we building the right product?",
+    "option_c": "Is the code fast?",
+    "option_d": "Is the documentation complete?",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Walkthrough\" is a type of:",
+    "option_a": "Static analysis/Review",
+    "option_b": "Dynamic testing",
+    "option_c": "Performance test",
+    "option_d": "Beta test",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Lines of Code (LOC) is a measure of:",
+    "option_a": "Software size",
+    "option_b": "Software quality",
+    "option_c": "Software security",
+    "option_d": "User satisfaction",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Function Point (FP) analysis is used to:",
+    "option_a": "Measure the functionality provided to the user",
+    "option_b": "Count the number of brackets in code",
+    "option_c": "Measure CPU speed",
+    "option_d": "Calculate the electricity used",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Cyclomatic complexity measures:",
+    "option_a": "The logical complexity of a program",
+    "option_b": "The number of lines",
+    "option_c": "The number of users",
+    "option_d": "The cost of the project",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "MTBF stands for:",
+    "option_a": "Mean Time Between Failures",
+    "option_b": "Max Time Before Finish",
+    "option_c": "Mode Time Binary File",
+    "option_d": "Main Task Build Frame",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Defect Density is calculated as:",
+    "option_a": "Number of defects / Size of software",
+    "option_b": "Total code / Total bugs",
+    "option_c": "Time / Defects",
+    "option_d": "Cost / Defects",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "SCM is responsible for:",
+    "option_a": "Controlling changes in software",
+    "option_b": "Fixing hardware",
+    "option_c": "Writing user manuals",
+    "option_d": "Marketing the product",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Baseline\" in SCM is:",
+    "option_a": "A specification or product that has been formally reviewed and agreed upon",
+    "option_b": "The bottom of the screen",
+    "option_c": "The first line of code",
+    "option_d": "The minimum price of software",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Version Control systems (like Git) allow:",
+    "option_a": "Tracking changes and collaborating on code",
+    "option_b": "Only one person to work at a time",
+    "option_c": "Deleting history permanently",
+    "option_d": "Speeding up the internet",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Branching\" in version control refers to:",
+    "option_a": "Creating a separate line of development",
+    "option_b": "Deleting the project",
+    "option_c": "Joining two companies",
+    "option_d": "Writing comments",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Configuration Audit is used to ensure:",
+    "option_a": "The software meets defined requirements and SCM procedures",
+    "option_b": "The PC is fast enough",
+    "option_c": "The developer is working hard",
+    "option_d": "The office is clean",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Reactive risk management strategy means:",
+    "option_a": "\"Firefighting\" or dealing with risks when they occur",
+    "option_b": "Planning for risks before they happen",
+    "option_c": "Ignoring risks entirely",
+    "option_d": "Hiring a risk manager",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Risk\" in software engineering is:",
+    "option_a": "A potential future event that may lead to project failure",
+    "option_b": "A definite failure",
+    "option_c": "A past mistake",
+    "option_d": "A successful feature",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Risk Analysis involves:",
+    "option_a": "Risk estimation and risk projection",
+    "option_b": "Only writing code",
+    "option_c": "Buying insurance",
+    "option_d": "Asking for more money",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "RMMM plan stands for:",
+    "option_a": "Risk Management, Mitigation, and Monitoring",
+    "option_b": "Real Management Modality Method",
+    "option_c": "Risk Money Main Mode",
+    "option_d": "Rapid Movement Maintenance Model",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which is a technical risk?",
+    "option_a": "Ambiguous requirements",
+    "option_b": "Loss of a key developer",
+    "option_c": "Change in government policy",
+    "option_d": "Market competition",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The \"CIA Triad\" in security stands for: i) Central Intelligence Agency",
+    "option_a": "Coding, Implementation, Analysis",
+    "option_b": "Confidentiality, Integrity, Availability",
+    "option_c": "Control, Interest, Authority",
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Encryption is used to ensure:",
+    "option_a": "Confidentiality",
+    "option_b": "Availability",
+    "option_c": "Cost reduction",
+    "option_d": "Speed",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Vulnerability\" is:",
+    "option_a": "A weakness in the system that can be exploited",
+    "option_b": "A security patch",
+    "option_c": "A strong password",
+    "option_d": "A backup file",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "SQL Injection is a type of:",
+    "option_a": "Software security attack",
+    "option_b": "Hardware failure",
+    "option_c": "Project management style",
+    "option_d": "Testing tool",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Principle of Least Privilege means:",
+    "option_a": "Users should only have the minimum access necessary to do their job",
+    "option_b": "Everyone should have admin access",
+    "option_c": "No one should have access",
+    "option_d": "Security is not important",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "What is the primary goal of Software Engineering?",
+    "option_a": "To produce high-quality software within budget and time",
+    "option_b": "To make computers faster",
+    "option_c": "To reduce the number of developers",
+    "option_d": "To create beautiful icons",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Evolutionary process models are:",
+    "option_a": "Iterative",
+    "option_b": "Linear",
+    "option_c": "Static",
+    "option_d": "One-time",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "In Scrum, what is a \"User Story\"?",
+    "option_a": "A short description of a feature from the perspective of a user",
+    "option_b": "A technical specification",
+    "option_c": "A bug report",
+    "option_d": "A manager's biography",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Data flow diagrams (DFD) show:",
+    "option_a": "How data moves through a system",
+    "option_b": "Database schema",
+    "option_c": "Hardware layout",
+    "option_d": "Project timeline",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A project manager's primary focus is:",
+    "option_a": "Managing resources, time, and risks",
+    "option_b": "Coding only",
+    "option_c": "Cleaning the server room",
+    "option_d": "Designing logos",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Object-oriented design focuses on:",
+    "option_a": "Objects and classes",
+    "option_b": "Functions",
+    "option_c": "Binary code",
+    "option_d": "Paperwork",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "UI \"Usability\" refers to:",
+    "option_a": "How easy and efficient a system is to use",
+    "option_b": "How many colors are used",
+    "option_c": "The price of the software",
+    "option_d": "The size of the install file",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The \"Pipe and Filter\" architecture is common in:",
+    "option_a": "Operating systems (e.g., Unix)",
+    "option_b": "Simple websites",
+    "option_c": "Mobile games",
+    "option_d": "Word processors",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "What is \"Spaghetti Code\"?",
+    "option_a": "Unstructured and difficult-to-maintain code",
+    "option_b": "Well-organized code",
+    "option_c": "Code written in Italy",
+    "option_d": "A new programming language",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Boundary Value Analysis (BVA) is a:",
+    "option_a": "Black-box technique",
+    "option_b": "White-box technique",
+    "option_c": "Management style",
+    "option_d": "Security protocol",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Threat Modeling\" is done during:",
+    "option_a": "Design and Planning",
+    "option_b": "Coding",
+    "option_c": "Deployment",
+    "option_d": "Retirement",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which model is a \"Risk-driven\" process model?",
+    "option_a": "Spiral",
+    "option_b": "Waterfall",
+    "option_c": "V-Model",
+    "option_d": "Linear",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Agile development prefers:",
+    "option_a": "Face-to-face communication",
+    "option_b": "Formal emails only",
+    "option_c": "No communication",
+    "option_d": "Paper-based memos",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Bug\" is formally known as:",
+    "option_a": "A fault or defect",
+    "option_b": "An enhancement",
+    "option_c": "A feature",
+    "option_d": "Documentation",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Beta testing is done by:",
+    "option_a": "Real users in their own environment",
+    "option_b": "Developers",
+    "option_c": "Robots",
+    "option_d": "Managers",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The main purpose of SCM is to ensure:",
+    "option_a": "Integrity of the software product",
+    "option_b": "Speed of the internet",
+    "option_c": "Beauty of the code",
+    "option_d": "Low salary for developers",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The \"Lehman’s Laws\" are associated with:",
+    "option_a": "Software evolution",
+    "option_b": "Software design",
+    "option_c": "Hardware manufacturing",
+    "option_d": "Project bidding",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which is the most expensive type of maintenance?",
+    "option_a": "Perfective",
+    "option_b": "Corrective",
+    "option_c": "Adaptive",
+    "option_d": "Emergency",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Software re-engineering is the process of:",
+    "option_a": "Examination and alteration of a system to reconstitute it in a new form",
+    "option_b": "Deleting the system",
+    "option_c": "Changing the project manager",
+    "option_d": "Buying new hardware",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Legacy Systems\" are:",
+    "option_a": "Old systems that are still in use and business-critical",
+    "option_b": "New systems",
+    "option_c": "Systems with no bugs",
+    "option_d": "Systems that have been deleted",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "CMMI stands for:",
+    "option_a": "Capability Maturity Model Integration",
+    "option_b": "Computer Management Model Info",
+    "option_c": "Coding Maturity Method Internal",
+    "option_d": "Central Model Main Integration",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Level 5 of CMMI is called:",
+    "option_a": "Optimizing",
+    "option_b": "Defined",
+    "option_c": "Managed",
+    "option_d": "Initial",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Software Audit\" is performed by:",
+    "option_a": "An independent body or team",
+    "option_b": "The lead developer",
+    "option_c": "The client's family",
+    "option_d": "The HR department",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Six Sigma focuses on:",
+    "option_a": "Reducing variability and defects",
+    "option_b": "Increasing the number of developers",
+    "option_c": "Using six different languages",
+    "option_d": "Writing 600 lines of code daily",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Pareto Principle (80/20 rule) in SQA suggests:",
+    "option_a": "80% of bugs are in 20% of the code",
+    "option_b": "80% of developers are lazy",
+    "option_c": "20% of the project is testing",
+    "option_d": "80% of the cost is hardware",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which metric measures the time it takes to fix a bug?",
+    "option_a": "MTTR (Mean Time To Repair)",
+    "option_b": "MTBF",
+    "option_c": "LOC",
+    "option_d": "Function Point",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Halstead’s Software Science metrics are based on:",
+    "option_a": "Number of operators and operands",
+    "option_b": "Number of pages in documentation",
+    "option_c": "Number of meetings",
+    "option_d": "Cost of the office",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Fan-in\" of a module refers to:",
+    "option_a": "The number of modules that call it",
+    "option_b": "The number of modules it calls",
+    "option_c": "The number of lines it contains",
+    "option_d": "The number of users",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Fan-out\" of a module refers to:",
+    "option_a": "The number of modules it calls",
+    "option_b": "The number of modules that call it",
+    "option_c": "The speed of the module",
+    "option_d": "The memory used",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Product Metric\" measures:",
+    "option_a": "The software product itself (e.g., size, complexity)",
+    "option_b": "The development process",
+    "option_c": "The salary of the team",
+    "option_d": "The marketing budget",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The \"Check-out\" operation in SCM means:",
+    "option_a": "Getting a copy of a file from the repository to work on",
+    "option_b": "Finishing the project",
+    "option_c": "Paying the developers",
+    "option_d": "Deleting a file",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The \"Check-in\" (or Commit) operation means:",
+    "option_a": "Saving changes back to the repository",
+    "option_b": "Arriving at the office",
+    "option_c": "Logging out of the system",
+    "option_d": "Buying new software",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "What is a \"Conflict\" in version control?",
+    "option_a": "When two people change the same line of code in different ways",
+    "option_b": "Two managers arguing",
+    "option_c": "When the computer crashes",
+    "option_d": "When the internet is slow",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Repository\" is:",
+    "option_a": "A place where all versions of files are stored",
+    "option_b": "A trash can",
+    "option_c": "A printer",
+    "option_d": "A meeting room",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "SCCB stands for:",
+    "option_a": "Software Configuration Control Board",
+    "option_b": "System Coding Control Body",
+    "option_c": "Software Change Central Bureau",
+    "option_d": "Simple Code Control Base",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Risk Mitigation means:",
+    "option_a": "Taking steps to reduce the impact or probability of a risk",
+    "option_b": "Ignoring the risk",
+    "option_c": "Making the risk happen faster",
+    "option_d": "Blaming the client",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Risk Projection is also known as:",
+    "option_a": "Risk Estimation",
+    "option_b": "Risk Coding",
+    "option_c": "Risk Deletion",
+    "option_d": "Risk Documentation",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Known Risk\" is one that:",
+    "option_a": "Can be uncovered after careful evaluation",
+    "option_b": "Is impossible to predict",
+    "option_c": "Has already happened",
+    "option_d": "Only the manager knows",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Risk Monitoring involves:",
+    "option_a": "Checking if risks are still present and if mitigation is working",
+    "option_b": "Watching movies about risks",
+    "option_c": "Hiring a security guard",
+    "option_d": "Increasing the project price",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which is a business risk?",
+    "option_a": "Building an excellent product that no one wants",
+    "option_b": "A bug in the login page",
+    "option_c": "A slow database",
+    "option_d": "A missing semicolon",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The \"A\" in CIA Triad stands for:",
+    "option_a": "Availability",
+    "option_b": "Authentication",
+    "option_c": "Accuracy",
+    "option_d": "Authorization",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "What is \"Social Engineering\" in security?",
+    "option_a": "Manipulating people into giving up confidential information",
+    "option_b": "Writing code with friends",
+    "option_c": "Building a social network",
+    "option_d": "Designing a park",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Cross-Site Scripting (XSS) is a:",
+    "option_a": "Web security vulnerability",
+    "option_b": "Desktop error",
+    "option_c": "Printer problem",
+    "option_d": "Project management tool",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Multi-Factor Authentication (MFA) requires:",
+    "option_a": "Two or more pieces of evidence to verify identity",
+    "option_b": "Only a password",
+    "option_c": "A large team",
+    "option_d": "High-speed internet",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Patching\" software is done to:",
+    "option_a": "Fix security vulnerabilities and errors",
+    "option_b": "Add more bugs",
+    "option_c": "Increase the price",
+    "option_d": "Delete the database",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "What does UML stand for?",
+    "option_a": "Unified Modeling Language",
+    "option_b": "Universal Management Level",
+    "option_c": "Unique Model Logic",
+    "option_d": "Unified Maker List",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Class Diagram\" shows:",
+    "option_a": "Static structure of classes and their relationships",
+    "option_b": "The flow of data",
+    "option_c": "Time spent on a project",
+    "option_d": "Hardware connections",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Software reliability is defined as:",
+    "option_a": "The probability of failure-free operation for a specific time",
+    "option_b": "The number of lines of code",
+    "option_c": "The beauty of the UI",
+    "option_d": "The speed of the developer",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which is an example of an Agile framework?",
+    "option_a": "Scrum",
+    "option_b": "Waterfall",
+    "option_c": "V-Model",
+    "option_d": "COCOMO",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "What is a \"Stakeholder\"?",
+    "option_a": "Anyone who has an interest in or is affected by the project",
+    "option_b": "Only the developer",
+    "option_c": "A piece of hardware",
+    "option_d": "A type of code comment",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Formal methods use _________ to specify software.",
+    "option_a": "Mathematical notation",
+    "option_b": "Simple English",
+    "option_c": "Hand drawings",
+    "option_d": "Video clips",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Reverse Engineering is used to:",
+    "option_a": "Recover design or requirements from existing code",
+    "option_b": "Create code from a design",
+    "option_c": "Delete the code",
+    "option_d": "Sell the code",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The primary goal of a \"Sprint Review\" is to:",
+    "option_a": "Demonstrate the work done to stakeholders",
+    "option_b": "Review the budget",
+    "option_c": "Fire a team member",
+    "option_d": "Change the project name",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Brooks' Law\" states that:",
+    "option_a": "Adding manpower to a late project makes it later",
+    "option_b": "More developers make the project faster",
+    "option_c": "Coding is easy",
+    "option_d": "Testing is unnecessary",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Software \"Portability\" refers to:",
+    "option_a": "Ease with which software can be transferred between environments",
+    "option_b": "How heavy the computer is",
+    "option_c": "The number of images used",
+    "option_d": "The length of the manual",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Unit testing is usually done by:",
+    "option_a": "The developers themselves",
+    "option_b": "The client",
+    "option_c": "An external auditor",
+    "option_d": "The marketing team",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Data Dictionary\" contains:",
+    "option_a": "Definitions of all data objects used in the system",
+    "option_b": "A list of employees",
+    "option_c": "Phone numbers of clients",
+    "option_d": "Computer brands",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Refactoring\" does NOT:",
+    "option_a": "Change the observable behavior of the code",
+    "option_b": "Improve code readability",
+    "option_c": "Reduce complexity",
+    "option_d": "Remove duplication",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The most common model for calculating software cost is:",
+    "option_a": "COCOMO",
+    "option_b": "Waterfall",
+    "option_c": "Agile",
+    "option_d": "Spiral",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which diagram shows the sequence of messages between objects?",
+    "option_a": "Sequence Diagram",
+    "option_b": "Use Case Diagram",
+    "option_c": "State Diagram",
+    "option_d": "Class Diagram",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Software \"Interoperability\" is:",
+    "option_a": "Ability of two or more systems to exchange information",
+    "option_b": "Ability to run on one computer only",
+    "option_c": "Ability to delete itself",
+    "option_d": "Ability to hide bugs",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "In the Spiral Model, \"Quadrant 1\" is for:",
+    "option_a": "Planning and objective setting",
+    "option_b": "Risk analysis",
+    "option_c": "Engineering/Coding",
+    "option_d": "Evaluation",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "What is a \"Smoke Test\"?",
+    "option_a": "A quick test to ensure the most crucial functions work",
+    "option_b": "Testing if the computer catches fire",
+    "option_c": "A test for the printer",
+    "option_d": "A test for high-speed internet",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which testing checks if the system can handle a heavy load?",
+    "option_a": "Stress Testing",
+    "option_b": "Unit Testing",
+    "option_c": "Alpha Testing",
+    "option_d": "Logic Testing",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which model is also called the \"Classic Life Cycle\"?",
+    "option_a": "Waterfall Model",
+    "option_b": "Agile Model",
+    "option_c": "RAD Model",
+    "option_d": "Prototype Model",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "What is \"Feasibility Study\"?",
+    "option_a": "Checking if the project is technically and financially possible",
+    "option_b": "Writing the final report",
+    "option_c": "Hiring new staff",
+    "option_d": "Selling the software",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Requirement \"Elicitation\" means:",
+    "option_a": "Gathering requirements from stakeholders",
+    "option_b": "Deleting requirements",
+    "option_c": "Testing requirements",
+    "option_d": "Coding requirements",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"State Chart\" diagram shows:",
+    "option_a": "The different states an object can have and transitions between them",
+    "option_b": "The budget state",
+    "option_c": "The location of the office",
+    "option_d": "The names of developers",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Integration testing focuses on:",
+    "option_a": "Interactions between modules",
+    "option_b": "Individual modules",
+    "option_c": "The entire system environment",
+    "option_d": "The user's mood",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "What is \"Walkthrough\"?",
+    "option_a": "A peer review where the author leads the team through a document",
+    "option_b": "Walking in a park",
+    "option_c": "A formal government audit",
+    "option_d": "A type of coding language",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which tool is used for SCM?",
+    "option_a": "Git",
+    "option_b": "Photoshop",
+    "option_c": "MS Excel",
+    "option_d": "VLC Player",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Heuristic Evaluation\" is used in:",
+    "option_a": "User Interface (UI) testing",
+    "option_b": "Database design",
+    "option_c": "Risk management",
+    "option_d": "Cost estimation",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Software \"Usability\" includes:",
+    "option_a": "Learnability, Efficiency, Memorability, Errors, and Satisfaction",
+    "option_b": "Coding speed",
+    "option_c": "Internet speed",
+    "option_d": "Hardware price",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The \"Mainline\" in version control is:",
+    "option_a": "The primary branch of code (e.g., master or main)",
+    "option_b": "The power cord",
+    "option_c": "The first line of a function",
+    "option_d": "The manager's desk",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Validation\" ensures that:",
+    "option_a": "The product meets user needs",
+    "option_b": "The code has no semicolons",
+    "option_c": "The developer is on time",
+    "option_d": "The computer is new",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Extreme Programming (XP) emphasizes:",
+    "option_a": "Small releases and continuous feedback",
+    "option_b": "Long planning phases",
+    "option_c": "No testing",
+    "option_d": "Large teams",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "What is a \"Hotfix\"?",
+    "option_a": "A quick fix for a critical issue in production",
+    "option_b": "A bug that makes the PC warm",
+    "option_c": "A new feature",
+    "option_d": "A type of coffee",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Software \"Maturity\" in CMMI refers to:",
+    "option_a": "The extent to which a specific process is explicitly defined and managed",
+    "option_b": "The age of the software",
+    "option_c": "The age of the developer",
+    "option_d": "The number of pages in the manual",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which is NOT a software metric?",
+    "option_a": "Keyboard weight",
+    "option_b": "Lines of Code",
+    "option_c": "Cyclomatic Complexity",
+    "option_d": "Function Points",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Dark Mode\" in UI design is an example of:",
+    "option_a": "User Preference/Accessibility",
+    "option_b": "Requirement Engineering",
+    "option_c": "Software Risk",
+    "option_d": "SCM",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "What is \"End-of-Life\" (EOL) for software?",
+    "option_a": "When the software is first released",
+    "option_b": "When the software is no longer supported or sold",
+    "option_c": "When the computer breaks",
+    "option_d": "When the developer retires",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Software \"Efficiency\" is related to:",
+    "option_a": "Amount of computing resources and code used",
+    "option_b": "Number of people in the office",
+    "option_c": "The font size",
+    "option_d": "The color of the mouse",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Bug Bash\" is:",
+    "option_a": "An event where many people test the software to find bugs",
+    "option_b": "A party for bugs",
+    "option_c": "A type of virus",
+    "option_d": "A programming contest",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Dead Code\" is:",
+    "option_a": "Code that is never executed",
+    "option_b": "Code that deletes files",
+    "option_c": "Code for a funeral home",
+    "option_d": "Code written in a dead language",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Sandboxing\" in security is:",
+    "option_a": "Running a program in an isolated environment",
+    "option_b": "Playing with sand",
+    "option_c": "Deleting files",
+    "option_d": "Writing code on a beach",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "What is a \"Deliverable\"?",
+    "option_a": "A tangible work product produced during the project",
+    "option_b": "A pizza",
+    "option_c": "A phone call",
+    "option_d": "A hardware part",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Milestone\" is:",
+    "option_a": "A specific point in time used to measure project progress",
+    "option_b": "A heavy rock",
+    "option_c": "A type of code",
+    "option_d": "A distance marker",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Modularization\" helps in:",
+    "option_a": "Easier maintenance and understanding",
+    "option_b": "Making the system more complex",
+    "option_c": "Reducing the number of features",
+    "option_d": "Making the file size larger",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Static Analysis\" is done:",
+    "option_a": "Without executing the code",
+    "option_b": "By running the code",
+    "option_c": "By the user",
+    "option_d": "By the client",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which is a functional requirement?",
+    "option_a": "The system must allow users to reset passwords",
+    "option_b": "The system must be fast",
+    "option_c": "The system must be secure",
+    "option_d": "The system must be green",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "Which is a non-functional requirement?",
+    "option_a": "The system must process 1000 transactions per second",
+    "option_b": "The system must generate invoices",
+    "option_c": "The system must save data",
+    "option_d": "The system must send emails",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Data Flow Diagram\" level 0 is also called:",
+    "option_a": "Context Diagram",
+    "option_b": "Detailed Diagram",
+    "option_c": "Code Diagram",
+    "option_d": "Risk Diagram",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Encapsulation\" is a principle of:",
+    "option_a": "Object-Oriented Programming/Design",
+    "option_b": "Waterfall model",
+    "option_c": "Risk Management",
+    "option_d": "UI Design",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Scrum Board\" is used to:",
+    "option_a": "Visualize tasks and their progress",
+    "option_b": "Play games",
+    "option_c": "Write the SRS",
+    "option_d": "Calculate the budget",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "What is \"Burn-down Chart\"?",
+    "option_a": "A chart showing remaining work vs time",
+    "option_b": "A chart showing office temperature",
+    "option_c": "A list of deleted files",
+    "option_d": "A chart of fire exits",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "In the V-Model, \"System Testing\" is linked to:",
+    "option_a": "High-level Design",
+    "option_b": "Coding",
+    "option_c": "Requirements Specification",
+    "option_d": "Low-level Design",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "What is \"Equivalence Partitioning\"?",
+    "option_a": "A black-box testing technique that divides input data into classes",
+    "option_b": "Dividing code into equal parts",
+    "option_c": "Sharing the budget equally",
+    "option_d": "Splitting the team",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Defect Leakage\" happens when:",
+    "option_a": "Bugs are found by the end-user after release",
+    "option_b": "The developer finds a bug",
+    "option_c": "The computer leaks oil",
+    "option_d": "The manual is missing",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Monkey Testing\" refers to",
+    "option_a": "Randomly providing inputs to the system to see if it crashes",
+    "option_b": "Testing by monkeys",
+    "option_c": "Testing for animal websites",
+    "option_d": "Using a banana-shaped mouse",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Logic Bomb\" is:",
+    "option_a": "A piece of code that triggers a malicious action when certain conditions are met",
+    "option_b": "A type of hardware",
+    "option_c": "A loud noise from the CPU",
+    "option_d": "A mathematical puzzle",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Agile\" development is:",
+    "option_a": "Incremental and Iterative",
+    "option_b": "Linear and Sequential",
+    "option_c": "Static and Fixed",
+    "option_d": "Slow and Expensive",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The \"Product Backlog\" contains:",
+    "option_a": "A list of all desired features for the product",
+    "option_b": "A list of all previous employees",
+    "option_c": "The office address",
+    "option_d": "The hardware specs",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Spike\" in Agile is:",
+    "option_a": "A task aimed at research or prototyping",
+    "option_b": "A sharp object",
+    "option_c": "A sudden increase in price",
+    "option_d": "A bug",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"TDD\" stands for:",
+    "option_a": "Test Driven Development",
+    "option_b": "Total Design Document",
+    "option_c": "Time During Development",
+    "option_d": "Technical Data Design",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Clean Code\" is:",
+    "option_a": "Code that is easy to read and maintain",
+    "option_b": "Code that has been washed",
+    "option_c": "Code with no comments",
+    "option_d": "Code written in a clean room",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Null Pointer\" error occurs in:",
+    "option_a": "Implementation/Coding",
+    "option_b": "UI design",
+    "option_c": "Risk management",
+    "option_d": "Marketing",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Cross-platform\" software can:",
+    "option_a": "Run on multiple operating systems",
+    "option_b": "Only run on Windows",
+    "option_c": "Only run on one phone",
+    "option_d": "Be used by one person only",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Load Testing\" checks:",
+    "option_a": "System behavior under expected user load",
+    "option_b": "How heavy the laptop is",
+    "option_c": "If the electricity is on",
+    "option_d": "The size of the box",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Unit\" in unit testing refers to:",
+    "option_a": "The smallest testable part of an application",
+    "option_b": "A whole building",
+    "option_c": "One dollar",
+    "option_d": "One developer",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Pair Programming\" involves:",
+    "option_a": "Two programmers working on two different projects",
+    "option_b": "Two programmers working together at one workstation",
+    "option_c": "Two computers connected by a cable",
+    "option_d": "Two managers in one meeting",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "What is \"Technical Debt\"?",
+    "option_a": "The implied cost of future reworking caused by choosing an easy solution now",
+    "option_b": "Money owed to a bank",
+    "option_c": "A slow computer",
+    "option_d": "A missing keyboard",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"UAT\" stands for:",
+    "option_a": "User Acceptance Testing",
+    "option_b": "Universal Access Tool",
+    "option_c": "Unit Analysis Template",
+    "option_d": "User Architecture Task",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "A \"Fishbone Diagram\" (Ishikawa) is used for:",
+    "option_a": "Identifying root causes of a problem",
+    "option_b": "Drawing fish",
+    "option_c": "Designing a database",
+    "option_d": "Calculating speed",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The \"Waterfall Model\" is:",
+    "option_a": "Sequential",
+    "option_b": "Iterative",
+    "option_c": "Circular",
+    "option_d": "Random",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Software Configuration\" includes:",
+    "option_a": "Code, documentation, and data",
+    "option_b": "Only the EXE file",
+    "option_c": "Only the user manual",
+    "option_d": "Only the desk and chair",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Risk Exposure\" is calculated as:",
+    "option_a": "Probability * Impact",
+    "option_b": "Probability + Impact",
+    "option_c": "Time / Cost",
+    "option_d": "Size * 10",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Authentication\" is:",
+    "option_a": "Verifying who a user is",
+    "option_b": "Giving access rights",
+    "option_c": "Hiding data",
+    "option_d": "Deleting users",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Authorization\" is:",
+    "option_a": "Determining what a user can do",
+    "option_b": "Verifying who a user is",
+    "option_c": "Writing a book",
+    "option_d": "Selling a license",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "\"Sanitization\" of input helps prevent:",
+    "option_a": "SQL Injection",
+    "option_b": "Hardware rust",
+    "option_c": "Dust in the office",
+    "option_d": "Keyboard errors",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  },
+  {
+    "subject": "Software Engineering",
+    "question_text": "The ultimate goal of software engineering is to produce:",
+    "option_a": "High-quality, reliable, and maintainable software",
+    "option_b": "Any software",
+    "option_c": "Complex code",
+    "option_d": "Documentation only",
+    "option_e": null,
+    "source_file": "Software Engineering 200 MCQs with Answer.pdf"
+  }
+]

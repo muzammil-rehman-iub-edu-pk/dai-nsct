@@ -99,7 +99,7 @@ export default function Login() {
           </form>
 
           <p className="text-center text-white/30 text-xs mt-6">
-            Hint: Use your roll_number@iub.edu.pk as email.
+            Default admin: admin@nsct.edu / Admin@1234
           </p>
         </div>
       </div>

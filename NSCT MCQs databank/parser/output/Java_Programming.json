@@ -1,0 +1,1632 @@
+[
+  {
+    "subject": "Java Programming",
+    "question_text": "JDK stand for",
+    "option_a": "Java development kit",
+    "option_b": "Java declaration kit",
+    "option_c": "Java definition kit",
+    "option_d": "none",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Java is case sensitive",
+    "option_a": "yes",
+    "option_b": "no",
+    "option_c": "both",
+    "option_d": "none",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "What is the range of byte data type in Java",
+    "option_a": "-128 to 127",
+    "option_b": "-327688 to 32767",
+    "option_c": "-2147483648 to 2147483647",
+    "option_d": "none",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these can be returned by the operator &.",
+    "option_a": "Integer or Boolean",
+    "option_b": "Integer",
+    "option_c": "Boolean",
+    "option_d": "Character",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Literal can be of which of these data types.",
+    "option_a": "all of the mentioned",
+    "option_b": "integer",
+    "option_c": "float",
+    "option_d": "boolean",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these operators is used to allocate memory to array variable in Java.",
+    "option_a": "new",
+    "option_b": "malloc",
+    "option_c": "alloc",
+    "option_d": "new malloc",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "What is true about a break.",
+    "option_a": "Break halts the execution and forces the control out of the loop",
+    "option_b": "Break stops the execution of entire program",
+    "option_c": "Break forces the control out of the loop and starts the execution of next iteration",
+    "option_d": "Break halts the execution of the loop for certain time frame",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following is used with the switch statement.",
+    "option_a": "break",
+    "option_b": "Continue",
+    "option_c": "Exit",
+    "option_d": "do",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following is not a decision making statement?",
+    "option_a": "do-while",
+    "option_b": "if",
+    "option_c": "if-else",
+    "option_d": "switch",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these is an incorrect array declaration.",
+    "option_a": "int arr[] = int [5] new",
+    "option_b": "int arr[] = new int[5]",
+    "option_c": "int [] arr = new int[5]",
+    "option_d": "int arr[] = new int[5]",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following can be operands of arithmetic operators.",
+    "option_a": "Both Numeric & Characters",
+    "option_b": "Numeric",
+    "option_c": "Boolean",
+    "option_d": "Characters",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Decrement operator, −−, decreases the value of variable by what number.",
+    "option_a": "1",
+    "option_b": "2",
+    "option_c": "3",
+    "option_d": "4",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these selection statements test only for equality.",
+    "option_a": "switch",
+    "option_b": "if",
+    "option_c": "if & switch",
+    "option_d": "none of the mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these are selection statements in Java.",
+    "option_a": "if()",
+    "option_b": "for()",
+    "option_c": "continue",
+    "option_d": "break",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these jump statements can skip processing the remainder of the code in its body for a particular iteration.",
+    "option_a": "continue",
+    "option_b": "break",
+    "option_c": "return",
+    "option_d": "exit",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "The while loop repeats a set of code while the condition is not met.",
+    "option_a": "False",
+    "option_b": "True",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "What is true about do statement.",
+    "option_a": "do statement executes the code of a loop at least once",
+    "option_b": "do statement does not get execute if condition is not matched in the first iteration",
+    "option_c": "do statement checks the condition at the beginning of the loop",
+    "option_d": "do statement executes the code more than once always",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following is not a valid jump statement.",
+    "option_a": "goto",
+    "option_b": "break",
+    "option_c": "continue",
+    "option_d": "return",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following is not a valid flow control statement.",
+    "option_a": "exit()",
+    "option_b": "break",
+    "option_c": "continue",
+    "option_d": "return",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these statements is correct.",
+    "option_a": "true and false are non numeric values",
+    "option_b": "true and false are numeric values 1 and 0",
+    "option_c": "true and false are numeric values 0 and 1",
+    "option_d": "true is any non zero value and false is 0",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these have highest precedence.",
+    "option_a": "()",
+    "option_b": "++",
+    "option_c": "*",
+    "option_d": ">>",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "x = y = z = 8;",
+    "option_a": "8",
+    "option_b": "0",
+    "option_c": "1",
+    "option_d": "9",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which operator is used to invert all the digits in a binary representation of a number.",
+    "option_a": "~",
+    "option_b": "<<<",
+    "option_c": ">>>",
+    "option_d": "^",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which right shift operator preserves the sign of the value.",
+    "option_a": ">>",
+    "option_b": "<<",
+    "option_c": "<<=",
+    "option_d": ">>=",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Process by which one object acquires the properties of another object.",
+    "option_a": "Inheritance",
+    "option_b": "Polymorphism",
+    "option_c": "Encapsulation",
+    "option_d": "Abstraction",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following is not OOP concept in Java.",
+    "option_a": "Compilation",
+    "option_b": "Inheritance",
+    "option_c": "Encapsulation",
+    "option_d": "Polymorphism",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which concept of Java is a way of converting real world objects in terms of class.",
+    "option_a": "Abstraction",
+    "option_b": "Polymorphism",
+    "option_c": "Encapsulation",
+    "option_d": "Inheritance",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these keywords is used to make a class.",
+    "option_a": "class",
+    "option_b": "struct",
+    "option_c": ". int",
+    "option_d": "none of the mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Types of Constructor.",
+    "option_a": "3",
+    "option_b": "2",
+    "option_c": "4",
+    "option_d": "1",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these operators is used to allocate memory for an object.",
+    "option_a": "new",
+    "option_b": "malloc",
+    "option_c": "alloc",
+    "option_d": "give",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these statement is incorrect.",
+    "option_a": "Every class must contain a main() method",
+    "option_b": "Applets do not require a main() method at all",
+    "option_c": "There can be only one main() method in a program",
+    "option_d": "main() method must be made public",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these keywords is used to prevent content of a variable from being modified.",
+    "option_a": "final",
+    "option_b": "last",
+    "option_c": "constant",
+    "option_d": "static",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following statements are incorrect.",
+    "option_a": "when object of class is declared, each object contains its own copy of static variables",
+    "option_b": "static methods can call other static methods only",
+    "option_c": "static methods must only access static data",
+    "option_d": "static methods can not refer to this or super in any way",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following is a method having same name as that of it’s class.",
+    "option_a": "constructor",
+    "option_b": "finalize",
+    "option_c": "delete",
+    "option_d": "class",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these method of String class is used to obtain character at specified index.",
+    "option_a": "charAt()",
+    "option_b": "char()",
+    "option_c": "Charat()",
+    "option_d": "charat()",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "What would be the behaviour if this() and super() used in a method.",
+    "option_a": "compile time error",
+    "option_b": "Runtime error",
+    "option_c": "Throws exception",
+    "option_d": "Runs successfully",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "What is true about constructor.",
+    "option_a": "It can take any number of parameters",
+    "option_b": "It can contain return type",
+    "option_c": "It can have any non access modifiers",
+    "option_d": "Constructor cannot throw an exception",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of this keyword can be used in a subclass to call the constructor of superclass.",
+    "option_a": "super",
+    "option_b": "this",
+    "option_c": "extent",
+    "option_d": "extends",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these method of Object class can clone an object.",
+    "option_a": "Object clone()",
+    "option_b": "Objectcopy()",
+    "option_c": "copy()",
+    "option_d": "clone()",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these keywords can be used to prevent inheritance of a class.",
+    "option_a": "final",
+    "option_b": "super",
+    "option_c": "constant",
+    "option_d": "class",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these is not abstract.",
+    "option_a": "Thread",
+    "option_b": "AbstractList",
+    "option_c": "List",
+    "option_d": "None of the Mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of this keyword must be used to inherit a class.",
+    "option_a": "extends",
+    "option_b": "super",
+    "option_c": "this",
+    "option_d": "extent",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these is correct way of inheriting class A by class B.",
+    "option_a": "class B extends A {}",
+    "option_b": "class B + class A {}",
+    "option_c": "class B inherits class A {}",
+    "option_d": "class B extends class A {}",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "All classes in Java are inherited from which class.",
+    "option_a": "java.lang.Object",
+    "option_b": "java.lang.class",
+    "option_c": "java.class.inherited",
+    "option_d": "java.class.object",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "If super class and subclass have same variable name, which keyword should be used to use super class.",
+    "option_a": "super",
+    "option_b": "this",
+    "option_c": "upper",
+    "option_d": "classname",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "What concepts come under Polymorphism in java.",
+    "option_a": "All the above",
+    "option_b": "Method overloading",
+    "option_c": "Constructor overloading",
+    "option_d": "Method overriding",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which polymorphism concept is applied to inheritance relationship in java programming.",
+    "option_a": "Method overriding",
+    "option_b": "Method overloading",
+    "option_c": "Constructor overloading",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which feature comes under compile time polymorphism.",
+    "option_a": "Both A and B",
+    "option_b": "Method overloading",
+    "option_c": "Constructor overloading",
+    "option_d": "Method overriding",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Container where related classes, interfaces and sub-package collect.",
+    "option_a": "Package",
+    "option_b": "Class",
+    "option_c": "Function",
+    "option_d": "Method",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Java exception handling is managed via .....",
+    "option_a": "5 keywords",
+    "option_b": "3 keywords",
+    "option_c": "5 variable",
+    "option_d": "4 keywords",
+    "option_e": null,
+    "source_file": "Java Programming - Part I.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Java was released in .",
+    "option_a": "1995",
+    "option_b": "1990",
+    "option_c": "1996",
+    "option_d": "2000",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "The old name of java was.",
+    "option_a": "oak",
+    "option_b": "c++",
+    "option_c": "j",
+    "option_d": "ock",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these coding types is used for data type characters in Java.",
+    "option_a": "UNICODE",
+    "option_b": "ASCII",
+    "option_c": "ISO-LATIN-1",
+    "option_d": "None of the mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these values can a boolean variable contain.",
+    "option_a": "True & False",
+    "option_b": "0 & 1",
+    "option_c": "Any integer value",
+    "option_d": "true",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "What is the range of short data type in Java.",
+    "option_a": "-327688 to 32767",
+    "option_b": "-128 to 127",
+    "option_c": "-2147483648 to 2147483647",
+    "option_d": "none",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these is necessary to specify at time of array initialization.",
+    "option_a": "Row",
+    "option_b": "Column",
+    "option_c": "Both Row and Column",
+    "option_d": "None of the mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Java source code is compile into.",
+    "option_a": "Byte Code",
+    "option_b": ".obj",
+    "option_c": ".exe",
+    "option_d": ".hex",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which tool is used to compile Java code.",
+    "option_a": "javac",
+    "option_b": "jar",
+    "option_c": "Java",
+    "option_d": "javadoc",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "JVM stand for .",
+    "option_a": "Java Virtual Machine",
+    "option_b": "Java variable machine",
+    "option_c": "Java Virtual mechanism",
+    "option_d": "Java variable mechanism",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following is Private data type .",
+    "option_a": "Byte",
+    "option_b": "Float",
+    "option_c": "String",
+    "option_d": "Double",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which data type value is returned by all transcendental math functions.",
+    "option_a": "double",
+    "option_b": "int",
+    "option_c": "float",
+    "option_d": "long",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these cannot be used for a variable name in Java.",
+    "option_a": "keyword",
+    "option_b": "identifier",
+    "option_c": "identifier & keyword",
+    "option_d": "none of the mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which one is a valid declaration of a boolean.",
+    "option_a": "boolean b3 = false;",
+    "option_b": "boolean b1 = 1;",
+    "option_c": "boolean b2 = ‘false’;",
+    "option_d": "boolean b4 = ‘true’",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Modulus operator, %, can be applied to which of these.",
+    "option_a": "Both Integers and floating – point numbers",
+    "option_b": "Integers",
+    "option_c": "Floating – point numbers",
+    "option_d": "None of the mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Can 8 byte long data type be automatically type cast to 4 byte float data type.",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following loops will execute the body of loop even when condition controlling the loop is initially false.",
+    "option_a": "do-while",
+    "option_b": "while",
+    "option_c": "for",
+    "option_d": "none of the mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of this statement is incorrect.",
+    "option_a": "two case constants in the same switch can have identical values",
+    "option_b": "switch statement is more efficient than a set of nested ifs",
+    "option_c": "switch statement can only test for equality, whereas if statement can evaluate any type of boolean expression",
+    "option_d": "it is possible to create a nested switch statements",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "From where break statement causes an exit.",
+    "option_a": "From innermost loops or switches",
+    "option_b": "Only from innermost loop",
+    "option_c": "Terminates a program",
+    "option_d": "Only from innermost switch",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these is not a bitwise operator.",
+    "option_a": "<=",
+    "option_b": "&",
+    "option_c": "&=",
+    "option_d": "|=",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these is returned by “greater than”, “less than” and “equal to” operators.",
+    "option_a": "Boolean",
+    "option_b": "Integers",
+    "option_c": "Floating – point numbers",
+    "option_d": "None of the mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these can not be used for a variable name in Java.",
+    "option_a": "keyword",
+    "option_b": "identifier",
+    "option_c": "identifier & keyword",
+    "option_d": "none of the mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following loops will execute the body of loop even when condition controlling the loop is initially false.",
+    "option_a": "do-while",
+    "option_b": "while",
+    "option_c": "for",
+    "option_d": "none of the mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these operators can skip evaluating right hand operand.",
+    "option_a": "&&",
+    "option_b": "!",
+    "option_c": "|",
+    "option_d": "&",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "When does method overloading is determined.",
+    "option_a": "At compile time",
+    "option_b": "At run time",
+    "option_c": "At coding time",
+    "option_d": "At execution time",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following is a type of polymorphism in Java.",
+    "option_a": "Compile time polymorphism",
+    "option_b": "Execution time polymorphism",
+    "option_c": "Multiple polymorphism",
+    "option_d": "Multilevel polymorphism",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "What is it called where child object gets killed if parent object is killed.",
+    "option_a": "Composition",
+    "option_b": "Aggregation",
+    "option_c": "Encapsulation",
+    "option_d": "Association",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which statement is true about java.",
+    "option_a": "Platform independent programming language",
+    "option_b": "Platform dependent programming language",
+    "option_c": "Code dependent programming language",
+    "option_d": "Sequence dependent programming language",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "What is use of interpreter.",
+    "option_a": "They read high level code and execute them",
+    "option_b": "They convert bytecode to machine language code",
+    "option_c": "They are intermediated between JIT and JVM",
+    "option_d": "It is a synonym for JIT",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Arrays in Java are implemented as.",
+    "option_a": "object",
+    "option_b": "class",
+    "option_c": "variable",
+    "option_d": "none of the mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these cannot be declared static.",
+    "option_a": "object",
+    "option_b": "class",
+    "option_c": "variable",
+    "option_d": "method",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these methods must be made static.",
+    "option_a": "main()",
+    "option_b": "delete()",
+    "option_c": "run()",
+    "option_d": "finalize()",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "What is the return type of a method that does not return any value.",
+    "option_a": "void",
+    "option_b": "int",
+    "option_c": "float",
+    "option_d": "double",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which method can be defined only once in a program.",
+    "option_a": "main method",
+    "option_b": "finalize method",
+    "option_c": "static method",
+    "option_d": "private method",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "String in Java is a.",
+    "option_a": "class",
+    "option_b": "object",
+    "option_c": "variable",
+    "option_d": "character array",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these keywords is used to refer to member of base class from a subclass.",
+    "option_a": "super",
+    "option_b": "upper",
+    "option_c": "this",
+    "option_d": "none of the mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these method of String class can be used to test to strings for equality.",
+    "option_a": "equals()",
+    "option_b": "isequal()",
+    "option_c": "isequals()",
+    "option_d": "equal()",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "What is false about constructor.",
+    "option_a": "Constructor have return type",
+    "option_b": "Constructors cannot be synchronized in Java",
+    "option_c": "Java does not provide default copy constructor",
+    "option_d": "“this” and “super” can be used in a constructor",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Abstract class cannot have a constructor.",
+    "option_a": "False",
+    "option_b": "True",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these keywords can be used to prevent Method overriding.",
+    "option_a": "final",
+    "option_b": "static",
+    "option_c": "constant",
+    "option_d": "protected",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these class is superclass of every class in Java.",
+    "option_a": "Object class",
+    "option_b": "String class",
+    "option_c": "Abstract class",
+    "option_d": "ArrayList class",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these method of Object class is used to obtain class of an object at run time.",
+    "option_a": "Class getclass()",
+    "option_b": "get()",
+    "option_c": "void getclass()",
+    "option_d": "None of the mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these keywords are used to define an abstract class.",
+    "option_a": "abstract",
+    "option_b": "abst",
+    "option_c": "Abstract",
+    "option_d": "abstract class",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these packages contains abstract keyword.",
+    "option_a": "java.lang",
+    "option_b": "java.util",
+    "option_c": "java.io",
+    "option_d": "java.system",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "A class member declared protected becomes a member of subclass of which type.",
+    "option_a": "private member",
+    "option_b": "public member",
+    "option_c": "protected member",
+    "option_d": "static member",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "What is not type of inheritance.",
+    "option_a": "Double inheritance",
+    "option_b": "Single inheritance",
+    "option_c": "Hierarchical inheritance",
+    "option_d": "Multiple inheritance",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Static members are not inherited to subclass.",
+    "option_a": "False",
+    "option_b": "True",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which concept of Java is achieved by combining methods and attribute into a class.",
+    "option_a": "Encapsulation",
+    "option_b": "Inheritance",
+    "option_c": "Polymorphism",
+    "option_d": "Abstraction",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Feature that allows the parent class and the subclass to have a same name.",
+    "option_a": "Overriding",
+    "option_b": "Overloading",
+    "option_c": "Inheritance",
+    "option_d": "Polymorphism",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the below is invalid identifier with the main method.",
+    "option_a": "private",
+    "option_b": "public",
+    "option_c": "static",
+    "option_d": "final",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following is a valid declaration of an object of class Box.",
+    "option_a": "Box obj = new Box();",
+    "option_b": "Box obj = new Box;",
+    "option_c": "obj = new Box();",
+    "option_d": "new Box obj;",
+    "option_e": null,
+    "source_file": "Java Programming - Part II.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "A process that involves recognizing and focusing on the important characteristics of a situation or object is known as:",
+    "option_a": "Abstraction",
+    "option_b": "Encapsulation",
+    "option_c": "Polymorphism",
+    "option_d": "Inheritance",
+    "option_e": "Object persistence.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which statement is true regarding an object?",
+    "option_a": "An object is an instance of a class",
+    "option_b": "An object is what classes instantiated are from",
+    "option_c": "An object is a variable",
+    "option_d": "An object is a reference to an attribute",
+    "option_e": "An object is not an instance of a class.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Given a class named student, which of the following is a valid constructor declaration for the class?",
+    "option_a": "Student (student s) { } B. Student student ( ) { }",
+    "option_b": "Private final student ( ) { } D. Void student ( ) { }",
+    "option_c": "Static void student(){ }.",
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "A method within a class is only accessible by classes that are defined within the same package as the class of the method. Which one of the following is used to enforce such restriction?",
+    "option_a": "Do not declare the method with any accessibility modifiers",
+    "option_b": "Declare the method with the keyword public",
+    "option_c": "Declare the method with the keyword private",
+    "option_d": "Declare the method with the keyword protected",
+    "option_e": "Declare the method with the keyword public and private.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Multiple inheritance means,",
+    "option_a": "one class inheriting from more super classes",
+    "option_b": "more classes inheriting from one super class",
+    "option_c": "more classes inheriting from more super classes",
+    "option_d": "None of the above",
+    "option_e": "A. and B. above.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which statement is not true in java language?",
+    "option_a": "A private member of a class cannot be accessed by the methods of the same class.",
+    "option_b": "A public member of a class can be accessed in all the packages.",
+    "option_c": "A private member of a class cannot be accessed from its derived class.",
+    "option_d": "A protected member of a class can be accessed from its derived class.",
+    "option_e": "None of the above.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "To prevent any method from overriding, we declare the method as,",
+    "option_a": "final",
+    "option_b": "static",
+    "option_c": "const",
+    "option_d": "abstract",
+    "option_e": "none of the above.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which one of the following is not true?",
+    "option_a": "An abstract class cannot have non-abstract methods.",
+    "option_b": "A class containing abstract methods is called an abstract class.",
+    "option_c": "Abstract methods should be implemented in the derived class.",
+    "option_d": "A class must be qualified as ‘abstract’ class, if it contains one abstract method.",
+    "option_e": "None of the above.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "The fields in an interface are implicitly specified as,",
+    "option_a": "both static and final",
+    "option_b": "static only",
+    "option_c": "protected",
+    "option_d": "private",
+    "option_e": "none of the above.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following is not true?",
+    "option_a": "An interface can implement another interface.",
+    "option_b": "An interface can extend another interface.",
+    "option_c": "A class which is implementing an interface must implement all the methods of the interface.",
+    "option_d": "An interface is a solution for multiple inheritance in java.",
+    "option_e": "None of the above.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following is true?",
+    "option_a": "A finally block is executed whether an exception is thrown or not.",
+    "option_b": "A finally block is executed before the catch block but after the try block.",
+    "option_c": "A finally block is executed, only after the catch block is executed.",
+    "option_d": "A finally block is executed, only if an exception occurs.",
+    "option_e": "None of the above.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Among these expressions, which is(arE. of type String?",
+    "option_a": "Both A. and B. above E. A., B. and C. above.",
+    "option_b": "“0”",
+    "option_c": "“ab” + “cd”",
+    "option_d": "‘0’",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following is TRUE?",
+    "option_a": "A class has always a constructor (possibly automatically supplied by the java compiler).",
+    "option_b": "In java, an instance field declared public generates a compilation error.",
+    "option_c": "int is the name of a class available in the package java.lang",
+    "option_d": "Instance variable names may only contain letters and digits.",
+    "option_e": "The more comments in a program, the faster the program runs.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "A constructor",
+    "option_a": "A., B. and C. above.",
+    "option_b": "Must have the same name as the class it is declared within.",
+    "option_c": "Is used to create objects.",
+    "option_d": "May be declared private",
+    "option_e": "Both A. and B. above",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "The correct order of the declarations in a Java program is,",
+    "option_a": "Package declaration, import statement, class declaration",
+    "option_b": "Import statement, package declaration, class declaration",
+    "option_c": "Import statement, class declaration, package declaration",
+    "option_d": "Class declaration, import statement, package declaration",
+    "option_e": "Class declaration, package declaration, import statement.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "An overloaded method consists of,",
+    "option_a": "Both A. and B. above",
+    "option_b": "The same method name with different types of parameters",
+    "option_c": "The same method name with different number of parameters",
+    "option_d": "The same method name and same number and type of parameters with different return type",
+    "option_e": "A., B. and C. above.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "All exception types are subclasses of the built-in class",
+    "option_a": "Throwable",
+    "option_b": "Exception",
+    "option_c": "RuntimeException",
+    "option_d": "Error",
+    "option_e": "None of the above.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "When an overridden method is called from within a subclass, it will always refer to the version of that method defined by the",
+    "option_a": "Subclass",
+    "option_b": "Super class",
+    "option_c": "Compiler will choose randomly",
+    "option_d": "Interpreter will choose randomly",
+    "option_e": "None of the abvove.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Members of a class specified as ……………….. are accessible only to methods of that class.",
+    "option_a": "Private",
+    "option_b": "Protected",
+    "option_c": "Final",
+    "option_d": "Public",
+    "option_e": "Static.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Multiple inheritances is not supported in case of class but it is supported in case of interface.",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "……………….. are used to document a program and improve its readability.",
+    "option_a": "Comments",
+    "option_b": "System cells",
+    "option_c": "Keywords",
+    "option_d": "Control structures",
+    "option_e": "Blocks.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "In Java, a try block should immediately be followed by one or more ……………….. blocks.",
+    "option_a": "Catch",
+    "option_b": "Throw",
+    "option_c": "Run",
+    "option_d": "Exit",
+    "option_e": "Error.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "An abstract data type typically comprises a …………… and a set of ……………… respectively.",
+    "option_a": "Data representation, operations.",
+    "option_b": "Data representation, classes",
+    "option_c": "Database, operations",
+    "option_d": "Data representation, objects",
+    "option_e": "Control structure, operations",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "In object-oriented programming, the process by which one object acquires the properties of another object is called",
+    "option_a": "Inheritance",
+    "option_b": "Encapsulation",
+    "option_c": "Polymorphism",
+    "option_d": "Overloading",
+    "option_e": "Overriding.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Re-implementing an inherited method in a sub class to perform a different task from the parent class is called",
+    "option_a": "overriding.",
+    "option_b": "overloading",
+    "option_c": "Transferring",
+    "option_d": "Hiding",
+    "option_e": "Coupling",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "In a class definition, the special method provided to be called to create an instance of that class is known as a/an",
+    "option_a": "Constructor",
+    "option_b": "Interpreter",
+    "option_c": "Destructor",
+    "option_d": "Object",
+    "option_e": "Compiler.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following statements is correct?",
+    "option_a": "Public method is accessible to all other classes in the hierarchy",
+    "option_b": "Public method is accessible only to subclasses of its parent class",
+    "option_c": "Public method can only be called by object of its class",
+    "option_d": "Public method can be accessed by calling object of the public class",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "What is the return type of a method that does not return any value?",
+    "option_a": "void",
+    "option_b": "int",
+    "option_c": "float",
+    "option_d": "double",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "What is the process of defining more than one method in a class differentiated by method signature?",
+    "option_a": "Method overloading",
+    "option_b": "Method overriding",
+    "option_c": "Method doubling",
+    "option_d": "None of the mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "By interface, we cannot support the functionality of multiple inheritances.",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "What is the process of defining two or more methods within same class that have same name but different parameters declaration?",
+    "option_a": "method overloading",
+    "option_b": "method overriding",
+    "option_c": "method hiding",
+    "option_d": "none of the mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of this keyword can be used in a subclass to call the constructor of superclass?",
+    "option_a": "super",
+    "option_b": "this",
+    "option_c": "extent",
+    "option_d": "extends",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "What is the process of defining a method in a subclass having same name & type signature as a method in its superclass?",
+    "option_a": "Method overriding",
+    "option_b": "Method overloading",
+    "option_c": "Method hiding",
+    "option_d": "None of the mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these keywords can be used to prevent Method overriding?",
+    "option_a": "final",
+    "option_b": "static",
+    "option_c": "constant",
+    "option_d": "protected",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "An abstract class has no use when it is extended by some other class.",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "If a class inheriting an abstract class does not define all its function then it will be known as?",
+    "option_a": "Abstract",
+    "option_b": "A simple class",
+    "option_c": "Static class",
+    "option_d": "None of the mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these is correct way of inheriting class A by class B?",
+    "option_a": "class B extends A {}",
+    "option_b": "Class B + class A {}",
+    "option_c": "class B inherits class A {}",
+    "option_d": "class B extends class A {}",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "If super class and subclass have same variable name, which keyword should be used to use super class?",
+    "option_a": "super",
+    "option_b": "this",
+    "option_c": "upper",
+    "option_d": "classname",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Static members are not inherited to subclass.",
+    "option_a": "False",
+    "option_b": "True",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which statement is true regarding an object?",
+    "option_a": "An object is an instance of a class",
+    "option_b": "An object is what classes instantiated are from",
+    "option_c": "An object is a variable",
+    "option_d": "An object is a reference to an attribute",
+    "option_e": "An object is not an instance of a class.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "In object-oriented programming, composition relates to",
+    "option_a": "The organization of components interacting to achieve a coherent, common behavior",
+    "option_b": "The use of consistent coding conventions",
+    "option_c": "The use of inheritance to achieve polymorphic behavior",
+    "option_d": "The organization of components interacting not to achieve a coherent common behavior",
+    "option_e": "The use of data hiding to achieve polymorphic behavior.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "What type of constructor is used to provide different values to the distinct objects?",
+    "option_a": "Parameterized constructor",
+    "option_b": "Default constructor",
+    "option_c": "Overloading constructor",
+    "option_d": "None of the above",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "An interface is a blueprint of a class. It has static constants and abstract methods.",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which field cannot be changed after the object has been constructed?",
+    "option_a": "Final field",
+    "option_b": "Static field",
+    "option_c": "Non-static field",
+    "option_d": "Naming field",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which allows you to define one interface and have multiple implementations?",
+    "option_a": "Polymorphism",
+    "option_b": "Encapsulation",
+    "option_c": "Inheritance",
+    "option_d": "None of the above",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Exception Handling is a mechanism to handle runtime errors",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which is a non-static method having the same name as its class?",
+    "option_a": "Constructor",
+    "option_b": "Field",
+    "option_c": "Method",
+    "option_d": "None of the above",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "If a class has multiple methods by same name but different parameters, it is known as?",
+    "option_a": "Method overloading",
+    "option_b": "Constructor overloading",
+    "option_c": "Operator overloading",
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which method cannot be overridden?",
+    "option_a": "Final Method",
+    "option_b": "Final class",
+    "option_c": "Final Variable",
+    "option_d": "Both A & C",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which class cannot be instantiated?",
+    "option_a": "Abstract Class",
+    "option_b": "Static Class",
+    "option_c": "Both A & B",
+    "option_d": "None of the above",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "A final class is not to be inherited.",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which is a technique in Java in which a class can have any number of constructors that differ in parameter lists?",
+    "option_a": "Operator overloading",
+    "option_b": "Constructor overloading",
+    "option_c": "Method overloading",
+    "option_d": "None of the above",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "An exception is an event, which occurs during the execution of a program that disrupts the normal flow of the program's instructions.",
+    "option_a": "True",
+    "option_b": "False",
+    "option_c": null,
+    "option_d": null,
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following is a method having same name as that of it’s class?",
+    "option_a": "constructor",
+    "option_b": "finalize",
+    "option_c": "delete",
+    "option_d": "class",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these is supported by method overriding in Java?",
+    "option_a": "Polymorphism",
+    "option_b": "Abstraction",
+    "option_c": "Encapsulation",
+    "option_d": "None of the mentioned",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which method can be defined only once in a program?",
+    "option_a": "main method",
+    "option_b": "finalize method",
+    "option_c": "static method",
+    "option_d": "private method",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "79 Java compiler translates Java source code into ………………………",
+    "option_a": "Byte code",
+    "option_b": "Assembler language",
+    "option_c": "Bit code",
+    "option_d": "Machine code",
+    "option_e": "Platform dependent code.",
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these keywords are used to define an abstract class?",
+    "option_a": "abstract",
+    "option_b": "Abst",
+    "option_c": "Abstract",
+    "option_d": "abstract class",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these is correct way of inheriting class A by class B?",
+    "option_a": "class B extends A {}",
+    "option_b": "class B + class A {}",
+    "option_c": "class B inherits class A {}",
+    "option_d": "class B extends class A {}",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "If super class and subclass have same variable name, which keyword should be used to use super class?",
+    "option_a": "super",
+    "option_b": "this",
+    "option_c": "upper",
+    "option_d": "classname",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of this keyword must be used to inherit a class?",
+    "option_a": "extends",
+    "option_b": "super",
+    "option_c": "this",
+    "option_d": "extent",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of these is correct way of inheriting class A by class B?",
+    "option_a": "class B extends A {}",
+    "option_b": "class B + class A {}",
+    "option_c": "class B inherits class A {}",
+    "option_d": "class B extends class A {}",
+    "option_e": null,
+    "source_file": "Java Programming - Part III.docx"
+  },
+  {
+    "subject": "Java Programming",
+    "question_text": "Which of the following is TRUE?",
+    "option_a": "A class has always a constructor (possibly automatically supplied by the java compiler).",
+    "option_b": "In java, an instance field declared public generates a compilation error.",
+    "option_c": "int is the name of a class available in the package java.lang",
+    "option_d": "Instance variable names may only contain letters and digits.",
+    "option_e": "The more comments in a program, the faster the program runs.",
+    "source_file": "Java Programming - Part III.docx"
+  }
+]

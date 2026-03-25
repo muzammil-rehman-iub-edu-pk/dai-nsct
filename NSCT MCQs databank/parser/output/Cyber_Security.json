@@ -1,0 +1,2712 @@
+[
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the primary goal of cyber security?",
+    "option_a": "To protect information systems",
+    "option_b": "To hack systems",
+    "option_c": "To monitor employees",
+    "option_d": "To delete data",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a cyber security threat?",
+    "option_a": "Phishing",
+    "option_b": "Firewall",
+    "option_c": "Antivirus",
+    "option_d": "Encryption",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a preventive control?",
+    "option_a": "Firewall",
+    "option_b": "Audit log",
+    "option_c": "Backup",
+    "option_d": "Incident response",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What does the CIA triad stand for?",
+    "option_a": "Confidentiality, Integrity, Availability",
+    "option_b": "Control, Information, Authentication",
+    "option_c": "Confidentiality, Information, Access",
+    "option_d": "Control, Integrity, Access",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which principle ensures that data is not altered during transmission?",
+    "option_a": "Integrity",
+    "option_b": "Confidentiality",
+    "option_c": "Availability",
+    "option_d": "Authentication",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which principle ensures that data is accessible when needed?",
+    "option_a": "Availability",
+    "option_b": "Confidentiality",
+    "option_c": "Integrity",
+    "option_d": "Non-repudiation",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following ensures accountability in security?",
+    "option_a": "Audit trails",
+    "option_b": "Encryption",
+    "option_c": "Authentication",
+    "option_d": "Firewall",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is non-repudiation in cyber security?",
+    "option_a": "Ensuring sender cannot deny sending data",
+    "option_b": "Denying access",
+    "option_c": "Encrypting data",
+    "option_d": "Preventing malware",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a detective control?",
+    "option_a": "Audit log",
+    "option_b": "Firewall",
+    "option_c": "Encryption",
+    "option_d": "Access control",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What does the principle of least privilege mean?",
+    "option_a": "Giving users access only as needed",
+    "option_b": "Giving users full access",
+    "option_c": "Denying all access",
+    "option_d": "Allowing admin rights to all",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a security policy?",
+    "option_a": "A written guideline for security",
+    "option_b": "A firewall rule",
+    "option_c": "A password",
+    "option_d": "A virus",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a physical control?",
+    "option_a": "Security guard",
+    "option_b": "Password",
+    "option_c": "Firewall",
+    "option_d": "Encryption",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a technical control?",
+    "option_a": "Firewall",
+    "option_b": "Security policy",
+    "option_c": "Security training",
+    "option_d": "Background checks",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the purpose of risk assessment?",
+    "option_a": "To identify and evaluate risks",
+    "option_b": "To eliminate all risks",
+    "option_c": "To create malware",
+    "option_d": "To monitor users",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is NOT a cyber security objective?",
+    "option_a": "Profitability",
+    "option_b": "Confidentiality",
+    "option_c": "Integrity",
+    "option_d": "Availability",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is an asymmetric encryption algorithm?",
+    "option_a": "RSA",
+    "option_b": "AES",
+    "option_c": "DES",
+    "option_d": "Blowfish",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a symmetric encryption algorithm?",
+    "option_a": "AES",
+    "option_b": "RSA",
+    "option_c": "ECC",
+    "option_d": "DSA",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a hashing algorithm?",
+    "option_a": "SHA-256",
+    "option_b": "AES",
+    "option_c": "RSA",
+    "option_d": "DES",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the output of a hash function?",
+    "option_a": "Fixed-size digest",
+    "option_b": "Encrypted data",
+    "option_c": "Plaintext",
+    "option_d": "Random string",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is NOT a property of a good hash function?",
+    "option_a": "Reversible",
+    "option_b": "Deterministic",
+    "option_c": "Collision-resistant",
+    "option_d": "Fast computation",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a block cipher?",
+    "option_a": "AES",
+    "option_b": "RC4",
+    "option_c": "Diffie-Hellman",
+    "option_d": "MD5",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a weakness of symmetric encryption?",
+    "option_a": "Key distribution",
+    "option_b": "Slow speed",
+    "option_c": "Complexity",
+    "option_d": "Low security",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is used to ensure message integrity?",
+    "option_a": "Hashing",
+    "option_b": "Encryption",
+    "option_c": "Decryption",
+    "option_d": "Compression",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is used for digital signatures?",
+    "option_a": "Asymmetric encryption",
+    "option_b": "Hashing",
+    "option_c": "Symmetric encryption",
+    "option_d": "Compression",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which key is used in public key cryptography to decrypt data?",
+    "option_a": "Private key",
+    "option_b": "Public key",
+    "option_c": "Session key",
+    "option_d": "Hash key",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the purpose of encryption?",
+    "option_a": "To protect data confidentiality",
+    "option_b": "To delete data",
+    "option_c": "To compress data",
+    "option_d": "To create backups",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a common software vulnerability?",
+    "option_a": "Buffer overflow",
+    "option_b": "Strong typing",
+    "option_c": "Code comments",
+    "option_d": "Modular design",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the purpose of static code analysis?",
+    "option_a": "Detect vulnerabilities in source code",
+    "option_b": "Run-time performance testing",
+    "option_c": "Encrypt data",
+    "option_d": "Compile code",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure coding practice?",
+    "option_a": "Parameterized queries",
+    "option_b": "Using eval() with user input",
+    "option_c": "SQL query concatenation",
+    "option_d": "Disabling error messages",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure session management practice?",
+    "option_a": "Using HTTPS",
+    "option_b": "Using predictable session IDs",
+    "option_c": "Storing session ID in URL",
+    "option_d": "No session timeout",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure cookie attribute?",
+    "option_a": "HttpOnly",
+    "option_b": "Public",
+    "option_c": "Writable",
+    "option_d": "Unsecure",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure deployment practice?",
+    "option_a": "Apply least privilege",
+    "option_b": "Use default credentials",
+    "option_c": "Disable HTTPS",
+    "option_d": "Ignore logs",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure password storage method?",
+    "option_a": "Hashing with salt",
+    "option_b": "Plaintext",
+    "option_c": "Base64",
+    "option_d": "ROT13",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile app development practice?",
+    "option_a": "Use HTTPS",
+    "option_b": "Store passwords in plaintext",
+    "option_c": "Disable encryption",
+    "option_d": "Allow all permissions",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure software design principle?",
+    "option_a": "Fail securely",
+    "option_b": "Security through obscurity",
+    "option_c": "Trust all inputs",
+    "option_d": "Disable logging",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure OS configuration practice?",
+    "option_a": "Disable unused ports",
+    "option_b": "Enable all services",
+    "option_c": "Use default passwords",
+    "option_d": "Allow guest access",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure boot mechanism?",
+    "option_a": "UEFI Secure Boot",
+    "option_b": "BIOS",
+    "option_c": "MBR",
+    "option_d": "POST",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure deployment principle?",
+    "option_a": "Defense in depth",
+    "option_b": "Open access",
+    "option_c": "No authentication",
+    "option_d": "Full privilege",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure software development activity?",
+    "option_a": "Threat modeling",
+    "option_b": "Ignoring logs",
+    "option_c": "Hardcoding credentials",
+    "option_d": "Disabling encryption",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure software development lifecycle phase?",
+    "option_a": "All of the above",
+    "option_b": "Design",
+    "option_c": "Testing",
+    "option_d": "Deployment",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure software development tool?",
+    "option_a": "Burp Suite",
+    "option_b": "Photoshop",
+    "option_c": "Excel",
+    "option_d": "Word",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure software development framework?",
+    "option_a": "OWASP",
+    "option_b": "HTML",
+    "option_c": "CSS",
+    "option_d": "XML",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure software development methodology?",
+    "option_a": "DevSecOps",
+    "option_b": "Waterfall",
+    "option_c": "Agile",
+    "option_d": "Scrum",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure software development practice?",
+    "option_a": "Code review",
+    "option_b": "Ignoring vulnerabilities",
+    "option_c": "Disabling logs",
+    "option_d": "Hardcoding passwords",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure software development principle?",
+    "option_a": "Least privilege",
+    "option_b": "Full access",
+    "option_c": "No authentication",
+    "option_d": "Open access",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which device connects different networks together?",
+    "option_a": "Router",
+    "option_b": "Switch",
+    "option_c": "Hub",
+    "option_d": "Modem",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which protocol is used for secure remote login?",
+    "option_a": "SSH",
+    "option_b": "FTP",
+    "option_c": "Telnet",
+    "option_d": "SMTP",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is port scanning used for?",
+    "option_a": "To find open ports",
+    "option_b": "To clean viruses",
+    "option_c": "To encrypt data",
+    "option_d": "To backup data",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a wireless security protocol?",
+    "option_a": "WPA2",
+    "option_b": "FTP",
+    "option_c": "SSH",
+    "option_d": "HTTP",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the main purpose of a firewall?",
+    "option_a": "To filter network traffic",
+    "option_b": "To store data",
+    "option_c": "To encrypt data",
+    "option_d": "To manage users",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which layer of the OSI model does IP operate on?",
+    "option_a": "Network",
+    "option_b": "Transport",
+    "option_c": "Data Link",
+    "option_d": "Session",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which attack floods a system with traffic?",
+    "option_a": "DDoS",
+    "option_b": "Phishing",
+    "option_c": "XSS",
+    "option_d": "Brute force",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is a DMZ in network security?",
+    "option_a": "A demilitarized zone between networks",
+    "option_b": "A secure zone",
+    "option_c": "A virus",
+    "option_d": "A firewall",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a network attack?",
+    "option_a": "DDoS",
+    "option_b": "Phishing",
+    "option_c": "Malware",
+    "option_d": "Trojan",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the function of an IDS?",
+    "option_a": "To detect intrusions",
+    "option_b": "To prevent intrusions",
+    "option_c": "To encrypt data",
+    "option_d": "To manage users",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a strong password?",
+    "option_a": "G7#kL9!z",
+    "option_b": "password123",
+    "option_c": "123456",
+    "option_d": "Qwerty",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which protocol secures web traffic?",
+    "option_a": "HTTPS",
+    "option_b": "HTTP",
+    "option_c": "FTP",
+    "option_d": "SMTP",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a VPN used for?",
+    "option_a": "Provide secure remote access",
+    "option_b": "Increase internet speed",
+    "option_c": "Block ads",
+    "option_d": "Monitor users",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which tool is used for packet analysis?",
+    "option_a": "Wireshark",
+    "option_b": "Photoshop",
+    "option_c": "Excel",
+    "option_d": "Git",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure email protocol?",
+    "option_a": "S/MIME",
+    "option_b": "POP3",
+    "option_c": "IMAP",
+    "option_d": "SMTP",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure tunneling protocol?",
+    "option_a": "IPSec",
+    "option_b": "PPTP",
+    "option_c": "L2TP",
+    "option_d": "Telnet",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a common vulnerability in networks?",
+    "option_a": "Open ports",
+    "option_b": "Strong passwords",
+    "option_c": "Encryption",
+    "option_d": "Firewalls",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network authentication protocol?",
+    "option_a": "Kerberos",
+    "option_b": "Telnet",
+    "option_c": "FTP",
+    "option_d": "HTTP",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure wireless protocol?",
+    "option_a": "WPA3",
+    "option_b": "WEP",
+    "option_c": "WPA",
+    "option_d": "WPA2",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure routing protocol?",
+    "option_a": "OSPF",
+    "option_b": "RIP",
+    "option_c": "BGP",
+    "option_d": "EIGRP",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network monitoring tool?",
+    "option_a": "Nagios",
+    "option_b": "Word",
+    "option_c": "Excel",
+    "option_d": "Paint",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network scanning tool?",
+    "option_a": "Nmap",
+    "option_b": "Photoshop",
+    "option_c": "Excel",
+    "option_d": "Git",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for file transfer?",
+    "option_a": "SFTP",
+    "option_b": "FTP",
+    "option_c": "HTTP",
+    "option_d": "SMTP",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for remote desktop?",
+    "option_a": "RDP",
+    "option_b": "Telnet",
+    "option_c": "SSH",
+    "option_d": "FTP",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for domain name resolution?",
+    "option_a": "DNSSEC",
+    "option_b": "DNS",
+    "option_c": "DHCP",
+    "option_d": "ARP",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for time synchronization?",
+    "option_a": "SNTP",
+    "option_b": "NTP",
+    "option_c": "HTTPS",
+    "option_d": "FTP",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for instant messaging?",
+    "option_a": "XMPP",
+    "option_b": "IRC",
+    "option_c": "ICQ",
+    "option_d": "MSN",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for voice communication?",
+    "option_a": "SRTP",
+    "option_b": "SIP",
+    "option_c": "VoIP",
+    "option_d": "RTP",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for video streaming?",
+    "option_a": "SRTP",
+    "option_b": "RTSP",
+    "option_c": "RTP",
+    "option_d": "HTTP",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for IoT devices?",
+    "option_a": "All of the above",
+    "option_b": "MQTT",
+    "option_c": "CoAP",
+    "option_d": "AMQP",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for cloud services?",
+    "option_a": "All of the above",
+    "option_b": "HTTPS",
+    "option_c": "SAML",
+    "option_d": "OAuth",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for VPNs?",
+    "option_a": "All of the above",
+    "option_b": "PPTP",
+    "option_c": "L2TP/IPSec",
+    "option_d": "SSL/TLS",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for email authentication?",
+    "option_a": "All of the above",
+    "option_b": "SPF",
+    "option_c": "DKIM",
+    "option_d": "DMARC",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for IoT security?",
+    "option_a": "DTLS",
+    "option_b": "TLS",
+    "option_c": "SSL",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for web authentication?",
+    "option_a": "All of the above",
+    "option_b": "OAuth",
+    "option_c": "OpenID",
+    "option_d": "SAML",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for API security?",
+    "option_a": "All of the above",
+    "option_b": "OAuth",
+    "option_c": "JWT",
+    "option_d": "API keys",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for cloud identity?",
+    "option_a": "All of the above",
+    "option_b": "SAML",
+    "option_c": "OAuth",
+    "option_d": "OpenID",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for IoT communication?",
+    "option_a": "All of the above",
+    "option_b": "CoAP",
+    "option_c": "MQTT",
+    "option_d": "AMQP",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for blockchain?",
+    "option_a": "All of the above",
+    "option_b": "HTTPS",
+    "option_c": "TLS",
+    "option_d": "SSL",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for mobile networks?",
+    "option_a": "All of the above",
+    "option_b": "LTE",
+    "option_c": "5G",
+    "option_d": "GSM",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for satellite communication?",
+    "option_a": "All of the above",
+    "option_b": "TCP/IP",
+    "option_c": "UDP",
+    "option_d": "SSL/TLS",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for VPN tunneling?",
+    "option_a": "All of the above",
+    "option_b": "IPSec",
+    "option_c": "SSL/TLS",
+    "option_d": "L2TP",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for IoT authentication?",
+    "option_a": "All of the above",
+    "option_b": "OAuth",
+    "option_c": "JWT",
+    "option_d": "API keys",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for IoT encryption?",
+    "option_a": "All of the above",
+    "option_b": "TLS",
+    "option_c": "DTLS",
+    "option_d": "SSL",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for IoT authorization?",
+    "option_a": "All of the above",
+    "option_b": "OAuth",
+    "option_c": "JWT",
+    "option_d": "API keys",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for IoT identity?",
+    "option_a": "All of the above",
+    "option_b": "SAML",
+    "option_c": "OAuth",
+    "option_d": "OpenID",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure network protocol for IoT access control?",
+    "option_a": "All of the above",
+    "option_b": "RBAC",
+    "option_c": "ABAC",
+    "option_d": "MAC",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which OS component manages hardware resources?",
+    "option_a": "Kernel",
+    "option_b": "Shell",
+    "option_c": "File system",
+    "option_d": "Driver",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which OS feature isolates processes to prevent interference?",
+    "option_a": "Process isolation",
+    "option_b": "Multithreading",
+    "option_c": "Virtual memory",
+    "option_d": "Paging",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a common OS vulnerability?",
+    "option_a": "Buffer overflow",
+    "option_b": "Strong password policy",
+    "option_c": "Firewall",
+    "option_d": "Encryption",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which OS feature helps prevent execution of malicious code?",
+    "option_a": "Data Execution Prevention",
+    "option_b": "Task manager",
+    "option_c": "Firewall",
+    "option_d": "Disk defragmenter",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure OS configuration practice?",
+    "option_a": "Disable unused ports",
+    "option_b": "Enable all services",
+    "option_c": "Use default passwords",
+    "option_d": "Allow guest access",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which OS component handles user authentication?",
+    "option_a": "Login manager",
+    "option_b": "Scheduler",
+    "option_c": "Kernel",
+    "option_d": "Driver",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure boot mechanism?",
+    "option_a": "UEFI Secure Boot",
+    "option_b": "BIOS",
+    "option_c": "MBR",
+    "option_d": "POST",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which command is used to change file permissions in Unix?",
+    "option_a": "chmod",
+    "option_b": "ls",
+    "option_c": "cd",
+    "option_d": "mkdir",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure logging practice?",
+    "option_a": "Encrypt log files",
+    "option_b": "Delete logs regularly",
+    "option_c": "Disable logging",
+    "option_d": "Share logs publicly",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the role of a patch in OS security?",
+    "option_a": "Fix bugs and vulnerabilities",
+    "option_b": "Add new features",
+    "option_c": "Remove users",
+    "option_d": "Install drivers",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which attack involves injecting scripts into web pages?",
+    "option_a": "XSS",
+    "option_b": "Phishing",
+    "option_c": "CSRF",
+    "option_d": "DDoS",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is CSRF?",
+    "option_a": "Cross-Site Request Forgery",
+    "option_b": "Cross-Site Scripting",
+    "option_c": "Cookie Stealing",
+    "option_d": "SQL Injection",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which header helps prevent clickjacking?",
+    "option_a": "X-Frame-Options",
+    "option_b": "Content-Type",
+    "option_c": "Cache-Control",
+    "option_d": "Accept-Encoding",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure cookie attribute?",
+    "option_a": "HttpOnly",
+    "option_b": "Public",
+    "option_c": "Writable",
+    "option_d": "Unsecure",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the purpose of HTTPS in web applications?",
+    "option_a": "Secure communication",
+    "option_b": "Faster loading",
+    "option_c": "Better SEO",
+    "option_d": "More ads",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the OWASP Top 10?",
+    "option_a": "Top 10 security risks",
+    "option_b": "A list of programming languages",
+    "option_c": "Top 10 web browsers",
+    "option_d": "Top 10 websites",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure session management practice?",
+    "option_a": "Using HTTPS",
+    "option_b": "Using predictable session IDs",
+    "option_c": "Storing session ID in URL",
+    "option_d": "No session timeout",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is input validation used for in web apps?",
+    "option_a": "Prevent SQL injection",
+    "option_b": "Improve performance",
+    "option_c": "Enhance UI",
+    "option_d": "Reduce bandwidth",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure web authentication method?",
+    "option_a": "Token-based",
+    "option_b": "SMS spam",
+    "option_c": "IP spoofing",
+    "option_d": "SQL injection",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the purpose of a web application firewall (WAF)?",
+    "option_a": "Block malicious traffic",
+    "option_b": "Speed up websites",
+    "option_c": "Store cookies",
+    "option_d": "Manage databases",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which malware replicates itself to spread?",
+    "option_a": "Worm",
+    "option_b": "Trojan",
+    "option_c": "Spyware",
+    "option_d": "Rootkit",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which malware disguises itself as legitimate software?",
+    "option_a": "Trojan",
+    "option_b": "Worm",
+    "option_c": "Spyware",
+    "option_d": "Ransomware",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which malware records user keystrokes?",
+    "option_a": "Keylogger",
+    "option_b": "Adware",
+    "option_c": "Spyware",
+    "option_d": "Rootkit",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is ransomware?",
+    "option_a": "Malware that demands payment",
+    "option_b": "A virus that deletes files",
+    "option_c": "A worm that steals data",
+    "option_d": "A firewall bypass tool",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which malware hides its presence?",
+    "option_a": "Rootkit",
+    "option_b": "Worm",
+    "option_c": "Trojan",
+    "option_d": "Adware",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a logic bomb?",
+    "option_a": "Code that triggers under conditions",
+    "option_b": "A virus that spreads via USB",
+    "option_c": "A firewall rule",
+    "option_d": "A backup script",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which attack floods a system with traffic?",
+    "option_a": "DDoS",
+    "option_b": "Phishing",
+    "option_c": "XSS",
+    "option_d": "Brute force",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a phishing attack goal?",
+    "option_a": "Steal credentials",
+    "option_b": "Improve SEO",
+    "option_c": "Fix bugs",
+    "option_d": "Encrypt data",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a brute force attack?",
+    "option_a": "Trying all possible passwords",
+    "option_b": "Injecting SQL queries",
+    "option_c": "Sending spam emails",
+    "option_d": "Stealing cookies",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a man-in-the-middle attack?",
+    "option_a": "Intercepting communication",
+    "option_b": "Sending spam",
+    "option_c": "Encrypting data",
+    "option_d": "Blocking traffic",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a denial-of-service attack?",
+    "option_a": "Overloading a system",
+    "option_b": "Encrypting data",
+    "option_c": "Stealing credentials",
+    "option_d": "Injecting SQL",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure password characteristic?",
+    "option_a": "Contains symbols and numbers",
+    "option_b": "Short and simple",
+    "option_c": "Includes personal info",
+    "option_d": "All lowercase",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure authentication factor?",
+    "option_a": "All of the above",
+    "option_b": "Password",
+    "option_c": "Fingerprint",
+    "option_d": "Smart card",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure OS feature?",
+    "option_a": "Process isolation",
+    "option_b": "Open access",
+    "option_c": "Guest accounts",
+    "option_d": "Default passwords",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure web development practice?",
+    "option_a": "Parameterized queries",
+    "option_b": "SQL concatenation",
+    "option_c": "Hardcoding credentials",
+    "option_d": "Disabling encryption",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure malware defense?",
+    "option_a": "All of the above",
+    "option_b": "Antivirus software",
+    "option_c": "Firewalls",
+    "option_d": "Regular updates",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure OS security mechanism?",
+    "option_a": "Access control lists",
+    "option_b": "Open access",
+    "option_c": "Default passwords",
+    "option_d": "Guest accounts",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure web security mechanism?",
+    "option_a": "HTTPS",
+    "option_b": "SQL injection",
+    "option_c": "XSS",
+    "option_d": "CSRF",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure malware detection tool?",
+    "option_a": "All of the above",
+    "option_b": "Antivirus",
+    "option_c": "Firewall",
+    "option_d": "IDS",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure OS patching practice?",
+    "option_a": "Regular updates",
+    "option_b": "Ignoring vulnerabilities",
+    "option_c": "Disabling updates",
+    "option_d": "Hardcoding passwords",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure web patching practice?",
+    "option_a": "Regular updates",
+    "option_b": "Ignoring vulnerabilities",
+    "option_c": "Disabling updates",
+    "option_d": "Hardcoding passwords",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure malware prevention practice?",
+    "option_a": "All of the above",
+    "option_b": "Regular updates",
+    "option_c": "Antivirus software",
+    "option_d": "Firewalls",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure OS auditing practice?",
+    "option_a": "Encrypt logs",
+    "option_b": "Delete logs",
+    "option_c": "Disable logging",
+    "option_d": "Share logs publicly",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure web auditing practice?",
+    "option_a": "Encrypt logs",
+    "option_b": "Delete logs",
+    "option_c": "Disable logging",
+    "option_d": "Share logs publicly",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure malware auditing practice?",
+    "option_a": "Regular scans",
+    "option_b": "Ignoring logs",
+    "option_c": "Disabling scans",
+    "option_d": "Hardcoding passwords",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a biometric factor?",
+    "option_a": "Fingerprint",
+    "option_b": "Password",
+    "option_c": "PIN",
+    "option_d": "Token",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is two-factor authentication?",
+    "option_a": "Password and token",
+    "option_b": "Two usernames",
+    "option_c": "Two passwords",
+    "option_d": "Two devices",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is single sign-on (SSO)?",
+    "option_a": "One login for multiple systems",
+    "option_b": "Multiple logins",
+    "option_c": "No login",
+    "option_d": "Shared passwords",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a type of access control?",
+    "option_a": "All of the above",
+    "option_b": "Discretionary",
+    "option_c": "Mandatory",
+    "option_d": "Role-based",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the principle of least privilege?",
+    "option_a": "Access only as needed",
+    "option_b": "Full access to all users",
+    "option_c": "No access to anyone",
+    "option_d": "Admin access to all",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure password characteristic?",
+    "option_a": "Contains symbols and numbers",
+    "option_b": "Short and simple",
+    "option_c": "Includes personal info",
+    "option_d": "All lowercase",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure password storage method?",
+    "option_a": "Hashing with salt",
+    "option_b": "Plaintext",
+    "option_c": "Base64",
+    "option_d": "ROT13",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure authentication method?",
+    "option_a": "Token-based",
+    "option_b": "SMS spam",
+    "option_c": "IP spoofing",
+    "option_d": "SQL injection",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure software design principle?",
+    "option_a": "Fail securely",
+    "option_b": "Security through obscurity",
+    "option_c": "Trust all inputs",
+    "option_d": "Disable logging",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure coding practice?",
+    "option_a": "Parameterized queries",
+    "option_b": "Using eval() with user input",
+    "option_c": "SQL query concatenation",
+    "option_d": "Disabling error messages",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the purpose of threat modeling in secure software development?",
+    "option_a": "Identify potential security risks",
+    "option_b": "Improve UI design",
+    "option_c": "Reduce code size",
+    "option_d": "Increase performance",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure software development activity?",
+    "option_a": "Threat modeling",
+    "option_b": "Ignoring logs",
+    "option_c": "Hardcoding credentials",
+    "option_d": "Disabling encryption",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure software development lifecycle phase?",
+    "option_a": "All of the above",
+    "option_b": "Design",
+    "option_c": "Testing",
+    "option_d": "Deployment",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure software development tool?",
+    "option_a": "Burp Suite",
+    "option_b": "Photoshop",
+    "option_c": "Excel",
+    "option_d": "Word",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure software development framework?",
+    "option_a": "OWASP",
+    "option_b": "HTML",
+    "option_c": "CSS",
+    "option_d": "XML",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure software development methodology?",
+    "option_a": "DevSecOps",
+    "option_b": "Waterfall",
+    "option_c": "Agile",
+    "option_d": "Scrum",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure software development practice?",
+    "option_a": "Code review",
+    "option_b": "Ignoring vulnerabilities",
+    "option_c": "Disabling logs",
+    "option_d": "Hardcoding passwords",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure software development principle?",
+    "option_a": "Least privilege",
+    "option_b": "Full access",
+    "option_c": "No authentication",
+    "option_d": "Open access",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a mobile device security risk?",
+    "option_a": "Jailbreaking",
+    "option_b": "Strong passwords",
+    "option_c": "App sandboxing",
+    "option_d": "Encryption",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following protects mobile data at rest?",
+    "option_a": "Encryption",
+    "option_b": "VPN",
+    "option_c": "Wi-Fi",
+    "option_d": "Cookies",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the risk of using public Wi-Fi?",
+    "option_a": "Data interception",
+    "option_b": "Faster speed",
+    "option_c": "Secure connection",
+    "option_d": "Better signal",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a common attack on wireless networks?",
+    "option_a": "Man-in-the-middle",
+    "option_b": "SQL injection",
+    "option_c": "Buffer overflow",
+    "option_d": "Phishing",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a mobile authentication method?",
+    "option_a": "Fingerprint",
+    "option_b": "MAC address",
+    "option_c": "IP address",
+    "option_d": "DNS",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile app development practice?",
+    "option_a": "Use HTTPS",
+    "option_b": "Store passwords in plaintext",
+    "option_c": "Disable encryption",
+    "option_d": "Allow all permissions",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which protocol is used to secure Wi-Fi networks?",
+    "option_a": "WPA2",
+    "option_b": "HTTP",
+    "option_c": "FTP",
+    "option_d": "SMTP",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile OS feature?",
+    "option_a": "App sandboxing",
+    "option_b": "Default passwords",
+    "option_c": "Guest accounts",
+    "option_d": "Open access",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile patching practice?",
+    "option_a": "Regular updates",
+    "option_b": "Ignoring vulnerabilities",
+    "option_c": "Disabling updates",
+    "option_d": "Hardcoding passwords",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile auditing practice?",
+    "option_a": "Encrypt logs",
+    "option_b": "Delete logs",
+    "option_c": "Disable logging",
+    "option_d": "Share logs publicly",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile malware defense?",
+    "option_a": "All of the above",
+    "option_b": "Antivirus software",
+    "option_c": "Firewalls",
+    "option_d": "Regular updates",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile malware detection tool?",
+    "option_a": "All of the above",
+    "option_b": "Antivirus",
+    "option_c": "Firewall",
+    "option_d": "IDS",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile malware prevention practice?",
+    "option_a": "All of the above",
+    "option_b": "Regular updates",
+    "option_c": "Antivirus software",
+    "option_d": "Firewalls",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile malware auditing practice?",
+    "option_a": "Regular scans",
+    "option_b": "Ignoring logs",
+    "option_c": "Disabling scans",
+    "option_d": "Hardcoding passwords",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile malware patching practice?",
+    "option_a": "Regular updates",
+    "option_b": "Ignoring vulnerabilities",
+    "option_c": "Disabling updates",
+    "option_d": "Hardcoding passwords",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile malware prevention tool?",
+    "option_a": "All of the above",
+    "option_b": "Antivirus",
+    "option_c": "Firewall",
+    "option_d": "IDS",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile malware detection practice?",
+    "option_a": "Regular scans",
+    "option_b": "Ignoring logs",
+    "option_c": "Disabling scans",
+    "option_d": "Hardcoding passwords",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile malware auditing tool?",
+    "option_a": "All of the above",
+    "option_b": "Antivirus",
+    "option_c": "Firewall",
+    "option_d": "IDS",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile malware patching tool?",
+    "option_a": "All of the above",
+    "option_b": "Antivirus",
+    "option_c": "Firewall",
+    "option_d": "IDS",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile malware prevention principle?",
+    "option_a": "Least privilege",
+    "option_b": "Full access",
+    "option_c": "No authentication",
+    "option_d": "Open access",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile malware detection principle?",
+    "option_a": "Defense in depth",
+    "option_b": "Open access",
+    "option_c": "No authentication",
+    "option_d": "Full privilege",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile malware auditing principle?",
+    "option_a": "Accountability",
+    "option_b": "Open access",
+    "option_c": "No authentication",
+    "option_d": "Full privilege",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile malware patching principle?",
+    "option_a": "Regular updates",
+    "option_b": "Ignoring vulnerabilities",
+    "option_c": "Disabling updates",
+    "option_d": "Hardcoding passwords",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile malware prevention methodology?",
+    "option_a": "DevSecOps",
+    "option_b": "Waterfall",
+    "option_c": "Agile",
+    "option_d": "Scrum",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile malware detection methodology?",
+    "option_a": "DevSecOps",
+    "option_b": "Waterfall",
+    "option_c": "Agile",
+    "option_d": "Scrum",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile malware auditing methodology?",
+    "option_a": "DevSecOps",
+    "option_b": "Waterfall",
+    "option_c": "Agile",
+    "option_d": "Scrum",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure mobile malware patching methodology?",
+    "option_a": "DevSecOps",
+    "option_b": "Waterfall",
+    "option_c": "Agile",
+    "option_d": "Scrum",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a cloud deployment model?",
+    "option_a": "Hybrid",
+    "option_b": "Modular",
+    "option_c": "Static",
+    "option_d": "Binary",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is multi-tenancy in cloud computing?",
+    "option_a": "Multiple users sharing resources",
+    "option_b": "One user per server",
+    "option_c": "Offline storage",
+    "option_d": "Local backup",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a cloud service model?",
+    "option_a": "SaaS",
+    "option_b": "BIOS",
+    "option_c": "HTTP",
+    "option_d": "DNS",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a cloud security risk?",
+    "option_a": "Data breach",
+    "option_b": "Encryption",
+    "option_c": "Backup",
+    "option_d": "Scalability",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a cloud security standard?",
+    "option_a": "ISO 27017",
+    "option_b": "HTML5",
+    "option_c": "CSS3",
+    "option_d": "TCP/IP",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is containerization?",
+    "option_a": "Isolating applications",
+    "option_b": "Encrypting data",
+    "option_c": "Compressing files",
+    "option_d": "Virtual memory",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the role of a hypervisor?",
+    "option_a": "Manage virtual machines",
+    "option_b": "Encrypt data",
+    "option_c": "Monitor users",
+    "option_d": "Store backups",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following ensures secure data transmission in cloud?",
+    "option_a": "HTTPS",
+    "option_b": "HTTP",
+    "option_c": "FTP",
+    "option_d": "Telnet",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a virtualization platform?",
+    "option_a": "VMware",
+    "option_b": "GitHub",
+    "option_c": "Jenkins",
+    "option_d": "Python",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the purpose of cloud access security brokers (CASBs)?",
+    "option_a": "Monitor and secure cloud usage",
+    "option_b": "Encrypt emails",
+    "option_c": "Manage databases",
+    "option_d": "Block websites",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a live forensics technique?",
+    "option_a": "RAM acquisition",
+    "option_b": "Disk cloning",
+    "option_c": "File carving",
+    "option_d": "Log analysis",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which tool is used for disk imaging?",
+    "option_a": "EnCase",
+    "option_b": "Wireshark",
+    "option_c": "Nmap",
+    "option_d": "Metasploit",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is chain of custody?",
+    "option_a": "Evidence handling process",
+    "option_b": "Data encryption",
+    "option_c": "Malware analysis",
+    "option_d": "Network scanning",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is volatile data?",
+    "option_a": "Data stored in RAM",
+    "option_b": "Data stored on disk",
+    "option_c": "Archived data",
+    "option_d": "Encrypted data",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is file carving?",
+    "option_a": "Recovering deleted files",
+    "option_b": "Encrypting files",
+    "option_c": "Formatting disks",
+    "option_d": "Copying files",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is metadata in digital forensics?",
+    "option_a": "Data about data",
+    "option_b": "File content",
+    "option_c": "File permissions",
+    "option_d": "File size",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is steganography?",
+    "option_a": "Hiding data within files",
+    "option_b": "Encrypting data",
+    "option_c": "Deleting files",
+    "option_d": "Formatting disks",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a forensic image format?",
+    "option_a": ".dd",
+    "option_b": ".docx",
+    "option_c": ".jpg",
+    "option_d": ".exe",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the first step in digital forensics?",
+    "option_a": "Collection",
+    "option_b": "Analysis",
+    "option_c": "Reporting",
+    "option_d": "Presentation",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a network forensics tool?",
+    "option_a": "Wireshark",
+    "option_b": "FTK",
+    "option_c": "Autopsy",
+    "option_d": "Recuva",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a goal of digital forensics?",
+    "option_a": "Evidence preservation",
+    "option_b": "Data destruction",
+    "option_c": "Evidence tampering",
+    "option_d": "Data hiding",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the purpose of incident response?",
+    "option_a": "Detect, contain, and recover from incidents",
+    "option_b": "Ignore attacks",
+    "option_c": "Encrypt data",
+    "option_d": "Backup files",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is the first step in incident response?",
+    "option_a": "Identification",
+    "option_b": "Containment",
+    "option_c": "Eradication",
+    "option_d": "Recovery",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which phase involves restoring systems to normal operation?",
+    "option_a": "Recovery",
+    "option_b": "Detection",
+    "option_c": "Containment",
+    "option_d": "Preparation",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the purpose of a post-incident review?",
+    "option_a": "To prevent future incidents",
+    "option_b": "To assign blame",
+    "option_c": "To punish attackers",
+    "option_d": "To delete logs",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which team is responsible for handling security incidents?",
+    "option_a": "Incident Response Team",
+    "option_b": "HR",
+    "option_c": "Legal",
+    "option_d": "Marketing",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a key metric in incident response?",
+    "option_a": "MTTR",
+    "option_b": "ROI",
+    "option_c": "KPI",
+    "option_d": "SLA",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the goal of the eradication phase?",
+    "option_a": "Remove the threat",
+    "option_b": "Identify the attacker",
+    "option_c": "Notify stakeholders",
+    "option_d": "Restore services",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a proactive incident response activity?",
+    "option_a": "Preparation",
+    "option_b": "Recovery",
+    "option_c": "Detection",
+    "option_d": "Containment",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which document outlines how to handle security incidents?",
+    "option_a": "Incident Response Plan",
+    "option_b": "Privacy Policy",
+    "option_c": "SLA",
+    "option_d": "NDA",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the purpose of threat intelligence in incident response?",
+    "option_a": "Predict and prevent attacks",
+    "option_b": "Increase costs",
+    "option_c": "Encrypt data",
+    "option_d": "Block websites",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the role of SOAR in incident response?",
+    "option_a": "Automated incident response",
+    "option_b": "Manual response",
+    "option_c": "Data backup",
+    "option_d": "User training",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is an example of containment?",
+    "option_a": "Disconnecting affected systems",
+    "option_b": "Notifying users",
+    "option_c": "Updating software",
+    "option_d": "Creating backups",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a key component of monitoring during incident response?",
+    "option_a": "Visualization",
+    "option_b": "Encryption",
+    "option_c": "Authentication",
+    "option_d": "Backup",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a benefit of having an incident response plan?",
+    "option_a": "Faster containment",
+    "option_b": "Increased downtime",
+    "option_c": "Slower recovery",
+    "option_d": "Higher costs",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a legal consequence of cybercrime?",
+    "option_a": "Fine or imprisonment",
+    "option_b": "Promotion",
+    "option_c": "Bonus",
+    "option_d": "Award",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a tool commonly used in incident detection?",
+    "option_a": "Wireshark",
+    "option_b": "Photoshop",
+    "option_c": "Excel",
+    "option_d": "Blender",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the purpose of anomaly detection in incident response?",
+    "option_a": "Detect unusual patterns",
+    "option_b": "Detect normal behavior",
+    "option_c": "Encrypt data",
+    "option_d": "Backup files",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a benefit of continuous monitoring in incident response?",
+    "option_a": "Real-time alerts",
+    "option_b": "Delayed detection",
+    "option_c": "Increased risk",
+    "option_d": "Higher costs",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure cloud deployment practice?",
+    "option_a": "Apply least privilege",
+    "option_b": "Use default credentials",
+    "option_c": "Disable HTTPS",
+    "option_d": "Ignore logs",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure virtualization practice?",
+    "option_a": "Isolate virtual machines",
+    "option_b": "Share credentials",
+    "option_c": "Disable encryption",
+    "option_d": "Allow guest access",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure forensic practice?",
+    "option_a": "Maintain chain of custody",
+    "option_b": "Delete evidence",
+    "option_c": "Ignore logs",
+    "option_d": "Share evidence publicly",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a secure incident response practice?",
+    "option_a": "Document all steps",
+    "option_b": "Ignore vulnerabilities",
+    "option_c": "Disable logging",
+    "option_d": "Hardcode passwords",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a log management tool?",
+    "option_a": "Splunk",
+    "option_b": "Photoshop",
+    "option_c": "Excel",
+    "option_d": "Git",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is log correlation?",
+    "option_a": "Analyzing related events",
+    "option_b": "Deleting logs",
+    "option_c": "Encrypting logs",
+    "option_d": "Compressing logs",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a type of audit?",
+    "option_a": "All of the above",
+    "option_b": "Financial",
+    "option_c": "Operational",
+    "option_d": "Compliance",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the purpose of a security audit trail?",
+    "option_a": "Track user actions",
+    "option_b": "Hide user activity",
+    "option_c": "Delete old logs",
+    "option_d": "Encrypt data",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a key audit control?",
+    "option_a": "Segregation of duties",
+    "option_b": "Firewall",
+    "option_c": "Antivirus",
+    "option_d": "Encryption",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a key audit objective?",
+    "option_a": "Ensure compliance",
+    "option_b": "Increase revenue",
+    "option_c": "Reduce staff",
+    "option_d": "Improve UI",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a violation of digital ethics?",
+    "option_a": "Hacking accounts",
+    "option_b": "Respecting privacy",
+    "option_c": "Using antivirus",
+    "option_d": "Reporting bugs",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a cyber law violation?",
+    "option_a": "Spreading malware",
+    "option_b": "Using licensed software",
+    "option_c": "Reporting bugs",
+    "option_d": "Encrypting data",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which law in Pakistan addresses cybercrime?",
+    "option_a": "PECA 2016",
+    "option_b": "Penal Code",
+    "option_c": "Labor Law",
+    "option_d": "Tax Law",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which organization enforces cyber laws in Pakistan?",
+    "option_a": "FIA",
+    "option_b": "PTA",
+    "option_c": "NADRA",
+    "option_d": "PEMRA",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is intellectual property?",
+    "option_a": "Ideas and creations",
+    "option_b": "Physical property",
+    "option_c": "Real estate",
+    "option_d": "Vehicles",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is cyberbullying?",
+    "option_a": "Online harassment",
+    "option_b": "Online education",
+    "option_c": "Online shopping",
+    "option_d": "Online banking",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the ethical way to report a vulnerability?",
+    "option_a": "Inform the vendor",
+    "option_b": "Sell it online",
+    "option_c": "Exploit it",
+    "option_d": "Ignore it",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a principle of digital ethics?",
+    "option_a": "Privacy",
+    "option_b": "Theft",
+    "option_c": "Plagiarism",
+    "option_d": "Hacking",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is GDPR designed to protect?",
+    "option_a": "Data protection",
+    "option_b": "Tax collection",
+    "option_c": "Immigration",
+    "option_d": "Trade regulation",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a cybercrime?",
+    "option_a": "Phishing",
+    "option_b": "Online shopping",
+    "option_c": "Emailing",
+    "option_d": "Blogging",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is zero trust architecture?",
+    "option_a": "Never trust, always verify",
+    "option_b": "Trust all users",
+    "option_c": "Trust internal users only",
+    "option_d": "Trust VPNs",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is blockchain used for in cyber security?",
+    "option_a": "Immutable records",
+    "option_b": "Centralized storage",
+    "option_c": "Data deletion",
+    "option_d": "Password cracking",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is quantum cryptography?",
+    "option_a": "Physics-based encryption",
+    "option_b": "Classical encryption",
+    "option_c": "Random number generation",
+    "option_d": "Data compression",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is federated learning?",
+    "option_a": "Decentralized model training",
+    "option_b": "Centralized training",
+    "option_c": "Data deletion",
+    "option_d": "Data compression",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the role of machine learning in cyber defense?",
+    "option_a": "Detect patterns",
+    "option_b": "Increase latency",
+    "option_c": "Slow down systems",
+    "option_d": "Encrypt data",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the role of deception technology?",
+    "option_a": "Confuse attackers",
+    "option_b": "Hide logs",
+    "option_c": "Encrypt data",
+    "option_d": "Block users",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the use of digital twins in cyber security?",
+    "option_a": "Simulate systems for testing",
+    "option_b": "Create backups",
+    "option_c": "Encrypt data",
+    "option_d": "Monitor users",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the role of 5G in cyber security?",
+    "option_a": "New attack surfaces",
+    "option_b": "Slower networks",
+    "option_c": "Increased latency",
+    "option_d": "Reduced bandwidth",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is the benefit of XDR?",
+    "option_a": "Extended detection and response",
+    "option_b": "Isolated detection",
+    "option_c": "Manual logging",
+    "option_d": "Slower alerts",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "What is anomaly detection used for?",
+    "option_a": "Detect unusual patterns",
+    "option_b": "Detect normal behavior",
+    "option_c": "Encrypt data",
+    "option_d": "Backup files",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a benefit of continuous monitoring?",
+    "option_a": "Real-time alerts",
+    "option_b": "Delayed detection",
+    "option_c": "Increased risk",
+    "option_d": "Higher costs",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a real-time monitoring tool?",
+    "option_a": "Nagios",
+    "option_b": "Word",
+    "option_c": "Excel",
+    "option_d": "Paint",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a challenge in log management?",
+    "option_a": "Log volume and storage",
+    "option_b": "Too few logs",
+    "option_c": "Lack of data",
+    "option_d": "No users",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a cyber ethics concern?",
+    "option_a": "Unauthorized surveillance",
+    "option_b": "Strong passwords",
+    "option_c": "Data encryption",
+    "option_d": "Software updates",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a benefit of having monitoring systems?",
+    "option_a": "Faster detection",
+    "option_b": "Increased downtime",
+    "option_c": "Higher costs",
+    "option_d": "Slower recovery",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a violation of cyber law?",
+    "option_a": "Unauthorized access",
+    "option_b": "Strong passwords",
+    "option_c": "Encryption",
+    "option_d": "Backup",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a benefit of cyber laws?",
+    "option_a": "Regulate online behavior",
+    "option_b": "Promote hacking",
+    "option_c": "Increase taxes",
+    "option_d": "Block websites",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a cyber ethics principle?",
+    "option_a": "Respect privacy",
+    "option_b": "Steal data",
+    "option_c": "Spread malware",
+    "option_d": "Exploit vulnerabilities",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a benefit of AI in cyber security?",
+    "option_a": "Threat detection",
+    "option_b": "Cooking",
+    "option_c": "Painting",
+    "option_d": "Gaming",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a benefit of homomorphic encryption?",
+    "option_a": "Encrypt data in use",
+    "option_b": "Encrypt data at rest",
+    "option_c": "Encrypt metadata",
+    "option_d": "Encrypt backups",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a benefit of SOAR?",
+    "option_a": "Automated incident response",
+    "option_b": "Manual response",
+    "option_c": "Data backup",
+    "option_d": "User training",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a benefit of threat intelligence?",
+    "option_a": "Predict and prevent attacks",
+    "option_b": "Increase costs",
+    "option_c": "Encrypt data",
+    "option_d": "Block websites",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a benefit of deception technology?",
+    "option_a": "Confuse attackers",
+    "option_b": "Hide logs",
+    "option_c": "Encrypt data",
+    "option_d": "Block users",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a benefit of blockchain in cyber security?",
+    "option_a": "Immutable records",
+    "option_b": "Centralized storage",
+    "option_c": "Data deletion",
+    "option_d": "Password cracking",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a benefit of quantum cryptography?",
+    "option_a": "Physics-based encryption",
+    "option_b": "Random number generation",
+    "option_c": "Data compression",
+    "option_d": "Classical encryption",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a benefit of federated learning?",
+    "option_a": "Decentralized model training",
+    "option_b": "Centralized training",
+    "option_c": "Data deletion",
+    "option_d": "Data compression",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a benefit of zero trust architecture?",
+    "option_a": "Never trust, always verify",
+    "option_b": "Trust all users",
+    "option_c": "Trust internal users only",
+    "option_d": "Trust VPNs",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a benefit of GDPR?",
+    "option_a": "Data protection",
+    "option_b": "Tax collection",
+    "option_c": "Immigration",
+    "option_d": "Trade regulation",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a benefit of continuous monitoring?",
+    "option_a": "Real-time alerts",
+    "option_b": "Delayed detection",
+    "option_c": "Increased risk",
+    "option_d": "Higher costs",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  },
+  {
+    "subject": "Cyber Security",
+    "question_text": "Which of the following is a benefit of anomaly detection?",
+    "option_a": "Detect unusual patterns",
+    "option_b": "Detect normal behavior",
+    "option_c": "Encrypt data",
+    "option_d": "Backup files",
+    "option_e": null,
+    "source_file": "Cyber Security 300 MCQs Bank.pdf"
+  }
+]

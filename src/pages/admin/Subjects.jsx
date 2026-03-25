@@ -27,13 +27,23 @@ export default function AdminSubjects() {
 
   async function load() {
     await loader.run(async () => {
-      const [subs, questions] = await Promise.all([
-        dbQuery(supabase.from('subjects').select('*').order('subject_name')),
-        dbQuery(supabase.from('questions').select('subject_id').eq('is_active', true)),
-      ])
+      const subs = await dbQuery(
+        supabase.from('subjects').select('*').order('subject_name')
+      )
       setSubjects(subs || [])
+
+      // Count per subject server-side to avoid the 1000-row client limit
       const counts = {}
-      for (const q of questions || []) counts[q.subject_id] = (counts[q.subject_id] || 0) + 1
+      await Promise.all(
+        (subs || []).map(async s => {
+          const { count } = await supabase
+            .from('questions')
+            .select('*', { count: 'exact', head: true })
+            .eq('subject_id', s.id)
+            .eq('is_active', true)
+          counts[s.id] = count || 0
+        })
+      )
       setQCounts(counts)
     })
   }

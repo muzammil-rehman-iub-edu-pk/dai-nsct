@@ -1,0 +1,2902 @@
+[
+  {
+    "subject": "Web Development",
+    "question_text": "What is the main purpose of HTML in web development?",
+    "option_a": "To structure webpage content",
+    "option_b": "To style webpages",
+    "option_c": "To manage databases",
+    "option_d": "To create server logic",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTML tag is used to define metadata about a webpage?",
+    "option_a": "<meta>",
+    "option_b": "<data>",
+    "option_c": "<info>",
+    "option_d": "<link>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property is used to change the text color?",
+    "option_a": "color",
+    "option_b": "text-style",
+    "option_c": "font-color",
+    "option_d": "text-color",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What does the DOM stand for in web development?",
+    "option_a": "Document Object Model",
+    "option_b": "Data Object Model",
+    "option_c": "Digital Object Management",
+    "option_d": "Document Orientation Method",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which JavaScript keyword is used to declare a variable with block scope?",
+    "option_a": "let",
+    "option_b": "var",
+    "option_c": "define",
+    "option_d": "constant",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property controls the space inside an element’s border?",
+    "option_a": "padding",
+    "option_b": "margin",
+    "option_c": "spacing",
+    "option_d": "border-gap",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which JavaScript function is used to display a message box?",
+    "option_a": "alert()",
+    "option_b": "message()",
+    "option_c": "promptBox()",
+    "option_d": "show()",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What does the <title> tag do?",
+    "option_a": "Displays page title in browser tab",
+    "option_b": "Creates a heading",
+    "option_c": "Styles the webpage",
+    "option_d": "Creates a footer",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which attribute specifies the URL of an image?",
+    "option_a": "link",
+    "option_b": "href",
+    "option_c": "src",
+    "option_d": "path",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property is used to make text bold?",
+    "option_a": "style-bold",
+    "option_b": "font-weight",
+    "option_c": "text-bold",
+    "option_d": "font-style",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTML tag is used to create a table row?",
+    "option_a": "<td>",
+    "option_b": "<table>",
+    "option_c": "<tr>",
+    "option_d": "<th>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What does responsive web design mean?",
+    "option_a": "Website has animations",
+    "option_b": "Website loads fast",
+    "option_c": "Website adapts to different screen sizes",
+    "option_d": "Website uses JavaScript",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS layout system is designed for one-dimensional layouts?",
+    "option_a": "Flexbox",
+    "option_b": "Grid",
+    "option_c": "Float",
+    "option_d": "Table",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTML tag is used to create a form?",
+    "option_a": "<form>",
+    "option_b": "<input>",
+    "option_c": "<submit>",
+    "option_d": "<button>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which attribute is used to open a link in a new tab?",
+    "option_a": "tab",
+    "option_b": "new",
+    "option_c": "target=\"_blank\"",
+    "option_d": "open",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which JavaScript method selects an element by its ID?",
+    "option_a": "queryElement()",
+    "option_b": "getElementByClass()",
+    "option_c": "getElementById()",
+    "option_d": "findElement()",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property controls the layout of elements?",
+    "option_a": "style",
+    "option_b": "display",
+    "option_c": "structure",
+    "option_d": "order",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTTP method is commonly used to retrieve data?",
+    "option_a": "GET",
+    "option_b": "POST",
+    "option_c": "PUT",
+    "option_d": "DELETE",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which file is usually the main page of a website?",
+    "option_a": "home.html",
+    "option_b": "main.html",
+    "option_c": "index.html",
+    "option_d": "start.html",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What does API stand for?",
+    "option_a": "Application Page Interface",
+    "option_b": "Application Programming Interface",
+    "option_c": "Advanced Programming Internet",
+    "option_d": "Automated Programming Integration",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTML tag is used for semantic navigation links?",
+    "option_a": "<nav>",
+    "option_b": "<menu>",
+    "option_c": "<link>",
+    "option_d": "<navigate>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property controls the size of text?",
+    "option_a": "font-size",
+    "option_b": "text-size",
+    "option_c": "size",
+    "option_d": "font-style",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What does JavaScript mainly do in web development?",
+    "option_a": "Structure webpages",
+    "option_b": "Style webpages",
+    "option_c": "Add interactivity and dynamic behavior",
+    "option_d": "Store database data",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTML element is used for the largest content heading?",
+    "option_a": "<h6>",
+    "option_b": "<h1>",
+    "option_c": "<h3>",
+    "option_d": "<header>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property is used to change the background color?",
+    "option_a": "color",
+    "option_b": "background-color",
+    "option_c": "bg-color",
+    "option_d": "background-style",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTML attribute provides alternative text for images?",
+    "option_a": "alt",
+    "option_b": "title",
+    "option_c": "description",
+    "option_d": "text",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which technology allows web pages to communicate with servers asynchronously?",
+    "option_a": "HTML",
+    "option_b": "AJAX",
+    "option_c": "CSS",
+    "option_d": "XML only",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTML tag is used to divide sections of a webpage?",
+    "option_a": "<section>",
+    "option_b": "<block>",
+    "option_c": "<part>",
+    "option_d": "<group>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which tool is used to inspect and debug webpages in browsers?",
+    "option_a": "Developer Tools",
+    "option_b": "Control Panel",
+    "option_c": "File Explorer",
+    "option_d": "Task Manager",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "31 What is Web Architecture?",
+    "option_a": "Structure of hardware devices",
+    "option_b": "Framework that defines how web components interact",
+    "option_c": "Design of mobile apps",
+    "option_d": "Programming of databases",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which component sends a request to a server in web architecture?",
+    "option_a": "Database",
+    "option_b": "Client",
+    "option_c": "Router",
+    "option_d": "Firewall",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "In web architecture, the server mainly:",
+    "option_a": "Displays webpages",
+    "option_b": "Processes requests and sends responses",
+    "option_c": "Designs websites",
+    "option_d": "Creates CSS",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What does HTTP stand for?",
+    "option_a": "Hyper Text Transfer Protocol",
+    "option_b": "Hyper Transfer Text Protocol",
+    "option_c": "High Text Transfer Program",
+    "option_d": "Hyper Tool Transfer Protocol",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "HTTP is mainly used for:",
+    "option_a": "Transferring web pages",
+    "option_b": "Sending emails",
+    "option_c": "Database storage",
+    "option_d": "Programming",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which protocol is used for secure communication on the web?",
+    "option_a": "HTTPS",
+    "option_b": "HTTP",
+    "option_c": "FTP",
+    "option_d": "SMTP",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What does HTTPS stand for?",
+    "option_a": "Hyper Tool Transfer Protocol Secure",
+    "option_b": "Hyper Text Transfer Protocol Secure",
+    "option_c": "High Text Transfer Protocol System",
+    "option_d": "Hyper Transfer Text Protocol Safe",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which component stores website data?",
+    "option_a": "Client",
+    "option_b": "Database",
+    "option_c": "Browser",
+    "option_d": "Protocol",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "A browser sends a request to a server using:",
+    "option_a": "CSS",
+    "option_b": "HTTP protocol",
+    "option_c": "JavaScript",
+    "option_d": "HTML only",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which of the following is an example of a web browser?",
+    "option_a": "Chrome",
+    "option_b": "Linux",
+    "option_c": "MySQL",
+    "option_d": "Apache",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What is the role of DNS in web architecture?",
+    "option_a": "Stores webpages",
+    "option_b": "Converts domain names into IP addresses",
+    "option_c": "Designs websites",
+    "option_d": "Sends emails",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What does DNS stand for?",
+    "option_a": "Digital Network Server",
+    "option_b": "Domain Name System",
+    "option_c": "Data Naming Service",
+    "option_d": "Domain Network Security",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What is an IP address?",
+    "option_a": "Website design",
+    "option_b": "Unique identifier of a device on the internet",
+    "option_c": "Web browser",
+    "option_d": "HTML code",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which protocol is used to transfer files over the internet?",
+    "option_a": "HTTP",
+    "option_b": "FTP",
+    "option_c": "SMTP",
+    "option_d": "DNS",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "FTP stands for:",
+    "option_a": "File Transfer Protocol",
+    "option_b": "Fast Transfer Program",
+    "option_c": "File Transmission Process",
+    "option_d": "File Tool Protocol",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which protocol is used to send emails?",
+    "option_a": "SMTP",
+    "option_b": "FTP",
+    "option_c": "HTTP",
+    "option_d": "DNS",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "SMTP stands for:",
+    "option_a": "Simple Mail Transfer Protocol",
+    "option_b": "System Mail Transfer Process",
+    "option_c": "Secure Mail Transfer Protocol",
+    "option_d": "Simple Message Transfer Program",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What is a URL?",
+    "option_a": "Address of a webpage",
+    "option_b": "Web browser",
+    "option_c": "Internet cable",
+    "option_d": "Programming language",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "URL stands for:",
+    "option_a": "Uniform Resource Locator",
+    "option_b": "Universal Resource Link",
+    "option_c": "Unified Resource Location",
+    "option_d": "Uniform Resource Link",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which part of a URL identifies the protocol used?",
+    "option_a": "www",
+    "option_b": "http://",
+    "option_c": "domain name",
+    "option_d": "page name",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which architecture model is commonly used on the web?",
+    "option_a": "Peer-to-peer only",
+    "option_b": "Client–Server model",
+    "option_c": "Centralized model",
+    "option_d": "Linear model",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "In the client–server model, the client:",
+    "option_a": "Stores database",
+    "option_b": "Requests services from server",
+    "option_c": "Manages the server",
+    "option_d": "Hosts the website",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "A web server stores:",
+    "option_a": "Operating systems only",
+    "option_b": "Web pages and files",
+    "option_c": "Mobile apps",
+    "option_d": "Hardware drivers",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which of the following is a web server software?",
+    "option_a": "Apache",
+    "option_b": "Chrome",
+    "option_c": "Windows",
+    "option_d": "Photoshop",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What happens after a client sends an HTTP request?",
+    "option_a": "Server ignores request",
+    "option_b": "Server processes request and sends response",
+    "option_c": "Browser shuts down",
+    "option_d": "Database deletes data",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What type of protocol is HTTP?",
+    "option_a": "Network cable protocol",
+    "option_b": "Application layer protocol",
+    "option_c": "Hardware protocol",
+    "option_d": "Physical layer protocol",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "HTTPS mainly improves:",
+    "option_a": "Website speed",
+    "option_b": "Security through encryption",
+    "option_c": "Website design",
+    "option_d": "Database size",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which protocol translates domain names into IP addresses?",
+    "option_a": "DNS",
+    "option_b": "FTP",
+    "option_c": "HTTP",
+    "option_d": "SMTP",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which device usually hosts a website?",
+    "option_a": "Printer",
+    "option_b": "Server",
+    "option_c": "Scanner",
+    "option_d": "Router",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Web architecture mainly involves:",
+    "option_a": "Clients, Servers, and Protocols",
+    "option_b": "Hardware only",
+    "option_c": "Programming only",
+    "option_d": "Databases only",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What does HTML stand for?",
+    "option_a": "Hyper Text Markup Language",
+    "option_b": "High Text Machine Language",
+    "option_c": "Hyperlink and Text Management Language",
+    "option_d": "Home Tool Markup Language",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "HTML is mainly used to:",
+    "option_a": "Design databases",
+    "option_b": "Structure web pages",
+    "option_c": "Control servers",
+    "option_d": "Send emails",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which tag is used to create the basic structure of an HTML document?",
+    "option_a": "<body>",
+    "option_b": "<html>",
+    "option_c": "<head>",
+    "option_d": "<title>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTML tag contains the visible content of a webpage?",
+    "option_a": "<head>",
+    "option_b": "<body>",
+    "option_c": "<title>",
+    "option_d": "<meta>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which tag is used to define the title of a webpage",
+    "option_a": "<title>",
+    "option_b": "<meta>",
+    "option_c": "<header>",
+    "option_d": "<head>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTML tag is used for the largest heading?",
+    "option_a": "<h3>",
+    "option_b": "<h1>",
+    "option_c": "<h6>",
+    "option_d": "<heading>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTML tag is used to create a paragraph",
+    "option_a": "<para>",
+    "option_b": "<p>",
+    "option_c": "<pg>",
+    "option_d": "<text>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which tag is used to create a hyperlink?",
+    "option_a": "<a>",
+    "option_b": "<link>",
+    "option_c": "<href>",
+    "option_d": "<url>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which attribute is used to specify the destination of a link",
+    "option_a": "link",
+    "option_b": "src",
+    "option_c": "href",
+    "option_d": "path",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTML tag is used to insert an image?",
+    "option_a": "<picture>",
+    "option_b": "<image>",
+    "option_c": "<img>",
+    "option_d": "<photo>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which attribute is used to specify the image path?",
+    "option_a": "link",
+    "option_b": "href",
+    "option_c": "src",
+    "option_d": "path",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which attribute provides alternative text for images",
+    "option_a": "name",
+    "option_b": "alt",
+    "option_c": "title",
+    "option_d": "text",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTML tag is used to create an unordered list?",
+    "option_a": "<ol>",
+    "option_b": "<ul>",
+    "option_c": "<li>",
+    "option_d": "<list>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTML tag defines a list item",
+    "option_a": "<li>",
+    "option_b": "<item>",
+    "option_c": "<ul>",
+    "option_d": "<ol>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTML tag is used to create an ordered list?",
+    "option_a": "<list>",
+    "option_b": "<ul>",
+    "option_c": "<ol>",
+    "option_d": "<li>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which tag is used to create a table?",
+    "option_a": "<tr>",
+    "option_b": "<tab>",
+    "option_c": "<table>",
+    "option_d": "<td>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which tag defines a table row?",
+    "option_a": "<td>",
+    "option_b": "<tr>",
+    "option_c": "<th>",
+    "option_d": "<table>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which tag defines a table cell?",
+    "option_a": "<table>",
+    "option_b": "<tr>",
+    "option_c": "<td>",
+    "option_d": "<cell>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTML tag is used for table headings?",
+    "option_a": "<tr>",
+    "option_b": "<th>",
+    "option_c": "<td>",
+    "option_d": "<thead>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTML element is used to create forms?",
+    "option_a": "<input>",
+    "option_b": "<form>",
+    "option_c": "<button>",
+    "option_d": "<submit>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which input type is used for entering passwords?",
+    "option_a": "password",
+    "option_b": "text",
+    "option_c": "secret",
+    "option_d": "hidden",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which input type allows users to select one option from multiple choices?",
+    "option_a": "radio",
+    "option_b": "checkbox",
+    "option_c": "button",
+    "option_d": "text",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which tag is used to create a button in HTML?",
+    "option_a": "<button>",
+    "option_b": "<btn>",
+    "option_c": "<click>",
+    "option_d": "<inputbutton>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTML tag is used to break a line?\nA. <lb>\nB. <break>\nC. <br>\nD. <newline>",
+    "option_a": "<hr>",
+    "option_b": "<line>",
+    "option_c": "<border>",
+    "option_d": "<row>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which tag is used to make text bold?\nA. <bold>\nB. <strong>\nC. <b>\nD. Both B and C",
+    "option_a": "<em>",
+    "option_b": "<italic>",
+    "option_c": "<i>",
+    "option_d": "Both B and C",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTML tag defines the header section of a webpage?\nA. <header>\nB. <top>\nC. <head>\nD. <heading>",
+    "option_a": "<navigate>",
+    "option_b": "<link>",
+    "option_c": "<nav>",
+    "option_d": "<menu>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which file extension is used for HTML files?\nA. .html\nB. .htm\nC. Both A and B\nD. .web",
+    "option_a": "Colorful Style Sheets",
+    "option_b": "Computer Style Sheets",
+    "option_c": "Cascading Style Sheets",
+    "option_d": "Creative Style System",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "CSS is mainly used for:\nA. Structuring webpages\nB. Styling and designing webpages\nC. Creating databases\nD. Managing servers",
+    "option_a": "<script>",
+    "option_b": "<style>",
+    "option_c": "<css>",
+    "option_d": "<link>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which attribute is used in the <link> tag to specify the CSS file location?\nA. src\nB. href\nC. path\nD. file",
+    "option_a": "text-color",
+    "option_b": "color",
+    "option_c": "font-color",
+    "option_d": "style",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property is used to change the background color?\nA. color\nB. background-color\nC. bg-color\nD. background-style",
+    "option_a": "font-size",
+    "option_b": "font-style",
+    "option_c": "text-size",
+    "option_d": "size",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property makes text bold?\nA. font-weight\nB. text-style\nC. font-bold\nD. weight",
+    "option_a": "font-type",
+    "option_b": "font-family",
+    "option_c": "text-family",
+    "option_d": "style-family",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property is used to align text?\nA. text-align\nB. align-text\nC. font-align\nD. text-position",
+    "option_a": "margin",
+    "option_b": "padding",
+    "option_c": "spacing",
+    "option_d": "border",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property controls the space inside an element?\nA. margin\nB. padding\nC. spacing\nD. border-space",
+    "option_a": "outline",
+    "option_b": "border",
+    "option_c": "frame",
+    "option_d": "line",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property controls the width of an element?\nA. size\nB. width\nC. element-width\nD. area",
+    "option_a": "element-height",
+    "option_b": "height",
+    "option_c": "size",
+    "option_d": "length",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property changes the background image?\nA. background-img\nB. image-background\nC. background-image\nD. img-background",
+    "option_a": "opacity",
+    "option_b": "visibility",
+    "option_c": "transparent",
+    "option_d": "display",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property controls how elements are displayed on a page?\nA. display\nB. position\nC. style\nD. layout",
+    "option_a": "block",
+    "option_b": "inline",
+    "option_c": "flex",
+    "option_d": "none",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property is used to position elements?\nA. display\nB. position\nC. align\nD. float",
+    "option_a": "position",
+    "option_b": "align",
+    "option_c": "float",
+    "option_d": "layout",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property controls the order of overlapping elements?\nA. z-index\nB. layer\nC. stack\nD. order",
+    "option_a": "font-shadow",
+    "option_b": "text-shadow",
+    "option_c": "shadow",
+    "option_d": "box-shadow",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property adds shadow to boxes?\nA. box-shadow\nB. shadow-box\nC. border-shadow\nD. element-shadow",
+    "option_a": "word-spacing",
+    "option_b": "letter-spacing",
+    "option_c": "text-spacing",
+    "option_d": "spacing",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property controls the spacing between words?\nA. letter-spacing\nB. text-spacing\nC. word-spacing\nD. font-spacing",
+    "option_a": "visibility",
+    "option_b": "display",
+    "option_c": "Both A and B",
+    "option_d": "hide",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property changes the style of the list marker?\nA. list-style\nB. list-type\nC. marker-style\nD. bullet-style",
+    "option_a": "border-style",
+    "option_b": "border-radius",
+    "option_c": "corner-radius",
+    "option_d": "round-border",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property is used to create flexible layouts?\nA. grid\nB. flex\nC. flexbox\nD. layout-flex",
+    "option_a": "Make websites adapt to different screen sizes",
+    "option_b": "Improve database performance",
+    "option_c": "Increase server speed",
+    "option_d": "Reduce HTML code",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS feature is commonly used for responsive design?\nA. Media Queries\nB. HTML Forms\nC. SQL Queries\nD. Java Methods",
+    "option_a": "@screen media (768px)",
+    "option_b": "@media screen and (max-width: 768px)",
+    "option_c": "media-query: 768px",
+    "option_d": "query-media (width)",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which unit is most commonly used for responsive layouts?\nA. px\nB. em\nC. rem\nD. %",
+    "option_a": "Flexbox",
+    "option_b": "Grid",
+    "option_c": "Float",
+    "option_d": "Inline",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS layout model is best for one-dimensional layouts?\nA. Grid\nB. Table\nC. Flexbox\nD. Position",
+    "option_a": "flex: on",
+    "option_b": "display: flex",
+    "option_c": "layout: flex",
+    "option_d": "flexbox: true",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which property controls the direction of flex items?\nA. flex-align\nB. flex-direction\nC. flex-order\nD. flex-style",
+    "option_a": "justify-content",
+    "option_b": "align-items",
+    "option_c": "flex-wrap",
+    "option_d": "order",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which property aligns flex items vertically?\nA. justify-content\nB. align-items\nC. flex-flow\nD. order",
+    "option_a": "item-wrap",
+    "option_b": "flex-wrap",
+    "option_c": "wrap-items",
+    "option_d": "flex-align",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which property changes the order of flex items?\nA. flex-order\nB. order\nC. arrange\nD. flex-arrange",
+    "option_a": "layout: grid",
+    "option_b": "display: grid",
+    "option_c": "grid-style",
+    "option_d": "grid-layout",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which property defines the columns in CSS Grid?\nA. grid-columns\nB. grid-template-columns\nC. column-layout\nD. template-columns",
+    "option_a": "grid-rows",
+    "option_b": "grid-template-rows",
+    "option_c": "row-layout",
+    "option_d": "template-rows",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property controls spacing between grid items?\nA. gap\nB. spacing\nC. margin-gap\nD. grid-space",
+    "option_a": "em",
+    "option_b": "px",
+    "option_c": "rem",
+    "option_d": "%",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS unit is relative to the parent element’s font size?\nA. em\nB. rem\nC. px\nD. vh",
+    "option_a": "vh",
+    "option_b": "vw",
+    "option_c": "vmin",
+    "option_d": "vmax",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which viewport unit represents 1% of the viewport height?\nA. vw\nB. vh\nC. em\nD. rem",
+    "option_a": "display",
+    "option_b": "visibility",
+    "option_c": "opacity",
+    "option_d": "transparency",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS feature allows smooth transitions between property values?\nA. transform\nB. transition\nC. animation\nD. effect",
+    "option_a": "transition-duration",
+    "option_b": "duration",
+    "option_c": "animation-time",
+    "option_d": "time",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS feature allows complex animations?\nA. keyframes\nB. animation\nC. Both A and B\nD. transition",
+    "option_a": "@animate",
+    "option_b": "@keyframes",
+    "option_c": "@motion",
+    "option_d": "@transition",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS property rotates an element?\nA. rotate\nB. transform\nC. rotate-element\nD. element-rotate",
+    "option_a": "scale()",
+    "option_b": "resize()",
+    "option_c": "grow()",
+    "option_d": "expand()",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which transform function moves an element?\nA. move()\nB. shift()\nC. translate()\nD. slide()",
+    "option_a": "width: fixed",
+    "option_b": "max-width: 100%",
+    "option_c": "image-fit",
+    "option_d": "scale-image",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which meta tag helps responsive design work on mobile devices?\nA. viewport\nB. device\nC. mobile\nD. responsive",
+    "option_a": "Adding interactivity to webpages",
+    "option_b": "Structuring webpages",
+    "option_c": "Styling webpages",
+    "option_d": "Managing databases",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which keyword is used to declare a variable in modern JavaScript?\nA. var\nB. let\nC. define\nD. declare",
+    "option_a": "<!--",
+    "option_b": "##",
+    "option_c": "//",
+    "option_d": "**",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "JavaScript was originally developed by:\nA. Microsoft\nB. Netscape\nC. Google\nD. IBM",
+    "option_a": "<js>",
+    "option_b": "<javascript>",
+    "option_c": "<script>",
+    "option_d": "<code>",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which JavaScript function displays a popup message box?\nA. message()\nB. alert()\nC. display()\nD. show()",
+    "option_a": "document.write()",
+    "option_b": "console.log()",
+    "option_c": "alert()",
+    "option_d": "print()",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which method is used to print messages in the browser console?\nA. console.log()\nB. alert()\nC. write()\nD. show()",
+    "option_a": "Number",
+    "option_b": "String",
+    "option_c": "Boolean",
+    "option_d": "Object",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which operator is used for addition in JavaScript?\nA. +\nB. -\nC. *\nD. /",
+    "option_a": "if",
+    "option_b": "for",
+    "option_c": "while",
+    "option_d": "switch",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which loop repeats code while a condition is true?\nA. for\nB. if\nC. while\nD. switch",
+    "option_a": "for",
+    "option_b": "while",
+    "option_c": "do-while",
+    "option_d": "repeat",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which keyword is used to define a function in JavaScript?\nA. method\nB. function\nC. define\nD. func",
+    "option_a": "call test",
+    "option_b": "test[]",
+    "option_c": "test()",
+    "option_d": "run test",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which object represents the browser window?\nA. browser\nB. window\nC. screen\nD. document",
+    "option_a": "page",
+    "option_b": "html",
+    "option_c": "window",
+    "option_d": "document",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which method selects an element by its ID?\nA. getElementByClass()\nB. getElementById()\nC. queryId()\nD. selectId()",
+    "option_a": "getElement()",
+    "option_b": "querySelector()",
+    "option_c": "selectElement()",
+    "option_d": "cssSelect()",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which event occurs when a user clicks an element?\nA. onhover\nB. onclick\nC. onmove\nD. onchange",
+    "option_a": "onready",
+    "option_b": "onload",
+    "option_c": "onstart",
+    "option_d": "onopen",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which keyword stops a loop immediately?\nA. stop\nB. end\nC. break\nD. halt",
+    "option_a": "skip",
+    "option_b": "next",
+    "option_c": "continue",
+    "option_d": "pass",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which operator checks equality without type conversion?\nA. ==\nB. =\nC. ===\nD. !=",
+    "option_a": "==",
+    "option_b": "=",
+    "option_c": "===",
+    "option_d": "+=",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which data type is used to store text in JavaScript?\nA. Number\nB. String\nC. Boolean\nD. Array",
+    "option_a": ".",
+    "option_b": ":",
+    "option_c": "#",
+    "option_d": "&",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which method converts a string into an integer?\nA. parseInt()\nB. toNumber()\nC. convertInt()\nD. int()",
+    "option_a": "add()",
+    "option_b": "push()",
+    "option_c": "append()",
+    "option_d": "insert()",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which array method removes the last element of an array?\nA. pop()\nB. delete()\nC. remove()\nD. shift()",
+    "option_a": "Designing databases",
+    "option_b": "Building user interfaces for web applications",
+    "option_c": "Managing servers",
+    "option_d": "Writing backend code",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which of the following is a popular JavaScript frontend library?\nA. Laravel\nB. React\nC. Django\nD. Spring",
+    "option_a": "Microsoft",
+    "option_b": "Google",
+    "option_c": "Facebook",
+    "option_d": "Apple",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which frontend framework is developed by Google?\nA. React\nB. Angular\nC. Vue\nD. Bootstrap",
+    "option_a": "Angular",
+    "option_b": "Vue.js",
+    "option_c": "Django",
+    "option_d": "Flask",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS framework is widely used for responsive design?\nA. Bootstrap\nB. Laravel\nC. Node.js\nD. Express",
+    "option_a": "Server-side programming",
+    "option_b": "Database management",
+    "option_c": "Creating responsive and styled web pages",
+    "option_d": "Data analysis",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "In React, UI components are mainly written using:\nA. JSX\nB. SQL\nC. XML\nD. CSS",
+    "option_a": "JavaScript XML",
+    "option_b": "Java Syntax Extension",
+    "option_c": "JavaScript Example",
+    "option_d": "Java Extended Script",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which feature allows developers to reuse UI elements in frameworks like React and Vue?\nA. Functions\nB. Components\nC. Objects\nD. Variables",
+    "option_a": "Vue",
+    "option_b": "Angular",
+    "option_c": "React",
+    "option_d": "Bootstrap",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which library is mainly used for building user interfaces?\nA. React\nB. MySQL\nC. PHP\nD. Apache",
+    "option_a": "CSS",
+    "option_b": "npm",
+    "option_c": "HTML",
+    "option_d": "FTP",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What does npm stand for?\nA. Node Package Manager\nB. Network Program Manager\nC. Node Programming Method\nD. New Project Manager",
+    "option_a": "npm add",
+    "option_b": "npm install",
+    "option_c": "npm start",
+    "option_d": "npm run",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which framework uses a virtual DOM for better performance?\nA. Angular\nB. React\nC. Bootstrap\nD. jQuery",
+    "option_a": "jQuery",
+    "option_b": "Vue",
+    "option_c": "Angular",
+    "option_d": "React",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which of the following is a lightweight JavaScript framework?\nA. Vue.js\nB. Django\nC. Flask\nD. Spring",
+    "option_a": "HTML",
+    "option_b": "React",
+    "option_c": "CSS",
+    "option_d": "FTP",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which CSS framework provides ready-made UI components like buttons and navigation bars?\nA. Bootstrap\nB. Node.js\nC. Express\nD. MongoDB",
+    "option_a": "Angular",
+    "option_b": "React",
+    "option_c": "Vue",
+    "option_d": "All of these",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What is a Single Page Application (SPA)?\nA. Website with only one page\nB. Web application that loads a single HTML page and dynamically updates content\nC. Static webpage\nD. Database system",
+    "option_a": "react-start",
+    "option_b": "create-react-app",
+    "option_c": "react-install",
+    "option_d": "start-react",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which directive is commonly used in Angular templates?\nA. ngIf\nB. v-if\nC. r-if\nD. js-if",
+    "option_a": "ng-if",
+    "option_b": "v-if",
+    "option_c": "if-vue",
+    "option_d": "show-if",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which framework is considered progressive and flexible?\nA. Angular\nB. Vue.js\nC. Laravel\nD. Django",
+    "option_a": "Express",
+    "option_b": "React",
+    "option_c": "MySQL",
+    "option_d": "PHP",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which framework is known for two-way data binding?\nA. Angular\nB. React\nC. Bootstrap\nD. jQuery",
+    "option_a": "Laravel",
+    "option_b": "React Native",
+    "option_c": "Django",
+    "option_d": "Flask",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which concept allows automatic updating of UI when data changes?\nA. Data Binding\nB. Looping\nC. Compilation\nD. Routing",
+    "option_a": "Managing server, database, and application logic",
+    "option_b": "Designing web page layouts",
+    "option_c": "Styling webpages",
+    "option_d": "Creating animations",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Backend development mainly works on the:\nA. Client side\nB. Server side\nC. Browser side\nD. Design side",
+    "option_a": "HTML",
+    "option_b": "CSS",
+    "option_c": "JavaScript (Node.js)",
+    "option_d": "Bootstrap",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which backend language is commonly used for web development?\nA. PHP\nB. HTML\nC. CSS\nD. XML",
+    "option_a": "Node.js",
+    "option_b": "React",
+    "option_c": "Angular",
+    "option_d": "Bootstrap",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which of the following is a popular backend framework for Node.js?\nA. Express.js\nB. React\nC. Vue.js\nD. Bootstrap",
+    "option_a": "Styling webpages",
+    "option_b": "Processing client requests and sending responses",
+    "option_c": "Creating animations",
+    "option_d": "Editing HTML files",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which of the following is an example of a web server software?\nA. Apache\nB. Photoshop\nC. Chrome\nD. Excel",
+    "option_a": "Application Programming Interface",
+    "option_b": "Advanced Program Internet",
+    "option_c": "Application Page Index",
+    "option_d": "Automated Programming Integration",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "APIs are mainly used for:\nA. Designing websites\nB. Communication between software systems\nC. Editing images\nD. Writing HTML code",
+    "option_a": "Graph Database",
+    "option_b": "NoSQL",
+    "option_c": "Relational Database",
+    "option_d": "Document Database",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which of the following is a relational database system?\nA. MongoDB\nB. MySQL\nC. Firebase\nD. Cassandra",
+    "option_a": "SQL",
+    "option_b": "HTML",
+    "option_c": "CSS",
+    "option_d": "JavaScript",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What does SQL stand for?\nA. Structured Query Language\nB. Simple Query Logic\nC. System Query Language\nD. Structured Question Language",
+    "option_a": "DELETE",
+    "option_b": "INSERT",
+    "option_c": "SELECT",
+    "option_d": "UPDATE",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which command adds new data into a database table?\nA. SELECT\nB. INSERT\nC. DELETE\nD. DROP",
+    "option_a": "INSERT",
+    "option_b": "DELETE",
+    "option_c": "UPDATE",
+    "option_d": "CREATE",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which backend concept controls user access to resources?\nA. Authentication\nB. Animation\nC. Styling\nD. Formatting",
+    "option_a": "Encryption",
+    "option_b": "Authentication",
+    "option_c": "Authorization",
+    "option_d": "Validation",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which method is used to securely store passwords?\nA. Hashing\nB. Copying\nC. Encoding text\nD. Printing",
+    "option_a": "POST",
+    "option_b": "GET",
+    "option_c": "READ",
+    "option_d": "VIEW",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTTP method retrieves data from the server?\nA. POST\nB. GET\nC. DELETE\nD. PUT",
+    "option_a": "CSS",
+    "option_b": "REST",
+    "option_c": "HTML",
+    "option_d": "FTP",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "REST stands for:\nA. Representational State Transfer\nB. Remote Server Transfer\nC. Resource System Transfer\nD. Response Server Technology",
+    "option_a": "JSON",
+    "option_b": "HTML",
+    "option_c": "CSS",
+    "option_d": "TXT",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What does JSON stand for?\nA. JavaScript Object Notation\nB. Java Source Object Network\nC. JavaScript Output Name\nD. Java Structured Object Node",
+    "option_a": "React",
+    "option_b": "Django",
+    "option_c": "Angular",
+    "option_d": "Bootstrap",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which backend framework is used with PHP?\nA. Laravel\nB. Vue.js\nC. jQuery\nD. React",
+    "option_a": "Express.js",
+    "option_b": "Bootstrap",
+    "option_c": "Angular",
+    "option_d": "CSS",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Backend development mainly involves:\nA. Server logic, database management, and APIs\nB. Webpage colors and fonts\nC. Image editing\nD. Hardware installation",
+    "option_a": "Processing client requests on the server",
+    "option_b": "Designing webpage layouts",
+    "option_c": "Styling webpages",
+    "option_d": "Creating animations",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Server-side scripts are executed on the:\nA. Browser\nB. Client computer\nC. Server\nD. Mobile device",
+    "option_a": "PHP",
+    "option_b": "HTML",
+    "option_c": "CSS",
+    "option_d": "Bootstrap",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which server-side language is commonly used with HTML to create dynamic web pages?\nA. Java\nB. PHP\nC. CSS\nD. XML",
+    "option_a": "Angular",
+    "option_b": "Node.js",
+    "option_c": "React",
+    "option_d": "Bootstrap",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which server-side language is developed by Microsoft?\nA. Python\nB. ASP.NET\nC. PHP\nD. Ruby",
+    "option_a": "Storing and delivering web content",
+    "option_b": "Designing web pages",
+    "option_c": "Editing images",
+    "option_d": "Writing CSS",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which of the following is a popular web server software?\nA. Apache\nB. Photoshop\nC. Chrome\nD. Excel",
+    "option_a": "HTML",
+    "option_b": "Python",
+    "option_c": "CSS",
+    "option_d": "XML",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which Python framework is commonly used for web development?\nA. Django\nB. Bootstrap\nC. React\nD. Vue",
+    "option_a": "Angular",
+    "option_b": "Laravel",
+    "option_c": "jQuery",
+    "option_d": "Vue",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What is the main purpose of a database in server-side programming?\nA. Styling pages\nB. Storing and managing data\nC. Creating images\nD. Editing code",
+    "option_a": "HTML",
+    "option_b": "CSS",
+    "option_c": "SQL",
+    "option_d": "JavaScript",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which database is commonly used with PHP applications?\nA. MySQL\nB. MongoDB\nC. Firebase\nD. Cassandra",
+    "option_a": "INSERT",
+    "option_b": "SELECT",
+    "option_c": "DELETE",
+    "option_d": "UPDATE",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which command adds data to a database?\nA. SELECT\nB. INSERT\nC. UPDATE\nD. DELETE",
+    "option_a": "DELETE",
+    "option_b": "INSERT",
+    "option_c": "UPDATE",
+    "option_d": "SELECT",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which command removes data from a database table?\nA. UPDATE\nB. INSERT\nC. DELETE\nD. SELECT",
+    "option_a": "Storing user data during a visit",
+    "option_b": "Managing webpage colors",
+    "option_c": "Editing database tables",
+    "option_d": "Creating animations",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which technology stores small pieces of data in the user's browser?\nA. Cookies\nB. Database\nC. API\nD. HTML",
+    "option_a": "Authorization",
+    "option_b": "Authentication",
+    "option_c": "Validation",
+    "option_d": "Encryption",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which concept determines what resources a user can access?\nA. Authorization\nB. Authentication\nC. Validation\nD. Hashing",
+    "option_a": "SMTP",
+    "option_b": "HTTP",
+    "option_c": "FTP",
+    "option_d": "DNS",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTTP method is used to retrieve data from a server?\nA. POST\nB. GET\nC. DELETE\nD. PUT",
+    "option_a": "READ",
+    "option_b": "GET",
+    "option_c": "POST",
+    "option_d": "VIEW",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which data format is widely used in server-client communication?\nA. JSON\nB. CSS\nC. HTML\nD. TXT",
+    "option_a": "jQuery",
+    "option_b": "Laravel",
+    "option_c": "Bootstrap",
+    "option_d": "CSS",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which server-side language is commonly used for enterprise web applications?\nA. Java\nB. CSS\nC. HTML\nD. XML",
+    "option_a": "Python",
+    "option_b": "CSS",
+    "option_c": "HTML",
+    "option_d": "Bootstrap",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Server-side programming mainly handles:\nA. User interface design\nB. Business logic and database operations\nC. Page colors and fonts\nD. Image editing",
+    "option_a": "Storing and managing application data",
+    "option_b": "Designing web pages",
+    "option_c": "Styling web elements",
+    "option_d": "Creating animations",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "A database is best described as:\nA. A programming language\nB. An organized collection of data\nC. A web browser\nD. A server device",
+    "option_a": "NoSQL Database",
+    "option_b": "Relational Database",
+    "option_c": "Graph Database",
+    "option_d": "Document Database",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which of the following is a relational database system?\nA. MongoDB\nB. MySQL\nC. Firebase\nD. Redis",
+    "option_a": "CSS",
+    "option_b": "SQL",
+    "option_c": "HTML",
+    "option_d": "JavaScript",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What does SQL stand for?\nA. Simple Query Language\nB. Structured Query Language\nC. System Query Language\nD. Standard Query Logic",
+    "option_a": "SELECT",
+    "option_b": "INSERT",
+    "option_c": "UPDATE",
+    "option_d": "DELETE",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which SQL command adds new records into a table?\nA. INSERT\nB. SELECT\nC. DELETE\nD. UPDATE",
+    "option_a": "INSERT",
+    "option_b": "UPDATE",
+    "option_c": "SELECT",
+    "option_d": "DELETE",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which SQL command removes records from a table?\nA. DELETE\nB. INSERT\nC. SELECT\nD. CREATE",
+    "option_a": "A programming function",
+    "option_b": "A collection of related data organized in rows and columns",
+    "option_c": "A webpage layout",
+    "option_d": "A CSS component",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "A row in a database table is also called a:\nA. Field\nB. Record\nC. Column\nD. Index",
+    "option_a": "Row value",
+    "option_b": "Field or attribute",
+    "option_c": "Table key",
+    "option_d": "Record number",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which key uniquely identifies each record in a table?\nA. Foreign Key\nB. Primary Key\nC. Candidate Key\nD. Composite Key",
+    "option_a": "Store images",
+    "option_b": "Delete records",
+    "option_c": "Link two tables together",
+    "option_d": "Create indexes",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which database is a popular open-source relational database used in web applications?\nA. MySQL\nB. Oracle\nC. PostgreSQL\nD. Both A and C",
+    "option_a": "MongoDB",
+    "option_b": "MySQL",
+    "option_c": "PostgreSQL",
+    "option_d": "SQLite",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "MongoDB is an example of:\nA. Relational database\nB. NoSQL database\nC. Graph database\nD. Spreadsheet",
+    "option_a": "Documents",
+    "option_b": "Tables",
+    "option_c": "Rows",
+    "option_d": "Columns",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which data format is commonly used in MongoDB documents?\nA. XML\nB. JSON\nC. CSS\nD. TXT",
+    "option_a": "Improving query performance",
+    "option_b": "Storing images",
+    "option_c": "Designing tables",
+    "option_d": "Deleting records",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which database operation ensures data accuracy and consistency?\nA. Transactions\nB. Styling\nC. Animation\nD. Compilation",
+    "option_a": "Isolation",
+    "option_b": "Atomicity",
+    "option_c": "Consistency",
+    "option_d": "Durability",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which database concept reduces data redundancy?\nA. Normalization\nB. Compilation\nC. Encryption\nD. Hashing",
+    "option_a": "Improving data organization",
+    "option_b": "Increasing server speed",
+    "option_c": "Styling webpages",
+    "option_d": "Compressing files",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which command creates a new table in SQL?\nA. CREATE TABLE\nB. ADD TABLE\nC. INSERT TABLE\nD. NEW TABLE",
+    "option_a": "REMOVE TABLE",
+    "option_b": "DELETE TABLE",
+    "option_c": "DROP TABLE",
+    "option_d": "ERASE TABLE",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which command changes the structure of an existing table?\nA. ALTER TABLE\nB. UPDATE TABLE\nC. CHANGE TABLE\nD. MODIFY TABLE",
+    "option_a": "MongoDB",
+    "option_b": "MySQL",
+    "option_c": "PostgreSQL",
+    "option_d": "SQLite",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Databases in web applications mainly help to:\nA. Store, retrieve, and manage application data\nB. Design webpages\nC. Style user interfaces\nD. Edit images",
+    "option_a": "Protecting websites and applications from attacks",
+    "option_b": "Designing web pages",
+    "option_c": "Styling webpages",
+    "option_d": "Increasing internet speed",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which of the following is a common web security threat?\nA. SQL Injection\nB. CSS Styling\nC. HTML Tags\nD. Responsive Design",
+    "option_a": "Databases",
+    "option_b": "Images",
+    "option_c": "Web browsers",
+    "option_d": "CSS files",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which attack injects malicious scripts into web pages viewed by other users?\nA. Phishing\nB. Cross-Site Scripting (XSS)\nC. SQL Injection\nD. Brute Force",
+    "option_a": "Cross-Site System",
+    "option_b": "Cross-Site Scripting",
+    "option_c": "Cross Script Security",
+    "option_d": "Cross System Script",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which security technique converts passwords into unreadable formats?\nA. Encryption\nB. Hashing\nC. Compression\nD. Encoding",
+    "option_a": "HTTP",
+    "option_b": "HTTPS",
+    "option_c": "FTP",
+    "option_d": "SMTP",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "HTTPS uses which technology for secure communication?\nA. SSL/TLS\nB. FTP\nC. HTML\nD. DNS",
+    "option_a": "Security System Layer",
+    "option_b": "Secure Socket Layer",
+    "option_c": "Safe Server Link",
+    "option_d": "System Security Level",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which attack attempts to guess passwords repeatedly?\nA. Phishing\nB. Brute Force Attack\nC. XSS\nD. SQL Injection",
+    "option_a": "Steal sensitive user information",
+    "option_b": "Improve website design",
+    "option_c": "Speed up servers",
+    "option_d": "Compress data",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which security mechanism verifies the identity of a user?\nA. Authentication\nB. Authorization\nC. Encryption\nD. Validation",
+    "option_a": "Authentication",
+    "option_b": "Authorization",
+    "option_c": "Encryption",
+    "option_d": "Hashing",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which technique ensures data cannot be read by unauthorized users?\nA. Encryption\nB. Compilation\nC. Styling\nD. Debugging",
+    "option_a": "Styling webpages",
+    "option_b": "Monitoring and controlling network traffic",
+    "option_c": "Creating HTML files",
+    "option_d": "Managing images",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which tool helps detect security vulnerabilities in web applications?\nA. Security Scanner\nB. Web Browser\nC. Text Editor\nD. Image Editor",
+    "option_a": "Phishing",
+    "option_b": "SQL Injection",
+    "option_c": "XSS",
+    "option_d": "DoS",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What does DoS stand for?\nA. Data Operating System\nB. Denial of Service\nC. Domain of Security\nD. Data Output Server",
+    "option_a": "Improve server performance",
+    "option_b": "Overload a server and make it unavailable",
+    "option_c": "Design webpages",
+    "option_d": "Store data",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which is a stronger authentication method?\nA. Password only\nB. Two-Factor Authentication\nC. Username only\nD. IP address",
+    "option_a": "Two-Folder Authentication",
+    "option_b": "Two-Factor Authentication",
+    "option_c": "Two-File Access",
+    "option_d": "Two-Firewall Authorization",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which practice helps protect passwords?\nA. Using simple passwords\nB. Reusing passwords everywhere\nC. Using strong and unique passwords\nD. Sharing passwords",
+    "option_a": "Content-Type",
+    "option_b": "X-Frame-Options",
+    "option_c": "Accept-Encoding",
+    "option_d": "Cache-Control",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which attack steals session IDs to impersonate users?\nA. Session Hijacking\nB. SQL Injection\nC. Phishing\nD. DoS",
+    "option_a": "Firewall",
+    "option_b": "HTML",
+    "option_c": "CSS",
+    "option_d": "Bootstrap",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which concept ensures data integrity during communication?\nA. Hashing\nB. Animation\nC. Styling\nD. Layout",
+    "option_a": "Prepared Statements",
+    "option_b": "HTML tags",
+    "option_c": "CSS styling",
+    "option_d": "Image compression",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which practice keeps software secure by fixing vulnerabilities?\nA. Regular Updates\nB. Using weak passwords\nC. Disabling security\nD. Ignoring patches",
+    "option_a": "Web Design",
+    "option_b": "Access Control",
+    "option_c": "CSS Styling",
+    "option_d": "Animation",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Web security mainly aims to protect:\nA. Data, users, and web applications\nB. Only images\nC. Only HTML files\nD. Only CSS files",
+    "option_a": "Loading speed and responsiveness",
+    "option_b": "Page styling",
+    "option_c": "Server configuration only",
+    "option_d": "User authentication",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which metric measures when the first content appears on screen?\nA. Largest Contentful Paint (LCP)\nB. First Contentful Paint (FCP)\nC. Time to Interactive (TTI)\nD. Cumulative Layout Shift (CLS)",
+    "option_a": "LCP",
+    "option_b": "FCP",
+    "option_c": "CLS",
+    "option_d": "TTI",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which metric measures when the main content of a page becomes visible?\nA. LCP\nB. FCP\nC. CLS\nD. TTI",
+    "option_a": "Time when a page starts loading",
+    "option_b": "Time when a page becomes fully usable",
+    "option_c": "Time of the first CSS render",
+    "option_d": "Time to complete API calls",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Why is web performance important for SEO?\nA. Search engines rank faster websites higher\nB. CSS files load faster\nC. Images get compressed automatically\nD. Users spend more time coding",
+    "option_a": "Google Lighthouse",
+    "option_b": "Adobe Photoshop",
+    "option_c": "MySQL Workbench",
+    "option_d": "Node.js",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Minification of CSS, JavaScript, and HTML helps by:\nA. Reducing file size\nB. Increasing font size\nC. Changing color schemes\nD. Adding animations",
+    "option_a": "Load images only when they appear on the viewport",
+    "option_b": "Load all resources at once",
+    "option_c": "Minify JavaScript",
+    "option_d": "Compress CSS files",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which image format is recommended for modern web optimization?\nA. PNG\nB. GIF\nC. WebP\nD. BMP",
+    "option_a": "Styling pages",
+    "option_b": "Delivering content from the nearest server to reduce latency",
+    "option_c": "Creating animations",
+    "option_d": "Writing HTML",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which of these is a popular CDN service?\nA. Cloudflare\nB. Bootstrap\nC. React\nD. MySQL",
+    "option_a": "Increase font size",
+    "option_b": "Reduce HTTP requests",
+    "option_c": "Change page layout",
+    "option_d": "Improve browser caching",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which caching type stores data in the user's browser?\nA. Server cache\nB. Browser cache\nC. Database cache\nD. CDN cache",
+    "option_a": "HTML",
+    "option_b": "Redis",
+    "option_c": "CSS",
+    "option_d": "Bootstrap",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Compressing files with Gzip or Brotli helps to:\nA. Reduce file transfer size\nB. Encrypt passwords\nC. Change image formats\nD. Minify CSS",
+    "option_a": "Remove unused JavaScript code",
+    "option_b": "Optimize images",
+    "option_c": "Reduce HTTP requests",
+    "option_d": "Minify CSS",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Code splitting is used to:\nA. Load JavaScript files only when needed\nB. Split HTML files\nC. Reduce server memory\nD. Optimize images",
+    "option_a": "FTP",
+    "option_b": "HTTP/1.1",
+    "option_c": "HTTP/2",
+    "option_d": "SMTP",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Reducing DOM size improves:\nA. Page rendering speed\nB. Font size\nC. Image quality\nD. CSS animation speed",
+    "option_a": "Preloading fonts",
+    "option_b": "Hiding fonts",
+    "option_c": "Using large fonts",
+    "option_d": "Inline styling",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which tool is commonly used to test web performance?\nA. Google PageSpeed Insights\nB. Photoshop\nC. MySQL\nD. Bootstrap",
+    "option_a": "VS Code",
+    "option_b": "GTmetrix",
+    "option_c": "React Developer Tools",
+    "option_d": "Node.js",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which tool is useful for advanced web performance testing with multiple locations?\nA. WebPageTest\nB. CSS Validator\nC. HTML Tidy\nD. Photoshop",
+    "option_a": "Lazy loading",
+    "option_b": "Inline CSS",
+    "option_c": "Minifying HTML",
+    "option_d": "Server caching",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Reducing JavaScript execution time improves:\nA. Time to Interactive (TTI)\nB. Image quality\nC. Font readability\nD. CSS animations",
+    "option_a": "Font subsetting",
+    "option_b": "Tree shaking",
+    "option_c": "Lazy loading",
+    "option_d": "Minification",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which optimization reduces the size of CSS, JS, and HTML files?\nA. Minification\nB. Tree shaking\nC. Font subsetting\nD. Lazy loading",
+    "option_a": "Color accuracy",
+    "option_b": "Page loading speed",
+    "option_c": "Image resolution",
+    "option_d": "Font size",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Overall web performance optimization focuses on:\nA. Faster loading, responsive pages, and efficient resource usage\nB. Image editing\nC. Color adjustments\nD. Animation effects",
+    "option_a": "Finding bugs and verifying functionality",
+    "option_b": "Designing web pages",
+    "option_c": "Optimizing images",
+    "option_d": "Writing CSS",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which type of testing verifies individual components of a web application?\nA. Unit Testing\nB. Integration Testing\nC. System Testing\nD. Acceptance Testing",
+    "option_a": "Test interactions between modules",
+    "option_b": "Test the database only",
+    "option_c": "Test CSS styles",
+    "option_d": "Test images",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which testing type verifies the whole application works together?\nA. Unit Testing\nB. Integration Testing\nC. System Testing\nD. Regression Testing",
+    "option_a": "Test a new feature only",
+    "option_b": "Verify new changes do not break existing functionality",
+    "option_c": "Test images and fonts",
+    "option_d": "Optimize performance",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Functional Testing focuses on:\nA. How the application functions according to requirements\nB. Page load speed\nC. Image quality\nD. CSS animations",
+    "option_a": "Performance Testing",
+    "option_b": "Usability Testing",
+    "option_c": "Security Testing",
+    "option_d": "Unit Testing",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Performance Testing is mainly done to:\nA. Measure responsiveness and stability under load\nB. Check CSS styles\nC. Test links\nD. Optimize images",
+    "option_a": "Layout is responsive",
+    "option_b": "Application is protected from attacks",
+    "option_c": "Images are optimized",
+    "option_d": "JavaScript works",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Cross-browser testing checks:\nA. If a website works across different browsers\nB. CSS minification\nC. Database queries\nD. Server speed",
+    "option_a": "Font size is large",
+    "option_b": "Website works properly on mobile devices",
+    "option_c": "Only desktop layout works",
+    "option_d": "JavaScript minification",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Smoke Testing is:\nA. Basic test to check major functionality\nB. Detailed performance test\nC. Security audit\nD. Regression test",
+    "option_a": "Verify specific functionality after minor changes",
+    "option_b": "Check all modules",
+    "option_c": "Optimize images",
+    "option_d": "Check browser compatibility",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Automated Testing is:\nA. Testing done with tools or scripts\nB. Testing done manually\nC. Writing CSS\nD. Debugging only",
+    "option_a": "Performed by human testers",
+    "option_b": "Done by automation tools",
+    "option_c": "Only debugging code",
+    "option_d": "Optimizing images",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which tool is commonly used for automated frontend testing?\nA. Selenium\nB. Photoshop\nC. MySQL\nD. Node.js",
+    "option_a": "Photoshop",
+    "option_b": "Browser Developer Tools",
+    "option_c": "WordPress",
+    "option_d": "MySQL Workbench",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Console.log() in JavaScript is used for:\nA. Debugging\nB. Styling\nC. Image optimization\nD. Database management",
+    "option_a": "Pause code execution at a specific line",
+    "option_b": "Minify JS",
+    "option_c": "Compress images",
+    "option_d": "Test server speed",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which testing ensures website behaves correctly after updates?\nA. Regression Testing\nB. Unit Testing\nC. Smoke Testing\nD. Sanity Testing",
+    "option_a": "Unit Testing",
+    "option_b": "Load Testing",
+    "option_c": "Security Testing",
+    "option_d": "Usability Testing",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Stress Testing measures:\nA. System behavior under extreme load\nB. CSS responsiveness\nC. Image quality\nD. HTML validation",
+    "option_a": "Automated testing",
+    "option_b": "Unscripted testing to find unexpected bugs",
+    "option_c": "Database testing",
+    "option_d": "Load testing",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Acceptance Testing is done by:\nA. End users to verify requirements\nB. Developers only\nC. Security testers\nD. Designers",
+    "option_a": "Identifying and fixing code errors",
+    "option_b": "Designing images",
+    "option_c": "Optimizing CSS",
+    "option_d": "Writing HTML",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which tool highlights JavaScript errors in the browser?\nA. Browser Console\nB. Photoshop\nC. MySQL\nD. Node.js",
+    "option_a": "Functional Testing",
+    "option_b": "Performance Testing",
+    "option_c": "Security Testing",
+    "option_d": "Regression Testing",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which technique is used to track variable values during execution?\nA. Logging\nB. Compression\nC. Minification\nD. Tree shaking",
+    "option_a": "Responsive Testing",
+    "option_b": "Unit Testing",
+    "option_c": "Security Testing",
+    "option_d": "Regression Testing",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which testing identifies problems before deployment?\nA. Pre-production Testing\nB. Post-production Testing\nC. Load Testing\nD. Stress Testing",
+    "option_a": "Designing a webpage layout",
+    "option_b": "Making a website available on a server for users to access",
+    "option_c": "Styling web pages",
+    "option_d": "Writing JavaScript",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which of the following is a common hosting type?\nA. Shared Hosting\nB. Single Hosting\nC. CSS Hosting\nD. Java Hosting",
+    "option_a": "Shared Hosting",
+    "option_b": "Dedicated Hosting",
+    "option_c": "Cloud Hosting",
+    "option_d": "VPS Hosting",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What does VPS stand for in hosting?\nA. Virtual Private Server\nB. Very Powerful Server\nC. Visual Programming Service\nD. Verified Private System",
+    "option_a": "Shared Hosting",
+    "option_b": "Cloud Hosting",
+    "option_c": "Dedicated Hosting",
+    "option_d": "FTP Hosting",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which deployment type is used for static websites?\nA. FTP Upload\nB. Database Deployment\nC. Dynamic Deployment\nD. CSS Deployment",
+    "option_a": "CI/CD (Continuous Integration/Continuous Deployment)",
+    "option_b": "Photoshop",
+    "option_c": "MySQL",
+    "option_d": "CSS Validator",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "GitHub Pages is mainly used for:\nA. Hosting static websites\nB. Hosting databases\nC. Server-side scripting\nD. Image optimization",
+    "option_a": "Hosting static and frontend frameworks",
+    "option_b": "Backend-only hosting",
+    "option_c": "CSS validation",
+    "option_d": "HTML editing",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which protocol is used to transfer files to a server for deployment?\nA. FTP (File Transfer Protocol)\nB. HTTP\nC. SMTP\nD. SQL",
+    "option_a": "git commit",
+    "option_b": "git push",
+    "option_c": "git clone",
+    "option_d": "git merge",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Docker is used for:\nA. Containerizing applications for consistent deployment\nB. Styling CSS\nC. Optimizing images\nD. Debugging JavaScript",
+    "option_a": "MySQL",
+    "option_b": "Heroku",
+    "option_c": "Photoshop",
+    "option_d": "Node.js",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which service provides infrastructure-as-a-service (IaaS) for hosting?\nA. AWS EC2\nB. Netlify\nC. GitHub Pages\nD. Vercel",
+    "option_a": "Image optimization",
+    "option_b": "Automated deployment after code passes tests",
+    "option_c": "Manual updates only",
+    "option_d": "CSS minification",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Load Balancers in hosting are used to:\nA. Distribute incoming traffic across multiple servers\nB. Optimize images\nC. Minify JavaScript\nD. Compress CSS",
+    "option_a": "Code Deployment Network",
+    "option_b": "Content Delivery Network",
+    "option_c": "Continuous Delivery Node",
+    "option_d": "Cloud Design Network",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which is a benefit of using a CDN?\nA. Faster content delivery\nB. Styling improvements\nC. CSS validation\nD. Debugging JavaScript",
+    "option_a": "Style fonts",
+    "option_b": "Store configuration settings like API keys or database URLs",
+    "option_c": "Optimize images",
+    "option_d": "Minify CSS",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Staging environment is used for:\nA. Testing code before deploying to production\nB. Serving images\nC. Debugging CSS\nD. Minifying JavaScript",
+    "option_a": "The testing server",
+    "option_b": "The live environment where users access the website",
+    "option_c": "The local computer only",
+    "option_d": "Debugging console",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Rollback in deployment means:\nA. Reverting to a previous stable version\nB. Minifying CSS\nC. Debugging JavaScript\nD. Compressing images",
+    "option_a": "Photoshop",
+    "option_b": "Git",
+    "option_c": "MySQL",
+    "option_d": "Node.js",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "HTTPS is important for deployed websites because:\nA. It secures communication between users and server\nB. It optimizes images\nC. It minifies CSS\nD. It improves HTML validation",
+    "option_a": "Minimize downtime during deployment",
+    "option_b": "Style CSS",
+    "option_c": "Debug JavaScript",
+    "option_d": "Compress images",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Canary Deployment is:\nA. Gradually rolling out new versions to a subset of users\nB. Testing only CSS\nC. Optimizing images\nD. Minifying HTML",
+    "option_a": "AWS",
+    "option_b": "Photoshop",
+    "option_c": "Adobe Illustrator",
+    "option_d": "MySQL",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which deployment practice helps prevent downtime and errors?\nA. Automated Testing & CI/CD\nB. Manual file upload\nC. Image compression\nD. CSS minification",
+    "option_a": "Heroku",
+    "option_b": "GitHub Pages",
+    "option_c": "Netlify",
+    "option_d": "Vercel",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "A successful deployment means:\nA. The website is live, functional, and accessible to users\nB. Only images are uploaded\nC. CSS is minified\nD. JavaScript is optimized",
+    "option_a": "Application Programming Interface",
+    "option_b": "Automated Page Integration",
+    "option_c": "Advanced Programming Internet",
+    "option_d": "Application Page Index",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "The main purpose of a web API is to:\nA. Enable communication between different software systems\nB. Style webpages\nC. Optimize images\nD. Minify CSS",
+    "option_a": "FTP",
+    "option_b": "HTTP",
+    "option_c": "SMTP",
+    "option_d": "DNS",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "SOAP APIs mainly use which format for messages?\nA. XML\nB. JSON\nC. HTML\nD. CSV",
+    "option_a": "HTML",
+    "option_b": "JSON",
+    "option_c": "XML",
+    "option_d": "CSV",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What is CRUD in web APIs?\nA. Create, Read, Update, Delete operations\nB. CSS, React, UI, Design\nC. Compression, Rendering, Upload, Debug\nD. Client Request User Data",
+    "option_a": "GET",
+    "option_b": "POST",
+    "option_c": "PUT",
+    "option_d": "DELETE",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTTP method is used to send new data to a web API?\nA. POST\nB. GET\nC. DELETE\nD. PATCH",
+    "option_a": "PUT",
+    "option_b": "GET",
+    "option_c": "POST",
+    "option_d": "DELETE",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTTP method partially updates a resource?\nA. PATCH\nB. GET\nC. POST\nD. PUT",
+    "option_a": "Not Found",
+    "option_b": "Success",
+    "option_c": "Server Error",
+    "option_d": "Unauthorized",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Status code 404 means:\nA. Resource not found\nB. Success\nC. Server error\nD. Bad request",
+    "option_a": "Unauthorized",
+    "option_b": "Server error",
+    "option_c": "Success",
+    "option_d": "Forbidden",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "API authentication is used to:\nA. Verify identity of users or applications\nB. Style webpages\nC. Optimize images\nD. Minify CSS",
+    "option_a": "HTML Tags",
+    "option_b": "API Keys",
+    "option_c": "CSS Classes",
+    "option_d": "Image Compression",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "OAuth is used for:\nA. Secure delegated API access\nB. Image optimization\nC. CSS minification\nD. Debugging JavaScript",
+    "option_a": "Photoshop",
+    "option_b": "Postman",
+    "option_c": "VS Code",
+    "option_d": "MySQL",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Swagger is used for:\nA. Documenting and testing APIs\nB. Image compression\nC. CSS validation\nD. HTML editing",
+    "option_a": "Control the number of requests a client can make",
+    "option_b": "Style CSS",
+    "option_c": "Optimize images",
+    "option_d": "Debug JavaScript",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "API versioning ensures:\nA. Backward compatibility when the API changes\nB. Faster CSS loading\nC. Image optimization\nD. Debugging errors",
+    "option_a": "Style fonts",
+    "option_b": "Send real-time data from one system to another",
+    "option_c": "Compress images",
+    "option_d": "Minify JS",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "REST stands for:\nA. Representational State Transfer\nB. Remote Server Transfer\nC. Resource System Tool\nD. Response Server Technology",
+    "option_a": "Server does not store client session information",
+    "option_b": "Server stores all client data",
+    "option_c": "Server caches CSS files",
+    "option_d": "Server compresses images",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which HTTP header is commonly used for API authentication?\nA. Authorization\nB. Content-Type\nC. Accept-Encoding\nD. Cache-Control",
+    "option_a": "Clients to request only the data they need",
+    "option_b": "Automatically minifying CSS",
+    "option_c": "Compressing images",
+    "option_d": "Debugging JavaScript",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "REST APIs can be consumed by:\nA. Web applications, mobile apps, or other servers\nB. Only CSS files\nC. Only HTML pages\nD. Only images",
+    "option_a": "Minifying JS",
+    "option_b": "HTTPS / TLS encryption",
+    "option_c": "Optimizing images",
+    "option_d": "CSS preloading",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "JSON Web Tokens (JWT) are used for:\nA. Secure transmission of claims between client and server\nB. Styling webpages\nC. Compressing images\nD. Minifying HTML",
+    "option_a": "Debugging CSS",
+    "option_b": "Controlled access to resources from different domains",
+    "option_c": "Compressing images",
+    "option_d": "Minifying JavaScript",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "A successful API integration ensures:\nA. Data is exchanged correctly and securely between systems\nB. Only images are loaded\nC. CSS is optimized\nD. JavaScript is minified",
+    "option_a": "Fast, responsive, and maintainable websites",
+    "option_b": "Only HTML pages",
+    "option_c": "Only CSS styling",
+    "option_d": "Only database queries",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which of these is a popular frontend framework?\nA. React\nB. MySQL\nC. Apache\nD. FTP",
+    "option_a": "Node.js",
+    "option_b": "Bootstrap",
+    "option_c": "HTML",
+    "option_d": "CSS",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Single Page Applications (SPA) aim to:\nA. Load a single HTML page and update content dynamically\nB. Load multiple pages separately\nC. Optimize images only\nD. Style CSS only",
+    "option_a": "React",
+    "option_b": "Express",
+    "option_c": "Laravel",
+    "option_d": "MySQL",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "What is Progressive Web App (PWA)?\nA. Web apps that work offline and feel like native apps\nB. Only HTML pages\nC. Only CSS files\nD. Only database queries",
+    "option_a": "Building UI as reusable components",
+    "option_b": "Writing long monolithic HTML pages",
+    "option_c": "Only optimizing images",
+    "option_d": "Compressing CSS",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Responsive web design ensures:\nA. Websites adapt to different screen sizes\nB. Faster database queries\nC. CSS minification\nD. Debugging JavaScript",
+    "option_a": "Node.js",
+    "option_b": "Bootstrap",
+    "option_c": "React",
+    "option_d": "MongoDB",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which modern frontend framework uses a virtual DOM?\nA. React\nB. Angular\nC. Vue.js\nD. Both A and C",
+    "option_a": "Only build frontend pages",
+    "option_b": "Run backend code without managing servers",
+    "option_c": "Only optimize CSS",
+    "option_d": "Minify HTML",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which service provides serverless backend functions?\nA. AWS Lambda\nB. Photoshop\nC. MySQL\nD. Node.js",
+    "option_a": "JSON, AJAX, MySQL",
+    "option_b": "JavaScript, APIs, and Markup",
+    "option_c": "Java, ASP, MongoDB",
+    "option_d": "jQuery, Angular, MongoDB",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "JAMstack promotes:\nA. Pre-rendered static pages with dynamic functionality via APIs\nB. Only database queries\nC. Only CSS styling\nD. Minified JavaScript",
+    "option_a": "Styling pages",
+    "option_b": "Tracking code changes and collaboration",
+    "option_c": "Compressing images",
+    "option_d": "Minifying HTML",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which tool is a popular version control system?\nA. Git\nB. Photoshop\nC. MySQL\nD. Node.js",
+    "option_a": "Compress images",
+    "option_b": "Automate testing and deployment",
+    "option_c": "Minify CSS",
+    "option_d": "Debug HTML",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Modern web development uses REST APIs and:\nA. GraphQL APIs\nB. Only XML\nC. Only CSV\nD. FTP",
+    "option_a": "Photoshop",
+    "option_b": "npm or Yarn",
+    "option_c": "MySQL",
+    "option_d": "FTP",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Package bundlers like Webpack and Parcel help to:\nA. Combine, minify, and optimize JS and CSS files\nB. Compress images\nC. Style fonts\nD. Debug HTML",
+    "option_a": "Compress images",
+    "option_b": "Check code for errors and maintain coding standards",
+    "option_c": "Minify CSS",
+    "option_d": "Load fonts",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Testing frameworks commonly used for JavaScript include:\nA. Jest and Mocha\nB. Photoshop\nC. MySQL\nD. Bootstrap",
+    "option_a": "Add static typing to JavaScript",
+    "option_b": "Style CSS",
+    "option_c": "Minify HTML",
+    "option_d": "Compress images",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Which modern CSS technique allows creating reusable styles?\nA. CSS Variables (Custom Properties)\nB. Inline CSS only\nC. Minification\nD. Debugging",
+    "option_a": "Layout design",
+    "option_b": "JavaScript logic",
+    "option_c": "Backend APIs",
+    "option_d": "Database queries",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Web accessibility ensures:\nA. Websites are usable by people with disabilities\nB. Only faster loading\nC. Only image optimization\nD. CSS minification",
+    "option_a": "Inline CSS",
+    "option_b": "<picture> and srcset",
+    "option_c": "Minified JS",
+    "option_d": "Debugging tools",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Modern state management in frontend apps uses:\nA. Redux, Vuex, or Context API\nB. Photoshop\nC. MySQL\nD. HTML forms",
+    "option_a": "Build UI faster with reusable components",
+    "option_b": "Only compress images",
+    "option_c": "Debug JavaScript",
+    "option_d": "Minify HTML",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Progressive Enhancement in modern web development focuses on:\nA. Building core functionality first, then adding advanced features\nB. Styling CSS first\nC. Optimizing images only\nD. Minifying HTML",
+    "option_a": "Designing APIs before building frontend or backend",
+    "option_b": "Only creating CSS files",
+    "option_c": "Debugging HTML first",
+    "option_d": "Minifying images",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Modern development often uses containerization with:\nA. Docker\nB. Photoshop\nC. MySQL\nD. HTML",
+    "option_a": "Compress images",
+    "option_b": "Track performance, errors, and uptime after deployment",
+    "option_c": "Minify CSS",
+    "option_d": "Debug HTML",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Headless CMS allows:\nA. Decoupling content management from frontend display\nB. Styling pages\nC. Minifying CSS\nD. Compressing images",
+    "option_a": "Real-time communication",
+    "option_b": "Styling fonts",
+    "option_c": "Minifying HTML",
+    "option_d": "Compressing images",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Server-side rendering (SSR) helps to:\nA. Improve SEO and initial load performance\nB. Only style pages\nC. Only compress images\nD. Debug JavaScript",
+    "option_a": "CSS minification",
+    "option_b": "Pre-rendering static content for faster performance",
+    "option_c": "Image compression",
+    "option_d": "Debugging JS",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Modern web apps use HTTPS for:\nA. Secure communication between client and server\nB. CSS styling\nC. HTML debugging\nD. Image optimization",
+    "option_a": "Optimize images",
+    "option_b": "Monitor and report runtime errors",
+    "option_c": "Minify CSS",
+    "option_d": "Debug HTML",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Web performance optimization in modern development includes:\nA. Minification, lazy loading, caching, and CDN usage\nB. Only styling fonts\nC. Only HTML debugging\nD. Only image resizing",
+    "option_a": "Debug HTML",
+    "option_b": "Load JavaScript files only when needed to reduce initial load time",
+    "option_c": "Compress images",
+    "option_d": "Minify CSS",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Server-side caching helps to:\nA. Reduce database queries and improve response time\nB. Minify JavaScript\nC. Optimize images\nD. Style CSS",
+    "option_a": "Debug HTML",
+    "option_b": "Store frequently accessed resources in the browser",
+    "option_c": "Compress CSS",
+    "option_d": "Minify images",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Lazy loading in modern web apps improves:\nA. Page load performance by loading resources only when needed\nB. Font styling\nC. CSS animation\nD. Database speed",
+    "option_a": "HTML files",
+    "option_b": ".env files",
+    "option_c": "CSS files",
+    "option_d": "JSON images",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Feature flags in modern web development are used to:\nA. Enable or disable features dynamically without deploying new code\nB. Compress images\nC. Minify CSS\nD. Debug JavaScript",
+    "option_a": "Only CSS validation",
+    "option_b": "Unit tests, integration tests, and end-to-end tests",
+    "option_c": "Image optimization",
+    "option_d": "HTML minification",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  },
+  {
+    "subject": "Web Development",
+    "question_text": "Frontend build tools like Vite or Webpack help to:\nA. Bundle, transpile, and optimize frontend assets\nB. Debug HTML\nC. Store database queries\nD. Optimize images manually",
+    "option_a": "Minify CSS",
+    "option_b": "Enable offline functionality and caching",
+    "option_c": "Compress images",
+    "option_d": "Debug JavaScript",
+    "option_e": null,
+    "source_file": "MCQS for Web Development.docx"
+  }
+]

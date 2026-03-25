@@ -1,0 +1,4992 @@
+[
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "What is a problem in the context of problem-solving?",
+    "option_a": "A gap between current state and desired state",
+    "option_b": "A situation that requires no action",
+    "option_c": "A random event",
+    "option_d": "A solved equation",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is the first step in the problem-solving process?",
+    "option_a": "Understanding the problem",
+    "option_b": "Implementing a solution",
+    "option_c": "Evaluating the solution",
+    "option_d": "Generating alternatives",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A well-defined problem has:",
+    "option_a": "Clear goals and constraints",
+    "option_b": "Multiple interpretations",
+    "option_c": "No specified initial state",
+    "option_d": "Unlimited resources",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An ill-defined problem is characterized by:",
+    "option_a": "Vague goals and unclear constraints",
+    "option_b": "A single correct answer",
+    "option_c": "Well-specified initial conditions",
+    "option_d": "Known solution path",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is an example of a well-defined problem?",
+    "option_a": "\"Solve for x in 2x + 5 = 13\"",
+    "option_b": "\"Write a beautiful poem\"",
+    "option_c": "\"Design a better car\"",
+    "option_d": "\"Be happy\"",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Problem-solving strategies include:",
+    "option_a": "All of the above",
+    "option_b": "Trial and error",
+    "option_c": "Heuristics",
+    "option_d": "Algorithms",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An algorithm is a:",
+    "option_a": "Step-by-step procedure guaranteed to produce a solution",
+    "option_b": "Rule of thumb",
+    "option_c": "Random guess",
+    "option_d": "Mental shortcut",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A heuristic is a:",
+    "option_a": "Mental shortcut or rule of thumb",
+    "option_b": "Guaranteed solution method",
+    "option_c": "Type of algorithm",
+    "option_d": "Mathematical formula",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a heuristic?",
+    "option_a": "All of the above",
+    "option_b": "Working backwards",
+    "option_c": "Means-ends analysis",
+    "option_d": "Hill climbing",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The term \"problem space\" refers to:",
+    "option_a": "All possible states and actions to solve a problem",
+    "option_b": "The physical area of the problem",
+    "option_c": "The memory required",
+    "option_d": "The time taken",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a common obstacle in problem-solving?",
+    "option_a": "All of the above",
+    "option_b": "Functional fixedness",
+    "option_c": "Mental set",
+    "option_d": "Confirmation bias",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Functional fixedness is:",
+    "option_a": "Inability to see an object's unusual use",
+    "option_b": "Tendency to repeat solutions",
+    "option_c": "Focusing on confirming beliefs",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A mental set is:",
+    "option_a": "Tendency to approach problems in a certain way",
+    "option_b": "A set of mental tools",
+    "option_c": "A fixed mindset",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a step in Polya's problem-solving method?",
+    "option_a": "All of the above",
+    "option_b": "Understand the problem",
+    "option_c": "Devise a plan",
+    "option_d": "Carry out the plan",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In Polya's method, \"look back\" involves:",
+    "option_a": "Checking the solution",
+    "option_b": "Ignoring the solution",
+    "option_c": "Starting over",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Divergent thinking is associated with:",
+    "option_a": "Generating multiple solutions",
+    "option_b": "Converging to one solution",
+    "option_c": "Logical deduction",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Convergent thinking is:",
+    "option_a": "Narrowing down to the best solution",
+    "option_b": "Generating many ideas",
+    "option_c": "Brainstorming",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a creative problem-solving technique?",
+    "option_a": "All of the above",
+    "option_b": "Brainstorming",
+    "option_c": "Mind mapping",
+    "option_d": "SCAMPER",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "SCAMPER stands for:",
+    "option_a": "Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse",
+    "option_b": "Simplify, Combine, Adapt, Modify, Process, Eliminate, Reverse",
+    "option_c": "Substitute, Create, Adapt, Modify, Put, Eliminate, Reverse",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In problem-solving, \"root cause analysis\" aims to:",
+    "option_a": "Identify the underlying cause of a problem",
+    "option_b": "List all symptoms",
+    "option_c": "Implement quick fixes",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The 5 Whys technique is used for:",
+    "option_a": "Root cause analysis",
+    "option_b": "Brainstorming",
+    "option_c": "Decision making",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a problem-solving approach in computer science?",
+    "option_a": "All of the above",
+    "option_b": "Divide and conquer",
+    "option_c": "Dynamic programming",
+    "option_d": "Greedy algorithms",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The difference between an expert and a novice problem-solver is:",
+    "option_a": "All of the above",
+    "option_b": "Experts have more domain knowledge",
+    "option_c": "Experts use better strategies",
+    "option_d": "Experts recognize patterns faster",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a common problem-solving pitfall?",
+    "option_a": "All of the above",
+    "option_b": "Jumping to conclusions",
+    "option_c": "Lack of planning",
+    "option_d": "Ignoring constraints",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The first step in solving any problem is:",
+    "option_a": "Clearly defining the problem",
+    "option_b": "Writing code",
+    "option_c": "Testing solutions",
+    "option_d": "Gathering data",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Problem understanding involves:",
+    "option_a": "All of the above",
+    "option_b": "Identifying the given information",
+    "option_c": "Determining the goal",
+    "option_d": "Recognizing constraints",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following questions helps in problem understanding?",
+    "option_a": "All of the above",
+    "option_b": "What is known?",
+    "option_c": "What is unknown?",
+    "option_d": "What are the conditions?",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Restating a problem in your own words is called:",
+    "option_a": "Paraphrasing",
+    "option_b": "Solving",
+    "option_c": "Evaluating",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Identifying the inputs and outputs of a problem is part of:",
+    "option_a": "Problem specification",
+    "option_b": "Implementation",
+    "option_c": "Testing",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In problem analysis, constraints are:",
+    "option_a": "Limitations or restrictions",
+    "option_b": "Free parameters",
+    "option_c": "Goals",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is an example of a constraint?",
+    "option_a": "All of the above",
+    "option_b": "Time limit",
+    "option_c": "Memory limit",
+    "option_d": "Resource availability",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Breaking a complex problem into smaller parts is known as:",
+    "option_a": "Decomposition",
+    "option_b": "Abstraction",
+    "option_c": "Pattern recognition",
+    "option_d": "Generalization",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Decomposition helps in:",
+    "option_a": "Both A and B",
+    "option_b": "Managing complexity",
+    "option_c": "Making problem easier to solve",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The \"knowns\" and \"unknowns\" in a problem are identified during:",
+    "option_a": "Problem analysis",
+    "option_b": "Solution implementation",
+    "option_c": "Testing",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a technique to understand a problem?",
+    "option_a": "All of the above",
+    "option_b": "Drawing diagrams",
+    "option_c": "Creating tables",
+    "option_d": "Writing examples",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A problem statement should be:",
+    "option_a": "Clear and concise",
+    "option_b": "Vague and open-ended",
+    "option_c": "Long and detailed",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In problem analysis, the term \"scope\" refers to:",
+    "option_a": "The boundaries of the problem",
+    "option_b": "The size of the solution",
+    "option_c": "The complexity",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a common mistake in problem understanding?",
+    "option_a": "All of the above",
+    "option_b": "Assuming unnecessary constraints",
+    "option_c": "Missing key information",
+    "option_d": "Misinterpreting the goal",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "To verify problem understanding, one can:",
+    "option_a": "All of the above",
+    "option_b": "Rephrase the problem to someone else",
+    "option_c": "Solve a simpler version",
+    "option_d": "Check with examples",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In problem analysis, identifying the type of problem (e.g., classification, optimization) helps in:",
+    "option_a": "Selecting appropriate solution methods",
+    "option_b": "Ignoring details",
+    "option_c": "Making it harder",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a tool for problem analysis?",
+    "option_a": "All of the above",
+    "option_b": "SWOT analysis",
+    "option_c": "Fishbone diagram",
+    "option_d": "Pareto chart",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A fishbone diagram (Ishikawa) is used to:",
+    "option_a": "Identify root causes of a problem",
+    "option_b": "Show relationships",
+    "option_c": "Prioritize issues",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The 5W1H method (Who, What, When, Where, Why, How) is used for:",
+    "option_a": "Problem clarification",
+    "option_b": "Solution generation",
+    "option_c": "Testing",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In problem understanding, \"edge cases\" are:",
+    "option_a": "Extreme or boundary conditions",
+    "option_b": "Typical cases",
+    "option_c": "Unimportant cases",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Considering edge cases helps in:",
+    "option_a": "Ensuring robustness",
+    "option_b": "Simplifying problem",
+    "option_c": "Ignoring complexities",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a question to ask during problem analysis?",
+    "option_a": "All of the above",
+    "option_b": "What is the desired output?",
+    "option_c": "What are the inputs?",
+    "option_d": "What are the rules?",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A problem may have multiple interpretations. This is known as:",
+    "option_a": "Ambiguity",
+    "option_b": "Clarity",
+    "option_c": "Precision",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Resolving ambiguity in a problem is important because:",
+    "option_a": "It leads to a clear solution path",
+    "option_b": "It makes problem harder",
+    "option_c": "It is unnecessary",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In problem analysis, assumptions are:",
+    "option_a": "Things taken for granted",
+    "option_b": "Always true",
+    "option_c": "To be avoided",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following should be done with assumptions?",
+    "option_a": "All of the above",
+    "option_b": "Identify them",
+    "option_c": "Validate them if possible",
+    "option_d": "Document them",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Logical reasoning is the process of:",
+    "option_a": "Drawing conclusions from premises",
+    "option_b": "Random guessing",
+    "option_c": "Emotional decision making",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Deductive reasoning moves from:",
+    "option_a": "General to specific",
+    "option_b": "Specific to general",
+    "option_c": "Specific to specific",
+    "option_d": "General to general",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Inductive reasoning moves from:",
+    "option_a": "Specific to general",
+    "option_b": "General to specific",
+    "option_c": "General to general",
+    "option_d": "Specific to specific",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is an example of deductive reasoning?",
+    "option_a": "All men are mortal. Socrates is a man. Therefore, Socrates is mortal.",
+    "option_b": "Every swan I've seen is white, so all swans are white.",
+    "option_c": "90% of graduates get jobs, so this graduate will get a job.",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is an example of inductive reasoning?",
+    "option_a": "The sun has risen every day, so it will rise tomorrow.",
+    "option_b": "If it rains, the ground gets wet. It rained, so ground is wet.",
+    "option_c": "All A are B, all B are C, so all A are C.",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Abductive reasoning involves:",
+    "option_a": "Inference to the best explanation",
+    "option_b": "Drawing necessary conclusions",
+    "option_c": "Generalizing from examples",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A syllogism is a form of:",
+    "option_a": "Deductive reasoning",
+    "option_b": "Inductive reasoning",
+    "option_c": "Abductive reasoning",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In logic, a premise is:",
+    "option_a": "A statement that provides evidence",
+    "option_b": "The conclusion",
+    "option_c": "An assumption",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A valid argument is one where:",
+    "option_a": "If premises are true, conclusion must be true",
+    "option_b": "Premises are true",
+    "option_c": "Conclusion is true",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A sound argument is:",
+    "option_a": "Valid and has true premises",
+    "option_b": "Valid only",
+    "option_c": "Has true conclusion",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a logical fallacy?",
+    "option_a": "All of the above",
+    "option_b": "Ad hominem",
+    "option_c": "Straw man",
+    "option_d": "False dilemma",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Ad hominem fallacy attacks:",
+    "option_a": "The person instead of the argument",
+    "option_b": "The argument itself",
+    "option_c": "The evidence",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A false dilemma presents:",
+    "option_a": "Only two options when more exist",
+    "option_b": "Many options",
+    "option_c": "A logical conclusion",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The \"slippery slope\" fallacy argues that:",
+    "option_a": "A small step leads to extreme consequences without evidence",
+    "option_b": "Two things are similar",
+    "option_c": "The majority is always right",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a proposition?",
+    "option_a": "\"The sky is blue\"",
+    "option_b": "\"What time is it?\"",
+    "option_c": "\"Close the door\"",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In propositional logic, the AND operator (∧) is true when:",
+    "option_a": "Both operands are true",
+    "option_b": "At least one is true",
+    "option_c": "Only one is true",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The OR operator (∨) is true when:",
+    "option_a": "At least one operand is true",
+    "option_b": "Both are true",
+    "option_c": "Only one is true",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The NOT operator (¬) is:",
+    "option_a": "A unary operator that flips truth value",
+    "option_b": "A binary operator",
+    "option_c": "Always true",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An implication (if P then Q) is false only when:",
+    "option_a": "P is true and Q is false",
+    "option_b": "P is false and Q is true",
+    "option_c": "Both true",
+    "option_d": "Both false",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The contrapositive of \"if P then Q\" is:",
+    "option_a": "If not Q then not P",
+    "option_b": "If Q then P",
+    "option_c": "If not P then not Q",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A tautology is a statement that is:",
+    "option_a": "Always true",
+    "option_b": "Always false",
+    "option_c": "Sometimes true",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A contradiction is a statement that is:",
+    "option_a": "Always false",
+    "option_b": "Always true",
+    "option_c": "Sometimes true",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a tautology?",
+    "option_a": "P or not P",
+    "option_b": "P and not P",
+    "option_c": "P implies Q",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In logical reasoning, a counterexample is used to:",
+    "option_a": "Disprove a statement",
+    "option_b": "Prove a statement",
+    "option_c": "Support an argument",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a necessary condition for an event?",
+    "option_a": "Without it, the event cannot occur",
+    "option_b": "If it occurs, the event occurs",
+    "option_c": "It is always present",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A sufficient condition means:",
+    "option_a": "If it occurs, the event occurs",
+    "option_b": "Without it, the event cannot occur",
+    "option_c": "It is necessary",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The statement \"If it is raining, then the ground is wet\" means rain is:",
+    "option_a": "Sufficient for wet ground",
+    "option_b": "Necessary for wet ground",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a valid inference?",
+    "option_a": "Both",
+    "option_b": "Modus ponens: If P then Q, P, therefore Q",
+    "option_c": "Modus tollens: If P then Q, not Q, therefore not P",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Affirming the consequent (If P then Q, Q, therefore P) is:",
+    "option_a": "A fallacy",
+    "option_b": "Valid",
+    "option_c": "Sound",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Denying the antecedent (If P then Q, not P, therefore not Q) is:",
+    "option_a": "A fallacy",
+    "option_b": "Valid",
+    "option_c": "Sound",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In logical puzzles, a grid or table is often used to:",
+    "option_a": "Organize information and deduce relationships",
+    "option_b": "Confuse the solver",
+    "option_c": "Make it harder",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a type of logical reasoning test?",
+    "option_a": "All of the above",
+    "option_b": "Syllogisms",
+    "option_c": "Analogies",
+    "option_d": "Series completion",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Analogical reasoning involves:",
+    "option_a": "Finding similarities between situations",
+    "option_b": "Deductive logic",
+    "option_c": "Inductive statistics",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "If A is taller than B, and B is taller than C, then A is taller than C. This is an example of:",
+    "option_a": "Transitive property",
+    "option_b": "Reflexive property",
+    "option_c": "Symmetric property",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The transitive property holds for:",
+    "option_a": "Both",
+    "option_b": "Equality",
+    "option_c": "Greater than",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a logical connective?",
+    "option_a": "All of the above",
+    "option_b": "And",
+    "option_c": "Or",
+    "option_d": "If-then",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In logic, the symbol → represents:",
+    "option_a": "Implication",
+    "option_b": "And",
+    "option_c": "Or",
+    "option_d": "Not",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The statement \"All A are B\" is equivalent to:",
+    "option_a": "If something is A, then it is B",
+    "option_b": "Some A are B",
+    "option_c": "No A are B",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The statement \"No A are B\" is equivalent to:",
+    "option_a": "If something is A, then it is not B",
+    "option_b": "All A are B",
+    "option_c": "Some A are B",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In categorical logic, the four standard forms are: All A are B, No A are B, Some A are B, and:",
+    "option_a": "Some A are not B",
+    "option_b": "All A are not B",
+    "option_c": "Most A are B",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An algorithm is a:",
+    "option_a": "Finite set of unambiguous steps to solve a problem",
+    "option_b": "Random process",
+    "option_c": "Computer program only",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a property of a good algorithm?",
+    "option_a": "All of the above",
+    "option_b": "Finiteness",
+    "option_c": "Definiteness",
+    "option_d": "Effectiveness",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Finiteness means an algorithm must:",
+    "option_a": "Terminate after a finite number of steps",
+    "option_b": "Be short",
+    "option_c": "Be infinite",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Definiteness means each step is:",
+    "option_a": "Unambiguous and clear",
+    "option_b": "Vague",
+    "option_c": "Optional",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A flowchart is a:",
+    "option_a": "Graphical representation of an algorithm",
+    "option_b": "Programming language",
+    "option_c": "Data structure",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In a flowchart, an oval/ellipse typically represents:",
+    "option_a": "Start or end",
+    "option_b": "Process",
+    "option_c": "Decision",
+    "option_d": "Input/Output",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A rectangle in a flowchart represents:",
+    "option_a": "A process or action",
+    "option_b": "A decision",
+    "option_c": "Start/End",
+    "option_d": "Connector",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A diamond in a flowchart represents:",
+    "option_a": "A decision point",
+    "option_b": "An input/output",
+    "option_c": "A process",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A parallelogram in a flowchart represents:",
+    "option_a": "Input/output",
+    "option_b": "Process",
+    "option_c": "Decision",
+    "option_d": "Start/End",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Flow lines in a flowchart show:",
+    "option_a": "The direction of flow",
+    "option_b": "Data",
+    "option_c": "Connections",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a basic control structure in algorithms?",
+    "option_a": "All of the above",
+    "option_b": "Sequence",
+    "option_c": "Selection (if-else)",
+    "option_d": "Iteration (loops)",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A sequence structure executes steps:",
+    "option_a": "In order",
+    "option_b": "Randomly",
+    "option_c": "Conditionally",
+    "option_d": "Repeatedly",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A selection structure uses:",
+    "option_a": "Conditions to choose a path",
+    "option_b": "Loops",
+    "option_c": "Sequences only",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An iteration structure:",
+    "option_a": "Repeats a block of code",
+    "option_b": "Executes once",
+    "option_c": "Selects between paths",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A while loop repeats:",
+    "option_a": "As long as a condition is true",
+    "option_b": "A fixed number of times",
+    "option_c": "Forever",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A for loop is typically used when:",
+    "option_a": "The number of iterations is known",
+    "option_b": "The condition is complex",
+    "option_c": "Indefinite iteration",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Pseudocode is:",
+    "option_a": "An informal high-level description of an algorithm",
+    "option_b": "Actual code",
+    "option_c": "A flowchart",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is an advantage of using flowcharts?",
+    "option_a": "All of the above",
+    "option_b": "Easy to understand",
+    "option_c": "Helps in communication",
+    "option_d": "Shows logic visually",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A disadvantage of flowcharts is:",
+    "option_a": "They can become complex for large algorithms",
+    "option_b": "They are not graphical",
+    "option_c": "They cannot show loops",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In an algorithm, an assignment statement:",
+    "option_a": "Gives a value to a variable",
+    "option_b": "Compares two values",
+    "option_c": "Loops",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The symbol \":=\" or \"=\" in pseudocode typically means:",
+    "option_a": "Assignment",
+    "option_b": "Equality comparison",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In a flowchart, a connector symbol is used to:",
+    "option_a": "Connect different parts of a flowchart",
+    "option_b": "Start the flow",
+    "option_c": "End the flow",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is an example of a selection structure?",
+    "option_a": "If-then-else",
+    "option_b": "For loop",
+    "option_c": "While loop",
+    "option_d": "Sequence",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is an example of an iteration structure?",
+    "option_a": "For loop",
+    "option_b": "If-then",
+    "option_c": "Switch",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An algorithm to find the maximum of three numbers would use:",
+    "option_a": "Selection and sequence",
+    "option_b": "Only sequence",
+    "option_c": "Only iteration",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The step-by-step procedure to solve a quadratic equation is an example of:",
+    "option_a": "An algorithm",
+    "option_b": "A heuristic",
+    "option_c": "A random process",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is not a characteristic of an algorithm?",
+    "option_a": "Ambiguity",
+    "option_b": "Finiteness",
+    "option_c": "Input",
+    "option_d": "Output",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An algorithm must have:",
+    "option_a": "Both A and B",
+    "option_b": "Zero or more inputs",
+    "option_c": "At least one output",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In a flowchart, the symbol for a predefined process (subroutine) is:",
+    "option_a": "A rectangle with double lines",
+    "option_b": "A circle",
+    "option_c": "A diamond",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Testing an algorithm with different inputs helps to:",
+    "option_a": "Verify correctness",
+    "option_b": "Make it faster",
+    "option_c": "Reduce steps",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Data abstraction means:",
+    "option_a": "Hiding unnecessary details and showing only essential features",
+    "option_b": "Showing all details",
+    "option_c": "Removing data",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a primitive data type?",
+    "option_a": "All of the above",
+    "option_b": "Integer",
+    "option_c": "Float",
+    "option_d": "Character",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A data structure is:",
+    "option_a": "A way to organize and store data",
+    "option_b": "A type of algorithm",
+    "option_c": "A programming language",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An array is a:",
+    "option_a": "Collection of elements of the same type, accessed by index",
+    "option_b": "Collection of key-value pairs",
+    "option_c": "Linked list",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A list in programming can:",
+    "option_a": "All of the above",
+    "option_b": "Hold multiple items",
+    "option_c": "Be mutable or immutable",
+    "option_d": "Have mixed types (in some languages)",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A stack follows which principle?",
+    "option_a": "Last In, First Out (LIFO)",
+    "option_b": "First In, First Out (FIFO)",
+    "option_c": "Random access",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A queue follows which principle?",
+    "option_a": "First In, First Out (FIFO)",
+    "option_b": "Last In, First Out (LIFO)",
+    "option_c": "Priority order",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A tree data structure consists of:",
+    "option_a": "Nodes connected by edges",
+    "option_b": "Only linear connections",
+    "option_c": "Cycles",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A binary tree is a tree where:",
+    "option_a": "Each node has at most two children",
+    "option_b": "Each node has exactly two children",
+    "option_c": "It is a list",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A graph is a collection of:",
+    "option_a": "Vertices and edges",
+    "option_b": "Nodes only",
+    "option_c": "Edges only",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a key-value store?",
+    "option_a": "Dictionary / Hash map",
+    "option_b": "Array",
+    "option_c": "Stack",
+    "option_d": "Queue",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Abstraction allows us to:",
+    "option_a": "Focus on what data represents, not how it's stored",
+    "option_b": "Ignore data",
+    "option_c": "Make programs slower",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Encapsulation is:",
+    "option_a": "Both A and B",
+    "option_b": "Bundling data and methods that operate on it",
+    "option_c": "Hiding data",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In problem-solving, representing data appropriately helps in:",
+    "option_a": "All of the above",
+    "option_b": "Simplifying the problem",
+    "option_c": "Efficient solution",
+    "option_d": "Clarity",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which data structure would be best for implementing a undo feature?",
+    "option_a": "Stack",
+    "option_b": "Queue",
+    "option_c": "Array",
+    "option_d": "Graph",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which data structure is best for a print queue?",
+    "option_a": "Queue",
+    "option_b": "Stack",
+    "option_c": "Tree",
+    "option_d": "Graph",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A matrix is a:",
+    "option_a": "2D array",
+    "option_b": "1D array",
+    "option_c": "Tree",
+    "option_d": "Graph",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In a binary search tree, the left child is:",
+    "option_a": "Less than the parent",
+    "option_b": "Greater than the parent",
+    "option_c": "Equal",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A hash table uses a:",
+    "option_a": "Hash function to map keys to indices",
+    "option_b": "Tree structure",
+    "option_c": "Linked list",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is an example of abstract data type (ADT)?",
+    "option_a": "All of the above",
+    "option_b": "Stack",
+    "option_c": "Queue",
+    "option_d": "List",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A linked list consists of:",
+    "option_a": "Nodes with data and pointers",
+    "option_b": "Contiguous memory",
+    "option_c": "Fixed size",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The advantage of a linked list over an array is:",
+    "option_a": "Dynamic size",
+    "option_b": "Faster access",
+    "option_c": "Less memory",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The advantage of an array over a linked list is:",
+    "option_a": "Constant time access by index",
+    "option_b": "Dynamic size",
+    "option_c": "Easy insertion",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In data representation, a variable is:",
+    "option_a": "A named storage location",
+    "option_b": "A constant",
+    "option_c": "A data type",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A constant is:",
+    "option_a": "A value that does not change",
+    "option_b": "A variable",
+    "option_c": "A data structure",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a way to represent hierarchical data?",
+    "option_a": "Tree",
+    "option_b": "Array",
+    "option_c": "Queue",
+    "option_d": "Stack",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A set is a collection of:",
+    "option_a": "Unique elements",
+    "option_b": "Duplicate elements",
+    "option_c": "Ordered elements",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which data structure would be used to represent a family tree?",
+    "option_a": "Tree",
+    "option_b": "Graph",
+    "option_c": "Array",
+    "option_d": "Stack",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which data structure would be used to represent a network of friends on social media?",
+    "option_a": "Graph",
+    "option_b": "Tree",
+    "option_c": "Array",
+    "option_d": "Queue",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Abstraction helps in managing complexity by:",
+    "option_a": "Hiding irrelevant details",
+    "option_b": "Exposing all details",
+    "option_c": "Increasing details",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Pattern recognition is the process of:",
+    "option_a": "Identifying regularities in data",
+    "option_b": "Random guessing",
+    "option_c": "Creating new patterns",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In problem-solving, recognizing patterns helps to:",
+    "option_a": "Apply known solutions",
+    "option_b": "Make problem harder",
+    "option_c": "Ignore similarities",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is an example of a pattern?",
+    "option_a": "2, 4, 6, 8, ...",
+    "option_b": "A random sequence",
+    "option_c": "A single number",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The next number in the sequence 1, 4, 9, 16, ... is:",
+    "option_a": "25",
+    "option_b": "20",
+    "option_c": "24",
+    "option_d": "36",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The next number in 2, 6, 12, 20, ... is:",
+    "option_a": "30",
+    "option_b": "28",
+    "option_c": "24",
+    "option_d": "32",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Recognizing a pattern in a problem allows for:",
+    "option_a": "Generalization",
+    "option_b": "Specialization",
+    "option_c": "Obfuscation",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Generalization means:",
+    "option_a": "Applying a pattern to a broader set of problems",
+    "option_b": "Making it specific",
+    "option_c": "Ignoring patterns",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "If a solution works for many similar problems, it is said to be:",
+    "option_a": "Generalizable",
+    "option_b": "Specific",
+    "option_c": "Useless",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a pattern in mathematics?",
+    "option_a": "Both",
+    "option_b": "Fibonacci sequence",
+    "option_c": "Prime numbers distribution",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The Fibonacci sequence starts with:",
+    "option_a": "0, 1, 1, 2, ...",
+    "option_b": "1, 2, 3, 5, ...",
+    "option_c": "0, 2, 2, 4, ...",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In pattern recognition, inductive reasoning is used to:",
+    "option_a": "Infer general rules from specific examples",
+    "option_b": "Deduce specifics from general rules",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A pattern in a sequence of shapes might involve:",
+    "option_a": "All of the above",
+    "option_b": "Rotation",
+    "option_c": "Color change",
+    "option_d": "Size change",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a common pattern in algorithms?",
+    "option_a": "All are algorithmic paradigms",
+    "option_b": "Divide and conquer",
+    "option_c": "Dynamic programming",
+    "option_d": "Greedy approach",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Recognizing that a problem is similar to a previously solved one is an example of:",
+    "option_a": "Pattern recognition",
+    "option_b": "Random search",
+    "option_c": "Trial and error",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In problem-solving, \"analogical thinking\" uses:",
+    "option_a": "Patterns from one domain in another",
+    "option_b": "Only logic",
+    "option_c": "Random associations",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The ability to see underlying structures despite superficial differences is:",
+    "option_a": "Both",
+    "option_b": "Abstraction",
+    "option_c": "Pattern recognition",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following sequences follows the pattern \"multiply by 2\"?",
+    "option_a": "1, 2, 4, 8, ...",
+    "option_b": "2, 4, 6, 8, ...",
+    "option_c": "1, 3, 5, 7, ...",
+    "option_d": "1, 4, 9, 16, ...",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The pattern in 1, 1, 2, 3, 5, 8, ... is:",
+    "option_a": "Each term is sum of previous two",
+    "option_b": "Multiply by 1.6",
+    "option_c": "Add increasing numbers",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Generalizing a solution means:",
+    "option_a": "Making it applicable to many cases",
+    "option_b": "Making it specific",
+    "option_c": "Hard-coding values",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a generalization of the concept of \"addition\"?",
+    "option_a": "It can be applied to integers, reals, matrices, etc.",
+    "option_b": "It only works for integers",
+    "option_c": "It is specific",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In computer science, a design pattern is:",
+    "option_a": "A general reusable solution to a common problem",
+    "option_b": "A specific code snippet",
+    "option_c": "A flowchart",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Recognizing patterns in data is essential in:",
+    "option_a": "Both",
+    "option_b": "Machine learning",
+    "option_c": "Data analysis",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a pattern in numbers: 2, 3, 5, 7, 11, ...?",
+    "option_a": "Prime numbers",
+    "option_b": "Even numbers",
+    "option_c": "Odd numbers",
+    "option_d": "Squares",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The next term in the pattern A, C, F, J, ... (alphabet positions) is:",
+    "option_a": "O",
+    "option_b": "N",
+    "option_c": "M",
+    "option_d": "P",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The pattern in positions: +2, +3, +4, ... leads to next letter after J (10) is 10+5=15 -> O. So answer:",
+    "option_a": "O",
+    "option_b": "P",
+    "option_c": "Q",
+    "option_d": "R",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Pattern recognition can be used to:",
+    "option_a": "All of the above",
+    "option_b": "Predict future events",
+    "option_c": "Classify objects",
+    "option_d": "Solve puzzles",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a visual pattern?",
+    "option_a": "All of the above",
+    "option_b": "Repeating shapes",
+    "option_c": "Symmetry",
+    "option_d": "Tessellation",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In problem-solving, once a pattern is recognized, we can:",
+    "option_a": "All of the above",
+    "option_b": "Formulate a rule",
+    "option_c": "Test the rule",
+    "option_d": "Apply it",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The process of pattern recognition involves:",
+    "option_a": "All of the above",
+    "option_b": "Observation",
+    "option_c": "Hypothesis formation",
+    "option_d": "Verification",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A fractal is a pattern that:",
+    "option_a": "Repeats at different scales",
+    "option_b": "Is random",
+    "option_c": "Is linear",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Mathematical reasoning involves:",
+    "option_a": "Using mathematical concepts to solve problems",
+    "option_b": "Only arithmetic",
+    "option_c": "Ignoring logic",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "If a shirt costs $20 after a 20% discount, what was the original price?",
+    "option_a": "$25",
+    "option_b": "$24",
+    "option_c": "$22",
+    "option_d": "$30",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A car travels 60 km in 1.5 hours. What is its average speed?",
+    "option_a": "40 km/h",
+    "option_b": "60 km/h",
+    "option_c": "90 km/h",
+    "option_d": "120 km/h",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The sum of angles in a triangle is:",
+    "option_a": "180 degrees",
+    "option_b": "360 degrees",
+    "option_c": "90 degrees",
+    "option_d": "270 degrees",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "If 5 workers can complete a task in 10 days, how many days will 2 workers take?",
+    "option_a": "25 days",
+    "option_b": "20 days",
+    "option_c": "4 days",
+    "option_d": "15 days",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "What is 15% of 200?",
+    "option_a": "30",
+    "option_b": "20",
+    "option_c": "15",
+    "option_d": "40",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The probability of rolling a 6 on a fair die is:",
+    "option_a": "1/6",
+    "option_b": "1/2",
+    "option_c": "1/3",
+    "option_d": "1",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "If x + 5 = 12, then x = ?",
+    "option_a": "7",
+    "option_b": "17",
+    "option_c": "-7",
+    "option_d": "60",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The area of a rectangle with length 8 and width 5 is:",
+    "option_a": "40",
+    "option_b": "13",
+    "option_c": "20",
+    "option_d": "45",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The perimeter of a square with side 6 is:",
+    "option_a": "24",
+    "option_b": "36",
+    "option_c": "12",
+    "option_d": "30",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "If a recipe needs 2 cups of flour for 12 cookies, how many cups for 30 cookies?",
+    "option_a": "5",
+    "option_b": "4",
+    "option_c": "6",
+    "option_d": "3",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The average of 4, 8, 12, and 16 is:",
+    "option_a": "10",
+    "option_b": "12",
+    "option_c": "8",
+    "option_d": "14",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A train 100 meters long passes a pole in 5 seconds. What is its speed in km/h?",
+    "option_a": "72 km/h",
+    "option_b": "36 km/h",
+    "option_c": "20 km/h",
+    "option_d": "50 km/h",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "If a:b = 2:3 and b:c = 4:5, then a:c = ?",
+    "option_a": "8:15",
+    "option_b": "2:5",
+    "option_c": "4:5",
+    "option_d": "3:5",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The simple interest on $1000 at 5% per annum for 2 years is:",
+    "option_a": "$100",
+    "option_b": "$50",
+    "option_c": "$200",
+    "option_d": "$150",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a prime number?",
+    "option_a": "17",
+    "option_b": "21",
+    "option_c": "27",
+    "option_d": "33",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The square root of 144 is:",
+    "option_a": "12",
+    "option_b": "14",
+    "option_c": "16",
+    "option_d": "18",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "If 3x - 7 = 11, then x = ?",
+    "option_a": "6",
+    "option_b": "4",
+    "option_c": "5",
+    "option_d": "3",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A number increased by 20% becomes 60. The original number is:",
+    "option_a": "50",
+    "option_b": "48",
+    "option_c": "40",
+    "option_d": "30",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The ratio of 2 hours to 40 minutes is:",
+    "option_a": "3:1",
+    "option_b": "1:3",
+    "option_c": "2:1",
+    "option_d": "1:2",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "If a die is rolled twice, the probability of getting a sum of 7 is:",
+    "option_a": "6/36 = 1/6",
+    "option_b": "1/12",
+    "option_c": "1/18",
+    "option_d": "1/9",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The median of the numbers 5, 8, 2, 9, 4 is:",
+    "option_a": "5",
+    "option_b": "4",
+    "option_c": "8",
+    "option_d": "6",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The mode of 2, 2, 3, 4, 4, 4, 5 is:",
+    "option_a": "4",
+    "option_b": "2",
+    "option_c": "3",
+    "option_d": "5",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The volume of a cube with side 3 cm is:",
+    "option_a": "27 cm³",
+    "option_b": "9 cm³",
+    "option_c": "18 cm³",
+    "option_d": "36 cm³",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "If 2 apples cost $1, how many apples can you buy for $5?",
+    "option_a": "10",
+    "option_b": "5",
+    "option_c": "2.5",
+    "option_d": "8",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A shopkeeper gives a 10% discount on a $50 item. The selling price is:",
+    "option_a": "$45",
+    "option_b": "$40",
+    "option_c": "$55",
+    "option_d": "$50",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The next number in the sequence 3, 6, 11, 18, ... is:",
+    "option_a": "27",
+    "option_b": "25",
+    "option_c": "29",
+    "option_d": "24",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The pattern +3, +5, +7, ... so next +9 gives 27. Answer:",
+    "option_a": "27",
+    "option_b": "26",
+    "option_c": "28",
+    "option_d": "30",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "If 5x + 2 = 3x + 10, then x = ?",
+    "option_a": "4",
+    "option_b": "2",
+    "option_c": "8",
+    "option_d": "6",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The least common multiple (LCM) of 6 and 8 is:",
+    "option_a": "24",
+    "option_b": "48",
+    "option_c": "12",
+    "option_d": "16",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The greatest common divisor (GCD) of 12 and 18 is:",
+    "option_a": "6",
+    "option_b": "3",
+    "option_c": "2",
+    "option_d": "36",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "2^5 is equal to:",
+    "option_a": "32",
+    "option_b": "25",
+    "option_c": "10",
+    "option_d": "16",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The value of 0.75 as a fraction is:",
+    "option_a": "Both",
+    "option_b": "3/4",
+    "option_c": "75/100",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "If y varies directly as x, and y=10 when x=2, find y when x=5.",
+    "option_a": "25",
+    "option_b": "4",
+    "option_c": "20",
+    "option_d": "15",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "If y varies inversely as x, and y=4 when x=3, find y when x=6.",
+    "option_a": "2",
+    "option_b": "8",
+    "option_c": "12",
+    "option_d": "1",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Algorithmic thinking is:",
+    "option_a": "The ability to think in terms of sequences and rules",
+    "option_b": "Random thinking",
+    "option_c": "Artistic thinking",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a key aspect of algorithmic thinking?",
+    "option_a": "All of the above",
+    "option_b": "Decomposition",
+    "option_c": "Pattern recognition",
+    "option_d": "Abstraction",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Decomposition in algorithmic thinking means:",
+    "option_a": "Breaking a problem into smaller parts",
+    "option_b": "Combining parts",
+    "option_c": "Ignoring details",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Abstraction in algorithmic thinking means:",
+    "option_a": "Focusing on important details, ignoring irrelevant",
+    "option_b": "Making things concrete",
+    "option_c": "Adding details",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is an example of algorithmic thinking in daily life?",
+    "option_a": "Both",
+    "option_b": "Following a recipe",
+    "option_c": "Assembling furniture with instructions",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An algorithm to make a cup of tea involves:",
+    "option_a": "All of the above",
+    "option_b": "Steps in sequence",
+    "option_c": "Decisions (if sugar needed)",
+    "option_d": "Loops (stir until dissolved)",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In algorithmic thinking, a loop is used for:",
+    "option_a": "Repetition",
+    "option_b": "Decision",
+    "option_c": "Sequence",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A conditional statement (if-then) is used for:",
+    "option_a": "Decision making",
+    "option_b": "Repetition",
+    "option_c": "Sequencing",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a common algorithmic strategy?",
+    "option_a": "All of the above",
+    "option_b": "Brute force",
+    "option_c": "Divide and conquer",
+    "option_d": "Dynamic programming",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Brute force algorithm:",
+    "option_a": "Tries all possibilities",
+    "option_b": "Is always efficient",
+    "option_c": "Uses heuristics",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Divide and conquer works by:",
+    "option_a": "Dividing problem into subproblems, solving, combining",
+    "option_b": "Solving directly",
+    "option_c": "Randomly trying",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a divide and conquer algorithm?",
+    "option_a": "Merge sort",
+    "option_b": "Linear search",
+    "option_c": "Bubble sort",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Greedy algorithms make:",
+    "option_a": "The locally optimal choice at each step",
+    "option_b": "The globally optimal choice",
+    "option_c": "Random choices",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Dynamic programming is used when:",
+    "option_a": "Subproblems overlap",
+    "option_b": "Problem can be divided into independent parts",
+    "option_c": "There is no optimal substructure",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Recursion is a technique where:",
+    "option_a": "A function calls itself",
+    "option_b": "A function calls another",
+    "option_c": "Loops are used",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The base case in recursion is:",
+    "option_a": "The condition that stops recursion",
+    "option_b": "The first call",
+    "option_c": "The recursive call",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following problems is suitable for recursion?",
+    "option_a": "All of the above",
+    "option_b": "Factorial calculation",
+    "option_c": "Fibonacci sequence",
+    "option_d": "Tree traversal",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Iteration uses:",
+    "option_a": "Loops",
+    "option_b": "Recursion",
+    "option_c": "Functions",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In algorithmic thinking, efficiency is about:",
+    "option_a": "Time and space used",
+    "option_b": "Only correctness",
+    "option_c": "Only speed",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An algorithm's worst-case time complexity is:",
+    "option_a": "The maximum time for any input",
+    "option_b": "The average time",
+    "option_c": "The best time",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The Big O notation is used to describe:",
+    "option_a": "Upper bound of complexity",
+    "option_b": "Exact time",
+    "option_c": "Lower bound",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An algorithm with O(n) time complexity:",
+    "option_a": "Time grows linearly with input size",
+    "option_b": "Time is constant",
+    "option_c": "Time grows quadratically",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following has O(1) time complexity?",
+    "option_a": "Accessing an array element by index",
+    "option_b": "Searching in unsorted list",
+    "option_c": "Sorting",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Binary search has time complexity:",
+    "option_a": "O(log n)",
+    "option_b": "O(n)",
+    "option_c": "O(n log n)",
+    "option_d": "O(n^2)",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Bubble sort has time complexity:",
+    "option_a": "O(n^2)",
+    "option_b": "O(n log n)",
+    "option_c": "O(n)",
+    "option_d": "O(log n)",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Merge sort has time complexity:",
+    "option_a": "O(n log n)",
+    "option_b": "O(n^2)",
+    "option_c": "O(n)",
+    "option_d": "O(log n)",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a searching algorithm?",
+    "option_a": "Both",
+    "option_b": "Linear search",
+    "option_c": "Binary search",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a sorting algorithm?",
+    "option_a": "All of the above",
+    "option_b": "Quick sort",
+    "option_c": "Merge sort",
+    "option_d": "Heap sort",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The algorithm to find the maximum in an array has time complexity:",
+    "option_a": "O(n)",
+    "option_b": "O(1)",
+    "option_c": "O(log n)",
+    "option_d": "O(n^2)",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In algorithmic thinking, pseudocode helps to:",
+    "option_a": "Plan the algorithm before coding",
+    "option_b": "Execute directly",
+    "option_c": "Confuse",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Critical thinking involves:",
+    "option_a": "Analyzing facts to form a judgment",
+    "option_b": "Accepting all information",
+    "option_c": "Emotional reasoning",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a component of critical thinking?",
+    "option_a": "All of the above",
+    "option_b": "Clarity",
+    "option_c": "Accuracy",
+    "option_d": "Relevance",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A critical thinker is:",
+    "option_a": "Skeptical and open-minded",
+    "option_b": "Gullible",
+    "option_c": "Closed-minded",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Decision making is the process of:",
+    "option_a": "Both",
+    "option_b": "Choosing among alternatives",
+    "option_c": "Generating options",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a step in rational decision making?",
+    "option_a": "All of the above",
+    "option_b": "Identify the problem",
+    "option_c": "Generate alternatives",
+    "option_d": "Evaluate alternatives",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A decision matrix is used to:",
+    "option_a": "Compare options based on criteria",
+    "option_b": "Randomly choose",
+    "option_c": "List problems",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In decision making, criteria are:",
+    "option_a": "Factors used to evaluate options",
+    "option_b": "Alternatives",
+    "option_c": "Outcomes",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Weighted scoring model assigns:",
+    "option_a": "Weights to criteria based on importance",
+    "option_b": "Random scores",
+    "option_c": "Equal weights",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a cognitive bias?",
+    "option_a": "All of the above",
+    "option_b": "Confirmation bias",
+    "option_c": "Anchoring bias",
+    "option_d": "Overconfidence bias",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Confirmation bias is the tendency to:",
+    "option_a": "Seek information that confirms one's beliefs",
+    "option_b": "Reject all information",
+    "option_c": "Be objective",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Anchoring bias occurs when:",
+    "option_a": "Relying too heavily on the first piece of information",
+    "option_b": "Ignoring first information",
+    "option_c": "Being overconfident",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The sunk cost fallacy is:",
+    "option_a": "Continuing an endeavor because of past investment",
+    "option_b": "Ignoring past costs",
+    "option_c": "Making rational decisions",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following helps in overcoming biases?",
+    "option_a": "All of the above",
+    "option_b": "Seeking diverse perspectives",
+    "option_c": "Considering opposite views",
+    "option_d": "Using data",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A cost-benefit analysis compares:",
+    "option_a": "Costs and benefits of options",
+    "option_b": "Only costs",
+    "option_c": "Only benefits",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Pareto principle (80/20 rule) states that:",
+    "option_a": "80% of effects come from 20% of causes",
+    "option_b": "20% of effects come from 80% of causes",
+    "option_c": "Equal distribution",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In critical thinking, an argument is:",
+    "option_a": "A set of premises supporting a conclusion",
+    "option_b": "A disagreement",
+    "option_c": "A statement",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Evaluating an argument involves checking:",
+    "option_a": "All of the above",
+    "option_b": "Validity",
+    "option_c": "Soundness",
+    "option_d": "Relevance",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a question to assess credibility of a source?",
+    "option_a": "All of the above",
+    "option_b": "Is the author an expert?",
+    "option_c": "Is the information recent?",
+    "option_d": "Is it unbiased?",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Inductive arguments aim for:",
+    "option_a": "Probability, not certainty",
+    "option_b": "Certainty",
+    "option_c": "Validity",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Deductive arguments aim for:",
+    "option_a": "Certainty if premises true",
+    "option_b": "Probability",
+    "option_c": "Likelihood",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A red herring fallacy introduces:",
+    "option_a": "Irrelevant information to distract",
+    "option_b": "Relevant information",
+    "option_c": "Logical conclusion",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Appeal to authority is a fallacy when:",
+    "option_a": "The authority is not an expert in the field",
+    "option_b": "The authority is an expert",
+    "option_c": "It is always valid",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In decision making, risk assessment involves:",
+    "option_a": "All of the above",
+    "option_b": "Identifying potential risks",
+    "option_c": "Evaluating likelihood and impact",
+    "option_d": "Mitigating risks",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A SWOT analysis stands for:",
+    "option_a": "Strengths, Weaknesses, Opportunities, Threats",
+    "option_b": "Strategies, Weaknesses, Options, Tactics",
+    "option_c": "Systems, Workflows, Objectives, Tests",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a tool for root cause analysis?",
+    "option_a": "Both",
+    "option_b": "5 Whys",
+    "option_c": "Fishbone diagram",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Debugging is the process of:",
+    "option_a": "Identifying and fixing errors in a solution",
+    "option_b": "Writing code",
+    "option_c": "Designing algorithms",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A syntax error occurs when:",
+    "option_a": "Code violates language rules",
+    "option_b": "Logic is wrong",
+    "option_c": "Program crashes",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A logical error means:",
+    "option_a": "The program runs but gives wrong output",
+    "option_b": "The program doesn't run",
+    "option_c": "Syntax is wrong",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A runtime error occurs:",
+    "option_a": "During program execution",
+    "option_b": "At compile time",
+    "option_c": "During editing",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is an example of a runtime error?",
+    "option_a": "Division by zero",
+    "option_b": "Missing semicolon",
+    "option_c": "Using wrong variable name",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A breakpoint in debugging is:",
+    "option_a": "A point where program execution pauses",
+    "option_b": "The end of program",
+    "option_c": "A syntax error",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Step-through debugging involves:",
+    "option_a": "Executing code line by line",
+    "option_b": "Running all at once",
+    "option_c": "Skipping lines",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a debugging technique?",
+    "option_a": "All of the above",
+    "option_b": "Print statements",
+    "option_c": "Using a debugger",
+    "option_d": "Code review",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Rubber duck debugging is:",
+    "option_a": "Explaining code to an inanimate object",
+    "option_b": "Using a rubber duck as a tool",
+    "option_c": "A type of error",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The first step in debugging is:",
+    "option_a": "Reproducing the error",
+    "option_b": "Fixing the error",
+    "option_c": "Ignoring it",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Once an error is fixed, you should:",
+    "option_a": "Test the fix",
+    "option_b": "Assume it works",
+    "option_c": "Move on",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A common cause of logical errors is:",
+    "option_a": "All of the above",
+    "option_b": "Off-by-one errors",
+    "option_c": "Incorrect conditions",
+    "option_d": "Wrong variable usage",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An off-by-one error often occurs in:",
+    "option_a": "Loops",
+    "option_b": "Conditionals",
+    "option_c": "Assignments",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a tool for static analysis?",
+    "option_a": "Linter",
+    "option_b": "Debugger",
+    "option_c": "Profiler",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Static analysis checks code:",
+    "option_a": "Without executing it",
+    "option_b": "During execution",
+    "option_c": "After execution",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A profiler helps in:",
+    "option_a": "Finding performance bottlenecks",
+    "option_b": "Finding syntax errors",
+    "option_c": "Debugging logic",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In error analysis, a root cause is:",
+    "option_a": "The underlying reason for the error",
+    "option_b": "The symptom",
+    "option_c": "The fix",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a common error in algorithms?",
+    "option_a": "Both",
+    "option_b": "Infinite loop",
+    "option_c": "Missing base case in recursion",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An infinite loop occurs when:",
+    "option_a": "The loop condition never becomes false",
+    "option_b": "The loop runs once",
+    "option_c": "The loop is empty",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In recursion, missing base case leads to:",
+    "option_a": "Infinite recursion",
+    "option_b": "Correct output",
+    "option_c": "Syntax error",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A stack overflow error can occur due to:",
+    "option_a": "Deep or infinite recursion",
+    "option_b": "Large data",
+    "option_c": "Syntax error",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a method to prevent errors?",
+    "option_a": "All of the above",
+    "option_b": "Code reviews",
+    "option_c": "Testing",
+    "option_d": "Using assertions",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Assertions are used to:",
+    "option_a": "Check conditions that should be true",
+    "option_b": "Print output",
+    "option_c": "Loop",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Unit testing tests:",
+    "option_a": "Individual components",
+    "option_b": "Entire system",
+    "option_c": "Integration",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Integration testing tests:",
+    "option_a": "How components work together",
+    "option_b": "Individual units",
+    "option_c": "Performance",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Regression testing ensures:",
+    "option_a": "New changes haven't broken existing functionality",
+    "option_b": "New features work",
+    "option_c": "Code is fast",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A test case should include:",
+    "option_a": "Input and expected output",
+    "option_b": "Only input",
+    "option_c": "Only output",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Boundary value analysis tests:",
+    "option_a": "Edge cases",
+    "option_b": "Normal cases",
+    "option_c": "Random cases",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a common error in conditional statements?",
+    "option_a": "All of the above",
+    "option_b": "Using = instead of ==",
+    "option_c": "Wrong operator",
+    "option_d": "Missing else",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Debugging is easier when:",
+    "option_a": "Code is well-structured and commented",
+    "option_b": "Code is complex",
+    "option_c": "No comments",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Algorithm efficiency is measured in terms of:",
+    "option_a": "Time and space",
+    "option_b": "Lines of code",
+    "option_c": "Programming language",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Time complexity refers to:",
+    "option_a": "The amount of time an algorithm takes",
+    "option_b": "The memory used",
+    "option_c": "The code length",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Space complexity refers to:",
+    "option_a": "The amount of memory an algorithm uses",
+    "option_b": "The time taken",
+    "option_c": "The disk space",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Big O notation describes:",
+    "option_a": "Worst-case complexity",
+    "option_b": "Best-case complexity",
+    "option_c": "Average-case",
+    "option_d": "All can be described but usually worst",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An algorithm that always takes the same time regardless of input size is:",
+    "option_a": "O(1)",
+    "option_b": "O(n)",
+    "option_c": "O(n^2)",
+    "option_d": "O(log n)",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is more efficient for large n?",
+    "option_a": "O(n log n)",
+    "option_b": "O(n^2)",
+    "option_c": "O(2^n)",
+    "option_d": "O(n!)",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Binary search requires the array to be:",
+    "option_a": "Sorted",
+    "option_b": "Unsorted",
+    "option_c": "Any order",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Linear search has time complexity:",
+    "option_a": "O(n)",
+    "option_b": "O(log n)",
+    "option_c": "O(1)",
+    "option_d": "O(n^2)",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which sorting algorithm has the best average-case time complexity?",
+    "option_a": "Quick sort (O(n log n))",
+    "option_b": "Bubble sort (O(n^2))",
+    "option_c": "Selection sort (O(n^2))",
+    "option_d": "Insertion sort (O(n^2))",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The space complexity of an algorithm can be:",
+    "option_a": "Both",
+    "option_b": "O(1) for in-place algorithms",
+    "option_c": "O(n) for extra array",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A recursive algorithm may have higher space complexity due to:",
+    "option_a": "Call stack",
+    "option_b": "Less memory",
+    "option_c": "Faster time",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is an example of an exponential time algorithm?",
+    "option_a": "Solving the traveling salesman problem with brute force",
+    "option_b": "Binary search",
+    "option_c": "Merge sort",
+    "option_d": "Linear search",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "NP-hard problems are:",
+    "option_a": "Hard to solve efficiently",
+    "option_b": "Easy to solve",
+    "option_c": "Solvable in polynomial time",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In complexity analysis, we usually consider:",
+    "option_a": "Asymptotic behavior",
+    "option_b": "Exact runtime",
+    "option_c": "Microseconds",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The notation Ω (Omega) describes:",
+    "option_a": "Lower bound",
+    "option_b": "Upper bound",
+    "option_c": "Tight bound",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The notation Θ (Theta) describes:",
+    "option_a": "Tight bound (both upper and lower)",
+    "option_b": "Upper bound only",
+    "option_c": "Lower bound only",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An algorithm with O(n^2) time complexity is generally considered:",
+    "option_a": "Inefficient for large n",
+    "option_b": "Efficient",
+    "option_c": "Constant time",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a trade-off in algorithm design?",
+    "option_a": "Both",
+    "option_b": "Time vs space",
+    "option_c": "Accuracy vs speed",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Caching is a technique to:",
+    "option_a": "Speed up access by storing results",
+    "option_b": "Reduce memory",
+    "option_c": "Increase complexity",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Memoization is used in:",
+    "option_a": "Dynamic programming",
+    "option_b": "Greedy algorithms",
+    "option_c": "Divide and conquer",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The efficiency of an algorithm matters because:",
+    "option_a": "All of the above",
+    "option_b": "Resources are limited",
+    "option_c": "User experience",
+    "option_d": "Scalability",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a linear time algorithm?",
+    "option_a": "Finding maximum in unsorted array",
+    "option_b": "Binary search",
+    "option_c": "Merge sort",
+    "option_d": "Quick sort",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a logarithmic time algorithm?",
+    "option_a": "Binary search",
+    "option_b": "Linear search",
+    "option_c": "Bubble sort",
+    "option_d": "Matrix multiplication",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An algorithm that processes each element and performs constant work per element is:",
+    "option_a": "O(n)",
+    "option_b": "O(1)",
+    "option_c": "O(n^2)",
+    "option_d": "O(log n)",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Nested loops often lead to:",
+    "option_a": "O(n^2) complexity",
+    "option_b": "O(n)",
+    "option_c": "O(log n)",
+    "option_d": "O(1)",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The time complexity of accessing an element in an array by index is:",
+    "option_a": "O(1)",
+    "option_b": "O(n)",
+    "option_c": "O(log n)",
+    "option_d": "O(n^2)",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The time complexity of searching in a hash table (average case) is:",
+    "option_a": "O(1)",
+    "option_b": "O(n)",
+    "option_c": "O(log n)",
+    "option_d": "O(n^2)",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The worst-case time complexity of quick sort is:",
+    "option_a": "O(n^2)",
+    "option_b": "O(n log n)",
+    "option_c": "O(n)",
+    "option_d": "O(log n)",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a stable sorting algorithm?",
+    "option_a": "Merge sort",
+    "option_b": "Quick sort (typically not)",
+    "option_c": "Heap sort",
+    "option_d": "Selection sort",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Understanding complexity helps in:",
+    "option_a": "All of the above",
+    "option_b": "Choosing the right algorithm",
+    "option_c": "Predicting performance",
+    "option_d": "Optimizing code",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a programming paradigm?",
+    "option_a": "Functional",
+    "option_b": "Procedural",
+    "option_c": "Object-oriented",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In procedural programming, code is organized as:",
+    "option_a": "None",
+    "option_b": "Procedures or functions",
+    "option_c": "Objects",
+    "option_d": "Classes",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In object-oriented programming, the main concepts are:",
+    "option_a": "Classes and objects",
+    "option_b": "Inheritance",
+    "option_c": "Polymorphism",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A variable in programming is:",
+    "option_a": "None",
+    "option_b": "A named storage location",
+    "option_c": "A constant",
+    "option_d": "A function",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A function is a:",
+    "option_a": "Reusable block of code",
+    "option_b": "Variable",
+    "option_c": "Loop",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Parameters are:",
+    "option_a": "Inputs to a function",
+    "option_b": "Outputs",
+    "option_c": "Return values",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A return statement:",
+    "option_a": "Sends a value back from a function",
+    "option_b": "Ends the program",
+    "option_c": "Prints output",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a conditional statement?",
+    "option_a": "if-else",
+    "option_b": "for loop",
+    "option_c": "while loop",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a loop?",
+    "option_a": "for",
+    "option_b": "while",
+    "option_c": "do-while",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An array allows you to:",
+    "option_a": "None",
+    "option_b": "Store multiple values of the same type",
+    "option_c": "Store a single value",
+    "option_d": "Store functions",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In programming, a string is:",
+    "option_a": "A sequence of characters",
+    "option_b": "A number",
+    "option_c": "A boolean",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a common programming language for problem-solving?",
+    "option_a": "Python",
+    "option_b": "Java",
+    "option_c": "C++",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Python is often used for problem-solving because:",
+    "option_a": "All of the above",
+    "option_b": "It has simple syntax",
+    "option_c": "It has rich libraries",
+    "option_d": "It is interpreted",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A library in programming is:",
+    "option_a": "None",
+    "option_b": "A collection of pre-written code",
+    "option_c": "A book",
+    "option_d": "A variable",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Using libraries can:",
+    "option_a": "Speed up development",
+    "option_b": "Reduce errors",
+    "option_c": "Provide optimized solutions",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In programming, debugging is:",
+    "option_a": "None",
+    "option_b": "Finding and fixing errors",
+    "option_c": "Writing code",
+    "option_d": "Compiling",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An IDE (Integrated Development Environment) provides:",
+    "option_a": "Code editor",
+    "option_b": "Debugger",
+    "option_c": "Compiler/interpreter",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Version control systems like Git help in:",
+    "option_a": "None",
+    "option_b": "Tracking changes",
+    "option_c": "Collaboration",
+    "option_d": "Both",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Writing clean code involves:",
+    "option_a": "Consistent formatting",
+    "option_b": "Meaningful variable names",
+    "option_c": "Comments",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a good programming practice?",
+    "option_a": "None",
+    "option_b": "Avoiding code duplication",
+    "option_c": "Using global variables excessively",
+    "option_d": "Ignoring errors",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The DRY principle stands for:",
+    "option_a": "Don't Repeat Yourself",
+    "option_b": "Do Repeat Yourself",
+    "option_c": "Don't Run Yourself",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Refactoring is:",
+    "option_a": "Improving code without changing functionality",
+    "option_b": "Adding new features",
+    "option_c": "Fixing bugs",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a data structure in programming?",
+    "option_a": "List",
+    "option_b": "Dictionary",
+    "option_c": "Set",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In Python, a list is:",
+    "option_a": "None",
+    "option_b": "Mutable",
+    "option_c": "Immutable",
+    "option_d": "Fixed size",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A tuple in Python is:",
+    "option_a": "Immutable",
+    "option_b": "Mutable",
+    "option_c": "A list",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A dictionary stores:",
+    "option_a": "Key-value pairs",
+    "option_b": "Ordered items",
+    "option_c": "Unique items only",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is used to handle exceptions in Python?",
+    "option_a": "try-except",
+    "option_b": "if-else",
+    "option_c": "for loop",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Exception handling helps in:",
+    "option_a": "Managing runtime errors",
+    "option_b": "Preventing crashes",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Input from user in Python can be taken using:",
+    "option_a": "len()",
+    "option_b": "input()",
+    "option_c": "print()",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Output in Python is displayed using:",
+    "option_a": "print()",
+    "option_b": "input()",
+    "option_c": "return",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a boolean operator?",
+    "option_a": "and",
+    "option_b": "or",
+    "option_c": "not",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The modulo operator (%) returns:",
+    "option_a": "None",
+    "option_b": "Remainder",
+    "option_c": "Quotient",
+    "option_d": "Product",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In programming, a comment is:",
+    "option_a": "Ignored by the interpreter",
+    "option_b": "Executed",
+    "option_c": "A variable",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Comments are used to:",
+    "option_a": "Explain code",
+    "option_b": "Make code run faster",
+    "option_c": "Debug",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Data-driven problem solving uses:",
+    "option_a": "Data to inform decisions",
+    "option_b": "Guesswork",
+    "option_c": "Intuition only",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a step in data-driven problem solving?",
+    "option_a": "Data collection",
+    "option_b": "Data analysis",
+    "option_c": "Interpretation",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Descriptive analytics answers:",
+    "option_a": "What should we do?",
+    "option_b": "What happened?",
+    "option_c": "Why did it happen?",
+    "option_d": "What will happen?",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Diagnostic analytics answers:",
+    "option_a": "Why did it happen?",
+    "option_b": "What happened?",
+    "option_c": "What will happen?",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Predictive analytics answers:",
+    "option_a": "What will happen?",
+    "option_b": "What happened?",
+    "option_c": "Why?",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Prescriptive analytics answers:",
+    "option_a": "What should we do?",
+    "option_b": "What happened?",
+    "option_c": "Why?",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A dataset is:",
+    "option_a": "A collection of data",
+    "option_b": "A single number",
+    "option_c": "An algorithm",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In data analysis, a variable is:",
+    "option_a": "A characteristic that can vary",
+    "option_b": "Constant",
+    "option_c": "A function",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Categorical data represents:",
+    "option_a": "Categories or labels",
+    "option_b": "Numerical values",
+    "option_c": "Continuous values",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Numerical data can be:",
+    "option_a": "Discrete or continuous",
+    "option_b": "Only discrete",
+    "option_c": "Only continuous",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The mean is a measure of:",
+    "option_a": "Central tendency",
+    "option_b": "Spread",
+    "option_c": "Shape",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The standard deviation measures:",
+    "option_a": "Spread",
+    "option_b": "Central tendency",
+    "option_c": "Correlation",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Correlation measures:",
+    "option_a": "Relationship between variables",
+    "option_b": "Causation",
+    "option_c": "Mean",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Correlation does not imply:",
+    "option_a": "Causation",
+    "option_b": "Relationship",
+    "option_c": "Linearity",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A scatter plot is used to visualize:",
+    "option_a": "Relationship between two variables",
+    "option_b": "Distribution of one variable",
+    "option_c": "Proportions",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A histogram shows:",
+    "option_a": "Distribution of a single variable",
+    "option_b": "Relationship",
+    "option_c": "Time series",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In data-driven problem solving, outliers are:",
+    "option_a": "Data points far from others",
+    "option_b": "Typical points",
+    "option_c": "Missing values",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Handling outliers is important because they can:",
+    "option_a": "Skew results",
+    "option_b": "Be errors",
+    "option_c": "Provide insights",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Data cleaning involves:",
+    "option_a": "All of the above",
+    "option_b": "Removing errors",
+    "option_c": "Handling missing values",
+    "option_d": "Standardizing formats",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Missing data can be handled by:",
+    "option_a": "Both A and B",
+    "option_b": "Deletion",
+    "option_c": "Imputation",
+    "option_d": "Ignoring",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Sampling is used to:",
+    "option_a": "None",
+    "option_b": "Select a subset from a population",
+    "option_c": "Collect all data",
+    "option_d": "Analyze all data",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A random sample ensures:",
+    "option_a": "Every member has equal chance",
+    "option_b": "Bias",
+    "option_c": "Convenience",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In data analysis, a hypothesis is:",
+    "option_a": "A testable statement",
+    "option_b": "A fact",
+    "option_c": "A conclusion",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A/B testing is used to:",
+    "option_a": "Compare two versions",
+    "option_b": "Test a single version",
+    "option_c": "Collect data",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In A/B testing, the control group:",
+    "option_a": "Receives no treatment or standard version",
+    "option_b": "Receives new version",
+    "option_c": "Is ignored",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Statistical significance indicates:",
+    "option_a": "Result is unlikely due to chance",
+    "option_b": "Result is important",
+    "option_c": "Result is large",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "p-value is used in:",
+    "option_a": "Hypothesis testing",
+    "option_b": "Descriptive statistics",
+    "option_c": "Data collection",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A low p-value (<0.05) typically indicates:",
+    "option_a": "Reject null hypothesis",
+    "option_b": "Accept null hypothesis",
+    "option_c": "No conclusion",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In data visualization, a bar chart is suitable for:",
+    "option_a": "Categorical data",
+    "option_b": "Continuous data",
+    "option_c": "Time series",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A line chart is often used for:",
+    "option_a": "Time series data",
+    "option_b": "Categorical comparison",
+    "option_c": "Distribution",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Data-driven decision making relies on:",
+    "option_a": "Evidence from data",
+    "option_b": "Gut feeling",
+    "option_c": "Authority",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a common data analysis tool?",
+    "option_a": "Excel",
+    "option_b": "Python (pandas)",
+    "option_c": "R",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Big data refers to datasets that are:",
+    "option_a": "None",
+    "option_b": "Large, complex, and difficult to process with traditional methods",
+    "option_c": "Small",
+    "option_d": "Always structured",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Data mining is:",
+    "option_a": "Discovering patterns in large datasets",
+    "option_b": "Collecting data",
+    "option_c": "Storing data",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Machine learning is a subset of:",
+    "option_a": "AI",
+    "option_b": "Data mining",
+    "option_c": "Statistics",
+    "option_d": "All",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Creative thinking involves:",
+    "option_a": "Generating novel and useful ideas",
+    "option_b": "Following rules strictly",
+    "option_c": "Reproducing known solutions",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Innovation is:",
+    "option_a": "Implementing creative ideas",
+    "option_b": "Just having an idea",
+    "option_c": "Copying others",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a barrier to creativity?",
+    "option_a": "Fear of failure",
+    "option_b": "Rigid thinking",
+    "option_c": "Lack of motivation",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Brainstorming is a technique to:",
+    "option_a": "None",
+    "option_b": "Generate many ideas without judgment",
+    "option_c": "Evaluate ideas",
+    "option_d": "Select the best idea",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In brainstorming, criticism is:",
+    "option_a": "Discouraged",
+    "option_b": "Encouraged",
+    "option_c": "Required",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Mind mapping is a visual tool for:",
+    "option_a": "Organizing ideas",
+    "option_b": "Making decisions",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "SCAMPER is a technique for:",
+    "option_a": "Data analysis",
+    "option_b": "Creative thinking",
+    "option_c": "Logical reasoning",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In SCAMPER, the \"S\" stands for:",
+    "option_a": "Substitute",
+    "option_b": "Simplify",
+    "option_c": "Solve",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Lateral thinking, coined by Edward de Bono, involves:",
+    "option_a": "Thinking outside the box",
+    "option_b": "Logical step-by-step thinking",
+    "option_c": "Vertical thinking",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a lateral thinking technique?",
+    "option_a": "Random word association",
+    "option_b": "Provocation",
+    "option_c": "Six Thinking Hats",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The Six Thinking Hats method uses:",
+    "option_a": "None",
+    "option_b": "Different perspectives (hats)",
+    "option_c": "Six people",
+    "option_d": "Six colors",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The white hat in Six Thinking Hats represents:",
+    "option_a": "Facts and information",
+    "option_b": "Emotions",
+    "option_c": "Creativity",
+    "option_d": "Judgment",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The green hat represents:",
+    "option_a": "Creativity and new ideas",
+    "option_b": "Facts",
+    "option_c": "Feelings",
+    "option_d": "Caution",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The black hat represents:",
+    "option_a": "Caution and critical judgment",
+    "option_b": "Optimism",
+    "option_c": "Facts",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The yellow hat represents:",
+    "option_a": "Optimism and benefits",
+    "option_b": "Problems",
+    "option_c": "Facts",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The red hat represents:",
+    "option_a": "Emotions and feelings",
+    "option_b": "Facts",
+    "option_c": "Creativity",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The blue hat represents:",
+    "option_a": "Process control",
+    "option_b": "Facts",
+    "option_c": "Emotions",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Divergent thinking is characterized by:",
+    "option_a": "Generating many possible solutions",
+    "option_b": "Converging to one answer",
+    "option_c": "Logical deduction",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Convergent thinking is:",
+    "option_a": "Narrowing down to the best solution",
+    "option_b": "Generating many ideas",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a creative problem-solving process?",
+    "option_a": "Identify the problem",
+    "option_b": "Generate ideas",
+    "option_c": "Evaluate and implement",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Analogical thinking uses:",
+    "option_a": "None",
+    "option_b": "Similarities from other domains",
+    "option_c": "Random associations",
+    "option_d": "Logic only",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Biomimicry is innovation inspired by:",
+    "option_a": "Nature",
+    "option_b": "Machines",
+    "option_c": "Humans",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The \"incubation\" stage in creativity is:",
+    "option_a": "Stepping away from the problem",
+    "option_b": "Working hard",
+    "option_c": "Evaluating ideas",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Insight or \"Aha!\" moment often occurs during:",
+    "option_a": "Incubation",
+    "option_b": "Preparation",
+    "option_c": "Verification",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following encourages creativity?",
+    "option_a": "Curiosity",
+    "option_b": "Open-mindedness",
+    "option_c": "Risk-taking",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Real-world problems are often:",
+    "option_a": "None",
+    "option_b": "Ill-defined and complex",
+    "option_c": "Simple and well-defined",
+    "option_d": "Purely mathematical",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Stakeholders in a real-world problem are:",
+    "option_a": "People affected by the problem or solution",
+    "option_b": "Only the problem solver",
+    "option_c": "Computers",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Considering multiple perspectives helps in:",
+    "option_a": "Understanding the problem fully",
+    "option_b": "Ignoring details",
+    "option_c": "Faster solution",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a real-world problem?",
+    "option_a": "Traffic congestion",
+    "option_b": "Climate change",
+    "option_c": "Healthcare access",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Constraints in real-world problems often include:",
+    "option_a": "All of the above",
+    "option_b": "Budget",
+    "option_c": "Time",
+    "option_d": "Resources",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Trade-offs are necessary when:",
+    "option_a": "None",
+    "option_b": "Multiple conflicting objectives exist",
+    "option_c": "There is only one goal",
+    "option_d": "Resources are unlimited",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A feasibility study assesses:",
+    "option_a": "Whether a solution is practical",
+    "option_b": "Only cost",
+    "option_c": "Only time",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a real-world example of optimization?",
+    "option_a": "Finding the shortest delivery route",
+    "option_b": "Solving a math equation",
+    "option_c": "Writing a poem",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Systems thinking involves:",
+    "option_a": "Understanding how parts interact in a whole",
+    "option_b": "Focusing on individual parts",
+    "option_c": "Ignoring interactions",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In systems thinking, feedback loops can be:",
+    "option_a": "Positive (reinforcing)",
+    "option_b": "Negative (balancing)",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A root cause analysis in a real-world context might use:",
+    "option_a": "Both",
+    "option_b": "5 Whys",
+    "option_c": "Fishbone diagram",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a tool for project management?",
+    "option_a": "Both",
+    "option_b": "Gantt chart",
+    "option_c": "PERT chart",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Risk management involves:",
+    "option_a": "Mitigation plans",
+    "option_b": "Identifying risks",
+    "option_c": "Assessing impact",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In real-world problem solving, prototyping is used to:",
+    "option_a": "None",
+    "option_b": "Test ideas quickly",
+    "option_c": "Finalize solution",
+    "option_d": "Avoid testing",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A pilot study is:",
+    "option_a": "A small-scale trial",
+    "option_b": "The final implementation",
+    "option_c": "A theoretical analysis",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a human-centered design approach?",
+    "option_a": "Design thinking",
+    "option_b": "Waterfall model",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Design thinking involves stages:",
+    "option_a": "Empathize, Define, Ideate, Prototype, Test",
+    "option_b": "Plan, Do, Check, Act",
+    "option_c": "Requirements, Design, Implement",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Empathy in design thinking means:",
+    "option_a": "Understanding users' needs",
+    "option_b": "Feeling sorry",
+    "option_c": "Ignoring users",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Iterative development means:",
+    "option_a": "Repeated cycles of improvement",
+    "option_b": "One-time delivery",
+    "option_c": "Linear process",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In real-world problem solving, ethical considerations include:",
+    "option_a": "Impact on society",
+    "option_b": "Privacy",
+    "option_c": "Fairness",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A cost-benefit analysis helps in:",
+    "option_a": "None",
+    "option_b": "Comparing solutions",
+    "option_c": "Ignoring costs",
+    "option_d": "Choosing randomly",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Sustainability in solutions means:",
+    "option_a": "Long-term viability",
+    "option_b": "Short-term gain",
+    "option_c": "Ignoring environment",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a real-world constraint?",
+    "option_a": "Legal regulations",
+    "option_b": "Cultural norms",
+    "option_c": "Environmental impact",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Collaboration in real-world problem solving is important because:",
+    "option_a": "All of the above",
+    "option_b": "Diverse expertise",
+    "option_c": "Faster",
+    "option_d": "More ideas",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A multidisciplinary team includes:",
+    "option_a": "None",
+    "option_b": "Experts from different fields",
+    "option_c": "Only one field",
+    "option_d": "Only managers",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Communicating a solution is important to:",
+    "option_a": "Share with others",
+    "option_b": "Ensure understanding",
+    "option_c": "Facilitate implementation",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Documentation of a solution includes:",
+    "option_a": "All of the above",
+    "option_b": "Description of the problem",
+    "option_c": "Steps taken",
+    "option_d": "Results",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A technical report should be:",
+    "option_a": "None",
+    "option_b": "Clear and concise",
+    "option_c": "Vague",
+    "option_d": "Lengthy",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a part of a technical report?",
+    "option_a": "Abstract",
+    "option_b": "Introduction",
+    "option_c": "Conclusion",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "An executive summary is:",
+    "option_a": "None",
+    "option_b": "A brief overview for decision-makers",
+    "option_c": "The full report",
+    "option_d": "The conclusion only",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Visual aids in communication include:",
+    "option_a": "Charts",
+    "option_b": "Diagrams",
+    "option_c": "Graphs",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A flowchart can be used to:",
+    "option_a": "None",
+    "option_b": "Show algorithm steps",
+    "option_c": "Show data flow",
+    "option_d": "Both",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In presenting a solution, knowing your audience helps to:",
+    "option_a": "Focus on relevant details",
+    "option_b": "Tailor the message",
+    "option_c": "Use appropriate language",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a good practice in documentation?",
+    "option_a": "All of the above",
+    "option_b": "Use clear headings",
+    "option_c": "Include code comments",
+    "option_d": "Explain assumptions",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Version control in documentation helps to:",
+    "option_a": "All of the above",
+    "option_b": "Track changes",
+    "option_c": "Collaborate",
+    "option_d": "Revert to previous versions",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A user manual is intended for:",
+    "option_a": "None",
+    "option_b": "End users of the solution",
+    "option_c": "Developers",
+    "option_d": "Managers",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In code documentation, a docstring is:",
+    "option_a": "A string literal that documents a function",
+    "option_b": "A comment",
+    "option_c": "A variable",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a communication barrier?",
+    "option_a": "Jargon",
+    "option_b": "Clear language",
+    "option_c": "Visuals",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Active listening is important in:",
+    "option_a": "Understanding requirements",
+    "option_b": "Presenting",
+    "option_c": "Writing",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Feedback helps to:",
+    "option_a": "Improve the solution",
+    "option_b": "Validate understanding",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In a presentation, the key message should be:",
+    "option_a": "Complex",
+    "option_b": "Clear and memorable",
+    "option_c": "Hidden",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a good way to structure a presentation?",
+    "option_a": "Introduction, body, conclusion",
+    "option_b": "Random order",
+    "option_c": "Only body",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Using examples in communication:",
+    "option_a": "Clarifies ideas",
+    "option_b": "Confuses",
+    "option_c": "Is unnecessary",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In technical writing, passive voice is often:",
+    "option_a": "Used to focus on the action",
+    "option_b": "Avoided for clarity",
+    "option_c": "Preferred",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Proofreading documentation helps to:",
+    "option_a": "Eliminate errors",
+    "option_b": "Improve clarity",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The first step in solving a problem is:",
+    "option_a": "Testing",
+    "option_b": "Understanding it",
+    "option_c": "Coding",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A heuristic is:",
+    "option_a": "A rule of thumb",
+    "option_b": "A guaranteed method",
+    "option_c": "An algorithm",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a logical fallacy?",
+    "option_a": "Circular reasoning",
+    "option_b": "Valid argument",
+    "option_c": "Sound argument",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In a flowchart, a decision is represented by:",
+    "option_a": "Diamond",
+    "option_b": "Rectangle",
+    "option_c": "Oval",
+    "option_d": "Parallelogram",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A stack is:",
+    "option_a": "LIFO",
+    "option_b": "FIFO",
+    "option_c": "Random",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The next number in 5, 9, 14, 20, ... is:",
+    "option_a": "27",
+    "option_b": "26",
+    "option_c": "25",
+    "option_d": "28",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "If 3 workers take 4 days, 6 workers take:",
+    "option_a": "2 days",
+    "option_b": "8 days",
+    "option_c": "12 days",
+    "option_d": "1 day",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The time complexity of bubble sort in worst case is:",
+    "option_a": "O(n^2)",
+    "option_b": "O(n log n)",
+    "option_c": "O(n)",
+    "option_d": "O(log n)",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a creative thinking technique?",
+    "option_a": "Brainstorming",
+    "option_b": "Linear programming",
+    "option_c": "Binary search",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In design thinking, the first stage is:",
+    "option_a": "Empathize",
+    "option_b": "Define",
+    "option_c": "Ideate",
+    "option_d": "Prototype",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A Gantt chart is used for:",
+    "option_a": "Project scheduling",
+    "option_b": "Data analysis",
+    "option_c": "Debugging",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a data type?",
+    "option_a": "Integer",
+    "option_b": "String",
+    "option_c": "Boolean",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In Python, to get user input, you use:",
+    "option_a": "range()",
+    "option_b": "input()",
+    "option_c": "print()",
+    "option_d": "len()",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A function that calls itself is:",
+    "option_a": "Recursive",
+    "option_b": "Iterative",
+    "option_c": "Linear",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The DRY principle aims to:",
+    "option_a": "Avoid code duplication",
+    "option_b": "Repeat code",
+    "option_c": "Make code longer",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a measure of spread?",
+    "option_a": "Variance",
+    "option_b": "Mean",
+    "option_c": "Mode",
+    "option_d": "Median",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A p-value less than 0.05 typically indicates:",
+    "option_a": "Statistical significance",
+    "option_b": "No significance",
+    "option_c": "Error",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In the Six Thinking Hats, the black hat represents:",
+    "option_a": "Caution",
+    "option_b": "Creativity",
+    "option_c": "Facts",
+    "option_d": "Emotions",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A prototype is:",
+    "option_a": "An early model of a solution",
+    "option_b": "The final product",
+    "option_c": "A design document",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a real-world constraint?",
+    "option_a": "Budget",
+    "option_b": "Time",
+    "option_c": "Regulations",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Good documentation should be:",
+    "option_a": "All of the above",
+    "option_b": "Clear",
+    "option_c": "Complete",
+    "option_d": "Concise",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In communication, feedback is important for:",
+    "option_a": "None",
+    "option_b": "Ensuring understanding",
+    "option_c": "Improving",
+    "option_d": "Both",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "A binary search requires:",
+    "option_a": "Linked list",
+    "option_b": "Sorted data",
+    "option_c": "Unsorted data",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is an example of an algorithm?",
+    "option_a": "Recipe",
+    "option_b": "Instruction manual",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The term \"debugging\" originated from:",
+    "option_a": "Testing",
+    "option_b": "Removing actual bugs from computers",
+    "option_c": "Finding logical errors",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a common error in programming?",
+    "option_a": "Syntax error",
+    "option_b": "Logic error",
+    "option_c": "Runtime error",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "In decision making, a weighted scoring model helps to:",
+    "option_a": "None",
+    "option_b": "Quantify choices",
+    "option_c": "Ignore criteria",
+    "option_d": "Randomize",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "Which of the following is a tool for root cause analysis?",
+    "option_a": "5 Whys",
+    "option_b": "Fishbone diagram",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The first step in debugging is:",
+    "option_a": "Test the fix",
+    "option_b": "Reproduce the error",
+    "option_c": "Fix the error",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  },
+  {
+    "subject": "Problem Solving & Analytical Skills",
+    "question_text": "The ability to think algorithmically involves:",
+    "option_a": "Decomposition",
+    "option_b": "Pattern recognition",
+    "option_c": "Abstraction",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "Problem Solving and Analytical Skills (1).docx"
+  }
+]

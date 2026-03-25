@@ -1,0 +1,5002 @@
+[
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a characteristic of Artificial Intelligence?",
+    "option_a": "It mimics human cognitive functions such as learning and problem-solving",
+    "option_b": "It can only perform tasks it is explicitly programmed to do",
+    "option_c": "It requires no data to function",
+    "option_d": "It is limited to rule-based systems",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the main goal of Machine Learning?",
+    "option_a": "To enable computers to learn from data without being explicitly programmed",
+    "option_b": "To program computers to follow explicit instructions",
+    "option_c": "To replace human intelligence entirely",
+    "option_d": "To create expert systems based on rules",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is an example of supervised learning?",
+    "option_a": "Predicting house prices based on historical data",
+    "option_b": "Grouping customers into segments based on purchasing behavior",
+    "option_c": "Finding patterns in unlabeled data",
+    "option_d": "Playing a game by learning from rewards",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In unsupervised learning, the algorithm:",
+    "option_a": "Finds hidden patterns or intrinsic structures in unlabeled data",
+    "option_b": "Learns from labeled data to make predictions",
+    "option_c": "Learns through trial and error with rewards",
+    "option_d": "Uses a teacher to correct mistakes",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Reinforcement learning is characterized by:",
+    "option_a": "Learning from interactions with an environment to maximize cumulative reward",
+    "option_b": "Learning from labeled examples",
+    "option_c": "Learning from unlabeled data",
+    "option_d": "Learning from a fixed dataset",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Data analytics primarily involves:",
+    "option_a": "Using statistical and computational techniques to extract insights from data",
+    "option_b": "Collecting data without any analysis",
+    "option_c": "Designing neural networks",
+    "option_d": "Writing code for data storage",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a type of AI that can perform any intellectual task that a human can?",
+    "option_a": "General AI",
+    "option_b": "Narrow AI",
+    "option_c": "Super AI",
+    "option_d": "Weak AI",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The Turing Test is used to assess:",
+    "option_a": "A machine's ability to exhibit intelligent behavior equivalent to a human",
+    "option_b": "A machine's processing speed",
+    "option_c": "A machine's memory capacity",
+    "option_d": "A machine's ability to learn",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is an application of machine learning?",
+    "option_a": "Recommendation systems",
+    "option_b": "Spell checker",
+    "option_c": "Compiler design",
+    "option_d": "Operating system",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The term \"Big Data\" is characterized by:",
+    "option_a": "Large volume, high velocity, and wide variety",
+    "option_b": "Only large volume",
+    "option_c": "Only structured data",
+    "option_d": "Data that cannot be processed",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the difference between AI and Machine Learning?",
+    "option_a": "Machine Learning is a subset of AI",
+    "option_b": "AI is a subset of Machine Learning",
+    "option_c": "They are the same",
+    "option_d": "AI is about data, ML is about algorithms",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is not a type of machine learning?",
+    "option_a": "Deterministic learning",
+    "option_b": "Supervised learning",
+    "option_c": "Unsupervised learning",
+    "option_d": "Reinforcement learning",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In data analytics, what is the purpose of descriptive analytics?",
+    "option_a": "To describe what has happened in the past",
+    "option_b": "To predict future outcomes",
+    "option_c": "To prescribe actions",
+    "option_d": "To diagnose causes",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Predictive analytics uses techniques such as:",
+    "option_a": "Regression and classification",
+    "option_b": "Clustering",
+    "option_c": "Association rules",
+    "option_d": "Data visualization",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a common challenge in AI?",
+    "option_a": "All of the above",
+    "option_b": "Lack of data",
+    "option_c": "Interpretability of models",
+    "option_d": "Overfitting",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The concept of \"weak AI\" refers to:",
+    "option_a": "AI designed to perform a specific task",
+    "option_b": "AI that is not very intelligent",
+    "option_c": "AI that can perform any intellectual task",
+    "option_d": "AI that is not yet developed",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is an example of a rule-based system?",
+    "option_a": "Expert system",
+    "option_b": "Neural network",
+    "option_c": "Decision tree",
+    "option_d": "Support vector machine",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The term \"Data Science\" combines:",
+    "option_a": "Statistics, computer science, and domain expertise",
+    "option_b": "Only programming and databases",
+    "option_c": "Only machine learning",
+    "option_d": "Only mathematics",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In the context of AI, what is a \"feature\"?",
+    "option_a": "A property of the data used as input to a model",
+    "option_b": "The output of a model",
+    "option_c": "A type of algorithm",
+    "option_d": "A data storage format",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a supervised learning problem?",
+    "option_a": "Predicting whether an email is spam or not",
+    "option_b": "Identifying customer segments",
+    "option_c": "Detecting anomalies in network traffic without labels",
+    "option_d": "Grouping genes with similar expression patterns",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the role of a \"label\" in supervised learning?",
+    "option_a": "It is the desired output for a given input",
+    "option_b": "It identifies the input data",
+    "option_c": "It is a type of feature",
+    "option_d": "It is used to cluster data",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is an unsupervised learning task?",
+    "option_a": "Market basket analysis",
+    "option_b": "Image classification",
+    "option_c": "Sentiment analysis",
+    "option_d": "Stock price prediction",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Reinforcement learning is commonly used in:",
+    "option_a": "Game playing",
+    "option_b": "Spam detection",
+    "option_c": "Customer segmentation",
+    "option_d": "Dimensionality reduction",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The main difference between data mining and machine learning is:",
+    "option_a": "Data mining focuses on discovering patterns, while machine learning focuses on prediction",
+    "option_b": "They are identical",
+    "option_c": "Machine learning does not use data",
+    "option_d": "Data mining is a subset of AI",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a key component of a machine learning system?",
+    "option_a": "All of the above",
+    "option_b": "Data",
+    "option_c": "Model",
+    "option_d": "Learning algorithm",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In AI, the term \"agent\" refers to:",
+    "option_a": "An entity that perceives its environment and takes actions",
+    "option_b": "A person who interacts with the system",
+    "option_c": "A software library",
+    "option_d": "A type of algorithm",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the goal of prescriptive analytics?",
+    "option_a": "To recommend actions to achieve desired outcomes",
+    "option_b": "To describe past events",
+    "option_c": "To predict future events",
+    "option_d": "To visualize data",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a common application of AI in healthcare?",
+    "option_a": "All of the above",
+    "option_b": "Medical image analysis",
+    "option_c": "Drug discovery",
+    "option_d": "Personalized treatment",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The concept of \"overfitting\" in machine learning means:",
+    "option_a": "The model performs well on training data but poorly on unseen data",
+    "option_b": "The model performs poorly on training data",
+    "option_c": "The model is too simple",
+    "option_d": "The model has high bias",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a type of AI that learns from experience?",
+    "option_a": "Machine learning system",
+    "option_b": "Rule-based system",
+    "option_c": "Expert system",
+    "option_d": "Symbolic AI",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the dot product of two vectors [1,2,3] and [4,5,6]?",
+    "option_a": "32",
+    "option_b": "40",
+    "option_c": "23",
+    "option_d": "30",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In linear algebra, a matrix is said to be invertible if:",
+    "option_a": "Its determinant is non-zero",
+    "option_b": "Its determinant is zero",
+    "option_c": "It is a square matrix",
+    "option_d": "It has all positive entries",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The derivative of the function f(x) = x^3 + 2x^2 - 5x + 3 is:",
+    "option_a": "3x^2 + 4x - 5",
+    "option_b": "3x^2 + 4x + 5",
+    "option_c": "3x^2 + 2x - 5",
+    "option_d": "3x^2 + 4x - 3",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Bayes' theorem is used to:",
+    "option_a": "Compute the probability of an event based on prior knowledge",
+    "option_b": "Calculate the mean of a distribution",
+    "option_c": "Find the derivative of a function",
+    "option_d": "Solve linear equations",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the variance of a dataset?",
+    "option_a": "The average of the squared differences from the mean",
+    "option_b": "The square root of the standard deviation",
+    "option_c": "The average of the absolute differences from the mean",
+    "option_d": "The difference between maximum and minimum",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In probability, two events A and B are independent if:",
+    "option_a": "P(A and B) = P(A) * P(B)",
+    "option_b": "P(A and B) = P(A) + P(B)",
+    "option_c": "P(A|B) = P(B)",
+    "option_d": "P(A and B) = 0",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The gradient of a function is a vector that points in the direction of:",
+    "option_a": "Maximum increase",
+    "option_b": "Maximum decrease",
+    "option_c": "No change",
+    "option_d": "Minimum value",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the eigenvalue of a matrix A if there exists a non-zero vector v such that Av = λv?",
+    "option_a": "λ is the eigenvalue",
+    "option_b": "v is the eigenvalue",
+    "option_c": "λ is the eigenvector",
+    "option_d": "A is the eigenvalue",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The mean of a standard normal distribution is:",
+    "option_a": "0",
+    "option_b": "1",
+    "option_c": "0.5",
+    "option_d": "Depends on data",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The integral of a probability density function over its entire domain is:",
+    "option_a": "1",
+    "option_b": "0",
+    "option_c": "Infinity",
+    "option_d": "Depends on distribution",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In linear regression, the method of least squares minimizes:",
+    "option_a": "The sum of squared errors",
+    "option_b": "The sum of absolute errors",
+    "option_c": "The sum of errors",
+    "option_d": "The maximum error",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the rank of a matrix?",
+    "option_a": "The number of linearly independent rows or columns",
+    "option_b": "The number of non-zero rows",
+    "option_c": "The determinant of the matrix",
+    "option_d": "The trace of the matrix",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The chain rule in calculus is used to:",
+    "option_a": "Differentiate composite functions",
+    "option_b": "Integrate products",
+    "option_c": "Find limits",
+    "option_d": "Solve differential equations",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In probability, what is the expectation of a random variable X?",
+    "option_a": "The weighted average of all possible values",
+    "option_b": "The most likely value",
+    "option_c": "The median",
+    "option_d": "The variance",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The covariance between two variables measures:",
+    "option_a": "Both A and B",
+    "option_b": "The strength of linear relationship",
+    "option_c": "The direction of linear relationship",
+    "option_d": "The correlation",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The derivative of the sigmoid function σ(x) = 1/(1+e^{-x}) is:",
+    "option_a": "Both A and C are equivalent",
+    "option_b": "σ(x)(1-σ(x))",
+    "option_c": "σ(x) (1+σ(x))",
+    "option_d": "e^{-x}/(1+e^{-x})^2",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a measure of central tendency?",
+    "option_a": "Median",
+    "option_b": "Variance",
+    "option_c": "Standard deviation",
+    "option_d": "Range",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The law of large numbers states that:",
+    "option_a": "As sample size increases, the sample mean converges to the population mean",
+    "option_b": "As sample size increases, the distribution becomes normal",
+    "option_c": "The mean of a large sample is always zero",
+    "option_d": "The variance decreases with sample size",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In linear algebra, a vector space must satisfy:",
+    "option_a": "All of the above",
+    "option_b": "Closure under addition and scalar multiplication",
+    "option_c": "Existence of zero vector",
+    "option_d": "Existence of additive inverses",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the determinant of a 2x2 matrix [[a, b], [c, d]]?",
+    "option_a": "ad - bc",
+    "option_b": "ab - cd",
+    "option_c": "ac - bd",
+    "option_d": "ad + bc",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The probability of an event A given B is defined as:",
+    "option_a": "P(A and B)/P(B)",
+    "option_b": "P(A)/P(B)",
+    "option_c": "P(A and B)/P(A)",
+    "option_d": "P(A) + P(B)",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In calculus, a function has a local minimum at x0 if:",
+    "option_a": "f'(x0)=0 and f''(x0)>0",
+    "option_b": "f'(x0)=0 and f''(x0)<0",
+    "option_c": "f'(x0)>0",
+    "option_d": "f'(x0)<0",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The Euclidean distance between two points (1,2) and (4,6) is:",
+    "option_a": "5",
+    "option_b": "7",
+    "option_c": "3",
+    "option_d": "4",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the trace of a matrix?",
+    "option_a": "The sum of its diagonal elements",
+    "option_b": "The product of its diagonal elements",
+    "option_c": "The determinant",
+    "option_d": "The rank",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In probability, a random variable that can take only a countable number of values is called:",
+    "option_a": "Discrete",
+    "option_b": "Continuous",
+    "option_c": "Normal",
+    "option_d": "Uniform",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The central limit theorem states that:",
+    "option_a": "The sampling distribution of the sample mean approaches a normal distribution as sample size increases",
+    "option_b": "The population distribution is always normal",
+    "option_c": "The sample mean equals the population mean",
+    "option_d": "The variance is constant",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the partial derivative of f(x,y)= x^2 y + y^3 with respect to x?",
+    "option_a": "2x y",
+    "option_b": "2xy",
+    "option_c": "x^2 + 3y^2",
+    "option_d": "x^2",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The L1 norm of a vector [1, -2, 3] is:",
+    "option_a": "1+2+3=6",
+    "option_b": "sqrt(14)",
+    "option_c": "6",
+    "option_d": "1+(-2)+3=2",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In statistics, the p-value is:",
+    "option_a": "The probability of observing the data or more extreme given the null hypothesis",
+    "option_b": "The probability that the null hypothesis is true",
+    "option_c": "The probability of making a Type I error",
+    "option_d": "The significance level",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The gradient descent algorithm uses:",
+    "option_a": "First-order derivatives to update parameters",
+    "option_b": "Second-order derivatives",
+    "option_c": "Random search",
+    "option_d": "None of the above",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which Python library is primarily used for numerical computations?",
+    "option_a": "NumPy",
+    "option_b": "Matplotlib",
+    "option_c": "Scikit-learn",
+    "option_d": "Pandas",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In Pandas, what function is used to read a CSV file?",
+    "option_a": "read_csv()",
+    "option_b": "read.csv()",
+    "option_c": "load_csv()",
+    "option_d": "import_csv()",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is used to create a series in Pandas?",
+    "option_a": "pd.Series()",
+    "option_b": "pd.DataFrame()",
+    "option_c": "np.array()",
+    "option_d": "list()",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In NumPy, what is the purpose of the .shape attribute?",
+    "option_a": "To return the dimensions of the array",
+    "option_b": "To return the number of elements",
+    "option_c": "To reshape the array",
+    "option_d": "To compute the mean",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which library provides machine learning algorithms in Python?",
+    "option_a": "Scikit-learn",
+    "option_b": "TensorFlow",
+    "option_c": "PyTorch",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In Python, a list comprehension is used to:",
+    "option_a": "Create lists in a concise way",
+    "option_b": "Iterate over dictionaries",
+    "option_c": "Define functions",
+    "option_d": "Handle exceptions",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What does the Pandas function df.head() do?",
+    "option_a": "Returns the first 5 rows",
+    "option_b": "Returns the last 5 rows",
+    "option_c": "Returns the shape",
+    "option_d": "Returns the column names",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is used to plot data in Python?",
+    "option_a": "All of the above",
+    "option_b": "Matplotlib",
+    "option_c": "Seaborn",
+    "option_d": "Plotly",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In NumPy, how do you create an array of zeros with shape (3,4)?",
+    "option_a": "np.zeros((3,4))",
+    "option_b": "np.zero(3,4)",
+    "option_c": "np.array(zeros(3,4))",
+    "option_d": "np.zeros(3,4)",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the output of the following Python code: print(type([]))?",
+    "option_a": "<class 'list'>",
+    "option_b": "<class 'tuple'>",
+    "option_c": "<class 'dict'>",
+    "option_d": "<class 'array'>",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In Scikit-learn, what function is used to split data into training and testing sets?",
+    "option_a": "train_test_split",
+    "option_b": "split_data",
+    "option_c": "cross_validation",
+    "option_d": "train_test",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which Python library is used for deep learning?",
+    "option_a": "All of the above",
+    "option_b": "TensorFlow",
+    "option_c": "Keras",
+    "option_d": "PyTorch",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In Pandas, how do you select a single column named 'age' from a DataFrame df?",
+    "option_a": "Both A and B",
+    "option_b": "df['age']",
+    "option_c": "df.age",
+    "option_d": "df[['age']]",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What does the NumPy function np.linspace(0, 10, 5) return?",
+    "option_a": "5 equally spaced numbers between 0 and 10 inclusive",
+    "option_b": "5 numbers from 0 to 10 with step 2",
+    "option_c": "10 numbers from 0 to 5",
+    "option_d": "An array of 5 zeros",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In Python, a lambda function is:",
+    "option_a": "A small anonymous function",
+    "option_b": "A function that returns a lambda",
+    "option_c": "A built-in function",
+    "option_d": "A recursive function",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a Python library for natural language processing?",
+    "option_a": "All of the above",
+    "option_b": "NLTK",
+    "option_c": "SpaCy",
+    "option_d": "Gensim",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In Pandas, the method df.dropna() is used to:",
+    "option_a": "Drop rows with missing values",
+    "option_b": "Drop columns with missing values",
+    "option_c": "Fill missing values",
+    "option_d": "Drop duplicate rows",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the result of np.array([1,2,3]) + np.array([4,5,6])?",
+    "option_a": "[5,7,9]",
+    "option_b": "[1,2,3,4,5,6]",
+    "option_c": "Error",
+    "option_d": "[1,4,2,5,3,6]",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which function in Scikit-learn is used to standardize features by removing the mean and scaling to unit variance?",
+    "option_a": "StandardScaler",
+    "option_b": "MinMaxScaler",
+    "option_c": "Normalizer",
+    "option_d": "RobustScaler",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In Python, what is the purpose of the init method in a class?",
+    "option_a": "To initialize objects",
+    "option_b": "To define class methods",
+    "option_c": "To create a new class",
+    "option_d": "To delete objects",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a Python data type for storing key-value pairs?",
+    "option_a": "Dictionary",
+    "option_b": "List",
+    "option_c": "Tuple",
+    "option_d": "Set",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In NumPy, the function np.random.randn(3,3) generates:",
+    "option_a": "Random numbers from a standard normal distribution",
+    "option_b": "Random numbers from a uniform distribution",
+    "option_c": "Random integers",
+    "option_d": "A 3x3 matrix of zeros",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In Pandas, how can you group data by a column and compute the mean?",
+    "option_a": "df.groupby('col').mean()",
+    "option_b": "df.group('col').mean()",
+    "option_c": "df.aggregate('col', mean)",
+    "option_d": "df.mean(by='col')",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which library provides tools for computer vision in Python?",
+    "option_a": "All of the above",
+    "option_b": "OpenCV",
+    "option_c": "PIL",
+    "option_d": "scikit-image",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In Python, what does the following code do: with open('file.txt', 'r') as f: data = f.read()?",
+    "option_a": "Opens file for reading and reads entire content",
+    "option_b": "Opens file for writing and reads data",
+    "option_c": "Opens file for appending",
+    "option_d": "Creates a new file",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a method for handling missing data?",
+    "option_a": "All of the above",
+    "option_b": "Deletion",
+    "option_c": "Imputation",
+    "option_d": "Prediction",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is normalization?",
+    "option_a": "Scaling data to a range [0,1]",
+    "option_b": "Scaling data to have mean 0 and variance 1",
+    "option_c": "Removing outliers",
+    "option_d": "Converting categorical data to numerical",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Standardization transforms data to have:",
+    "option_a": "Mean 0 and standard deviation 1",
+    "option_b": "Mean 1 and standard deviation 0",
+    "option_c": "Range [0,1]",
+    "option_d": "Median 0",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a technique for encoding categorical variables?",
+    "option_a": "All of the above",
+    "option_b": "One-hot encoding",
+    "option_c": "Label encoding",
+    "option_d": "Ordinal encoding",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In one-hot encoding, a categorical variable with k categories becomes:",
+    "option_a": "k binary variables",
+    "option_b": "k-1 binary variables",
+    "option_c": "1 variable with k values",
+    "option_d": "k continuous variables",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the purpose of data splitting?",
+    "option_a": "To train and evaluate model on different subsets",
+    "option_b": "To increase data size",
+    "option_c": "To remove outliers",
+    "option_d": "To balance classes",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a method to detect outliers?",
+    "option_a": "All of the above",
+    "option_b": "Z-score",
+    "option_c": "IQR",
+    "option_d": "Box plot",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In data preprocessing, what is the role of feature scaling?",
+    "option_a": "To make features have similar magnitudes",
+    "option_b": "To reduce dimensionality",
+    "option_c": "To handle missing values",
+    "option_d": "To encode categorical variables",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is an example of data augmentation?",
+    "option_a": "Adding noise to images to create more training samples",
+    "option_b": "Removing duplicate rows",
+    "option_c": "Normalizing pixel values",
+    "option_d": "Converting text to lowercase",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the difference between structured and unstructured data?",
+    "option_a": "Structured data has a predefined format, unstructured does not",
+    "option_b": "Structured data is numerical, unstructured is text",
+    "option_c": "Structured data is small, unstructured is large",
+    "option_d": "There is no difference",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a technique for handling imbalanced data?",
+    "option_a": "All of the above",
+    "option_b": "Oversampling",
+    "option_c": "Undersampling",
+    "option_d": "SMOTE",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In data preprocessing, what is \"binning\"?",
+    "option_a": "Grouping continuous values into discrete intervals",
+    "option_b": "Removing outliers",
+    "option_c": "Scaling data",
+    "option_d": "Encoding categorical variables",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a common data source for machine learning?",
+    "option_a": "All of the above",
+    "option_b": "Databases",
+    "option_c": "APIs",
+    "option_d": "Web scraping",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the purpose of a validation set?",
+    "option_a": "To tune hyperparameters",
+    "option_b": "To test final model performance",
+    "option_c": "To train the model",
+    "option_d": "To collect more data",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In data cleaning, what is deduplication?",
+    "option_a": "Removing duplicate records",
+    "option_b": "Removing missing values",
+    "option_c": "Removing outliers",
+    "option_d": "Removing irrelevant features",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a method for imputing missing values?",
+    "option_a": "All of the above",
+    "option_b": "Mean imputation",
+    "option_c": "Median imputation",
+    "option_d": "Mode imputation",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the purpose of feature scaling in algorithms like k-NN?",
+    "option_a": "To ensure all features contribute equally",
+    "option_b": "To speed up training",
+    "option_c": "To reduce overfitting",
+    "option_d": "To handle categorical data",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In data preprocessing, what is the \"dummy variable trap\"?",
+    "option_a": "When one-hot encoding leads to multicollinearity",
+    "option_b": "When a variable has too many missing values",
+    "option_c": "When a variable is constant",
+    "option_d": "When a variable is not numeric",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a technique for handling missing data in a time series?",
+    "option_a": "All of the above",
+    "option_b": "Forward fill",
+    "option_c": "Backward fill",
+    "option_d": "Interpolation",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the difference between data preprocessing and data wrangling?",
+    "option_a": "Preprocessing is part of wrangling",
+    "option_b": "They are the same",
+    "option_c": "Wrangling is part of preprocessing",
+    "option_d": "They are unrelated",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a method for detecting outliers using statistical measures?",
+    "option_a": "Both A and B",
+    "option_b": "Z-score > 3",
+    "option_c": "IQR > 1.5 * IQR",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In data collection, what is a sampling bias?",
+    "option_a": "When the sample is not representative of the population",
+    "option_b": "When the sample size is too small",
+    "option_c": "When the data is noisy",
+    "option_d": "When the data is missing",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the purpose of data transformation?",
+    "option_a": "All of the above",
+    "option_b": "To change the distribution of data",
+    "option_c": "To convert data types",
+    "option_d": "To scale data",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a common technique for handling skewed data?",
+    "option_a": "All of the above",
+    "option_b": "Log transformation",
+    "option_c": "Square root transformation",
+    "option_d": "Box-Cox transformation",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In data preprocessing, what is \"discretization\"?",
+    "option_a": "Converting continuous data into discrete intervals",
+    "option_b": "Converting categorical data into numerical",
+    "option_c": "Removing noise",
+    "option_d": "Scaling data",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a method for data integration?",
+    "option_a": "Merging datasets from different sources",
+    "option_b": "Removing duplicates",
+    "option_c": "Normalizing data",
+    "option_d": "Aggregating data",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the role of a data dictionary?",
+    "option_a": "To describe the data fields and their meanings",
+    "option_b": "To store data",
+    "option_c": "To clean data",
+    "option_d": "To visualize data",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In data preprocessing, what is the purpose of a pipeline?",
+    "option_a": "To chain multiple preprocessing steps and a model",
+    "option_b": "To store data",
+    "option_c": "To visualize data",
+    "option_d": "To collect data",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a technique for handling categorical data with high cardinality?",
+    "option_a": "Target encoding",
+    "option_b": "One-hot encoding",
+    "option_c": "Label encoding",
+    "option_d": "Frequency encoding",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the difference between training data and test data?",
+    "option_a": "Training data is used to fit the model, test data to evaluate",
+    "option_b": "Training data is larger than test data",
+    "option_c": "Test data is labeled, training is unlabeled",
+    "option_d": "There is no difference",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In data preprocessing, what is the purpose of removing constant features?",
+    "option_a": "They provide no information",
+    "option_b": "They cause overfitting",
+    "option_c": "They are noisy",
+    "option_d": "They are hard to scale",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a method for handling missing values in a dataset?",
+    "option_a": "All of the above",
+    "option_b": "Replace with mean",
+    "option_c": "Replace with median",
+    "option_d": "Replace with mode",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the purpose of data normalization in neural networks?",
+    "option_a": "All of the above",
+    "option_b": "To speed up convergence",
+    "option_c": "To prevent vanishing gradients",
+    "option_d": "To ensure all inputs are on similar scale",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In data collection, what is a web crawler?",
+    "option_a": "A program that automatically browses the web to collect data",
+    "option_b": "A type of database",
+    "option_c": "A data cleaning tool",
+    "option_d": "A visualization tool",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a common issue in real-world data?",
+    "option_a": "All of the above",
+    "option_b": "Missing values",
+    "option_c": "Outliers",
+    "option_d": "Noise",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the purpose of exploratory data analysis (EDA)?",
+    "option_a": "To understand the main characteristics of the data",
+    "option_b": "To build predictive models",
+    "option_c": "To deploy models",
+    "option_d": "To collect data",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a common visualization for understanding the distribution of a single variable?",
+    "option_a": "Both A and C",
+    "option_b": "Histogram",
+    "option_c": "Scatter plot",
+    "option_d": "Box plot",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "A scatter plot is used to visualize:",
+    "option_a": "Relationship between two continuous variables",
+    "option_b": "Distribution of a single variable",
+    "option_c": "Comparison of categories",
+    "option_d": "Time series data",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What does a box plot show?",
+    "option_a": "Median, quartiles, and outliers",
+    "option_b": "Mean and standard deviation",
+    "option_c": "Frequency distribution",
+    "option_d": "Correlation",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The correlation coefficient ranges between:",
+    "option_a": "-1 and 1",
+    "option_b": "0 and 1",
+    "option_c": "-∞ and ∞",
+    "option_d": "0 and ∞",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "A correlation coefficient of 0.8 indicates:",
+    "option_a": "Strong positive linear relationship",
+    "option_b": "Weak positive linear relationship",
+    "option_c": "No relationship",
+    "option_d": "Strong negative relationship",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a measure of the spread of data?",
+    "option_a": "Standard deviation",
+    "option_b": "Mean",
+    "option_c": "Median",
+    "option_d": "Mode",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In EDA, a pair plot is used to:",
+    "option_a": "Both A and B",
+    "option_b": "Show pairwise relationships between variables",
+    "option_c": "Show the distribution of each variable",
+    "option_d": "Show time series",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the purpose of a heatmap in EDA?",
+    "option_a": "To visualize correlation matrix",
+    "option_b": "To show geographic data",
+    "option_c": "To show time series",
+    "option_d": "To show distribution",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a common technique to detect outliers?",
+    "option_a": "All of the above",
+    "option_b": "Box plot",
+    "option_c": "Z-score",
+    "option_d": "IQR",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the difference between univariate and bivariate analysis?",
+    "option_a": "Univariate analyzes one variable, bivariate analyzes two",
+    "option_b": "Univariate analyzes two variables, bivariate one",
+    "option_c": "They are the same",
+    "option_d": "Univariate is for categorical, bivariate for numerical",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In a histogram, the bins represent:",
+    "option_a": "Frequency of data points in intervals",
+    "option_b": "Cumulative frequency",
+    "option_c": "Probability density",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "A bar chart is suitable for:",
+    "option_a": "Categorical data",
+    "option_b": "Continuous data",
+    "option_c": "Time series",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What does a QQ plot assess?",
+    "option_a": "Whether data follows a normal distribution",
+    "option_b": "Correlation between two variables",
+    "option_c": "Outliers",
+    "option_d": "Trend",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In EDA, what is the purpose of a violin plot?",
+    "option_a": "To show distribution and density",
+    "option_b": "To show correlation",
+    "option_c": "To show time series",
+    "option_d": "To show outliers",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a measure of central tendency?",
+    "option_a": "Mean",
+    "option_b": "Variance",
+    "option_c": "Standard deviation",
+    "option_d": "Range",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The interquartile range (IQR) is:",
+    "option_a": "Q3 - Q1",
+    "option_b": "Q1 - Q3",
+    "option_c": "(Q3 - Q1)/2",
+    "option_d": "Q2 - Q1",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In a scatter plot, if points are scattered randomly with no pattern, it indicates:",
+    "option_a": "No correlation",
+    "option_b": "Positive correlation",
+    "option_c": "Negative correlation",
+    "option_d": "Perfect correlation",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a common visualization for time series data?",
+    "option_a": "Line plot",
+    "option_b": "Bar chart",
+    "option_c": "Histogram",
+    "option_d": "Pie chart",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the purpose of a lag plot?",
+    "option_a": "To check for randomness in time series",
+    "option_b": "To show autocorrelation",
+    "option_c": "To show distribution",
+    "option_d": "To show outliers",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In EDA, what does the skewness of a distribution indicate?",
+    "option_a": "Asymmetry",
+    "option_b": "Peakedness",
+    "option_c": "Spread",
+    "option_d": "Central tendency",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "A distribution with a long tail to the right is called:",
+    "option_a": "Positively skewed",
+    "option_b": "Negatively skewed",
+    "option_c": "Symmetric",
+    "option_d": "Uniform",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a measure of kurtosis?",
+    "option_a": "Tail heaviness",
+    "option_b": "Skewness",
+    "option_c": "Variability",
+    "option_d": "Central value",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In EDA, a contingency table is used for:",
+    "option_a": "Summarizing categorical variables",
+    "option_b": "Summarizing continuous variables",
+    "option_c": "Time series",
+    "option_d": "Correlation",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the purpose of a density plot?",
+    "option_a": "To estimate the probability density function",
+    "option_b": "To show cumulative distribution",
+    "option_c": "To show outliers",
+    "option_d": "To show correlation",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In linear regression, the relationship between dependent and independent variables is assumed to be:",
+    "option_a": "Linear",
+    "option_b": "Non-linear",
+    "option_c": "Exponential",
+    "option_d": "Logarithmic",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a classification algorithm?",
+    "option_a": "Logistic regression",
+    "option_b": "Linear regression",
+    "option_c": "Ridge regression",
+    "option_d": "Lasso regression",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The cost function in linear regression is typically:",
+    "option_a": "Mean squared error",
+    "option_b": "Cross-entropy",
+    "option_c": "Hinge loss",
+    "option_d": "Absolute error",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In logistic regression, the output is transformed using:",
+    "option_a": "Sigmoid function",
+    "option_b": "ReLU",
+    "option_c": "Tanh",
+    "option_d": "Softmax",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a non-parametric algorithm?",
+    "option_a": "k-Nearest Neighbors",
+    "option_b": "Linear regression",
+    "option_c": "Logistic regression",
+    "option_d": "Naive Bayes",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In decision trees, the criterion for splitting is often based on:",
+    "option_a": "All of the above",
+    "option_b": "Gini impurity",
+    "option_c": "Information gain",
+    "option_d": "Variance reduction",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Support Vector Machines aim to:",
+    "option_a": "Maximize the margin between classes",
+    "option_b": "Minimize the margin",
+    "option_c": "Find a line that separates data",
+    "option_d": "Cluster data",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In SVM, the kernel trick is used to:",
+    "option_a": "Map data to higher dimensions",
+    "option_b": "Reduce dimensions",
+    "option_c": "Speed up computation",
+    "option_d": "Handle missing data",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is an example of a lazy learner?",
+    "option_a": "k-NN",
+    "option_b": "Decision tree",
+    "option_c": "SVM",
+    "option_d": "Neural network",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Naive Bayes classifier assumes:",
+    "option_a": "Features are independent given the class",
+    "option_b": "Features are correlated",
+    "option_c": "Features are normally distributed",
+    "option_d": "Features are categorical",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In linear regression, the assumption of homoscedasticity means:",
+    "option_a": "Constant variance of errors",
+    "option_b": "Normal distribution of errors",
+    "option_c": "Independence of errors",
+    "option_d": "Linear relationship",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Ridge regression adds a penalty term proportional to:",
+    "option_a": "L2 norm of coefficients",
+    "option_b": "L1 norm of coefficients",
+    "option_c": "L0 norm",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Lasso regression can lead to:",
+    "option_a": "Sparse models (some coefficients zero)",
+    "option_b": "All coefficients non-zero",
+    "option_c": "Coefficients shrunk but not zero",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a metric for regression?",
+    "option_a": "R-squared",
+    "option_b": "Accuracy",
+    "option_c": "Precision",
+    "option_d": "F1-score",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The bias-variance tradeoff refers to:",
+    "option_a": "The tradeoff between underfitting and overfitting",
+    "option_b": "The tradeoff between training and test error",
+    "option_c": "The tradeoff between model complexity and interpretability",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "A model with high bias is likely to:",
+    "option_a": "Underfit the data",
+    "option_b": "Overfit the data",
+    "option_c": "Perform well on test data",
+    "option_d": "Have high variance",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "A model with high variance is likely to:",
+    "option_a": "Overfit",
+    "option_b": "Underfit",
+    "option_c": "Have low complexity",
+    "option_d": "Be robust",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In k-NN, the choice of k affects:",
+    "option_a": "Both A and B",
+    "option_b": "Model complexity",
+    "option_c": "Bias and variance",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a disadvantage of decision trees?",
+    "option_a": "They are prone to overfitting",
+    "option_b": "They are hard to interpret",
+    "option_c": "They cannot handle categorical data",
+    "option_d": "They require feature scaling",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In logistic regression, the decision boundary is:",
+    "option_a": "Linear",
+    "option_b": "Non-linear",
+    "option_c": "Quadratic",
+    "option_d": "Depends on kernel",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the purpose of regularization?",
+    "option_a": "To prevent overfitting",
+    "option_b": "To increase model complexity",
+    "option_c": "To speed up training",
+    "option_d": "To handle missing values",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In SVM, the parameter C controls:",
+    "option_a": "The tradeoff between margin and misclassification",
+    "option_b": "The kernel type",
+    "option_c": "The number of support vectors",
+    "option_d": "The learning rate",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following algorithms is based on Bayes' theorem?",
+    "option_a": "Naive Bayes",
+    "option_b": "Decision tree",
+    "option_c": "SVM",
+    "option_d": "k-NN",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In linear regression, the method of ordinary least squares minimizes:",
+    "option_a": "Sum of squared residuals",
+    "option_b": "Sum of absolute residuals",
+    "option_c": "Sum of residuals",
+    "option_d": "Maximum residual",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a classification metric?",
+    "option_a": "AUC-ROC",
+    "option_b": "Mean absolute error",
+    "option_c": "R-squared",
+    "option_d": "Mean squared error",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The ROC curve plots:",
+    "option_a": "True positive rate vs false positive rate",
+    "option_b": "Precision vs recall",
+    "option_c": "Sensitivity vs specificity",
+    "option_d": "Accuracy vs threshold",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "AUC stands for:",
+    "option_a": "Area Under the Curve",
+    "option_b": "Average Under Curve",
+    "option_c": "Area Under Classification",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In a confusion matrix, true negatives are:",
+    "option_a": "Correctly predicted negative class",
+    "option_b": "Incorrectly predicted negative class",
+    "option_c": "Correctly predicted positive class",
+    "option_d": "Incorrectly predicted positive class",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Precision is defined as:",
+    "option_a": "TP / (TP + FP)",
+    "option_b": "TP / (TP + FN)",
+    "option_c": "TN / (TN + FP)",
+    "option_d": "(TP + TN) / total",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Recall is defined as:",
+    "option_a": "TP / (TP + FN)",
+    "option_b": "TP / (TP + FP)",
+    "option_c": "TN / (TN + FP)",
+    "option_d": "(TP + TN) / total",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "F1-score is the harmonic mean of:",
+    "option_a": "Precision and recall",
+    "option_b": "Accuracy and precision",
+    "option_c": "Sensitivity and specificity",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a disadvantage of linear regression?",
+    "option_a": "All of the above",
+    "option_b": "It assumes linear relationship",
+    "option_c": "It is sensitive to outliers",
+    "option_d": "It can overfit with many features",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In decision trees, pruning is used to:",
+    "option_a": "Reduce overfitting",
+    "option_b": "Increase tree size",
+    "option_c": "Improve accuracy on training data",
+    "option_d": "Handle missing values",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a parametric model?",
+    "option_a": "Linear regression",
+    "option_b": "k-NN",
+    "option_c": "Decision tree",
+    "option_d": "SVM with RBF kernel",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In SVM, the Hinge loss is used for:",
+    "option_a": "Classification",
+    "option_b": "Regression",
+    "option_c": "Clustering",
+    "option_d": "Dimensionality reduction",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Ensemble learning combines:",
+    "option_a": "Multiple models to improve performance",
+    "option_b": "Multiple datasets",
+    "option_c": "Multiple features",
+    "option_d": "Multiple algorithms in sequence",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Bagging stands for:",
+    "option_a": "Both A and C",
+    "option_b": "Bootstrap Aggregating",
+    "option_c": "Bagging Aggregating",
+    "option_d": "Bootstrap Aggregation",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is an example of bagging?",
+    "option_a": "Random Forest",
+    "option_b": "AdaBoost",
+    "option_c": "Gradient Boosting",
+    "option_d": "XGBoost",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Boosting algorithms work by:",
+    "option_a": "Building models sequentially, each correcting previous errors",
+    "option_b": "Building models in parallel and averaging",
+    "option_c": "Randomly selecting subsets of data",
+    "option_d": "Using different features for each model",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a boosting algorithm?",
+    "option_a": "All of the above",
+    "option_b": "AdaBoost",
+    "option_c": "Gradient Boosting",
+    "option_d": "XGBoost",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Random Forest is an ensemble of:",
+    "option_a": "Decision trees",
+    "option_b": "SVMs",
+    "option_c": "Neural networks",
+    "option_d": "Linear models",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In Random Forest, each tree is trained on:",
+    "option_a": "Both A and C",
+    "option_b": "A bootstrap sample of the data",
+    "option_c": "The entire dataset",
+    "option_d": "A random subset of features",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The main difference between bagging and boosting is:",
+    "option_a": "Both A and B",
+    "option_b": "Bagging uses parallel training, boosting sequential",
+    "option_c": "Bagging reduces variance, boosting reduces bias",
+    "option_d": "Bagging uses weighted data, boosting does not",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Stacking involves:",
+    "option_a": "Combining predictions of multiple models using a meta-learner",
+    "option_b": "Averaging predictions",
+    "option_c": "Voting",
+    "option_d": "Sequential training",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In AdaBoost, sample weights are updated to:",
+    "option_a": "Give more weight to misclassified samples",
+    "option_b": "Give less weight to misclassified samples",
+    "option_c": "Randomly assign weights",
+    "option_d": "Keep weights constant",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a advantage of ensemble methods?",
+    "option_a": "All of the above",
+    "option_b": "Improved accuracy",
+    "option_c": "Reduced overfitting",
+    "option_d": "Robustness",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Gradient Boosting builds trees that:",
+    "option_a": "Predict the residuals of previous trees",
+    "option_b": "Predict the target directly",
+    "option_c": "Predict the class labels",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "XGBoost is an optimized version of:",
+    "option_a": "Gradient Boosting",
+    "option_b": "Random Forest",
+    "option_c": "AdaBoost",
+    "option_d": "Bagging",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In Random Forest, the out-of-bag (OOB) error is:",
+    "option_a": "An estimate of the test error using samples not in bootstrap",
+    "option_b": "The training error",
+    "option_c": "The validation error",
+    "option_d": "The cross-validation error",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which ensemble method is less prone to overfitting?",
+    "option_a": "Random Forest",
+    "option_b": "AdaBoost",
+    "option_c": "Gradient Boosting",
+    "option_d": "All are equally prone",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Boosting can lead to overfitting if:",
+    "option_a": "Both A and B",
+    "option_b": "The number of trees is too high",
+    "option_c": "The learning rate is too high",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In bagging, the base learners are typically:",
+    "option_a": "High variance models",
+    "option_b": "Low bias models",
+    "option_c": "High bias models",
+    "option_d": "Any model",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a common meta-learner in stacking?",
+    "option_a": "All of the above",
+    "option_b": "Linear regression",
+    "option_c": "Logistic regression",
+    "option_d": "Decision tree",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The concept of \"voting\" in ensemble learning can be:",
+    "option_a": "Both A and B",
+    "option_b": "Hard voting (majority)",
+    "option_c": "Soft voting (averaged probabilities)",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In AdaBoost, the base learners are usually:",
+    "option_a": "Weak learners (e.g., decision stumps)",
+    "option_b": "Strong learners",
+    "option_c": "Any model",
+    "option_d": "Neural networks",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Gradient Boosting Machine (GBM) uses:",
+    "option_a": "Gradient descent to minimize loss",
+    "option_b": "Random sampling",
+    "option_c": "Feature bagging",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which ensemble method uses both bagging and feature randomness?",
+    "option_a": "Random Forest",
+    "option_b": "AdaBoost",
+    "option_c": "Gradient Boosting",
+    "option_d": "XGBoost",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The learning rate in boosting controls:",
+    "option_a": "The contribution of each tree",
+    "option_b": "The number of trees",
+    "option_c": "The depth of trees",
+    "option_d": "The sampling rate",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In stacking, the base models are typically:",
+    "option_a": "Diverse",
+    "option_b": "Similar",
+    "option_c": "The same",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a drawback of ensemble methods?",
+    "option_a": "Both A and B",
+    "option_b": "Increased computational cost",
+    "option_c": "Reduced interpretability",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a clustering algorithm?",
+    "option_a": "All of the above",
+    "option_b": "k-Means",
+    "option_c": "DBSCAN",
+    "option_d": "Hierarchical clustering",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In k-Means, the number of clusters is:",
+    "option_a": "Specified a priori",
+    "option_b": "Automatically determined",
+    "option_c": "Based on density",
+    "option_d": "Based on distance",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The elbow method is used to:",
+    "option_a": "Determine the optimal number of clusters in k-Means",
+    "option_b": "Evaluate cluster quality",
+    "option_c": "Find outliers",
+    "option_d": "Reduce dimensionality",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "DBSCAN clusters points based on:",
+    "option_a": "Density",
+    "option_b": "Distance to centroids",
+    "option_c": "Hierarchical tree",
+    "option_d": "Gaussian mixtures",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In hierarchical clustering, a dendrogram is used to:",
+    "option_a": "Visualize the hierarchy of clusters",
+    "option_b": "Determine cluster centroids",
+    "option_c": "Compute distances",
+    "option_d": "Evaluate model",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a dimensionality reduction technique?",
+    "option_a": "All of the above",
+    "option_b": "PCA",
+    "option_c": "t-SNE",
+    "option_d": "LDA",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Principal Component Analysis (PCA) aims to:",
+    "option_a": "Both A and C",
+    "option_b": "Find directions of maximum variance",
+    "option_c": "Find directions that best separate classes",
+    "option_d": "Minimize reconstruction error",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In PCA, the principal components are:",
+    "option_a": "Orthogonal",
+    "option_b": "Correlated",
+    "option_c": "Independent",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a clustering evaluation metric?",
+    "option_a": "All of the above",
+    "option_b": "Silhouette score",
+    "option_c": "Davies-Bouldin index",
+    "option_d": "Inertia",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The silhouette score ranges between:",
+    "option_a": "-1 and 1",
+    "option_b": "0 and 1",
+    "option_c": "-∞ and ∞",
+    "option_d": "0 and ∞",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In k-Means, the algorithm converges when:",
+    "option_a": "Both A and B",
+    "option_b": "Centroids no longer change",
+    "option_c": "Maximum iterations reached",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a disadvantage of k-Means?",
+    "option_a": "All of the above",
+    "option_b": "Sensitive to initial centroids",
+    "option_c": "Assumes spherical clusters",
+    "option_d": "Requires specifying k",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "DBSCAN can find clusters of:",
+    "option_a": "Arbitrary shape",
+    "option_b": "Spherical shape only",
+    "option_c": "Convex shape only",
+    "option_d": "Fixed size",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In DBSCAN, the parameter eps (epsilon) defines:",
+    "option_a": "The maximum distance between two points to be considered neighbors",
+    "option_b": "The minimum number of points to form a cluster",
+    "option_c": "The number of clusters",
+    "option_d": "The density",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Hierarchical clustering can be:",
+    "option_a": "Both A and B",
+    "option_b": "Agglomerative (bottom-up)",
+    "option_c": "Divisive (top-down)",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which linkage method in hierarchical clustering considers the minimum distance between points in two clusters?",
+    "option_a": "Single linkage",
+    "option_b": "Complete linkage",
+    "option_c": "Average linkage",
+    "option_d": "Ward's method",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In PCA, the eigenvalues represent:",
+    "option_a": "The variance explained by each principal component",
+    "option_b": "The correlation",
+    "option_c": "The eigenvectors",
+    "option_d": "The mean",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "t-SNE is primarily used for:",
+    "option_a": "Visualization of high-dimensional data",
+    "option_b": "Clustering",
+    "option_c": "Classification",
+    "option_d": "Regression",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a generative model?",
+    "option_a": "Gaussian Mixture Model",
+    "option_b": "k-Means",
+    "option_c": "DBSCAN",
+    "option_d": "PCA",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In Gaussian Mixture Models, the EM algorithm is used to:",
+    "option_a": "Both A and B",
+    "option_b": "Estimate parameters",
+    "option_c": "Find clusters",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The AIC and BIC criteria are used for:",
+    "option_a": "Model selection in clustering",
+    "option_b": "Evaluating classification",
+    "option_c": "Feature selection",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is an anomaly detection technique?",
+    "option_a": "All of the above",
+    "option_b": "One-class SVM",
+    "option_c": "Isolation Forest",
+    "option_d": "DBSCAN (for outliers)",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In association rule mining, the Apriori algorithm is used to find:",
+    "option_a": "Frequent itemsets",
+    "option_b": "Clusters",
+    "option_c": "Principal components",
+    "option_d": "Decision rules",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Support and confidence are measures in:",
+    "option_a": "Association rule mining",
+    "option_b": "Clustering",
+    "option_c": "Classification",
+    "option_d": "Regression",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Lift is a measure that indicates:",
+    "option_a": "The strength of an association rule",
+    "option_b": "The purity of a cluster",
+    "option_c": "The variance explained",
+    "option_d": "The accuracy",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In k-Means, the within-cluster sum of squares (WCSS) is:",
+    "option_a": "Minimized",
+    "option_b": "Maximized",
+    "option_c": "Constant",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which clustering algorithm does not require the number of clusters to be specified?",
+    "option_a": "DBSCAN",
+    "option_b": "k-Means",
+    "option_c": "Gaussian Mixture",
+    "option_d": "Spectral clustering",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The curse of dimensionality refers to:",
+    "option_a": "The difficulty of clustering in high dimensions",
+    "option_b": "The increase in data size",
+    "option_c": "The need for more features",
+    "option_d": "The overfitting problem",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In PCA, the number of principal components is at most:",
+    "option_a": "The number of features",
+    "option_b": "The number of samples",
+    "option_c": "The number of classes",
+    "option_d": "The number of dimensions",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a method for determining the number of clusters?",
+    "option_a": "All of the above",
+    "option_b": "Elbow method",
+    "option_c": "Silhouette analysis",
+    "option_d": "Gap statistic",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Cross-validation is used to:",
+    "option_a": "Estimate model performance on unseen data",
+    "option_b": "Train the model",
+    "option_c": "Test the model on training data",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In k-fold cross-validation, the data is split into:",
+    "option_a": "k folds, one for testing and rest for training",
+    "option_b": "k folds, all for training",
+    "option_c": "k folds, all for testing",
+    "option_d": "2 folds",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Leave-one-out cross-validation is a special case of:",
+    "option_a": "k-fold with k = number of samples",
+    "option_b": "k-fold with k = 1",
+    "option_c": "k-fold with k = 10",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a metric for binary classification?",
+    "option_a": "All of the above",
+    "option_b": "Accuracy",
+    "option_c": "Precision",
+    "option_d": "Recall",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Accuracy is defined as:",
+    "option_a": "(TP + TN) / total",
+    "option_b": "TP / (TP + FP)",
+    "option_c": "TP / (TP + FN)",
+    "option_d": "(TP + TN) / (TP + TN + FP + FN)",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In a highly imbalanced dataset, which metric is more appropriate?",
+    "option_a": "Both B and C",
+    "option_b": "Accuracy",
+    "option_c": "Precision and recall",
+    "option_d": "F1-score",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The confusion matrix is used to:",
+    "option_a": "Summarize classification performance",
+    "option_b": "Visualize regression errors",
+    "option_c": "Show feature importance",
+    "option_d": "Show cluster assignments",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The ROC curve is a plot of:",
+    "option_a": "Both A and C",
+    "option_b": "TPR vs FPR",
+    "option_c": "Precision vs Recall",
+    "option_d": "Sensitivity vs Specificity",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "AUC-ROC measures:",
+    "option_a": "The ability of the model to distinguish between classes",
+    "option_b": "The accuracy",
+    "option_c": "The precision",
+    "option_d": "The recall",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In regression, the mean squared error (MSE) has the same units as:",
+    "option_a": "The squared target variable",
+    "option_b": "The target variable",
+    "option_c": "The error",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Root mean squared error (RMSE) is:",
+    "option_a": "Square root of MSE",
+    "option_b": "Mean of absolute errors",
+    "option_c": "Square of MSE",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Mean absolute error (MAE) is:",
+    "option_a": "Less sensitive to outliers than MSE",
+    "option_b": "More sensitive to outliers than MSE",
+    "option_c": "Same as MSE",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "R-squared (coefficient of determination) indicates:",
+    "option_a": "The proportion of variance explained by the model",
+    "option_b": "The correlation between predicted and actual",
+    "option_c": "The mean error",
+    "option_d": "Both A and B",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Adjusted R-squared is used to:",
+    "option_a": "Penalize adding irrelevant features",
+    "option_b": "Adjust for sample size",
+    "option_c": "Both A and B",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Overfitting occurs when:",
+    "option_a": "Model performs well on training but poorly on test",
+    "option_b": "Model performs poorly on both",
+    "option_c": "Model performs well on test but poorly on training",
+    "option_d": "Model is too simple",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Underfitting occurs when:",
+    "option_a": "Model is too simple to capture patterns",
+    "option_b": "Model is too complex",
+    "option_c": "Model has high variance",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The bias-variance decomposition of error helps understand:",
+    "option_a": "Both A and B",
+    "option_b": "The tradeoff between model complexity and error",
+    "option_c": "The effect of regularization",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In cross-validation, if the training error is much lower than validation error, it indicates:",
+    "option_a": "Overfitting",
+    "option_b": "Underfitting",
+    "option_c": "Good fit",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Stratified k-fold cross-validation ensures:",
+    "option_a": "Each fold has the same proportion of classes",
+    "option_b": "Each fold has the same number of samples",
+    "option_c": "Random splits",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The learning curve plots:",
+    "option_a": "Model performance vs training set size",
+    "option_b": "Model performance vs number of iterations",
+    "option_c": "Error vs model complexity",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a method for hyperparameter tuning?",
+    "option_a": "All of the above",
+    "option_b": "Grid search",
+    "option_c": "Random search",
+    "option_d": "Bayesian optimization",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In grid search, we:",
+    "option_a": "Exhaustively search over a specified parameter grid",
+    "option_b": "Randomly sample parameters",
+    "option_c": "Use gradient descent",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The validation curve plots:",
+    "option_a": "Both A and B",
+    "option_b": "Model performance vs a hyperparameter",
+    "option_c": "Training and validation scores",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a metric for multi-class classification?",
+    "option_a": "All of the above",
+    "option_b": "Micro-averaged F1",
+    "option_c": "Macro-averaged F1",
+    "option_d": "Weighted F1",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The log loss (cross-entropy) is used for:",
+    "option_a": "Classification models that output probabilities",
+    "option_b": "Regression models",
+    "option_c": "Clustering",
+    "option_d": "Dimensionality reduction",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Feature engineering is the process of:",
+    "option_a": "All of the above",
+    "option_b": "Creating new features from raw data",
+    "option_c": "Selecting relevant features",
+    "option_d": "Transforming features",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a feature selection method?",
+    "option_a": "All of the above",
+    "option_b": "Filter methods",
+    "option_c": "Wrapper methods",
+    "option_d": "Embedded methods",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Filter methods for feature selection use:",
+    "option_a": "Statistical measures (e.g., correlation, chi-square)",
+    "option_b": "Model performance",
+    "option_c": "Regularization",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Wrapper methods use:",
+    "option_a": "A predictive model to evaluate feature subsets",
+    "option_b": "Statistical tests",
+    "option_c": "Regularization",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Embedded methods combine feature selection with:",
+    "option_a": "Model training (e.g., Lasso)",
+    "option_b": "Data preprocessing",
+    "option_c": "Post-processing",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is an example of a filter method?",
+    "option_a": "Chi-square test",
+    "option_b": "Recursive feature elimination",
+    "option_c": "Lasso regression",
+    "option_d": "Decision tree feature importance",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Recursive Feature Elimination (RFE) is a:",
+    "option_a": "Wrapper method",
+    "option_b": "Filter method",
+    "option_c": "Embedded method",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Lasso regression performs feature selection because it:",
+    "option_a": "Can shrink some coefficients to zero",
+    "option_b": "Uses correlation",
+    "option_c": "Uses mutual information",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Mutual information measures:",
+    "option_a": "The dependency between two variables",
+    "option_b": "The correlation",
+    "option_c": "The variance",
+    "option_d": "The mean",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Principal Component Analysis (PCA) is a:",
+    "option_a": "Feature extraction method",
+    "option_b": "Feature selection method",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a feature extraction technique?",
+    "option_a": "All of the above",
+    "option_b": "PCA",
+    "option_c": "t-SNE",
+    "option_d": "Autoencoders",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Feature scaling is important for algorithms that:",
+    "option_a": "All of the above",
+    "option_b": "Use distance measures",
+    "option_c": "Use gradient descent",
+    "option_d": "Use regularization",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "One-hot encoding creates:",
+    "option_a": "Binary columns for each category",
+    "option_b": "A single column with integers",
+    "option_c": "A single column with floats",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Label encoding assigns:",
+    "option_a": "Integer labels to categories",
+    "option_b": "Binary labels",
+    "option_c": "One-hot vectors",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a disadvantage of one-hot encoding?",
+    "option_a": "Both A and B",
+    "option_b": "It increases dimensionality",
+    "option_c": "It loses ordinal information",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Feature binning is used to:",
+    "option_a": "All of the above",
+    "option_b": "Convert continuous features to categorical",
+    "option_c": "Reduce noise",
+    "option_d": "Handle outliers",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Polynomial features are created by:",
+    "option_a": "Taking powers and interactions of existing features",
+    "option_b": "Adding noise",
+    "option_c": "Scaling",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a method for handling high cardinality categorical features?",
+    "option_a": "All of the above",
+    "option_b": "Target encoding",
+    "option_c": "Count encoding",
+    "option_d": "Hash encoding",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The variance inflation factor (VIF) is used to detect:",
+    "option_a": "Multicollinearity",
+    "option_b": "Outliers",
+    "option_c": "Skewness",
+    "option_d": "Missing values",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In feature selection, the chi-square test is used for:",
+    "option_a": "Categorical features and categorical target",
+    "option_b": "Continuous features and continuous target",
+    "option_c": "Continuous features and categorical target",
+    "option_d": "Any combination",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "ANOVA F-test is used for:",
+    "option_a": "Continuous features and categorical target",
+    "option_b": "Categorical features and continuous target",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a wrapper method that uses a greedy search?",
+    "option_a": "Both A and B",
+    "option_b": "Forward selection",
+    "option_c": "Backward elimination",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Embedded methods like Lasso and Ridge are:",
+    "option_a": "Regularized linear models",
+    "option_b": "Tree-based models",
+    "option_c": "Neural networks",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Feature importance from tree-based models is an example of:",
+    "option_a": "Embedded method",
+    "option_b": "Filter method",
+    "option_c": "Wrapper method",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The curse of dimensionality can be mitigated by:",
+    "option_a": "Both",
+    "option_b": "Feature selection",
+    "option_c": "Feature extraction",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "A neural network with no hidden layers is equivalent to:",
+    "option_a": "Logistic regression",
+    "option_b": "Linear regression",
+    "option_c": "SVM",
+    "option_d": "k-NN",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which activation function is commonly used in hidden layers to introduce non-linearity?",
+    "option_a": "All of the above",
+    "option_b": "ReLU",
+    "option_c": "Sigmoid",
+    "option_d": "Tanh",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The vanishing gradient problem is often associated with:",
+    "option_a": "Sigmoid and tanh activation functions",
+    "option_b": "ReLU",
+    "option_c": "Linear activation",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "ReLU activation function is defined as:",
+    "option_a": "f(x) = max(0, x)",
+    "option_b": "f(x) = 1/(1+e^{-x})",
+    "option_c": "f(x) = tanh(x)",
+    "option_d": "f(x) = e^x",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The output layer for multi-class classification typically uses:",
+    "option_a": "Softmax activation",
+    "option_b": "Sigmoid",
+    "option_c": "Linear",
+    "option_d": "ReLU",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The loss function for binary classification is often:",
+    "option_a": "Binary cross-entropy",
+    "option_b": "Mean squared error",
+    "option_c": "Categorical cross-entropy",
+    "option_d": "Hinge loss",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Backpropagation is used to:",
+    "option_a": "Both A and B",
+    "option_b": "Compute gradients of loss with respect to weights",
+    "option_c": "Update weights",
+    "option_d": "Forward propagate inputs",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Stochastic gradient descent (SGD) updates weights using:",
+    "option_a": "One sample at a time",
+    "option_b": "All samples at once",
+    "option_c": "A batch of samples",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The learning rate in gradient descent controls:",
+    "option_a": "The step size",
+    "option_b": "The number of iterations",
+    "option_c": "The batch size",
+    "option_d": "The regularization",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which optimizer adapts the learning rate for each parameter?",
+    "option_a": "Adam",
+    "option_b": "SGD",
+    "option_c": "Momentum",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Dropout is a regularization technique that:",
+    "option_a": "Randomly drops neurons during training",
+    "option_b": "Adds penalty to weights",
+    "option_c": "Reduces learning rate",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Batch normalization normalizes:",
+    "option_a": "The inputs to each layer",
+    "option_b": "The weights",
+    "option_c": "The outputs",
+    "option_d": "The gradients",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a common weight initialization method?",
+    "option_a": "All of the above",
+    "option_b": "Xavier initialization",
+    "option_c": "He initialization",
+    "option_d": "Random uniform",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The number of parameters in a fully connected layer with input size 100 and output size 50 (including bias) is:",
+    "option_a": "100*50 + 50 = 5050",
+    "option_b": "100*50 = 5000",
+    "option_c": "100+50 = 150",
+    "option_d": "100*50 + 100 = 5100",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which activation function has a range of (-1, 1)?",
+    "option_a": "Tanh",
+    "option_b": "Sigmoid",
+    "option_c": "ReLU",
+    "option_d": "Leaky ReLU",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The derivative of ReLU for x>0 is:",
+    "option_a": "1",
+    "option_b": "0",
+    "option_c": "x",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Overfitting in neural networks can be reduced by:",
+    "option_a": "All of the above",
+    "option_b": "Dropout",
+    "option_c": "L2 regularization",
+    "option_d": "Early stopping",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Early stopping halts training when:",
+    "option_a": "Validation error starts increasing",
+    "option_b": "Training error becomes zero",
+    "option_c": "Loss is minimized",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which loss function is used for regression in neural networks?",
+    "option_a": "Mean squared error",
+    "option_b": "Cross-entropy",
+    "option_c": "Hinge loss",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The universal approximation theorem states that:",
+    "option_a": "A feedforward network with one hidden layer can approximate any continuous function",
+    "option_b": "Neural networks can learn any function",
+    "option_c": "Deep networks are always better",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In a neural network, the forward pass computes:",
+    "option_a": "Both A and C",
+    "option_b": "The output given input",
+    "option_c": "The gradients",
+    "option_d": "The loss",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a variant of gradient descent?",
+    "option_a": "All of the above",
+    "option_b": "Momentum",
+    "option_c": "AdaGrad",
+    "option_d": "RMSProp",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The vanishing gradient problem is more severe in:",
+    "option_a": "Deep networks with sigmoid",
+    "option_b": "Shallow networks",
+    "option_c": "Networks with ReLU",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Leaky ReLU addresses the issue of:",
+    "option_a": "Dying ReLU (neurons that never activate)",
+    "option_b": "Vanishing gradient",
+    "option_c": "Exploding gradient",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The softmax function outputs:",
+    "option_a": "A probability distribution summing to 1",
+    "option_b": "Values between 0 and 1 but not summing to 1",
+    "option_c": "Values that can be negative",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In backpropagation, the chain rule is used to:",
+    "option_a": "Compute gradients layer by layer",
+    "option_b": "Update weights",
+    "option_c": "Initialize weights",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a hyperparameter in neural networks?",
+    "option_a": "All of the above",
+    "option_b": "Number of layers",
+    "option_c": "Number of neurons",
+    "option_d": "Learning rate",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The capacity of a neural network refers to:",
+    "option_a": "Its ability to fit complex functions",
+    "option_b": "The number of parameters",
+    "option_c": "The depth",
+    "option_d": "All of the above",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Gradient clipping is used to:",
+    "option_a": "Prevent exploding gradients",
+    "option_b": "Prevent vanishing gradients",
+    "option_c": "Speed up training",
+    "option_d": "Regularize",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a disadvantage of using a high learning rate?",
+    "option_a": "May cause divergence",
+    "option_b": "Slow convergence",
+    "option_c": "Gets stuck in local minima",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Convolutional Neural Networks (CNNs) are primarily used for:",
+    "option_a": "Image data",
+    "option_b": "Sequential data",
+    "option_c": "Tabular data",
+    "option_d": "Text data",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In a CNN, the convolution operation involves:",
+    "option_a": "Sliding a filter over the input",
+    "option_b": "Pooling",
+    "option_c": "Fully connected layers",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Pooling layers in CNNs are used for:",
+    "option_a": "Downsampling",
+    "option_b": "Increasing dimensions",
+    "option_c": "Adding non-linearity",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Max pooling selects:",
+    "option_a": "The maximum value in each window",
+    "option_b": "The average value",
+    "option_c": "The sum",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a popular CNN architecture?",
+    "option_a": "All of the above",
+    "option_b": "AlexNet",
+    "option_c": "VGGNet",
+    "option_d": "ResNet",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Recurrent Neural Networks (RNNs) are designed for:",
+    "option_a": "Sequential data",
+    "option_b": "Image data",
+    "option_c": "Tabular data",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The vanishing gradient problem in RNNs is addressed by:",
+    "option_a": "LSTM and GRU",
+    "option_b": "ReLU activation",
+    "option_c": "Dropout",
+    "option_d": "Batch normalization",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "LSTM stands for:",
+    "option_a": "Long Short-Term Memory",
+    "option_b": "Long Short-Term Model",
+    "option_c": "Large Short-Term Memory",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In LSTM, the forget gate decides:",
+    "option_a": "What information to discard from the cell state",
+    "option_b": "What information to store",
+    "option_c": "What to output",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "GRU is a simplified version of:",
+    "option_a": "LSTM",
+    "option_b": "RNN",
+    "option_c": "CNN",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a generative model?",
+    "option_a": "Both A and B",
+    "option_b": "GAN",
+    "option_c": "VAE",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "GANs consist of:",
+    "option_a": "A generator and a discriminator",
+    "option_b": "An encoder and a decoder",
+    "option_c": "A classifier and a regressor",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In a GAN, the generator tries to:",
+    "option_a": "Produce realistic samples to fool the discriminator",
+    "option_b": "Distinguish real from fake",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Autoencoders are used for:",
+    "option_a": "All of the above",
+    "option_b": "Dimensionality reduction",
+    "option_c": "Denoising",
+    "option_d": "Anomaly detection",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In an autoencoder, the bottleneck layer represents:",
+    "option_a": "A compressed representation",
+    "option_b": "The input",
+    "option_c": "The output",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Transfer learning involves:",
+    "option_a": "Using a pre-trained model on a new task",
+    "option_b": "Training from scratch",
+    "option_c": "Combining multiple models",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Fine-tuning in transfer learning means:",
+    "option_a": "Adjusting the weights of a pre-trained model on new data",
+    "option_b": "Training only the last layer",
+    "option_c": "Training all layers from scratch",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a popular pre-trained model for image classification?",
+    "option_a": "All of the above",
+    "option_b": "ResNet",
+    "option_c": "VGG",
+    "option_d": "Inception",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Attention mechanism in deep learning allows the model to:",
+    "option_a": "Both A and B",
+    "option_b": "Focus on relevant parts of the input",
+    "option_c": "Ignore irrelevant parts",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The Transformer model is based on:",
+    "option_a": "Self-attention",
+    "option_b": "Convolution",
+    "option_c": "Recurrence",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "BERT is a transformer-based model for:",
+    "option_a": "Natural language processing",
+    "option_b": "Computer vision",
+    "option_c": "Speech recognition",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a challenge in training deep networks?",
+    "option_a": "All of the above",
+    "option_b": "Overfitting",
+    "option_c": "Vanishing gradients",
+    "option_d": "Computational cost",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Residual connections (ResNet) help to:",
+    "option_a": "Both A and B",
+    "option_b": "Alleviate vanishing gradients",
+    "option_c": "Increase depth",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Inception networks use:",
+    "option_a": "Multiple filter sizes in parallel",
+    "option_b": "Only 3x3 filters",
+    "option_c": "Only 1x1 filters",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The depthwise separable convolution is used in:",
+    "option_a": "MobileNet",
+    "option_b": "ResNet",
+    "option_c": "VGG",
+    "option_d": "AlexNet",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a regularization technique specific to deep learning?",
+    "option_a": "All of the above",
+    "option_b": "Dropout",
+    "option_c": "Batch normalization",
+    "option_d": "Data augmentation",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Data augmentation in computer vision includes:",
+    "option_a": "All of the above",
+    "option_b": "Rotation, flipping, cropping",
+    "option_c": "Adding noise",
+    "option_d": "Color jittering",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In RNNs, the term \"unrolling\" refers to:",
+    "option_a": "Representing the network for each time step",
+    "option_b": "Training with backpropagation",
+    "option_c": "Using multiple layers",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The gradient clipping technique is especially important in:",
+    "option_a": "RNNs to prevent exploding gradients",
+    "option_b": "CNNs to prevent overfitting",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a variant of RNN?",
+    "option_a": "All of the above",
+    "option_b": "Bidirectional RNN",
+    "option_c": "LSTM",
+    "option_d": "GRU",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Tokenization in NLP refers to:",
+    "option_a": "Splitting text into words or subwords",
+    "option_b": "Removing stop words",
+    "option_c": "Stemming",
+    "option_d": "Lemmatization",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Stop words are:",
+    "option_a": "Common words often removed (e.g., \"the\", \"is\")",
+    "option_b": "Words that appear rarely",
+    "option_c": "Words that are important",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Stemming reduces words to their root form by:",
+    "option_a": "Removing suffixes (often crude)",
+    "option_b": "Using a dictionary",
+    "option_c": "Considering context",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Lemmatization is more sophisticated than stemming because it:",
+    "option_a": "Uses vocabulary and morphological analysis",
+    "option_b": "Only removes prefixes",
+    "option_c": "Is faster",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Bag-of-Words (BoW) represents text as:",
+    "option_a": "A vector of word counts",
+    "option_b": "A sequence of words",
+    "option_c": "A matrix of word embeddings",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "TF-IDF stands for:",
+    "option_a": "Term Frequency-Inverse Document Frequency",
+    "option_b": "Text Frequency-Inverse Data Frequency",
+    "option_c": "Term Frequency-Inverse Data Frequency",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In TF-IDF, the IDF component:",
+    "option_a": "Reduces the weight of common words across documents",
+    "option_b": "Increases the weight of common words",
+    "option_c": "Is constant",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Word embeddings like Word2Vec represent words as:",
+    "option_a": "Dense vectors in a continuous space",
+    "option_b": "Sparse vectors",
+    "option_c": "One-hot vectors",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The CBOW model in Word2Vec predicts:",
+    "option_a": "A word from its context",
+    "option_b": "Context from a word",
+    "option_c": "Next word",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The Skip-gram model predicts:",
+    "option_a": "Context words from a target word",
+    "option_b": "Target word from context",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "GloVe is a word embedding method that uses:",
+    "option_a": "Global matrix factorization",
+    "option_b": "Local context windows",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a common task in NLP?",
+    "option_a": "All of the above",
+    "option_b": "Sentiment analysis",
+    "option_c": "Named entity recognition",
+    "option_d": "Machine translation",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Named Entity Recognition (NER) identifies:",
+    "option_a": "Entities like names, locations, organizations",
+    "option_b": "Parts of speech",
+    "option_c": "Sentiment",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Part-of-speech tagging assigns:",
+    "option_a": "Grammatical tags to words (noun, verb, etc.)",
+    "option_b": "Sentiment scores",
+    "option_c": "Named entities",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Recurrent Neural Networks are commonly used in NLP because they:",
+    "option_a": "Handle variable-length sequences",
+    "option_b": "Are fast",
+    "option_c": "Are interpretable",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The Transformer model introduced:",
+    "option_a": "Self-attention mechanism",
+    "option_b": "Convolutional layers",
+    "option_c": "Recurrent layers",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "BERT is a:",
+    "option_a": "Bidirectional encoder representation from transformers",
+    "option_b": "Generative model",
+    "option_c": "Sequence-to-sequence model",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "BERT is pre-trained using:",
+    "option_a": "Masked language modeling and next sentence prediction",
+    "option_b": "Language modeling",
+    "option_c": "Translation",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "GPT is a:",
+    "option_a": "Generative pre-trained transformer",
+    "option_b": "Discriminative model",
+    "option_c": "Autoencoder",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In NLP, perplexity is a metric for:",
+    "option_a": "Language models",
+    "option_b": "Classification",
+    "option_c": "Translation quality",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "BLEU score is used to evaluate:",
+    "option_a": "Machine translation",
+    "option_b": "Sentiment analysis",
+    "option_c": "Text classification",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a challenge in NLP?",
+    "option_a": "All of the above",
+    "option_b": "Ambiguity",
+    "option_c": "Context",
+    "option_d": "Sarcasm",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Latent Dirichlet Allocation (LDA) is a:",
+    "option_a": "Topic modeling technique",
+    "option_b": "Word embedding",
+    "option_c": "Classification algorithm",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In topic modeling, LDA assumes:",
+    "option_a": "Documents are mixtures of topics, topics are mixtures of words",
+    "option_b": "Topics are independent",
+    "option_c": "Words are independent",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a sequence-to-sequence model?",
+    "option_a": "Encoder-decoder with attention",
+    "option_b": "RNN",
+    "option_c": "CNN",
+    "option_d": "All",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "WordPiece and Byte-Pair Encoding are used for:",
+    "option_a": "Subword tokenization",
+    "option_b": "Stemming",
+    "option_c": "Lemmatization",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The attention mechanism in NLP allows the model to:",
+    "option_a": "Both",
+    "option_b": "Focus on different parts of the input when generating output",
+    "option_c": "Ignore irrelevant words",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In sentiment analysis, the output is typically:",
+    "option_a": "A class (positive, negative) or a score",
+    "option_b": "A sequence of words",
+    "option_c": "A vector",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a pre-trained model for NLP?",
+    "option_a": "All of the above",
+    "option_b": "BERT",
+    "option_c": "RoBERTa",
+    "option_d": "GPT",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The cosine similarity between word embeddings is used to:",
+    "option_a": "Measure semantic similarity",
+    "option_b": "Measure syntactic similarity",
+    "option_c": "Both",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In computer vision, an image is represented as:",
+    "option_a": "All of the above",
+    "option_b": "A matrix of pixel values",
+    "option_c": "A vector",
+    "option_d": "A tensor",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Convolutional layers in CNNs apply:",
+    "option_a": "Filters to extract features",
+    "option_b": "Fully connected operations",
+    "option_c": "Pooling",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The stride in convolution determines:",
+    "option_a": "The step size of the filter",
+    "option_b": "The size of the filter",
+    "option_c": "The padding",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Padding in convolution is used to:",
+    "option_a": "Preserve spatial dimensions",
+    "option_b": "Reduce dimensions",
+    "option_c": "Increase depth",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a common activation function in CNNs?",
+    "option_a": "ReLU",
+    "option_b": "Sigmoid",
+    "option_c": "Tanh",
+    "option_d": "All",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Pooling layers help achieve:",
+    "option_a": "Translation invariance",
+    "option_b": "Rotation invariance",
+    "option_c": "Scale invariance",
+    "option_d": "All",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In image classification, the final layer is often:",
+    "option_a": "Fully connected with softmax",
+    "option_b": "Convolutional",
+    "option_c": "Pooling",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which CNN architecture won the ImageNet 2012 competition?",
+    "option_a": "AlexNet",
+    "option_b": "VGG",
+    "option_c": "ResNet",
+    "option_d": "GoogLeNet",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "VGG networks are known for:",
+    "option_a": "Using small 3x3 filters",
+    "option_b": "Using large filters",
+    "option_c": "Using residual connections",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "ResNet introduced:",
+    "option_a": "Skip connections",
+    "option_b": "Inception modules",
+    "option_c": "Depthwise convolutions",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Inception modules (GoogLeNet) use:",
+    "option_a": "Multiple filter sizes in parallel",
+    "option_b": "Only 1x1 convolutions",
+    "option_c": "Only 3x3",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Object detection tasks involve:",
+    "option_a": "Identifying and localizing objects in an image",
+    "option_b": "Classifying the entire image",
+    "option_c": "Segmenting pixels",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is an object detection algorithm?",
+    "option_a": "All of the above",
+    "option_b": "YOLO",
+    "option_c": "Faster R-CNN",
+    "option_d": "SSD",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "YOLO (You Only Look Once) performs object detection by:",
+    "option_a": "Treating it as a regression problem",
+    "option_b": "Using sliding windows",
+    "option_c": "Using region proposals",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Image segmentation aims to:",
+    "option_a": "Assign a class to each pixel",
+    "option_b": "Draw bounding boxes",
+    "option_c": "Classify the image",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Semantic segmentation differs from instance segmentation in that:",
+    "option_a": "Semantic labels each pixel by class, instance distinguishes individual objects",
+    "option_b": "Instance labels each pixel by class only",
+    "option_c": "They are the same",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "U-Net is a popular architecture for:",
+    "option_a": "Image segmentation",
+    "option_b": "Image classification",
+    "option_c": "Object detection",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Data augmentation in computer vision includes:",
+    "option_a": "All of the above",
+    "option_b": "Random rotations",
+    "option_c": "Flipping",
+    "option_d": "Color jitter",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Transfer learning is common in computer vision because:",
+    "option_a": "Both A and B",
+    "option_b": "Pre-trained models on large datasets like ImageNet are available",
+    "option_c": "Training from scratch is expensive",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a technique for object localization?",
+    "option_a": "Bounding box regression",
+    "option_b": "Classification",
+    "option_c": "Segmentation",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The Intersection over Union (IoU) metric is used to:",
+    "option_a": "Both A and C",
+    "option_b": "Evaluate object detection",
+    "option_c": "Evaluate classification",
+    "option_d": "Evaluate segmentation",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In image processing, a kernel is:",
+    "option_a": "A small matrix used for convolution",
+    "option_b": "A type of activation",
+    "option_c": "A pooling operation",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Edge detection in images can be done using:",
+    "option_a": "Both",
+    "option_b": "Sobel filter",
+    "option_c": "Canny edge detector",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Histogram of Oriented Gradients (HOG) is a:",
+    "option_a": "Feature descriptor for object detection",
+    "option_b": "Deep learning model",
+    "option_c": "Clustering algorithm",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In CNNs, the receptive field refers to:",
+    "option_a": "The region of input that affects a particular neuron",
+    "option_b": "The size of the filter",
+    "option_c": "The output size",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Dilated convolution (atrous convolution) is used to:",
+    "option_a": "Increase receptive field without increasing parameters",
+    "option_b": "Reduce dimensions",
+    "option_c": "Speed up training",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Depthwise separable convolution separates:",
+    "option_a": "Spatial and depthwise convolutions",
+    "option_b": "Height and width",
+    "option_c": "Training and testing",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a lightweight CNN architecture?",
+    "option_a": "MobileNet",
+    "option_b": "ResNet",
+    "option_c": "VGG",
+    "option_d": "AlexNet",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In image classification, top-5 accuracy means:",
+    "option_a": "The correct class is among the top 5 predicted classes",
+    "option_b": "The top 5 predictions are correct",
+    "option_c": "Accuracy of top 5 models",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The task of image captioning combines:",
+    "option_a": "Computer vision and NLP",
+    "option_b": "Image classification and object detection",
+    "option_c": "Segmentation and translation",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Big Data is characterized by the 3 Vs: Volume, Velocity, and:",
+    "option_a": "Variety",
+    "option_b": "Veracity",
+    "option_c": "Value",
+    "option_d": "All are often included",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Hadoop is an open-source framework for:",
+    "option_a": "Distributed storage and processing",
+    "option_b": "Data visualization",
+    "option_c": "Machine learning",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "HDFS stands for:",
+    "option_a": "Hadoop Distributed File System",
+    "option_b": "High Definition File System",
+    "option_c": "Hadoop Data File System",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "MapReduce is a programming model for:",
+    "option_a": "Processing large datasets in parallel",
+    "option_b": "Data storage",
+    "option_c": "Data querying",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In MapReduce, the \"Map\" phase:",
+    "option_a": "Processes input key-value pairs to produce intermediate pairs",
+    "option_b": "Reduces intermediate pairs to final output",
+    "option_c": "Shuffles data",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The \"Reduce\" phase in MapReduce:",
+    "option_a": "Aggregates intermediate results",
+    "option_b": "Maps data",
+    "option_c": "Sorts data",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Apache Spark is a:",
+    "option_a": "Fast, in-memory data processing engine",
+    "option_b": "File system",
+    "option_c": "Database",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "RDD in Spark stands for:",
+    "option_a": "Resilient Distributed Dataset",
+    "option_b": "Relational Distributed Data",
+    "option_c": "Random Distributed Data",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a NoSQL database?",
+    "option_a": "All of the above",
+    "option_b": "MongoDB",
+    "option_c": "Cassandra",
+    "option_d": "HBase",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Data lakes are:",
+    "option_a": "Repositories that store raw data in native format",
+    "option_b": "Structured data warehouses",
+    "option_c": "Relational databases",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The difference between a data warehouse and a data lake is:",
+    "option_a": "Data warehouse stores processed structured data, data lake stores raw data",
+    "option_b": "Data lake is for big data, warehouse is for small",
+    "option_c": "They are the same",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a distributed computing framework?",
+    "option_a": "All of the above",
+    "option_b": "Hadoop",
+    "option_c": "Spark",
+    "option_d": "Flink",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In big data, the term \"sharding\" refers to:",
+    "option_a": "Splitting data across multiple servers",
+    "option_b": "Combining data",
+    "option_c": "Indexing",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "CAP theorem in distributed systems states that it's impossible to guarantee all three: Consistency, Availability, and:",
+    "option_a": "Partition tolerance",
+    "option_b": "Performance",
+    "option_c": "Scalability",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a key-value store?",
+    "option_a": "Redis",
+    "option_b": "MySQL",
+    "option_c": "PostgreSQL",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Hive is a data warehouse infrastructure built on top of:",
+    "option_a": "Hadoop",
+    "option_b": "Spark",
+    "option_c": "MySQL",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Pig is a platform for analyzing large datasets using:",
+    "option_a": "A high-level language (Pig Latin)",
+    "option_b": "SQL",
+    "option_c": "Java",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a stream processing framework?",
+    "option_a": "All of the above",
+    "option_b": "Apache Kafka",
+    "option_c": "Apache Storm",
+    "option_d": "Apache Flink",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Batch processing vs stream processing: Batch processes data in:",
+    "option_a": "Large chunks at rest, stream processes in real-time",
+    "option_b": "Real-time, stream in chunks",
+    "option_c": "Both are same",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The term \"data locality\" in Hadoop means:",
+    "option_a": "Moving computation to where data resides",
+    "option_b": "Moving data to computation",
+    "option_c": "Storing data locally",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Model deployment refers to:",
+    "option_a": "Integrating a trained model into a production environment",
+    "option_b": "Training a model",
+    "option_c": "Evaluating a model",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a common way to deploy a machine learning model?",
+    "option_a": "All of the above",
+    "option_b": "REST API",
+    "option_c": "Embedded in an application",
+    "option_d": "On cloud platforms",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Docker is a tool for:",
+    "option_a": "Containerization",
+    "option_b": "Virtualization",
+    "option_c": "Orchestration",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Kubernetes is used for:",
+    "option_a": "Container orchestration",
+    "option_b": "Container creation",
+    "option_c": "Model training",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In MLOps, CI/CD stands for:",
+    "option_a": "Continuous Integration and Continuous Deployment",
+    "option_b": "Continuous Improvement and Continuous Delivery",
+    "option_c": "Continuous Integration and Continuous Development",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Model versioning is important to:",
+    "option_a": "Both A and B",
+    "option_b": "Keep track of different model versions",
+    "option_c": "Roll back if needed",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "A/B testing in deployment involves:",
+    "option_a": "Comparing two model versions on live traffic",
+    "option_b": "Testing on different datasets",
+    "option_c": "Testing with and without features",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a cloud platform for model deployment?",
+    "option_a": "All of the above",
+    "option_b": "AWS SageMaker",
+    "option_c": "Google AI Platform",
+    "option_d": "Azure Machine Learning",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Model monitoring is necessary to:",
+    "option_a": "All of the above",
+    "option_b": "Detect performance degradation over time",
+    "option_c": "Ensure model is working correctly",
+    "option_d": "Detect data drift",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Data drift refers to:",
+    "option_a": "Change in the distribution of input data over time",
+    "option_b": "Change in the model's parameters",
+    "option_c": "Change in the target variable",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Concept drift refers to:",
+    "option_a": "Change in the relationship between input and output",
+    "option_b": "Change in data distribution",
+    "option_c": "Change in model architecture",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In MLOps, a pipeline automates:",
+    "option_a": "The steps from data ingestion to deployment",
+    "option_b": "Only model training",
+    "option_c": "Only data preprocessing",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a tool for MLOps?",
+    "option_a": "All of the above",
+    "option_b": "MLflow",
+    "option_c": "Kubeflow",
+    "option_d": "TensorFlow Extended (TFX)",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Model serving typically involves:",
+    "option_a": "Exposing a model via an API for inference",
+    "option_b": "Training the model",
+    "option_c": "Evaluating the model",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Batch inference vs online inference: Batch inference processes:",
+    "option_a": "Multiple requests at once, online processes single requests in real-time",
+    "option_b": "Single requests in real-time, online processes batches",
+    "option_c": "Both are same",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a format for saving models?",
+    "option_a": "All of the above",
+    "option_b": "Pickle",
+    "option_c": "ONNX",
+    "option_d": "HDF5",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "ONNX is a:",
+    "option_a": "Open standard for representing machine learning models",
+    "option_b": "Cloud platform",
+    "option_c": "Database",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Model compression techniques include:",
+    "option_a": "All of the above",
+    "option_b": "Quantization",
+    "option_c": "Pruning",
+    "option_d": "Distillation",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Quantization reduces model size by:",
+    "option_a": "Using lower precision for weights",
+    "option_b": "Removing neurons",
+    "option_c": "Combining layers",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In MLOps, a feature store is used to:",
+    "option_a": "Manage and serve features for training and inference",
+    "option_b": "Store models",
+    "option_c": "Store data",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "AI ethics deals with:",
+    "option_a": "Moral principles in AI development and use",
+    "option_b": "Technical performance",
+    "option_c": "Algorithm efficiency",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Bias in AI models can arise from:",
+    "option_a": "All of the above",
+    "option_b": "Biased training data",
+    "option_c": "Algorithm design",
+    "option_d": "Human bias",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Fairness in AI means:",
+    "option_a": "Models should not discriminate against groups",
+    "option_b": "Models should be accurate",
+    "option_c": "Models should be fast",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a fairness metric?",
+    "option_a": "All of the above",
+    "option_b": "Demographic parity",
+    "option_c": "Equal opportunity",
+    "option_d": "Predictive parity",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Explainable AI (XAI) aims to:",
+    "option_a": "Make model decisions understandable to humans",
+    "option_b": "Improve accuracy",
+    "option_c": "Reduce complexity",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a model-agnostic explanation method?",
+    "option_a": "Both A and B",
+    "option_b": "LIME",
+    "option_c": "SHAP",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "LIME explains predictions by:",
+    "option_a": "Fitting a local surrogate model",
+    "option_b": "Using global feature importance",
+    "option_c": "Using gradients",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "SHAP values are based on:",
+    "option_a": "Game theory",
+    "option_b": "Linear algebra",
+    "option_c": "Probability",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Adversarial attacks in AI involve:",
+    "option_a": "All of the above",
+    "option_b": "Crafting inputs to fool the model",
+    "option_c": "Stealing model parameters",
+    "option_d": "Data poisoning",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "An adversarial example is:",
+    "option_a": "A slightly modified input that causes misclassification",
+    "option_b": "A completely different input",
+    "option_c": "A random input",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Data poisoning is an attack where:",
+    "option_a": "Malicious data is injected into training set",
+    "option_b": "The model is queried repeatedly",
+    "option_c": "The model is stolen",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Differential privacy ensures:",
+    "option_a": "That the output of a query does not reveal information about any individual",
+    "option_b": "That data is encrypted",
+    "option_c": "That model is secure",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In differential privacy, noise is added to:",
+    "option_a": "The query output",
+    "option_b": "The data",
+    "option_c": "The model",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "GDPR is a regulation about:",
+    "option_a": "Data protection and privacy in the EU",
+    "option_b": "AI ethics",
+    "option_c": "Model deployment",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The \"right to explanation\" under GDPR refers to:",
+    "option_a": "Individuals can ask for an explanation of automated decisions",
+    "option_b": "Right to access data",
+    "option_c": "Right to delete data",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Model inversion attacks aim to:",
+    "option_a": "Reconstruct training data from the model",
+    "option_b": "Fool the model",
+    "option_c": "Steal the model",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Membership inference attacks determine:",
+    "option_a": "Whether a specific data point was used in training",
+    "option_b": "The model's accuracy",
+    "option_c": "The model's parameters",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Federated learning is a technique that:",
+    "option_a": "Trains models on decentralized data without sharing data",
+    "option_b": "Shares data across devices",
+    "option_c": "Uses a central server",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In federated learning, privacy is enhanced because:",
+    "option_a": "Data remains on local devices",
+    "option_b": "Models are shared",
+    "option_c": "Data is encrypted",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a privacy-preserving technique?",
+    "option_a": "All of the above",
+    "option_b": "Homomorphic encryption",
+    "option_c": "Secure multi-party computation",
+    "option_d": "Differential privacy",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Homomorphic encryption allows:",
+    "option_a": "Computation on encrypted data",
+    "option_b": "Decryption without key",
+    "option_c": "Faster computation",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Algorithmic fairness can be assessed using:",
+    "option_a": "All of the above",
+    "option_b": "Disparate impact",
+    "option_c": "Equalized odds",
+    "option_d": "Calibration",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The concept of \"bias\" in AI can lead to:",
+    "option_a": "Both",
+    "option_b": "Unfair outcomes",
+    "option_c": "Inaccurate predictions",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Transparency in AI refers to:",
+    "option_a": "Making the model's workings understandable",
+    "option_b": "Making the data public",
+    "option_c": "Making the code open source",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a challenge in AI ethics?",
+    "option_a": "All of the above",
+    "option_b": "Defining fairness",
+    "option_c": "Tradeoff between accuracy and fairness",
+    "option_d": "Lack of regulations",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is used to create a DataFrame in Pandas?",
+    "option_a": "pd.DataFrame()",
+    "option_b": "pd.Series()",
+    "option_c": "np.array()",
+    "option_d": "list()",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In NumPy, what does the function np.mean() do?",
+    "option_a": "Computes the arithmetic mean",
+    "option_b": "Computes the median",
+    "option_c": "Computes the standard deviation",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which library is used for plotting in Python?",
+    "option_a": "All of the above",
+    "option_b": "Matplotlib",
+    "option_c": "Seaborn",
+    "option_d": "Plotly",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In Python, a dictionary is defined using:",
+    "option_a": "{}",
+    "option_b": "[]",
+    "option_c": "()",
+    "option_d": "<>",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "What is the output of len([1,2,3])?",
+    "option_a": "3",
+    "option_b": "1",
+    "option_c": "2",
+    "option_d": "Error",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which plot is used to show the relationship between two variables?",
+    "option_a": "Scatter plot",
+    "option_b": "Histogram",
+    "option_c": "Bar chart",
+    "option_d": "Pie chart",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "A box plot displays which five-number summary?",
+    "option_a": "Min, Q1, median, Q3, max",
+    "option_b": "Mean, median, mode, variance, std",
+    "option_c": "Min, max, mean, median, mode",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The correlation coefficient of -0.9 indicates:",
+    "option_a": "Strong negative linear relationship",
+    "option_b": "Weak negative",
+    "option_c": "Strong positive",
+    "option_d": "No relationship",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a measure of spread?",
+    "option_a": "Interquartile range",
+    "option_b": "Mean",
+    "option_c": "Median",
+    "option_d": "Mode",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "A histogram with a long tail to the left is:",
+    "option_a": "Negatively skewed",
+    "option_b": "Positively skewed",
+    "option_c": "Symmetric",
+    "option_d": "Uniform",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which ensemble method uses weighted voting?",
+    "option_a": "AdaBoost",
+    "option_b": "Random Forest",
+    "option_c": "Bagging",
+    "option_d": "All",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In gradient boosting, the learning rate parameter:",
+    "option_a": "Shrinks the contribution of each tree",
+    "option_b": "Increases tree depth",
+    "option_c": "Controls number of trees",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Stacking often uses a meta-learner that is:",
+    "option_a": "A simple model like logistic regression",
+    "option_b": "A complex model",
+    "option_c": "Any model",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a popular gradient boosting library?",
+    "option_a": "All of the above",
+    "option_b": "XGBoost",
+    "option_c": "LightGBM",
+    "option_d": "CatBoost",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Bagging reduces variance by:",
+    "option_a": "Averaging multiple models",
+    "option_b": "Boosting",
+    "option_c": "Regularization",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a characteristic of NoSQL databases?",
+    "option_a": "Schema-less",
+    "option_b": "ACID transactions",
+    "option_c": "Relational",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "HBase is a:",
+    "option_a": "Column-oriented NoSQL database",
+    "option_b": "Document store",
+    "option_c": "Key-value store",
+    "option_d": "Graph database",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Apache Kafka is used for:",
+    "option_a": "Stream processing and messaging",
+    "option_b": "Batch processing",
+    "option_c": "Data storage",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In Hadoop, the NameNode manages:",
+    "option_a": "The file system namespace and metadata",
+    "option_b": "Data blocks",
+    "option_c": "MapReduce jobs",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "YARN in Hadoop stands for:",
+    "option_a": "Yet Another Resource Negotiator",
+    "option_b": "Yet Another Resource Network",
+    "option_c": "Yarn Allocation Resource",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Model monitoring can detect:",
+    "option_a": "All of the above",
+    "option_b": "Data drift",
+    "option_c": "Concept drift",
+    "option_d": "Performance degradation",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a tool for model versioning?",
+    "option_a": "All of the above",
+    "option_b": "DVC",
+    "option_c": "Git",
+    "option_d": "MLflow",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "In MLOps, a pipeline as code means:",
+    "option_a": "Defining pipelines in code for reproducibility",
+    "option_b": "Writing code for models",
+    "option_c": "Using no-code tools",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "A/B testing in ML deployment is used to:",
+    "option_a": "Compare model versions",
+    "option_b": "Compare features",
+    "option_c": "Compare algorithms",
+    "option_d": "All",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a cloud-agnostic model serving tool?",
+    "option_a": "Seldon",
+    "option_b": "AWS SageMaker",
+    "option_c": "Azure ML",
+    "option_d": "Google AI Platform",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a principle of AI ethics?",
+    "option_a": "All of the above",
+    "option_b": "Transparency",
+    "option_c": "Accountability",
+    "option_d": "Privacy",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The term \"black box\" in AI refers to:",
+    "option_a": "Models whose internal workings are not understandable",
+    "option_b": "Models that are secure",
+    "option_c": "Models that are fast",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Adversarial training is a technique to:",
+    "option_a": "Make models robust to adversarial examples",
+    "option_b": "Attack models",
+    "option_c": "Improve accuracy",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "The right to be forgotten under GDPR allows:",
+    "option_a": "Individuals to request deletion of their data",
+    "option_b": "Individuals to access their data",
+    "option_c": "Individuals to correct data",
+    "option_d": "None",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  },
+  {
+    "subject": "AI / ML / Data Analytics",
+    "question_text": "Which of the following is a potential ethical issue in AI?",
+    "option_a": "All of the above",
+    "option_b": "Job displacement",
+    "option_c": "Algorithmic bias",
+    "option_d": "Privacy violations",
+    "option_e": null,
+    "source_file": "AI ML DA.docx"
+  }
+]
