@@ -1,28 +1,32 @@
 import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { StudentLayout } from '../../components/layout/Layout'
 import { supabase } from '../../lib/supabase'
 import { dbQuery } from '../../lib/db'
 import { useApiCall } from '../../hooks/useApiCall'
 import { useAuth } from '../../contexts/AuthContext'
 import { PageSpinner } from '../../components/ui/Spinner'
-import { ClipboardList, TrendingUp, Award, ChevronDown, ChevronUp } from 'lucide-react'
+import { ClipboardList, TrendingUp, Award, ChevronDown, ChevronUp, Eye } from 'lucide-react'
 
 export default function StudentDashboard() {
   const { user } = useAuth()
-  const [student, setStudent]   = useState(null)
-  const [attempts, setAttempts] = useState([])
-  const [expanded, setExpanded] = useState(null)
+  const navigate  = useNavigate()
+  const [student,     setStudent]     = useState(null)
+  const [attempts,    setAttempts]    = useState([])
+  const [expanded,    setExpanded]    = useState(null)
+  const [showResults, setShowResults] = useState(false)
   const loader = useApiCall()
 
   useEffect(() => { load() }, [])
 
   async function load() {
     await loader.run(async () => {
-      const stu = await dbQuery(
-        supabase.from('students').select('*, sections(section_name)').eq('user_id', user.id).single()
-      )
+      const [stu, settings] = await Promise.all([
+        dbQuery(supabase.from('students').select('*, sections(section_name)').eq('user_id', user.id).single()),
+        dbQuery(supabase.from('exam_settings').select('show_results_to_students').single()),
+      ])
       setStudent(stu)
+      setShowResults(settings?.show_results_to_students === true)
       const atts = await dbQuery(
         supabase.from('exam_attempts')
           .select('*')
@@ -107,19 +111,28 @@ export default function StudentDashboard() {
                   {expanded === a.id ? <ChevronUp size={14} className="text-ink-faint" /> : <ChevronDown size={14} className="text-ink-faint" />}
                 </button>
                 {expanded === a.id && (
-                  <div className="border-t border-surface-border bg-surface px-4 py-3 grid grid-cols-3 gap-4 text-sm">
-                    <div>
-                      <div className="text-xs text-ink-muted">Score</div>
-                      <div className="font-semibold text-ink">{a.score_percent?.toFixed(2)}%</div>
+                  <div className="border-t border-surface-border bg-surface px-4 py-3">
+                    <div className="grid grid-cols-3 gap-4 text-sm mb-3">
+                      <div>
+                        <div className="text-xs text-ink-muted">Score</div>
+                        <div className="font-semibold text-ink">{a.score_percent?.toFixed(2)}%</div>
+                      </div>
+                      <div>
+                        <div className="text-xs text-ink-muted">Correct / Total</div>
+                        <div className="font-semibold text-ink">{a.correct_answers} / {a.total_questions}</div>
+                      </div>
+                      <div>
+                        <div className="text-xs text-ink-muted">Status</div>
+                        <span className={`badge ${a.status === 'completed' ? 'badge-success' : 'badge-accent'}`}>{a.status}</span>
+                      </div>
                     </div>
-                    <div>
-                      <div className="text-xs text-ink-muted">Correct / Total</div>
-                      <div className="font-semibold text-ink">{a.correct_answers} / {a.total_questions}</div>
-                    </div>
-                    <div>
-                      <div className="text-xs text-ink-muted">Status</div>
-                      <span className={`badge ${a.status === 'completed' ? 'badge-success' : 'badge-accent'}`}>{a.status}</span>
-                    </div>
+                    {showResults && (
+                      <button
+                        className="btn-outline text-xs py-1.5 px-3 flex items-center gap-1.5"
+                        onClick={() => navigate(`/student/exam/review/${a.id}`)}>
+                        <Eye size={13} /> Review Questions &amp; Answers
+                      </button>
+                    )}
                   </div>
                 )}
               </div>

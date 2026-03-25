@@ -18,6 +18,7 @@ const TeacherDataBank  = lazy(() => import('./pages/admin/DataBank'))
 const StudentDashboard = lazy(() => import('./pages/student/Dashboard'))
 const ExamLanding      = lazy(() => import('./pages/student/ExamLanding'))
 const ExamRoom         = lazy(() => import('./pages/student/ExamRoom'))
+const ExamReview       = lazy(() => import('./pages/student/ExamReview'))
 
 function LoadingScreen() {
   return (
@@ -107,6 +108,7 @@ export default function App() {
             <Route path="/student" element={<RequireAuth role="student"><StudentDashboard /></RequireAuth>} />
             <Route path="/student/exam" element={<RequireAuth role="student"><ExamLanding /></RequireAuth>} />
             <Route path="/student/exam/room" element={<RequireAuth role="student"><ExamRoom /></RequireAuth>} />
+            <Route path="/student/exam/review/:attemptId" element={<RequireAuth role="student"><ExamReview /></RequireAuth>} />
 
             {/* Fallback */}
             <Route path="*" element={<Navigate to="/" replace />} />

@@ -7,11 +7,11 @@ import { useToast } from '../../hooks/useToast'
 import { ToastContainer } from '../../components/ui/Toast'
 import { PageSpinner } from '../../components/ui/Spinner'
 import { PasswordChangeModal } from '../../components/shared/PasswordChangeModal'
-import { Settings, Clock, HelpCircle, Save } from 'lucide-react'
+import { Settings, Clock, HelpCircle, Save, Eye } from 'lucide-react'
 
 export default function AdminSettings() {
   const [settings, setSettings] = useState(null)
-  const [form, setForm]         = useState({ total_questions: 100, total_minutes: 100 })
+  const [form, setForm]         = useState({ total_questions: 100, total_minutes: 100, show_results_to_students: false })
   const [pwModal, setPwModal]   = useState(false)
 
   const { toasts, toast, dismiss } = useToast()
@@ -24,7 +24,7 @@ export default function AdminSettings() {
     await loader.run(async () => {
       const data = await dbQuery(supabase.from('exam_settings').select('*').single())
       setSettings(data)
-      setForm({ total_questions: data.total_questions, total_minutes: data.total_minutes })
+      setForm({ total_questions: data.total_questions, total_minutes: data.total_minutes, show_results_to_students: data.show_results_to_students ?? false })
     })
   }
 
@@ -39,7 +39,7 @@ export default function AdminSettings() {
         const { data: { user } } = await supabase.auth.getUser()
         await dbQuery(
           supabase.from('exam_settings')
-            .update({ total_questions: q, total_minutes: m, updated_by: user.id, updated_at: new Date().toISOString() })
+            .update({ total_questions: q, total_minutes: m, show_results_to_students: form.show_results_to_students, updated_by: user.id, updated_at: new Date().toISOString() })
             .eq('id', settings.id)
         )
       })
@@ -92,6 +92,23 @@ export default function AdminSettings() {
               Last updated: {new Date(settings.updated_at).toLocaleString()}
             </p>
           )}
+          <div className="mt-5 pt-4 border-t border-surface-border">
+            <label className="flex items-center gap-3 cursor-pointer select-none">
+              <div className="relative">
+                <input type="checkbox" className="sr-only"
+                  checked={form.show_results_to_students}
+                  onChange={e => setForm(f => ({ ...f, show_results_to_students: e.target.checked }))} />
+                <div className={`w-10 h-6 rounded-full transition-colors ${form.show_results_to_students ? 'bg-primary' : 'bg-surface-border'}`} />
+                <div className={`absolute top-1 w-4 h-4 rounded-full bg-white shadow transition-transform ${form.show_results_to_students ? 'translate-x-5' : 'translate-x-1'}`} />
+              </div>
+              <div>
+                <div className="text-sm font-medium text-ink flex items-center gap-1.5">
+                  <Eye size={14} className="text-primary" /> Show Results to Students
+                </div>
+                <p className="text-xs text-ink-muted">Students can review all questions and correct answers after completing an exam</p>
+              </div>
+            </label>
+          </div>
           <div className="mt-5">
             <button className="btn-primary" onClick={handleSave} disabled={saver.loading}>
               <Save size={16} />
