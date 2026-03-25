@@ -39,9 +39,13 @@ export default function ExamRoom() {
       supabase.from('exam_question_snapshots')
         .select('*').eq('attempt_id', attemptId).order('question_order')
     )
-    setQuestions(data || [])
+    const normalized = (data || []).map(q => ({
+      ...q,
+      options: typeof q.options === 'string' ? JSON.parse(q.options) : q.options,
+    }))
+    setQuestions(normalized)
     const saved = {}
-    for (const q of data || []) { if (q.selected_label) saved[q.id] = q.selected_label }
+    for (const q of normalized) { if (q.selected_label) saved[q.id] = q.selected_label }
     setAnswers(saved)
     setTimeLeft((settings?.total_minutes || 100) * 60)
     setLoading(false)

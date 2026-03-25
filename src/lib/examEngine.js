@@ -31,16 +31,38 @@ export function buildWeightedExam(subjectQuestions, totalNeeded) {
     allocated: Math.round((s.weightage / totalWeight) * totalNeeded),
   }))
 
-  // Fix rounding drift on the first subject
+  // Fix rounding drift on the largest subject
   const allocTotal = allocations.reduce((sum, s) => sum + s.allocated, 0)
   const diff = totalNeeded - allocTotal
-  if (diff !== 0 && allocations.length > 0) allocations[0].allocated += diff
+  if (diff !== 0 && allocations.length > 0) {
+    const largest = allocations.reduce((a, b) => a.allocated >= b.allocated ? a : b)
+    largest.allocated += diff
+  }
 
+  // First pass: pick up to allocated per subject
   const selected = []
+  let shortage = 0
   for (const subj of allocations) {
     const pool = shuffle(subj.questions)
-    selected.push(...pool.slice(0, Math.min(subj.allocated, pool.length)))
+    const take = Math.min(subj.allocated, pool.length)
+    selected.push(...pool.slice(0, take))
+    shortage += subj.allocated - take  // track how many we couldn't fill
   }
+
+  // Second pass: fill shortage from subjects that have spare questions
+  if (shortage > 0) {
+    for (const subj of allocations) {
+      if (shortage <= 0) break
+      const alreadyTaken = Math.min(subj.allocated, subj.questions.length)
+      const spare = subj.questions.length - alreadyTaken
+      if (spare <= 0) continue
+      const extra = shuffle(subj.questions.slice(alreadyTaken))
+      const take = Math.min(spare, shortage)
+      selected.push(...extra.slice(0, take))
+      shortage -= take
+    }
+  }
+
   return shuffle(selected)
 }
 
