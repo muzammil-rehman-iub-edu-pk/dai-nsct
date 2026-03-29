@@ -99,7 +99,7 @@ export default function Login() {
           </form>
 
           <p className="text-center text-white/30 text-xs mt-6">
-            Default admin: admin@dai-nsct.vercel.app / Admin@1234
+            Hint: Use your roll_number@iub.edu.pk as email.
           </p>
         </div>
       </div>
