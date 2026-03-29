@@ -2,7 +2,7 @@
 # NSCT — Business Logic Reference
 
 > Knowledge base for developers and AI agents.
-> Last updated: 2026-03-29
+> Last updated: 2026-03-29 (rev 2)
 
 ---
 
@@ -26,6 +26,7 @@ NSCT (National Skills Competency Test) is a standardized online MCQ examination 
 - Creates and manages teachers, students, sections, subjects
 - Manages the question data bank (add, edit, delete, bulk upload)
 - Configures exam settings (total questions, time limit, show results toggle)
+- Can reset password of any user (admin, teacher, student) via User Passwords page
 - Views all performance data across all sections and students
 - Cannot self-register — first admin created manually via Supabase dashboard + seed.sql
 
@@ -43,6 +44,7 @@ NSCT (National Skills Competency Test) is a standardized online MCQ examination 
 - Can take unlimited exam attempts
 - Can view their own attempt history and scores
 - Can review exam answers only if `show_results_to_students = true`
+- Can share any completed attempt as a public password-protected report
 - Cannot see other students' data
 - Cannot access questions directly (only via exam snapshots)
 
@@ -294,7 +296,38 @@ For each selected question:
 
 ---
 
-## 16. Performance Considerations
+## 16. Admin Password Management Rules
+
+- Admin can reset the password of any user (admin, teacher, or student)
+- Accessed via `/admin/users/passwords` — "User Passwords" in sidebar
+- Search by name or email; filter by role
+- Password must meet complexity rules: 8+ chars, 1 uppercase, 1 number
+- Confirm password field required — must match new password
+- On success: password updated in Supabase Auth + `must_change_password` set to false
+- Admin setting a password is treated as intentional — user is not forced to change again
+- Uses `admin-set-password` Edge Function (service_role key, never in browser)
+
+---
+
+## 17. Shareable Public Report Rules
+
+- Any student can share any of their completed exam attempts
+- Sharing generates a unique token (UUID-based, no dashes) and a 16-char password
+- Password composition: guaranteed at least 1 letter, 1 number, 1 symbol from `!@#$%^&*`, rest random, shuffled
+- Token + password stored in `shared_reports` table
+- Sharing the same attempt again returns the same token + password (idempotent)
+- Public URL format: `{app_origin}/report/{token}`
+- The URL is fully public — no login required to access
+- Anyone with the URL must enter the correct password to view the report
+- Wrong password shows: "Incorrect password. Please try again."
+- Invalid or expired token shows: "Report Not Found" screen
+- Report shows full exam review: all questions, correct/wrong/skipped indicators, score summary
+- `expires_at = NULL` by default — reports never expire unless manually set
+- Deleting the exam attempt cascades to delete the shared_report row
+
+---
+
+## 18. Performance Considerations
 
 | Concern | Mitigation |
 |---|---|

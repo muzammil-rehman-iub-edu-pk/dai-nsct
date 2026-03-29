@@ -1,7 +1,7 @@
 # NSCT — Database Reference
 
 > Knowledge base for developers and AI agents.
-> Last updated: 2026-03-29
+> Last updated: 2026-03-29 (rev 2)
 > Database: Supabase PostgreSQL (free tier)
 
 ---
@@ -164,6 +164,26 @@ Tamper-proof per-attempt question record. One row per question per attempt.
 | is_correct | BOOLEAN | YES | — | Null until submitted |
 | question_order | INT | NO | — | Display order for this student |
 | subject_id | UUID | YES | — | FK → subjects(id) SET NULL (added via recommendations.sql) |
+
+---
+
+### shared_reports
+Password-protected public report links. One row per shared attempt (idempotent — re-sharing same attempt returns same row).
+
+| Column | Type | Nullable | Default | Notes |
+|---|---|---|---|---|
+| id | UUID | NO | uuid_generate_v4() | PK |
+| attempt_id | UUID | NO | — | FK → exam_attempts(id) CASCADE, UNIQUE |
+| token | TEXT | NO | — | UNIQUE, UUID-based URL token (no dashes) |
+| password_hash | TEXT | NO | — | Reserved for future bcrypt hashing |
+| password_plain | TEXT | NO | — | 16-char generated password (shown to student once, stored for verification) |
+| created_at | TIMESTAMPTZ | YES | now() | |
+| expires_at | TIMESTAMPTZ | YES | NULL | NULL = never expires |
+
+RLS policies on shared_reports:
+- `shared_reports_student_own` — authenticated students can INSERT/SELECT their own attempt's reports
+- `shared_reports_admin` — admin full access
+- `shared_reports_public_read` — anon role can SELECT by token (for password gate page)
 
 ---
 
@@ -364,3 +384,4 @@ Applied in this order:
 5. `replace_subjects.sql` — replaced sample subjects with 11 real NSCT subjects
 6. `insert_questions.sql` — inserted 4,732 questions across all 11 subjects
 7. `recommendations.sql` — applied DB improvements (indexes, constraints, schema fixes)
+8. `feature_shared_reports.sql` — added `shared_reports` table for password-protected public exam report URLs

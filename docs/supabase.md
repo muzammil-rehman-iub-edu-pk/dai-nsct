@@ -1,7 +1,7 @@
 # NSCT — Supabase Reference
 
 > Knowledge base for developers and AI agents.
-> Last updated: 2026-03-29
+> Last updated: 2026-03-29 (rev 2)
 
 ---
 
@@ -250,10 +250,11 @@ SQL Editor → New Query → paste SQL → Run
 ### Deploying Edge Functions
 ```bash
 supabase functions deploy create-user --no-verify-jwt
+supabase functions deploy admin-set-password --no-verify-jwt
 ```
 
 ### Checking Edge Function Logs
-Dashboard → Edge Functions → create-user → Logs
+Dashboard → Edge Functions → select function → Logs
 
 ### Disabling Email Confirmation (required for this app)
 Authentication → Providers → Email → disable "Confirm email"
@@ -269,3 +270,35 @@ Authentication → Providers → Email → disable "Confirm email"
 | Students couldn't read snapshots for review page | `add_show_results_setting.sql` — added `snapshots_read_own` policy |
 | Duplicate student snapshot policies | `recommendations.sql` — dropped redundant `student_own_snapshots` |
 | exam_settings.updated_by FK was NO ACTION | `recommendations.sql` — changed to SET NULL |
+
+---
+
+## 12. Edge Functions
+
+| Function | File | Purpose | Deploy Command |
+|---|---|---|---|
+| `create-user` | `supabase/functions/create-user/index.ts` | Creates teacher/student auth + profile + record | `supabase functions deploy create-user --no-verify-jwt` |
+| `admin-set-password` | `supabase/functions/admin-set-password/index.ts` | Admin resets any user's password | `supabase functions deploy admin-set-password --no-verify-jwt` |
+
+### Edge Function: `admin-set-password`
+- Caller must be authenticated as admin (verified via JWT + user_profiles role check)
+- Request body: `{ userId: "<auth_user_uuid>", newPassword: "<new_password>" }`
+- Validates password complexity (8+ chars, 1 uppercase, 1 number)
+- Calls `adminClient.auth.admin.updateUserById(userId, { password })`
+- Also sets `must_change_password = false` for the target user
+- Returns `{ success: true }` on success
+
+### Access Matrix (updated)
+
+| Table | Admin | Teacher | Student | Anon |
+|---|---|---|---|---|
+| user_profiles | Full | Own row only | Own row only | None |
+| teachers | Full | Own row (SELECT) | None | None |
+| sections | Full | Own sections (SELECT) | Own section (SELECT) | None |
+| students | Full | Own section students (SELECT) | Own row (SELECT + UPDATE) | None |
+| subjects | Full | Active only (SELECT) | Active only (SELECT, only during active exam) | None |
+| questions | Full | Full | Active only (SELECT, only during active exam) | None |
+| exam_settings | Full | Read only | Read only | None |
+| exam_attempts | Full | Own section students (SELECT) | Own rows (Full) | None |
+| exam_question_snapshots | Full | Own section students (SELECT) | Own attempts (SELECT) | None |
+| shared_reports | Full | None | Own attempts (INSERT + SELECT) | SELECT by token |

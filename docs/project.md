@@ -1,7 +1,7 @@
 # NSCT — Project Overview
 
 > Knowledge base for developers and AI agents.
-> Last updated: 2026-03-29
+> Last updated: 2026-03-29 (rev 2)
 
 ---
 
@@ -102,6 +102,7 @@ nsct-app/
 │   │       └── BulkUploadParser.jsx
 │   ├── pages/
 │   │   ├── Login.jsx
+│   │   ├── SharedReport.jsx            # Public password-protected report page
 │   │   ├── admin/
 │   │   │   ├── Dashboard.jsx
 │   │   │   ├── Teachers.jsx
@@ -109,6 +110,7 @@ nsct-app/
 │   │   │   ├── Sections.jsx
 │   │   │   ├── Subjects.jsx
 │   │   │   ├── DataBank.jsx
+│   │   │   ├── UserPasswords.jsx       # Admin user password management
 │   │   │   └── Settings.jsx
 │   │   ├── teacher/
 │   │   │   ├── Dashboard.jsx
@@ -124,8 +126,10 @@ nsct-app/
 │       └── formatters.js
 ├── supabase/
 │   └── functions/
-│       └── create-user/
-│           └── index.ts
+│       ├── create-user/
+│       │   └── index.ts               # Creates teacher/student auth accounts
+│       └── admin-set-password/
+│           └── index.ts               # Admin resets any user's password
 ├── docs/                           # Knowledge base (this folder)
 │   ├── project.md
 │   ├── app.md
@@ -140,6 +144,7 @@ nsct-app/
 ├── postcss.config.js
 ├── vite.config.js
 ├── vercel.json
+├── feature_shared_reports.sql
 ├── inspect_db.sql
 ├── analyze_db.sql
 ├── recommendations.sql
@@ -204,5 +209,6 @@ Never commit real values — use `.env.local` locally and Vercel environment var
 6. Debounced auto-save (800ms) during exam — reduces DB writes
 7. Force password change on first login — security best practice
 8. Lazy loading all pages — faster initial load, pages load on demand
-9. Edge Functions for user creation only — service_role key never exposed to browser
+9. Edge Functions for user creation and password management — service_role key never exposed to browser
 10. `rls_auto_enable` DB trigger — any new table created in public schema gets RLS automatically
+11. Public shareable reports — password-protected, no auth required, token-based URL

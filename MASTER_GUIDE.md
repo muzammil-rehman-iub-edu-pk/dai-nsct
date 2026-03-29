@@ -588,6 +588,7 @@ CREATE POLICY "teacher_snapshots" ON exam_question_snapshots FOR SELECT USING (
 - [x] Exam Settings: Total questions, total time
 - [x] Dashboard: Per teacher stats, per student stats, filterable
 - [x] Disable/Reactivate any user account
+- [x] User Passwords: Search and reset password for any user (admin/teacher/student)
 
 ### Teacher Features
 - [x] Login with own credentials
@@ -604,6 +605,7 @@ CREATE POLICY "teacher_snapshots" ON exam_question_snapshots FOR SELECT USING (
 - [x] Single-page exam (conditional back/next)
 - [x] Live progress bar + countdown timer
 - [x] Results page after submission
+- [x] Share exam report: public password-protected URL (16-char generated password)
 
 ### Exam Engine
 - [x] Weighted question selection per active subject

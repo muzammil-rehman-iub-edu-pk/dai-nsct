@@ -1,7 +1,7 @@
 # NSCT — Application Reference
 
 > Knowledge base for developers and AI agents.
-> Last updated: 2026-03-29
+> Last updated: 2026-03-29 (rev 2)
 
 ---
 
@@ -19,6 +19,7 @@ All routes are defined in `src/App.jsx`. Pages are lazy-loaded via `React.lazy` 
 | `/admin/sections` | AdminSections | admin |
 | `/admin/subjects` | AdminSubjects | admin |
 | `/admin/databank` | AdminDataBank | admin |
+| `/admin/users/passwords` | AdminUserPasswords | admin |
 | `/admin/settings` | AdminSettings | admin |
 | `/teacher` | TeacherDashboard | teacher |
 | `/teacher/sections` | TeacherSections | teacher |
@@ -27,6 +28,7 @@ All routes are defined in `src/App.jsx`. Pages are lazy-loaded via `React.lazy` 
 | `/student/exam` | ExamLanding | student |
 | `/student/exam/room` | ExamRoom | student |
 | `/student/exam/review/:attemptId` | ExamReview | student |
+| `/report/:token` | SharedReport | None (public, no auth required) |
 | `*` | Redirect to `/` | Any |
 
 ---
@@ -42,6 +44,8 @@ Checks in order:
 4. If role mismatch → redirect to `/${profile.role}` (correct home)
 5. If `profile.must_change_password === true` → show PasswordChangeModal (required, cannot dismiss)
 6. Otherwise → render children
+
+The `/report/:token` route is outside RequireAuth — fully public, no session needed.
 
 ---
 
@@ -73,7 +77,7 @@ Initialization:
 - Email + password form with show/hide toggle
 - Calls `useAuth().signIn()`
 - On success: useEffect watches profile and redirects to `/${profile.role}`
-- Shows default admin credentials as hint
+- Hint text: "Hint: Use your roll_number@iub.edu.pk as email." — do not change this message
 
 ### Admin Dashboard (`src/pages/admin/Dashboard.jsx`)
 - Stats cards: total teachers, students, sections, subjects, questions, attempts
@@ -124,6 +128,20 @@ Initialization:
 - Delete with ConfirmDialog
 - Shared between admin and teacher roles
 
+### Admin User Passwords (`src/pages/admin/UserPasswords.jsx`) — NEW
+- Lists all users (admin + teachers + students) with name, email, role, status
+- Search by name or email
+- Filter by role (all / admin / teacher / student)
+- "Change Password" button per row opens a modal
+- Modal shows user's name, email, role for confirmation
+- New password + confirm password fields with show/hide toggle
+- Live validation checklist: 8+ chars, 1 uppercase, 1 number
+- Confirm password match check
+- On submit: calls Edge Function `admin-set-password` via service_role
+- Also clears `must_change_password` flag for the target user
+- Success/error toast notifications
+- Accessible via sidebar nav: "User Passwords" with KeyRound icon
+
 ### Admin Settings (`src/pages/admin/Settings.jsx`)
 - Exam config: total_questions (1–500), total_minutes (1–300)
 - Toggle: show_results_to_students
@@ -145,7 +163,21 @@ Initialization:
 - "Ready for a new attempt?" CTA card
 - Attempts history (collapsible):
   - Date, time, score badge
-  - Expanded: score, correct/total, status, review button (if show_results_to_students=true)
+  - Expanded: score, correct/total, status
+  - "Review Questions & Answers" button (if show_results_to_students=true)
+  - "Share Report" button — always visible for completed attempts
+
+### Share Report Modal (inside Student Dashboard) — NEW
+- Triggered by "Share Report" button on any completed attempt
+- On open: checks if a share already exists for this attempt
+  - If yes: shows existing URL + password (idempotent — same link every time)
+  - If no: generates new UUID-based token + 16-char password, inserts into `shared_reports`
+- Displays:
+  - Full public URL: `{origin}/report/{token}`
+  - 16-character password (alpha + numeric + symbols)
+  - Copy button for each (shows checkmark on copy)
+- Password generation rules: guaranteed at least 1 letter, 1 number, 1 symbol, shuffled
+- Info note: "The same link and password will be shown if you share this attempt again."
 
 ### Exam Landing (`src/pages/student/ExamLanding.jsx`)
 - Displays exam rules and subject distribution preview
@@ -188,6 +220,23 @@ Initialization:
   - Student's selected answer highlighted
 - Summary bar: correct count, wrong count, skipped count
 - Back to dashboard button
+
+### Shared Report (`src/pages/SharedReport.jsx`) — NEW
+- Route: `/report/:token` — fully public, no auth required
+- Works for anyone: unauthenticated users, logged-in students, teachers, admins
+- On load: fetches `shared_reports` row by token (anon RLS policy allows this)
+  - If not found or expired → shows "Report Not Found" screen with ShieldOff icon
+- Password gate screen:
+  - Clean branded screen with NSCT logo
+  - Password input with show/hide toggle
+  - On submit: compares entered password against `password_plain` in DB
+  - Wrong password → "Incorrect password. Please try again." error
+  - Correct password → loads attempt + snapshots and renders full report
+- Report view (no layout wrapper, standalone):
+  - Top bar: NSCT brand + score + grade
+  - Summary card: score %, correct, wrong, skipped, date, total questions, time taken
+  - All questions with correct/wrong/skipped indicators (same style as ExamReview)
+  - Footer: "National Skills Competency Test Platform · Shared Report"
 
 ---
 
@@ -282,6 +331,16 @@ Core exam logic:
 - `Sidebar` — desktop nav (hidden below lg breakpoint), brand, user info, nav links, logout
 - `MobileNav` — top bar + slide-in drawer (visible below lg), same nav structure
 
+Admin sidebar nav links (in order):
+1. Dashboard — `/admin`
+2. Teachers — `/admin/teachers`
+3. Students — `/admin/students`
+4. Sections — `/admin/sections`
+5. Subjects — `/admin/subjects`
+6. Data Bank — `/admin/databank`
+7. User Passwords — `/admin/users/passwords` (KeyRound icon)
+8. Settings — `/admin/settings`
+
 ### Shared (`src/components/shared/`)
 - `PasswordChangeModal` — required (first login) or optional (settings); live validation checklist; 8+ chars, 1 uppercase, 1 number
 - `SubjectWeightageForm` — editable weightage per subject, live question count breakdown, validates all > 0
@@ -293,6 +352,8 @@ Core exam logic:
 
 ### constants.js
 - `APP_NAME`, `APP_FULL_NAME`
+- `DEFAULT_ADMIN_EMAIL` — `admin@dai-nsct.vercel.app`
+- `DEFAULT_ADMIN_PASSWORD` — `Admin@1234`
 - `ROLES` — `{ ADMIN, TEACHER, STUDENT }`
 - `ATTEMPT_STATUS` — `{ IN_PROGRESS, COMPLETED, TIMED_OUT }`
 - `GRADES` — `[{ min, label, variant }]` — 80+ Excellent, 65+ Good, 50+ Pass, 0+ Fail
@@ -334,3 +395,4 @@ All return `null` on success or an error string on failure.
 - Touch-friendly button sizes (44px min on mobile)
 - Font size 16px on inputs (prevents iOS zoom)
 - All pages work on phones, tablets, desktops
+- SharedReport page has no layout wrapper — standalone responsive design
