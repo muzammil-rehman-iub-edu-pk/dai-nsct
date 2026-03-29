@@ -12,6 +12,7 @@ const AdminSections    = lazy(() => import('./pages/admin/Sections'))
 const AdminSubjects    = lazy(() => import('./pages/admin/Subjects'))
 const AdminDataBank    = lazy(() => import('./pages/admin/DataBank'))
 const AdminSettings    = lazy(() => import('./pages/admin/Settings'))
+const AdminUserPasswords = lazy(() => import('./pages/admin/UserPasswords'))
 const TeacherDashboard = lazy(() => import('./pages/teacher/Dashboard'))
 const TeacherSections  = lazy(() => import('./pages/teacher/SectionProgress'))
 const TeacherDataBank  = lazy(() => import('./pages/admin/DataBank'))
@@ -19,6 +20,7 @@ const StudentDashboard = lazy(() => import('./pages/student/Dashboard'))
 const ExamLanding      = lazy(() => import('./pages/student/ExamLanding'))
 const ExamRoom         = lazy(() => import('./pages/student/ExamRoom'))
 const ExamReview       = lazy(() => import('./pages/student/ExamReview'))
+const SharedReport     = lazy(() => import('./pages/SharedReport'))
 
 function LoadingScreen() {
   return (
@@ -98,6 +100,7 @@ export default function App() {
             <Route path="/admin/subjects" element={<RequireAuth role="admin"><AdminSubjects /></RequireAuth>} />
             <Route path="/admin/databank" element={<RequireAuth role="admin"><AdminDataBank /></RequireAuth>} />
             <Route path="/admin/settings" element={<RequireAuth role="admin"><AdminSettings /></RequireAuth>} />
+            <Route path="/admin/users/passwords" element={<RequireAuth role="admin"><AdminUserPasswords /></RequireAuth>} />
 
             {/* ── Teacher ── */}
             <Route path="/teacher" element={<RequireAuth role="teacher"><TeacherDashboard /></RequireAuth>} />
@@ -112,6 +115,9 @@ export default function App() {
 
             {/* Fallback */}
             <Route path="*" element={<Navigate to="/" replace />} />
+
+            {/* Public — no auth required */}
+            <Route path="/report/:token" element={<SharedReport />} />
           </Routes>
         </Suspense>
       </AuthProvider>

@@ -4,18 +4,19 @@ import { useAuth } from '../../contexts/AuthContext'
 import {
   LayoutDashboard, UserCheck, GraduationCap, School,
   FlaskConical, Database, Settings, LogOut, BookOpen,
-  ClipboardList, Menu, X, ChevronRight,
+  ClipboardList, Menu, X, ChevronRight, KeyRound,
 } from 'lucide-react'
 
 const NAV = {
   admin: [
-    { to: '/admin',          label: 'Dashboard', icon: LayoutDashboard, end: true },
-    { to: '/admin/teachers', label: 'Teachers',  icon: UserCheck },
-    { to: '/admin/students', label: 'Students',  icon: GraduationCap },
-    { to: '/admin/sections', label: 'Sections',  icon: School },
-    { to: '/admin/subjects', label: 'Subjects',  icon: FlaskConical },
-    { to: '/admin/databank', label: 'Data Bank', icon: Database },
-    { to: '/admin/settings', label: 'Settings',  icon: Settings },
+    { to: '/admin',                  label: 'Dashboard',      icon: LayoutDashboard, end: true },
+    { to: '/admin/teachers',         label: 'Teachers',       icon: UserCheck },
+    { to: '/admin/students',         label: 'Students',       icon: GraduationCap },
+    { to: '/admin/sections',         label: 'Sections',       icon: School },
+    { to: '/admin/subjects',         label: 'Subjects',       icon: FlaskConical },
+    { to: '/admin/databank',         label: 'Data Bank',      icon: Database },
+    { to: '/admin/users/passwords',  label: 'User Passwords', icon: KeyRound },
+    { to: '/admin/settings',         label: 'Settings',       icon: Settings },
   ],
   teacher: [
     { to: '/teacher',          label: 'Dashboard',   icon: LayoutDashboard, end: true },
