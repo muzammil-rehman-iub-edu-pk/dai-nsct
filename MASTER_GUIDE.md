@@ -4,6 +4,20 @@
 
 ---
 
+## Knowledge Base
+
+Detailed documentation is maintained in the `/docs` folder. Always refer to these files for up-to-date information:
+
+| File | Contents |
+|---|---|
+| [docs/project.md](docs/project.md) | Tech stack, architecture, project structure, deployment, design decisions |
+| [docs/app.md](docs/app.md) | Routing, pages, components, hooks, utilities, auth guard logic |
+| [docs/db.md](docs/db.md) | All tables, columns, constraints, indexes, RLS policies, functions, migration history |
+| [docs/supabase.md](docs/supabase.md) | Supabase client setup, auth flow, Edge Functions, RLS access matrix, known issues |
+| [docs/business-logic.md](docs/business-logic.md) | Purpose, roles, exam logic, rules, restrictions, cascade behavior, lifecycle |
+
+---
+
 ## Table of Contents
 1. [Architecture Overview](#1-architecture-overview)
 2. [Prerequisites](#2-prerequisites)
