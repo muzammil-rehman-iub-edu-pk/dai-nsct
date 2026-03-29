@@ -129,7 +129,7 @@ npm run dev
 # App runs at http://localhost:5173
 
 # 5. Default admin login
-# Email: admin@nsct.edu
+# Email: admin@dai-nsct.vercel.app
 # Password: Admin@1234 (forced change on first login)
 ```
 

@@ -14,7 +14,7 @@
 | Version | 1.0.0 |
 | Type | Web Application (SPA) |
 | Purpose | Online MCQ-based competency examination platform |
-| Default Admin Email | admin@nsct.edu |
+| Default Admin Email | admin@dai-nsct.vercel.app |
 | Default Admin Password | Admin@1234 (forced change on first login) |
 
 ---

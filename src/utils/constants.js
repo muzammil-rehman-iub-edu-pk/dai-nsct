@@ -6,7 +6,7 @@ export const APP_NAME        = 'NSCT'
 export const APP_FULL_NAME   = 'National Skills Competency Test'
 
 // Default admin credentials shown on login page hint
-export const DEFAULT_ADMIN_EMAIL    = 'admin@nsct.edu'
+export const DEFAULT_ADMIN_EMAIL    = 'admin@dai-nsct.vercel.app'
 export const DEFAULT_ADMIN_PASSWORD = 'Admin@1234'
 
 // User roles

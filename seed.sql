@@ -4,12 +4,12 @@
 -- 1. Running the full schema (from MASTER_GUIDE.md §9)
 -- 2. Creating admin user in Supabase Authentication dashboard
 --    (Auth → Users → Add User)
---    Email: admin@nsct.edu
+--    Email: admin@dai-nsct.vercel.app
 --    Password: Admin@1234
 -- ============================================================
 
 -- Step 1: Get the admin user UUID
--- Go to Authentication → Users → copy the UUID for admin@nsct.edu
+-- Go to Authentication → Users → copy the UUID for admin@dai-nsct.vercel.app
 
 -- Step 2: Paste the UUID here and run:
 DO $$
@@ -17,10 +17,10 @@ DECLARE
   admin_uuid UUID;
 BEGIN
   -- Get admin user UUID from auth.users
-  SELECT id INTO admin_uuid FROM auth.users WHERE email = 'admin@nsct.edu' LIMIT 1;
+  SELECT id INTO admin_uuid FROM auth.users WHERE email = 'admin@dai-nsct.vercel.app' LIMIT 1;
 
   IF admin_uuid IS NULL THEN
-    RAISE EXCEPTION 'Admin user not found. Create admin@nsct.edu in Supabase Auth first.';
+    RAISE EXCEPTION 'Admin user not found. Create admin@dai-nsct.vercel.app in Supabase Auth first.';
   END IF;
 
   -- Insert admin profile

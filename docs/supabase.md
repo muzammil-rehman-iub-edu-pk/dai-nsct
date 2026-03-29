@@ -240,7 +240,7 @@ Not used. No file uploads to Supabase Storage. Bulk question uploads are parsed 
 
 ### Creating Admin User (initial setup)
 1. Authentication → Users → Add User
-2. Email: `admin@nsct.edu`, Password: `Admin@1234`
+2. Email: `admin@dai-nsct.vercel.app`, Password: `Admin@1234`
 3. Copy the UUID
 4. Run `seed.sql` in SQL Editor (auto-finds UUID by email)
 

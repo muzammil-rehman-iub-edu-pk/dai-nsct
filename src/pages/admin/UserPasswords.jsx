@@ -174,7 +174,7 @@ export default function AdminUserPasswords() {
       const enriched = (profiles || []).map(p => ({
         ...p,
         auth_id: p.id,
-        email: emailMap[p.id] || (p.role === 'admin' ? 'admin@nsct.edu' : '—'),
+        email: emailMap[p.id] || (p.role === 'admin' ? 'admin@dai-nsct.vercel.app' : '—'),
       }))
 
       setUsers(enriched)
