@@ -3,7 +3,7 @@
 // Deploy: supabase functions deploy admin-set-password --no-verify-jwt
 //
 // Sets a user's password via service_role key.
-// Caller must be authenticated as admin.
+// Caller must be authenticated as admin OR a teacher (limited to their section students).
 
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2'
 
@@ -31,35 +31,61 @@ Deno.serve(async (req) => {
       auth: { autoRefreshToken: false, persistSession: false },
     })
 
-    // Verify caller JWT
+    // ── 1. Verify caller JWT ──────────────────────────────────────────────
     const token = (req.headers.get('Authorization') ?? '').replace(/^Bearer\s+/i, '').trim()
     if (!token) return json({ error: 'Missing Authorization header' }, 401)
 
     const { data: { user: caller }, error: jwtErr } = await adminClient.auth.getUser(token)
     if (jwtErr || !caller) return json({ error: 'Invalid or expired session' }, 401)
 
-    // Confirm caller is admin
+    // ── 2. Get caller role ────────────────────────────────────────────────
     const { data: callerProfile } = await adminClient
       .from('user_profiles').select('role').eq('id', caller.id).single()
-    if (callerProfile?.role !== 'admin') return json({ error: 'Forbidden — admin role required' }, 403)
 
-    // Parse body
+    const callerRole = callerProfile?.role
+    if (callerRole !== 'admin' && callerRole !== 'teacher') {
+      return json({ error: 'Forbidden — admin or teacher role required' }, 403)
+    }
+
+    // ── 3. Parse body ─────────────────────────────────────────────────────
     let body: { userId: string; newPassword: string }
     try { body = await req.json() } catch { return json({ error: 'Invalid JSON body' }, 400) }
 
     const { userId, newPassword } = body
     if (!userId || !newPassword) return json({ error: 'userId and newPassword are required' }, 400)
-    if (newPassword.length < 8)  return json({ error: 'Password must be at least 8 characters' }, 400)
-    if (!/[A-Z]/.test(newPassword)) return json({ error: 'Password must contain at least one uppercase letter' }, 400)
-    if (!/[0-9]/.test(newPassword)) return json({ error: 'Password must contain at least one number' }, 400)
+    if (newPassword.length < 8)       return json({ error: 'Password must be at least 8 characters' }, 400)
+    if (!/[A-Z]/.test(newPassword))   return json({ error: 'Password must contain at least one uppercase letter' }, 400)
+    if (!/[0-9]/.test(newPassword))   return json({ error: 'Password must contain at least one number' }, 400)
 
-    // Update password
+    // ── 4. Teacher scope check ────────────────────────────────────────────
+    // Teachers can only reset passwords for students in their assigned sections.
+    if (callerRole === 'teacher') {
+      // Get the teacher record for the caller
+      const { data: teacherRow } = await adminClient
+        .from('teachers').select('id').eq('user_id', caller.id).single()
+
+      if (!teacherRow) return json({ error: 'Teacher record not found' }, 403)
+
+      // Check that the target userId belongs to a student in one of this teacher's sections
+      const { data: studentRow } = await adminClient
+        .from('students')
+        .select('id, section_id, sections!inner(teacher_id)')
+        .eq('user_id', userId)
+        .eq('sections.teacher_id', teacherRow.id)
+        .maybeSingle()
+
+      if (!studentRow) {
+        return json({ error: 'Forbidden — student is not in your assigned section' }, 403)
+      }
+    }
+
+    // ── 5. Update password ────────────────────────────────────────────────
     const { error: updateErr } = await adminClient.auth.admin.updateUserById(userId, {
       password: newPassword,
     })
     if (updateErr) return json({ error: updateErr.message }, 400)
 
-    // Also clear must_change_password flag since admin is explicitly setting it
+    // Clear must_change_password — intentional password set by authority
     await adminClient.from('user_profiles')
       .update({ must_change_password: false, updated_at: new Date().toISOString() })
       .eq('id', userId)

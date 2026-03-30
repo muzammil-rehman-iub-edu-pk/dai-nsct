@@ -35,8 +35,10 @@ NSCT (National Skills Competency Test) is a standardized online MCQ examination 
 - Can view their assigned sections and the students within them
 - Can view all exam attempts and scores for students in their sections
 - Can add, edit, and delete questions in the data bank
+- Can change passwords for students in their assigned sections (via Section Progress page)
 - Cannot manage users, sections, subjects, or exam settings
 - Cannot see students outside their assigned sections
+- Cannot change passwords for admins, other teachers, or students outside their sections
 
 ### Student
 - Created by admin only
@@ -236,6 +238,7 @@ For each selected question:
 - See students outside their assigned sections (RLS)
 - Manage users, sections, subjects, or exam settings (RLS)
 - See exam snapshots for students outside their sections (RLS)
+- Change passwords for admins, other teachers, or students outside their sections (Edge Function scope check)
 
 ### What student CANNOT do
 - See other students' data (RLS)
@@ -306,6 +309,16 @@ For each selected question:
 - On success: password updated in Supabase Auth + `must_change_password` set to false
 - Admin setting a password is treated as intentional — user is not forced to change again
 - Uses `admin-set-password` Edge Function (service_role key, never in browser)
+
+## 17. Teacher Password Management Rules
+
+- Teachers can reset passwords for students in their assigned sections only
+- Accessed via Section Progress page — "Password" button per student row
+- Same password complexity rules as admin: 8+ chars, 1 uppercase, 1 number
+- Scope enforced server-side in the Edge Function: teacher's JWT is verified, then target student's section is checked against teacher's assigned sections
+- Teachers cannot reset passwords for: admins, other teachers, or students outside their sections
+- On success: password updated + `must_change_password` set to false (student not forced to change again)
+- "Password" button only shown if student has a linked auth account (`user_id` is not null)
 
 ---
 

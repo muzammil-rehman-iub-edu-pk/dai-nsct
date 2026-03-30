@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import { AdminLayout } from '../../components/layout/Layout'
-import { supabase } from '../../lib/supabase'
 import { dbQuery } from '../../lib/db'
 import { useApiCall } from '../../hooks/useApiCall'
 import { useToast } from '../../hooks/useToast'
@@ -8,6 +7,7 @@ import { Modal } from '../../components/ui/Modal'
 import { PageSpinner } from '../../components/ui/Spinner'
 import { ToastContainer } from '../../components/ui/Toast'
 import { Search, KeyRound, Eye, EyeOff, ShieldCheck, Users } from 'lucide-react'
+import { setUserPassword } from '../../lib/adminApi'
 
 // ─── Password rules ───────────────────────────────────────────────────────────
 const RULES = [
@@ -41,22 +41,7 @@ function ChangePasswordModal({ user, open, onClose, onSuccess }) {
     setError('')
     try {
       await saver.run(async () => {
-        // Call Edge Function to update password via service role
-        const { data: { session } } = await supabase.auth.getSession()
-        const res = await fetch(
-          `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/admin-set-password`,
-          {
-            method: 'POST',
-            headers: {
-              'Content-Type':  'application/json',
-              'apikey':        import.meta.env.VITE_SUPABASE_ANON_KEY,
-              'Authorization': `Bearer ${session.access_token}`,
-            },
-            body: JSON.stringify({ userId: user.auth_id, newPassword: form.newPass }),
-          }
-        )
-        const data = await res.json()
-        if (!res.ok) throw new Error(data.error || 'Failed to update password')
+        await setUserPassword({ userId: user.auth_id, newPassword: form.newPass })
       })
       onSuccess()
       onClose()

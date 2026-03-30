@@ -155,6 +155,13 @@ Initialization:
 ### Teacher Section Progress (`src/pages/teacher/SectionProgress.jsx`)
 - Section selector tabs
 - Expandable student list
+- Each student row has a "Password" button (visible only if student has a linked auth account)
+- Password change modal:
+  - Shows student name + reg number for confirmation
+  - New password + confirm password fields with show/hide toggle
+  - Live validation checklist: 8+ chars, 1 uppercase, 1 number
+  - Calls `setUserPassword()` from adminApi — same Edge Function as admin, but server enforces teacher scope
+  - Success toast notification
 - Each student: collapsible attempts table
 - Each attempt: date, score, correct/total, time taken, status badge
 
@@ -295,7 +302,8 @@ Thin Supabase query wrappers that throw on error instead of returning `{ data, e
 Calls Supabase Edge Functions requiring service_role permissions.
 - `createTeacherUser({ email, password, teacher_name, designation, expertise })`
 - `createStudentUser({ email, password, student_name, father_name, reg_number, section_id })`
-- Both send: `Authorization: Bearer <jwt>` + `apikey: <anon_key>` headers
+- `setUserPassword({ userId, newPassword })` — used by both admin (UserPasswords page) and teacher (SectionProgress page); scope enforced server-side
+- All send: `Authorization: Bearer <jwt>` + `apikey: <anon_key>` headers
 
 ### examEngine.js
 Core exam logic:

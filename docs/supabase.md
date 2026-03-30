@@ -281,7 +281,9 @@ Authentication → Providers → Email → disable "Confirm email"
 | `admin-set-password` | `supabase/functions/admin-set-password/index.ts` | Admin resets any user's password | `supabase functions deploy admin-set-password --no-verify-jwt` |
 
 ### Edge Function: `admin-set-password`
-- Caller must be authenticated as admin (verified via JWT + user_profiles role check)
+- Caller must be authenticated as **admin or teacher** (verified via JWT + user_profiles role check)
+- **Admin**: can reset any user's password
+- **Teacher**: can only reset passwords for students in their assigned sections (enforced server-side by joining students → sections → teacher_id)
 - Request body: `{ userId: "<auth_user_uuid>", newPassword: "<new_password>" }`
 - Validates password complexity (8+ chars, 1 uppercase, 1 number)
 - Calls `adminClient.auth.admin.updateUserById(userId, { password })`

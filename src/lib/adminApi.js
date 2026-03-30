@@ -60,3 +60,12 @@ export async function createStudentUser({ email, password, student_name, father_
     extraData:   { father_name, reg_number, section_id },
   })
 }
+
+/**
+ * Set (reset) a user's password.
+ * Admin: can reset any user.
+ * Teacher: can only reset students in their assigned sections (enforced server-side).
+ */
+export async function setUserPassword({ userId, newPassword }) {
+  return callFunction('admin-set-password', { userId, newPassword })
+}
