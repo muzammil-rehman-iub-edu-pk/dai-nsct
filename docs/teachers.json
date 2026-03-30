@@ -1,0 +1,79 @@
+[
+  {
+    "teacher_name": "Najia Saher",
+    "designation": "Professor | Chairperson",
+    "expertise": "Artificial Intelligence, Data Mining, Software Engineering, Software Quality",
+    "email": "najia.saher@iub.edu.pk",
+    "password": "DAI@IUB300195"
+  },
+  {
+    "teacher_name": "Wareesa Sharif",
+    "designation": "Assistant Professor",
+    "expertise": "Artificial Intelligence, Machine Learning, Deep Learning",
+    "email": "wareesa.sharif@iub.edu.pk",
+    "password": "DAI@IUB883053"
+  },
+  {
+    "teacher_name": "Ghulam Gilanie",
+    "designation": "Assistant Professor",
+    "expertise": "Artificial Intelligence, Computer Vision, IoT, Machine Learning, Robotics, Biocomputing",
+    "email": "ghulam.gilanie@iub.edu.pk",
+    "password": "DAI@IUB639424"
+  },
+  {
+    "teacher_name": "Amna Shifa",
+    "designation": "Assistant Professor",
+    "expertise": "Cybersecurity, Visual Analytics, Cryptography, Computer Vision, Privacy, IoMT, Threat Intelligence",
+    "email": "amna.shifa@iub.edu.pk",
+    "password": "DAI@IUB994486"
+  },
+  {
+    "teacher_name": "Qurat ul Ain Quraishi",
+    "designation": "Lecturer",
+    "expertise": "Artificial Intelligence, Soft Computing, Ensemble Methods, Machine Learning, Deep Learning",
+    "email": "Quratulain.quraishi@lums.edu.pk",
+    "password": "DAI@IUB452964"
+  },
+  {
+    "teacher_name": "Amna Ashraf",
+    "designation": "Lecturer",
+    "expertise": "Computer Science, Artificial Intelligence, Machine Learning",
+    "email": "amnace39@gmail.com",
+    "password": "DAI@IUB686706"
+  },
+  {
+    "teacher_name": "Mobeen Shahroz",
+    "designation": "Lecturer",
+    "expertise": "IoT, AI, Medical Image Classification, NLP, Machine Learning, Deep Learning, Bioinformatics",
+    "email": "mobeen.shahroz@iub.edu.pk",
+    "password": "DAI@IUB116667"
+  },
+  {
+    "teacher_name": "Syed Adnan Shah Bukhari",
+    "designation": "Lecturer",
+    "expertise": "Machine Learning, Bioinformatics, Genomics",
+    "email": "adnan.shah@iub.edu.pk",
+    "password": "DAI@IUB517426"
+  },
+  {
+    "teacher_name": "Muhammad Altaf Ahmad",
+    "designation": "Lecturer",
+    "expertise": "Artificial Intelligence",
+    "email": "muhammadaltaf.ahmad@iub.edu.pk",
+    "password": "DAI@IUB535094"
+  },
+  {
+    "teacher_name": "Haseeb Ali",
+    "designation": "Lecturer",
+    "expertise": "Artificial Intelligence, Machine Learning, Data Mining",
+    "email": "haseeb.ali@iub.edu.pk",
+    "password": "DAI@IUB719004"
+  },
+  {
+    "teacher_name": "Muzammil Ur Rehman",
+    "designation": "Lecturer",
+    "expertise": "Artificial Intelligence, Image Segmentation, Machine Vision, Machine Learning",
+    "email": "muzammil.rehman@iub.edu.pk",
+    "password": "DAI@IUB890764"
+  }
+]
