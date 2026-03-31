@@ -1,4 +1,4 @@
-# NSCT — Project Overview
+# DAI-NSCT — Project Overview
 
 > Knowledge base for developers and AI agents.
 > Last updated: 2026-03-29 (rev 2)

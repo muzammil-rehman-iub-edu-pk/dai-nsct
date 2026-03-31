@@ -27,7 +27,7 @@ function LoadingScreen() {
     <div className="h-screen flex items-center justify-center bg-surface">
       <div className="flex flex-col items-center gap-4">
         <div className="w-12 h-12 rounded-xl bg-primary flex items-center justify-center">
-          <span className="text-white font-display font-bold text-lg">N</span>
+          <span className="text-white font-display font-bold text-lg">D</span>
         </div>
         <Spinner size="md" />
       </div>

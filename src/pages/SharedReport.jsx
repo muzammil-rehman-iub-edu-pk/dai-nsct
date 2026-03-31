@@ -29,9 +29,9 @@ function PasswordGate({ onUnlock }) {
       <div className="w-full max-w-sm">
         <div className="text-center mb-8">
           <div className="w-14 h-14 rounded-2xl bg-primary flex items-center justify-center mx-auto mb-4">
-            <span className="text-white font-display font-bold text-xl">N</span>
+            <span className="text-white font-display font-bold text-xl">D</span>
           </div>
-          <h1 className="font-display text-2xl text-ink">NSCT Exam Report</h1>
+          <h1 className="font-display text-2xl text-ink">DAI-NSCT Exam Report</h1>
           <p className="text-ink-muted text-sm mt-2">This report is password protected</p>
         </div>
 
@@ -66,7 +66,7 @@ function PasswordGate({ onUnlock }) {
         </div>
 
         <p className="text-center text-xs text-ink-faint mt-6">
-          National Skills Competency Test Platform
+          DAI-NSCT Platform
         </p>
       </div>
     </div>
@@ -83,11 +83,11 @@ function ReportView({ attempt, questions }) {
       {/* Top bar */}
       <div className="bg-white border-b border-surface-border px-4 py-3 flex items-center gap-3">
         <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-          <span className="text-white font-display font-bold text-sm">N</span>
+          <span className="text-white font-display font-bold text-sm">D</span>
         </div>
         <div className="flex-1">
-          <div className="text-sm font-display font-semibold text-ink">NSCT Exam Report</div>
-          <div className="text-xs text-ink-muted">National Skills Competency Test</div>
+          <div className="text-sm font-display font-semibold text-ink">DAI-NSCT Exam Report</div>
+          <div className="text-xs text-ink-muted">Dept. of AI - National Skills Competency Test</div>
         </div>
         <div className="text-right">
           <div className={`text-xl font-bold ${gradeColor}`}>{attempt.score_percent?.toFixed(1)}%</div>
@@ -178,7 +178,7 @@ function ReportView({ attempt, questions }) {
         </div>
 
         <p className="text-center text-xs text-ink-faint mt-8 pb-4">
-          National Skills Competency Test Platform · Shared Report
+          DAI-NSCT Platform · Shared Report
         </p>
       </div>
     </div>

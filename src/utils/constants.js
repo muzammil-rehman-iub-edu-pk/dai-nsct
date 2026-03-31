@@ -2,8 +2,8 @@
  * constants.js — Application-wide constants.
  */
 
-export const APP_NAME        = 'NSCT'
-export const APP_FULL_NAME   = 'National Skills Competency Test'
+export const APP_NAME        = 'DAI-NSCT'
+export const APP_FULL_NAME   = 'Department of Artificial Intelligence - National Skills Competency Test'
 
 // Default admin credentials shown on login page hint
 export const DEFAULT_ADMIN_EMAIL    = 'admin@dai-nsct.vercel.app'

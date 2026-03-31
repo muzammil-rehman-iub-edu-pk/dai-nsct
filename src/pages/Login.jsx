@@ -46,8 +46,8 @@ export default function Login() {
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/15 backdrop-blur mb-4">
             <BookOpen size={32} className="text-white" />
           </div>
-          <h1 className="font-display text-4xl font-bold text-white mb-1">NSCT</h1>
-          <p className="text-white/60 text-sm">National Skills Competency Test</p>
+          <h1 className="font-display text-4xl font-bold text-white mb-1">DAI-NSCT</h1>
+          <p className="text-white/60 text-sm">Department of Artificial Intelligence - National Skills Competency Test</p>
         </div>
 
         {/* Card */}

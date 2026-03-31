@@ -103,7 +103,7 @@ export default function ExamLanding() {
             </div>
             <div>
               <h2 className="font-display text-2xl text-ink">Competency Exam</h2>
-              <p className="text-ink-muted text-sm">National Skills Competency Test</p>
+              <p className="text-ink-muted text-sm">Dept. of AI - National Skills Competency Test</p>
             </div>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">

@@ -69,9 +69,9 @@ export function Sidebar() {
           <div className="w-8 h-8 rounded-lg bg-white/20 flex items-center justify-center flex-shrink-0">
             <BookOpen size={15} className="text-white" />
           </div>
-          <span className="font-display text-lg font-bold text-white tracking-tight">NSCT</span>
+          <span className="font-display text-lg font-bold text-white tracking-tight">DAI-NSCT</span>
         </div>
-        <p className="text-[11px] text-white/40 pl-10 leading-tight">National Skills Competency Test</p>
+        <p className="text-[11px] text-white/40 pl-10 leading-tight">Dept. of AI - National Skills Competency Test</p>
       </div>
 
       {/* User */}
@@ -139,7 +139,7 @@ export function MobileNav() {
           <div className="w-7 h-7 rounded-md bg-white/20 flex items-center justify-center flex-shrink-0">
             <BookOpen size={13} className="text-white" />
           </div>
-          <span className="font-display text-base font-bold text-white tracking-tight">NSCT</span>
+          <span className="font-display text-base font-bold text-white tracking-tight">DAI-NSCT</span>
         </div>
 
         <div className="flex items-center gap-3">
@@ -173,7 +173,7 @@ export function MobileNav() {
             <div className="w-8 h-8 rounded-lg bg-white/20 flex items-center justify-center">
               <BookOpen size={15} className="text-white" />
             </div>
-            <span className="font-display text-lg font-bold text-white">NSCT</span>
+            <span className="font-display text-lg font-bold text-white">DAI-NSCT</span>
           </div>
           <button onClick={() => setOpen(false)}
             className="w-8 h-8 rounded-lg bg-white/15 hover:bg-white/25 flex items-center justify-center transition-colors"
