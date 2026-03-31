@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { AdminLayout } from '../../components/layout/Layout'
 import { supabase } from '../../lib/supabase'
 import { dbQuery } from '../../lib/db'
@@ -9,18 +9,207 @@ import { Modal } from '../../components/ui/Modal'
 import { ConfirmDialog } from '../../components/ui/ConfirmDialog'
 import { PageSpinner } from '../../components/ui/Spinner'
 import { ToastContainer } from '../../components/ui/Toast'
-import { Plus, Edit2, Trash2, ToggleLeft, ToggleRight, Search, GraduationCap } from 'lucide-react'
+import { Plus, Edit2, Trash2, ToggleLeft, ToggleRight, Search, GraduationCap, Upload, X, CheckCircle, AlertTriangle } from 'lucide-react'
 
 const emptyForm = { reg_number: '', student_name: '', father_name: '', section_id: '', email: '', password: '' }
 
+// ─── CSV parser ───────────────────────────────────────────────────────────────
+function parseCSV(text) {
+  const lines = text.trim().split(/\r?\n/)
+  if (lines.length < 2) return { headers: [], rows: [] }
+  const headers = lines[0].split(',').map(h => h.trim().replace(/^"|"$/g, '').toLowerCase())
+  const rows = lines.slice(1).map(line => {
+    const fields = []
+    let cur = '', inQ = false
+    for (let i = 0; i < line.length; i++) {
+      const ch = line[i]
+      if (ch === '"') { inQ = !inQ }
+      else if (ch === ',' && !inQ) { fields.push(cur.trim()); cur = '' }
+      else { cur += ch }
+    }
+    fields.push(cur.trim())
+    return Object.fromEntries(headers.map((h, i) => [h, fields[i] || '']))
+  }).filter(r => Object.values(r).some(v => v))
+  return { headers, rows }
+}
+
+const STUDENT_REQUIRED = ['reg_number', 'student_name', 'father_name', 'section_name', 'email', 'password']
+
+// ─── Bulk Upload Modal ────────────────────────────────────────────────────────
+function BulkUploadModal({ open, onClose, onDone, sections }) {
+  const [rows,     setRows]     = useState([])
+  const [errors,   setErrors]   = useState([])
+  const [progress, setProgress] = useState(null)
+  const [running,  setRunning]  = useState(false)
+  const fileRef = useRef()
+
+  const sectionMap = Object.fromEntries(
+    sections.map(s => [s.section_name.toLowerCase().trim(), s.id])
+  )
+
+  useEffect(() => {
+    if (open) { setRows([]); setErrors([]); setProgress(null); setRunning(false) }
+  }, [open])
+
+  function handleFile(e) {
+    const file = e.target.files[0]
+    if (!file) return
+    const reader = new FileReader()
+    reader.onload = ev => parseFile(ev.target.result)
+    reader.readAsText(file)
+  }
+
+  function parseFile(text) {
+    const { headers, rows: parsed } = parseCSV(text)
+    const missing = STUDENT_REQUIRED.filter(f => !headers.includes(f))
+    if (missing.length) {
+      setErrors([`Missing required columns: ${missing.join(', ')}`])
+      setRows([])
+      return
+    }
+    const errs = []
+    parsed.forEach((r, i) => {
+      const n = i + 2
+      if (!r.reg_number?.trim())   errs.push(`Row ${n}: reg_number is required`)
+      if (!r.student_name?.trim()) errs.push(`Row ${n}: student_name is required`)
+      if (!r.father_name?.trim())  errs.push(`Row ${n}: father_name is required`)
+      if (!r.email?.trim())        errs.push(`Row ${n}: email is required`)
+      if (!r.password?.trim())     errs.push(`Row ${n}: password is required`)
+      if (r.password && r.password.length < 8) errs.push(`Row ${n}: password must be at least 8 characters`)
+      if (!r.section_name?.trim()) errs.push(`Row ${n}: section_name is required`)
+      else if (!sectionMap[r.section_name.toLowerCase().trim()])
+        errs.push(`Row ${n}: section "${r.section_name}" not found — create it first`)
+    })
+    setErrors(errs)
+    setRows(parsed)
+  }
+
+  async function handleImport() {
+    if (!rows.length || errors.length) return
+    setRunning(true)
+    const results = []
+    for (let i = 0; i < rows.length; i++) {
+      const r = rows[i]
+      const section_id = sectionMap[r.section_name.toLowerCase().trim()]
+      try {
+        await createStudentUser({
+          email:        r.email.trim().toLowerCase(),
+          password:     r.password.trim(),
+          student_name: r.student_name.trim(),
+          father_name:  r.father_name.trim(),
+          reg_number:   r.reg_number.trim(),
+          section_id,
+        })
+        results.push({ name: r.student_name, ok: true })
+      } catch (err) {
+        results.push({ name: r.student_name, ok: false, error: err.message })
+      }
+      setProgress({ done: i + 1, total: rows.length, results: [...results] })
+    }
+    setRunning(false)
+    onDone()
+  }
+
+  const canImport = rows.length > 0 && errors.length === 0 && !progress
+
+  return (
+    <Modal open={open} onClose={running ? undefined : onClose} title="Bulk Upload Students" size="lg">
+      <div className="flex flex-col gap-5">
+        <div className="p-4 rounded-xl bg-primary/5 border border-primary/20 text-sm">
+          <p className="font-semibold text-ink mb-2">CSV Format</p>
+          <code className="block text-xs font-mono text-ink-muted bg-white/60 rounded-lg p-3 border border-primary/10 whitespace-pre">{`reg_number,student_name,father_name,section_name,email,password\n"BSAI-01","Ali Hassan","Hassan Ali","Section A","ali@iub.edu.pk","Pass@1234"\n"BSAI-02","Sara Khan","Khan Sahib","Section B","sara@iub.edu.pk","Pass@5678"`}</code>
+          <p className="text-xs text-ink-muted mt-2">
+            All columns required. <span className="font-medium text-ink">section_name</span> must match an existing active section.
+          </p>
+          {sections.length > 0 && (
+            <p className="text-xs text-ink-muted mt-1">
+              Available sections: <span className="font-medium text-ink">{sections.map(s => s.section_name).join(', ')}</span>
+            </p>
+          )}
+        </div>
+
+        {!progress && (
+          <div>
+            <label className="form-label">Upload CSV File</label>
+            <input ref={fileRef} type="file" accept=".csv,text/csv" onChange={handleFile}
+              className="block w-full text-sm text-ink-muted file:mr-4 file:py-2 file:px-4 file:rounded-xl file:border-0 file:text-sm file:font-medium file:bg-primary/10 file:text-primary hover:file:bg-primary/20 cursor-pointer" />
+          </div>
+        )}
+
+        {errors.length > 0 && (
+          <div className="p-3 rounded-xl bg-danger/10 border border-danger/20 text-sm text-danger-dark space-y-1 max-h-40 overflow-y-auto">
+            {errors.map((e, i) => <p key={i} className="flex items-start gap-1.5"><AlertTriangle size={14} className="flex-shrink-0 mt-0.5" />{e}</p>)}
+          </div>
+        )}
+
+        {rows.length > 0 && !progress && (
+          <div className="border border-surface-border rounded-xl overflow-hidden">
+            <div className="px-4 py-2.5 bg-surface border-b border-surface-border flex items-center justify-between">
+              <span className="text-sm font-semibold text-ink">{rows.length} student{rows.length !== 1 ? 's' : ''} ready to import</span>
+              <button className="btn-ghost p-1" onClick={() => { setRows([]); setErrors([]); if (fileRef.current) fileRef.current.value = '' }}><X size={14} /></button>
+            </div>
+            <div className="max-h-52 overflow-y-auto divide-y divide-surface-border">
+              {rows.map((r, i) => (
+                <div key={i} className="px-4 py-2.5 flex items-center gap-3 text-sm">
+                  <div className="w-7 h-7 rounded-full bg-primary/10 flex items-center justify-center text-primary font-semibold text-xs flex-shrink-0">
+                    {r.student_name?.[0]?.toUpperCase()}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="font-medium text-ink truncate">{r.student_name}</div>
+                    <div className="text-xs text-ink-muted truncate">{r.reg_number} · {r.section_name} · {r.email}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {progress && (
+          <div className="flex flex-col gap-3">
+            <div className="flex items-center justify-between text-sm">
+              <span className="text-ink-muted">Processing…</span>
+              <span className="font-medium text-ink">{progress.done} / {progress.total}</span>
+            </div>
+            <div className="h-2 rounded-full bg-surface-border overflow-hidden">
+              <div className="h-full rounded-full bg-primary transition-all duration-300" style={{ width: `${(progress.done / progress.total) * 100}%` }} />
+            </div>
+            <div className="max-h-48 overflow-y-auto space-y-1.5">
+              {progress.results.map((r, i) => (
+                <div key={i} className={`flex items-center gap-2 text-xs px-3 py-1.5 rounded-lg ${r.ok ? 'bg-success/10 text-success-dark' : 'bg-danger/10 text-danger-dark'}`}>
+                  {r.ok ? <CheckCircle size={13} /> : <AlertTriangle size={13} />}
+                  <span className="font-medium">{r.name}</span>
+                  {!r.ok && <span className="truncate">— {r.error}</span>}
+                </div>
+              ))}
+            </div>
+            {!running && (
+              <div className="pt-1 text-sm text-ink-muted">
+                Done: <span className="text-success font-medium">{progress.results.filter(r => r.ok).length} created</span>
+                {progress.results.filter(r => !r.ok).length > 0 && <span className="text-danger font-medium ml-2">{progress.results.filter(r => !r.ok).length} failed</span>}
+              </div>
+            )}
+          </div>
+        )}
+
+        <div className="flex justify-end gap-2 pt-1">
+          {!running && <button className="btn-outline" onClick={onClose}>{progress ? 'Close' : 'Cancel'}</button>}
+          {canImport && <button className="btn-primary" onClick={handleImport}><Upload size={15} /> Import {rows.length} Students</button>}
+        </div>
+      </div>
+    </Modal>
+  )
+}
+
+// ─── Main Page ────────────────────────────────────────────────────────────────
 export default function AdminStudents() {
-  const [students, setStudents] = useState([])
-  const [sections, setSections] = useState([])
-  const [modalOpen, setModal]   = useState(false)
-  const [editRow, setEditRow]   = useState(null)
-  const [form, setForm]         = useState(emptyForm)
-  const [confirm, setConfirm]   = useState(null)
-  const [search, setSearch]     = useState('')
+  const [students,  setStudents]  = useState([])
+  const [sections,  setSections]  = useState([])
+  const [modalOpen, setModal]     = useState(false)
+  const [bulkOpen,  setBulkOpen]  = useState(false)
+  const [editRow,   setEditRow]   = useState(null)
+  const [form,      setForm]      = useState(emptyForm)
+  const [confirm,   setConfirm]   = useState(null)
+  const [search,    setSearch]    = useState('')
 
   const { toasts, toast, dismiss } = useToast()
   const loader  = useApiCall()
@@ -65,8 +254,7 @@ export default function AdminStudents() {
         } else {
           await createStudentUser({
             email: email.trim().toLowerCase(), password,
-            student_name: student_name.trim(),
-            father_name: father_name.trim(),
+            student_name: student_name.trim(), father_name: father_name.trim(),
             reg_number: reg_number.trim(), section_id,
           })
           toast('Student created — they can now log in', 'success')
@@ -74,9 +262,7 @@ export default function AdminStudents() {
       })
       setModal(false)
       await load()
-    } catch (err) {
-      toast(err.message, 'error')
-    }
+    } catch (err) { toast(err.message, 'error') }
   }
 
   async function toggleActive(s) {
@@ -84,15 +270,11 @@ export default function AdminStudents() {
     try {
       await mutator.run(async () => {
         await dbQuery(supabase.from('students').update({ is_active: newActive }).eq('id', s.id))
-        if (s.user_id) {
-          await dbQuery(supabase.from('user_profiles').update({ is_active: newActive }).eq('id', s.user_id))
-        }
+        if (s.user_id) await dbQuery(supabase.from('user_profiles').update({ is_active: newActive }).eq('id', s.user_id))
       })
       toast(newActive ? 'Student activated' : 'Student deactivated', 'success')
       await load()
-    } catch (err) {
-      toast(err.message, 'error')
-    }
+    } catch (err) { toast(err.message, 'error') }
   }
 
   async function deleteStudent(s) {
@@ -100,9 +282,7 @@ export default function AdminStudents() {
       await mutator.run(() => dbQuery(supabase.from('students').delete().eq('id', s.id)))
       toast('Student deleted', 'success')
       await load()
-    } catch (err) {
-      toast(err.message, 'error')
-    }
+    } catch (err) { toast(err.message, 'error') }
   }
 
   const filtered = students.filter(s =>
@@ -120,7 +300,10 @@ export default function AdminStudents() {
           <h1 className="page-title">Students</h1>
           <p className="text-ink-muted text-sm mt-1">{students.length} enrolled</p>
         </div>
-        <button className="btn-primary" onClick={openAdd}><Plus size={16} /> Add Student</button>
+        <div className="flex gap-2">
+          <button className="btn-outline" onClick={() => setBulkOpen(true)}><Upload size={16} /> Bulk Upload</button>
+          <button className="btn-primary" onClick={openAdd}><Plus size={16} /> Add Student</button>
+        </div>
       </div>
 
       <div className="relative mb-4 max-w-xs">
@@ -131,18 +314,14 @@ export default function AdminStudents() {
 
       <div className="table-wrap">
         <table className="table-base">
-          <thead>
-            <tr><th>Reg #</th><th>Student</th><th>Father Name</th><th>Section</th><th>Status</th><th>Actions</th></tr>
-          </thead>
+          <thead><tr><th>Reg #</th><th>Student</th><th>Father Name</th><th>Section</th><th>Status</th><th>Actions</th></tr></thead>
           <tbody>
             {filtered.map(s => (
               <tr key={s.id}>
                 <td className="font-mono text-xs text-ink-muted">{s.reg_number}</td>
                 <td>
                   <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary font-semibold text-sm">
-                      {s.student_name[0].toUpperCase()}
-                    </div>
+                    <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary font-semibold text-sm">{s.student_name[0].toUpperCase()}</div>
                     <div>
                       <div className="font-medium text-ink">{s.student_name}</div>
                       <div className="text-xs text-ink-muted">{s.email}</div>
@@ -185,8 +364,7 @@ export default function AdminStudents() {
             </div>
             <div>
               <label className="form-label">Section <span className="text-danger">*</span></label>
-              <select className="form-input" value={form.section_id}
-                      onChange={e => setForm(f => ({ ...f, section_id: e.target.value }))}>
+              <select className="form-input" value={form.section_id} onChange={e => setForm(f => ({ ...f, section_id: e.target.value }))}>
                 <option value="">-- Select Section --</option>
                 {sections.map(sec => <option key={sec.id} value={sec.id}>{sec.section_name}</option>)}
               </select>
@@ -194,20 +372,17 @@ export default function AdminStudents() {
           </div>
           <div>
             <label className="form-label">Student Name <span className="text-danger">*</span></label>
-            <input className="form-input" value={form.student_name}
-                   onChange={e => setForm(f => ({ ...f, student_name: e.target.value }))} />
+            <input className="form-input" value={form.student_name} onChange={e => setForm(f => ({ ...f, student_name: e.target.value }))} />
           </div>
           <div>
             <label className="form-label">Father Name <span className="text-danger">*</span></label>
-            <input className="form-input" value={form.father_name}
-                   onChange={e => setForm(f => ({ ...f, father_name: e.target.value }))} />
+            <input className="form-input" value={form.father_name} onChange={e => setForm(f => ({ ...f, father_name: e.target.value }))} />
           </div>
           {!editRow && (
             <>
               <div>
                 <label className="form-label">Email <span className="text-danger">*</span></label>
-                <input className="form-input" type="email" value={form.email}
-                       onChange={e => setForm(f => ({ ...f, email: e.target.value }))} />
+                <input className="form-input" type="email" value={form.email} onChange={e => setForm(f => ({ ...f, email: e.target.value }))} />
               </div>
               <div>
                 <label className="form-label">Temporary Password <span className="text-danger">*</span></label>
@@ -225,6 +400,10 @@ export default function AdminStudents() {
           </div>
         </div>
       </Modal>
+
+      <BulkUploadModal open={bulkOpen} onClose={() => setBulkOpen(false)}
+        onDone={() => { load(); toast('Bulk import complete', 'success') }}
+        sections={sections} />
 
       <ConfirmDialog open={!!confirm} onClose={() => setConfirm(null)}
         onConfirm={confirm?.action} message={confirm?.msg} danger />
