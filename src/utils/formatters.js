@@ -188,7 +188,7 @@ export function compareSectionNames(a, b) {
   if (!pb) return -1
   return (
     pa.semester - pb.semester ||
-    pa.number   - pb.number   ||
-    pa.shift    - pb.shift
+    pa.shift    - pb.shift    ||
+    pa.number   - pb.number   
   )
 }
