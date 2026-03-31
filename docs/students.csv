@@ -1,0 +1,11 @@
+reg_number,student_name,father_name,section_name,email,password
+"BSAI-21-01","Ahmad Raza","Muhammad Raza","BSAI Section A","21-bsai-01@iub.edu.pk","Student@1234"
+"BSAI-21-02","Fatima Noor","Noor Ahmad","BSAI Section A","21-bsai-02@iub.edu.pk","Student@1234"
+"BSAI-21-03","Usman Tariq","Tariq Mehmood","BSAI Section A","21-bsai-03@iub.edu.pk","Student@1234"
+"BSAI-21-04","Ayesha Bibi","Abdul Rehman","BSAI Section A","21-bsai-04@iub.edu.pk","Student@1234"
+"BSAI-21-05","Bilal Hassan","Hassan Ali","BSAI Section A","21-bsai-05@iub.edu.pk","Student@1234"
+"BSAI-21-06","Zainab Malik","Malik Aslam","BSAI Section B","21-bsai-06@iub.edu.pk","Student@1234"
+"BSAI-21-07","Hamza Iqbal","Iqbal Hussain","BSAI Section B","21-bsai-07@iub.edu.pk","Student@1234"
+"BSAI-21-08","Sana Perveen","Perveen Akhtar","BSAI Section B","21-bsai-08@iub.edu.pk","Student@1234"
+"BSAI-21-09","Asad Nawaz","Nawaz Sharif","BSAI Section B","21-bsai-09@iub.edu.pk","Student@1234"
+"BSAI-21-10","Hira Baig","Baig Muhammad","BSAI Section B","21-bsai-10@iub.edu.pk","Student@1234"

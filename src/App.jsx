@@ -26,9 +26,7 @@ function LoadingScreen() {
   return (
     <div className="h-screen flex items-center justify-center bg-surface">
       <div className="flex flex-col items-center gap-4">
-        <div className="w-12 h-12 rounded-xl bg-primary flex items-center justify-center overflow-hidden">
-          <img src="/dai-logo.png" alt="DAI" className="w-full h-full object-contain p-1" />
-        </div>
+        <img src="/dai-logo.png" alt="DAI" className="w-12 h-12 rounded-xl object-cover" />
         <Spinner size="md" />
       </div>
     </div>
