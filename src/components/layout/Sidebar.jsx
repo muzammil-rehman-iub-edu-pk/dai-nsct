@@ -4,7 +4,7 @@ import { useAuth } from '../../contexts/AuthContext'
 import {
   LayoutDashboard, UserCheck, GraduationCap, School,
   FlaskConical, Database, Settings, LogOut,
-  ClipboardList, Menu, X, ChevronRight, KeyRound,
+  ClipboardList, Menu, X, ChevronRight, KeyRound, TrendingUp,
 } from 'lucide-react'
 
 const NAV = {
@@ -20,8 +20,13 @@ const NAV = {
   ],
   teacher: [
     { to: '/teacher',          label: 'Dashboard',   icon: LayoutDashboard, end: true },
+    { to: '/teacher/stats',    label: 'Statistics',  icon: TrendingUp },
     { to: '/teacher/sections', label: 'My Sections', icon: School },
     { to: '/teacher/databank', label: 'Data Bank',   icon: Database },
+    { to: '/teachers/view',    label: 'All Teachers', icon: UserCheck },
+    { to: '/students/view',    label: 'All Students', icon: GraduationCap },
+    { to: '/sections/view',    label: 'All Sections', icon: School },
+    { to: '/subjects/view',    label: 'All Subjects', icon: FlaskConical },
   ],
   student: [
     { to: '/student',      label: 'Dashboard', icon: LayoutDashboard, end: true },

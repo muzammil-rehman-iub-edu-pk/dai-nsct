@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { AuthProvider, useAuth } from './contexts/AuthContext'
 import { Spinner } from './components/ui/Spinner'
 import { PasswordChangeModal } from './components/shared/PasswordChangeModal'
-import { lazy, Suspense, useState, useEffect } from 'react'
+import React, { lazy, Suspense } from 'react'
 
 const Login            = lazy(() => import('./pages/Login'))
 const AdminDashboard   = lazy(() => import('./pages/admin/Dashboard'))
@@ -15,12 +15,6 @@ const AdminSettings    = lazy(() => import('./pages/admin/Settings'))
 const AdminUserPasswords = lazy(() => import('./pages/admin/UserPasswords'))
 const TeacherDashboard = lazy(() => import('./pages/teacher/Dashboard'))
 const TeacherSections  = lazy(() => import('./pages/teacher/SectionProgress'))
-const TeacherDataBank  = lazy(() => import('./pages/admin/DataBank'))
-const TeacherTeachers  = lazy(() => import('./pages/admin/Teachers'))
-const TeacherStudents  = lazy(() => import('./pages/admin/Students'))
-const TeacherSectionsList = lazy(() => import('./pages/admin/Sections'))
-const TeacherSubjects  = lazy(() => import('./pages/admin/Subjects'))
-const TeacherStats     = lazy(() => import('./pages/admin/Dashboard'))
 const StudentDashboard = lazy(() => import('./pages/student/Dashboard'))
 const ExamLanding      = lazy(() => import('./pages/student/ExamLanding'))
 const ExamRoom         = lazy(() => import('./pages/student/ExamRoom'))
@@ -86,6 +80,24 @@ function AuthRedirect() {
   return <Navigate to={`/${profile.role}`} replace />
 }
 
+// Guard for teacher-only read-only view routes.
+// Passes isReadOnly=true to the wrapped component automatically.
+// Any non-teacher hitting these routes is redirected to their home.
+function RequireTeacher({ children }) {
+  const { user, profile, loading } = useAuth()
+  if (loading) return <LoadingScreen />
+  if (!user || !profile) return <Navigate to="/login" replace />
+  if (!profile.is_active) return <Navigate to="/login" replace />
+  if (profile.role !== 'teacher') return <Navigate to={`/${profile.role}`} replace />
+  if (profile.must_change_password) return (
+    <div className="h-screen bg-surface">
+      <PasswordChangeModal open={true} required={true} onClose={() => {}} />
+    </div>
+  )
+  // Clone child and inject isReadOnly=true
+  return React.cloneElement(children, { isReadOnly: true })
+}
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -108,12 +120,14 @@ export default function App() {
             {/* ── Teacher ── */}
             <Route path="/teacher" element={<RequireAuth role="teacher"><TeacherDashboard /></RequireAuth>} />
             <Route path="/teacher/sections" element={<RequireAuth role="teacher"><TeacherSections /></RequireAuth>} />
-            <Route path="/teacher/databank" element={<RequireAuth role="teacher"><TeacherDataBank /></RequireAuth>} />
-            <Route path="/teacher/stats" element={<RequireAuth role="teacher"><TeacherStats /></RequireAuth>} />
-            <Route path="/teacher/all-teachers" element={<RequireAuth role="teacher"><TeacherTeachers isReadOnly /></RequireAuth>} />
-            <Route path="/teacher/all-students" element={<RequireAuth role="teacher"><TeacherStudents isReadOnly /></RequireAuth>} />
-            <Route path="/teacher/all-sections" element={<RequireAuth role="teacher"><TeacherSectionsList isReadOnly /></RequireAuth>} />
-            <Route path="/teacher/all-subjects" element={<RequireAuth role="teacher"><TeacherSubjects isReadOnly /></RequireAuth>} />
+            <Route path="/teacher/databank" element={<RequireAuth role="teacher"><AdminDataBank /></RequireAuth>} />
+            <Route path="/teacher/stats" element={<RequireAuth role="teacher"><AdminDashboard /></RequireAuth>} />
+
+            {/* ── Teacher read-only views (teacher role enforced + isReadOnly injected) ── */}
+            <Route path="/teachers/view"  element={<RequireTeacher><AdminTeachers /></RequireTeacher>} />
+            <Route path="/students/view"  element={<RequireTeacher><AdminStudents /></RequireTeacher>} />
+            <Route path="/sections/view"  element={<RequireTeacher><AdminSections /></RequireTeacher>} />
+            <Route path="/subjects/view"  element={<RequireTeacher><AdminSubjects /></RequireTeacher>} />
 
             {/* ── Student ── */}
             <Route path="/student" element={<RequireAuth role="student"><StudentDashboard /></RequireAuth>} />
