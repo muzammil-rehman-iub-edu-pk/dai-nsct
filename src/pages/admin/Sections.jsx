@@ -8,7 +8,7 @@ import { Modal } from '../../components/ui/Modal'
 import { ConfirmDialog } from '../../components/ui/ConfirmDialog'
 import { PageSpinner } from '../../components/ui/Spinner'
 import { ToastContainer } from '../../components/ui/Toast'
-import { Plus, Edit2, Trash2, ToggleLeft, ToggleRight, School } from 'lucide-react'
+import { Plus, Edit2, Trash2, ToggleLeft, ToggleRight, School, Search } from 'lucide-react'
 
 export default function AdminSections() {
   const [sections, setSections] = useState([])
@@ -17,6 +17,16 @@ export default function AdminSections() {
   const [editRow, setEditRow]   = useState(null)
   const [form, setForm]         = useState({ section_name: '', teacher_id: '' })
   const [confirm, setConfirm]   = useState(null)
+  const [search,       setSearch]       = useState('')
+  const [filterTeacher, setFilterTeacher] = useState('')
+  const [filterStatus,  setFilterStatus]  = useState('all')
+  const [sortKey,      setSortKey]      = useState('section_name')
+  const [sortDir,      setSortDir]      = useState('asc')
+
+  function toggleSort(key) {
+    if (sortKey === key) setSortDir(d => d === 'asc' ? 'desc' : 'asc')
+    else { setSortKey(key); setSortDir('asc') }
+  }
 
   const { toasts, toast, dismiss } = useToast()
   const loader  = useApiCall()
@@ -88,6 +98,23 @@ export default function AdminSections() {
 
   if (loader.loading && !sections.length) return <AdminLayout><PageSpinner /></AdminLayout>
 
+  const filtered = sections
+    .filter(s => {
+      const q = search.toLowerCase()
+      const matchSearch = !q || s.section_name.toLowerCase().includes(q) || (s.teachers?.teacher_name || '').toLowerCase().includes(q)
+      const matchTeacher = !filterTeacher || s.teacher_id === filterTeacher
+      const matchStatus = filterStatus === 'all' || (filterStatus === 'active' ? s.is_active : !s.is_active)
+      return matchSearch && matchTeacher && matchStatus
+    })
+    .sort((a, b) => {
+      let av, bv
+      if (sortKey === 'teacher') { av = a.teachers?.teacher_name || ''; bv = b.teachers?.teacher_name || '' }
+      else if (sortKey === 'is_active') { av = a.is_active ? 1 : 0; bv = b.is_active ? 1 : 0 }
+      else { av = a[sortKey] || ''; bv = b[sortKey] || '' }
+      const cmp = typeof av === 'number' ? av - bv : String(av).localeCompare(String(bv))
+      return sortDir === 'asc' ? cmp : -cmp
+    })
+
   return (
     <AdminLayout>
       <ToastContainer toasts={toasts} dismiss={dismiss} />
@@ -100,8 +127,35 @@ export default function AdminSections() {
         <button className="btn-primary" onClick={openAdd}><Plus size={16} /> Add Section</button>
       </div>
 
+      <div className="flex flex-wrap gap-3 mb-4">
+        <div className="relative flex-1 min-w-[180px] max-w-xs">
+          <Search size={15} className="absolute left-3 top-1/2 -translate-y-1/2 text-ink-faint" />
+          <input className="form-input pl-9" placeholder="Search sections…"
+                 value={search} onChange={e => setSearch(e.target.value)} />
+        </div>
+        <select className="form-input w-auto" value={filterTeacher} onChange={e => setFilterTeacher(e.target.value)}>
+          <option value="">All Teachers</option>
+          {teachers.map(t => <option key={t.id} value={t.id}>{t.teacher_name}</option>)}
+        </select>
+        <select className="form-input w-auto" value={filterStatus} onChange={e => setFilterStatus(e.target.value)}>
+          <option value="all">All Status</option>
+          <option value="active">Active</option>
+          <option value="inactive">Inactive</option>
+        </select>
+        <div className="flex gap-1 self-center">
+          {[['section_name','Name'],['teacher','Teacher'],['is_active','Status']].map(([key, label]) => (
+            <button key={key} onClick={() => toggleSort(key)}
+              className={`px-2.5 py-1 rounded-lg text-xs font-medium border transition-colors
+                ${sortKey === key ? 'bg-primary text-white border-primary' : 'border-surface-border text-ink-muted hover:border-ink-faint'}`}>
+              {label} {sortKey === key ? (sortDir === 'asc' ? '↑' : '↓') : ''}
+            </button>
+          ))}
+        </div>
+        <span className="text-xs text-ink-muted self-center">{filtered.length} of {sections.length}</span>
+      </div>
+
       <div className="card-grid">
-        {sections.map(s => (
+        {filtered.map(s => (
           <div key={s.id} className="card flex flex-col gap-3">
             <div className="flex items-start justify-between">
               <div className="flex items-center gap-3">
@@ -129,7 +183,7 @@ export default function AdminSections() {
             </div>
           </div>
         ))}
-        {!sections.length && !loader.loading && (
+        {!filtered.length && !loader.loading && (
           <div className="col-span-3 text-center py-16 text-ink-muted">
             <School size={40} className="mx-auto mb-3 opacity-30" />
             <p>No sections yet. Add your first section.</p>

@@ -9,7 +9,7 @@ import { Modal } from '../../components/ui/Modal'
 import { ConfirmDialog } from '../../components/ui/ConfirmDialog'
 import { PageSpinner } from '../../components/ui/Spinner'
 import { ToastContainer } from '../../components/ui/Toast'
-import { Plus, Edit2, Trash2, ToggleLeft, ToggleRight, Search, GraduationCap, Upload, X, CheckCircle, AlertTriangle } from 'lucide-react'
+import { Plus, Edit2, Trash2, ToggleLeft, ToggleRight, Search, GraduationCap, Upload, X, CheckCircle, AlertTriangle, ArrowUpDown, ArrowUp, ArrowDown } from 'lucide-react'
 
 const emptyForm = { reg_number: '', student_name: '', father_name: '', section_id: '', email: '', password: '' }
 
@@ -210,6 +210,19 @@ export default function AdminStudents() {
   const [form,      setForm]      = useState(emptyForm)
   const [confirm,   setConfirm]   = useState(null)
   const [search,    setSearch]    = useState('')
+  const [filterSection, setFilterSection] = useState('')
+  const [filterStatus,  setFilterStatus]  = useState('all')
+  const [sortKey,   setSortKey]   = useState('student_name')
+  const [sortDir,   setSortDir]   = useState('asc')
+
+  function toggleSort(key) {
+    if (sortKey === key) setSortDir(d => d === 'asc' ? 'desc' : 'asc')
+    else { setSortKey(key); setSortDir('asc') }
+  }
+  function SortIcon({ col }) {
+    if (sortKey !== col) return <ArrowUpDown size={13} className="text-ink-faint ml-1" />
+    return sortDir === 'asc' ? <ArrowUp size={13} className="text-primary ml-1" /> : <ArrowDown size={13} className="text-primary ml-1" />
+  }
 
   const { toasts, toast, dismiss } = useToast()
   const loader  = useApiCall()
@@ -285,10 +298,22 @@ export default function AdminStudents() {
     } catch (err) { toast(err.message, 'error') }
   }
 
-  const filtered = students.filter(s =>
-    s.student_name.toLowerCase().includes(search.toLowerCase()) ||
-    s.reg_number.toLowerCase().includes(search.toLowerCase())
-  )
+  const filtered = students
+    .filter(s => {
+      const q = search.toLowerCase()
+      const matchSearch = !q || s.student_name.toLowerCase().includes(q) || s.reg_number.toLowerCase().includes(q) || (s.father_name || '').toLowerCase().includes(q)
+      const matchSection = !filterSection || s.section_id === filterSection
+      const matchStatus = filterStatus === 'all' || (filterStatus === 'active' ? s.is_active : !s.is_active)
+      return matchSearch && matchSection && matchStatus
+    })
+    .sort((a, b) => {
+      let av, bv
+      if (sortKey === 'section') { av = a.sections?.section_name || ''; bv = b.sections?.section_name || '' }
+      else if (sortKey === 'is_active') { av = a.is_active ? 1 : 0; bv = b.is_active ? 1 : 0 }
+      else { av = a[sortKey] || ''; bv = b[sortKey] || '' }
+      const cmp = typeof av === 'number' ? av - bv : String(av).localeCompare(String(bv))
+      return sortDir === 'asc' ? cmp : -cmp
+    })
 
   if (loader.loading && !students.length) return <AdminLayout><PageSpinner /></AdminLayout>
 
@@ -306,15 +331,34 @@ export default function AdminStudents() {
         </div>
       </div>
 
-      <div className="relative mb-4 max-w-xs">
-        <Search size={15} className="absolute left-3 top-1/2 -translate-y-1/2 text-ink-faint" />
-        <input className="form-input pl-9" placeholder="Search by name or reg#…"
-               value={search} onChange={e => setSearch(e.target.value)} />
+      <div className="flex flex-wrap gap-3 mb-4">
+        <div className="relative flex-1 min-w-[180px] max-w-xs">
+          <Search size={15} className="absolute left-3 top-1/2 -translate-y-1/2 text-ink-faint" />
+          <input className="form-input pl-9" placeholder="Search name, reg#, father…"
+                 value={search} onChange={e => setSearch(e.target.value)} />
+        </div>
+        <select className="form-input w-auto" value={filterSection} onChange={e => setFilterSection(e.target.value)}>
+          <option value="">All Sections</option>
+          {sections.map(s => <option key={s.id} value={s.id}>{s.section_name}</option>)}
+        </select>
+        <select className="form-input w-auto" value={filterStatus} onChange={e => setFilterStatus(e.target.value)}>
+          <option value="all">All Status</option>
+          <option value="active">Active</option>
+          <option value="inactive">Inactive</option>
+        </select>
+        <span className="text-xs text-ink-muted self-center">{filtered.length} of {students.length}</span>
       </div>
 
       <div className="table-wrap">
         <table className="table-base">
-          <thead><tr><th>Reg #</th><th>Student</th><th>Father Name</th><th>Section</th><th>Status</th><th>Actions</th></tr></thead>
+          <thead><tr>
+            <th><button className="flex items-center" onClick={() => toggleSort('reg_number')}>Reg #<SortIcon col="reg_number" /></button></th>
+            <th><button className="flex items-center" onClick={() => toggleSort('student_name')}>Student<SortIcon col="student_name" /></button></th>
+            <th><button className="flex items-center" onClick={() => toggleSort('father_name')}>Father Name<SortIcon col="father_name" /></button></th>
+            <th><button className="flex items-center" onClick={() => toggleSort('section')}>Section<SortIcon col="section" /></button></th>
+            <th><button className="flex items-center" onClick={() => toggleSort('is_active')}>Status<SortIcon col="is_active" /></button></th>
+            <th>Actions</th>
+          </tr></thead>
           <tbody>
             {filtered.map(s => (
               <tr key={s.id}>

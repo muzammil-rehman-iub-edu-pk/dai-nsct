@@ -9,7 +9,7 @@ import { Modal } from '../../components/ui/Modal'
 import { ConfirmDialog } from '../../components/ui/ConfirmDialog'
 import { PageSpinner } from '../../components/ui/Spinner'
 import { ToastContainer } from '../../components/ui/Toast'
-import { Plus, Edit2, Trash2, ToggleLeft, ToggleRight, Search, UserCheck, Upload, X, CheckCircle, AlertTriangle } from 'lucide-react'
+import { Plus, Edit2, Trash2, ToggleLeft, ToggleRight, Search, UserCheck, Upload, X, CheckCircle, AlertTriangle, ArrowUpDown, ArrowUp, ArrowDown } from 'lucide-react'
 
 const emptyForm = { teacher_name: '', designation: '', expertise: '', email: '', password: '' }
 
@@ -217,6 +217,18 @@ export default function AdminTeachers() {
   const [form,        setForm]        = useState(emptyForm)
   const [confirm,     setConfirm]     = useState(null)
   const [search,      setSearch]      = useState('')
+  const [filterStatus, setFilterStatus] = useState('all')
+  const [sortKey,     setSortKey]     = useState('teacher_name')
+  const [sortDir,     setSortDir]     = useState('asc')
+
+  function toggleSort(key) {
+    if (sortKey === key) setSortDir(d => d === 'asc' ? 'desc' : 'asc')
+    else { setSortKey(key); setSortDir('asc') }
+  }
+  function SortIcon({ col }) {
+    if (sortKey !== col) return <ArrowUpDown size={13} className="text-ink-faint ml-1" />
+    return sortDir === 'asc' ? <ArrowUp size={13} className="text-primary ml-1" /> : <ArrowDown size={13} className="text-primary ml-1" />
+  }
 
   const { toasts, toast, dismiss } = useToast()
   const loader  = useApiCall()
@@ -302,10 +314,19 @@ export default function AdminTeachers() {
     }
   }
 
-  const filtered = teachers.filter(t =>
-    t.teacher_name.toLowerCase().includes(search.toLowerCase()) ||
-    t.email.toLowerCase().includes(search.toLowerCase())
-  )
+  const filtered = teachers
+    .filter(t => {
+      const q = search.toLowerCase()
+      const matchSearch = !q || t.teacher_name.toLowerCase().includes(q) || t.email.toLowerCase().includes(q) || (t.designation || '').toLowerCase().includes(q)
+      const matchStatus = filterStatus === 'all' || (filterStatus === 'active' ? t.is_active : !t.is_active)
+      return matchSearch && matchStatus
+    })
+    .sort((a, b) => {
+      let av = a[sortKey] || '', bv = b[sortKey] || ''
+      if (sortKey === 'is_active') { av = a.is_active ? 1 : 0; bv = b.is_active ? 1 : 0 }
+      const cmp = typeof av === 'number' ? av - bv : String(av).localeCompare(String(bv))
+      return sortDir === 'asc' ? cmp : -cmp
+    })
 
   if (loader.loading && !teachers.length) return <AdminLayout><PageSpinner /></AdminLayout>
 
@@ -326,16 +347,31 @@ export default function AdminTeachers() {
         </div>
       </div>
 
-      <div className="relative mb-4 max-w-xs">
-        <Search size={15} className="absolute left-3 top-1/2 -translate-y-1/2 text-ink-faint" />
-        <input className="form-input pl-9" placeholder="Search teachers…"
-               value={search} onChange={e => setSearch(e.target.value)} />
+      <div className="flex flex-wrap gap-3 mb-4">
+        <div className="relative flex-1 min-w-[180px] max-w-xs">
+          <Search size={15} className="absolute left-3 top-1/2 -translate-y-1/2 text-ink-faint" />
+          <input className="form-input pl-9" placeholder="Search name, email, designation…"
+                 value={search} onChange={e => setSearch(e.target.value)} />
+        </div>
+        <select className="form-input w-auto" value={filterStatus} onChange={e => setFilterStatus(e.target.value)}>
+          <option value="all">All Status</option>
+          <option value="active">Active</option>
+          <option value="inactive">Inactive</option>
+        </select>
+        <span className="text-xs text-ink-muted self-center">{filtered.length} of {teachers.length}</span>
       </div>
 
       <div className="table-wrap">
         <table className="table-base">
           <thead>
-            <tr><th>Teacher</th><th>Designation</th><th>Expertise</th><th>Email</th><th>Status</th><th>Actions</th></tr>
+            <tr>
+              <th><button className="flex items-center" onClick={() => toggleSort('teacher_name')}>Teacher<SortIcon col="teacher_name" /></button></th>
+              <th><button className="flex items-center" onClick={() => toggleSort('designation')}>Designation<SortIcon col="designation" /></button></th>
+              <th>Expertise</th>
+              <th><button className="flex items-center" onClick={() => toggleSort('email')}>Email<SortIcon col="email" /></button></th>
+              <th><button className="flex items-center" onClick={() => toggleSort('is_active')}>Status<SortIcon col="is_active" /></button></th>
+              <th>Actions</th>
+            </tr>
           </thead>
           <tbody>
             {filtered.map(t => (

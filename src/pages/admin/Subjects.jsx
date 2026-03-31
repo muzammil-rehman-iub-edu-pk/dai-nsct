@@ -8,7 +8,7 @@ import { Modal } from '../../components/ui/Modal'
 import { ConfirmDialog } from '../../components/ui/ConfirmDialog'
 import { PageSpinner } from '../../components/ui/Spinner'
 import { ToastContainer } from '../../components/ui/Toast'
-import { Plus, Edit2, Trash2, ToggleLeft, ToggleRight, FlaskConical, Info } from 'lucide-react'
+import { Plus, Edit2, Trash2, ToggleLeft, ToggleRight, FlaskConical, Info, Search, ArrowUpDown, ArrowUp, ArrowDown } from 'lucide-react'
 
 export default function AdminSubjects() {
   const [subjects, setSubjects] = useState([])
@@ -17,6 +17,19 @@ export default function AdminSubjects() {
   const [editRow, setEditRow]   = useState(null)
   const [form, setForm]         = useState({ subject_name: '', description: '', weightage: '10' })
   const [confirm, setConfirm]   = useState(null)
+  const [search,       setSearch]       = useState('')
+  const [filterStatus, setFilterStatus] = useState('all')
+  const [sortKey,      setSortKey]      = useState('subject_name')
+  const [sortDir,      setSortDir]      = useState('asc')
+
+  function toggleSort(key) {
+    if (sortKey === key) setSortDir(d => d === 'asc' ? 'desc' : 'asc')
+    else { setSortKey(key); setSortDir('asc') }
+  }
+  function SortIcon({ col }) {
+    if (sortKey !== col) return <ArrowUpDown size={13} className="text-ink-faint ml-1" />
+    return sortDir === 'asc' ? <ArrowUp size={13} className="text-primary ml-1" /> : <ArrowDown size={13} className="text-primary ml-1" />
+  }
 
   const { toasts, toast, dismiss } = useToast()
   const loader  = useApiCall()
@@ -108,6 +121,23 @@ export default function AdminSubjects() {
   const activeSubjects = subjects.filter(s => s.is_active)
   const totalWeight    = activeSubjects.reduce((sum, s) => sum + parseFloat(s.weightage), 0)
 
+  const filtered = subjects
+    .filter(s => {
+      const q = search.toLowerCase()
+      const matchSearch = !q || s.subject_name.toLowerCase().includes(q) || (s.description || '').toLowerCase().includes(q)
+      const matchStatus = filterStatus === 'all' || (filterStatus === 'active' ? s.is_active : !s.is_active)
+      return matchSearch && matchStatus
+    })
+    .sort((a, b) => {
+      let av, bv
+      if (sortKey === 'weightage') { av = parseFloat(a.weightage); bv = parseFloat(b.weightage) }
+      else if (sortKey === 'questions') { av = qCounts[a.id] || 0; bv = qCounts[b.id] || 0 }
+      else if (sortKey === 'is_active') { av = a.is_active ? 1 : 0; bv = b.is_active ? 1 : 0 }
+      else { av = a[sortKey] || ''; bv = b[sortKey] || '' }
+      const cmp = typeof av === 'number' ? av - bv : String(av).localeCompare(String(bv))
+      return sortDir === 'asc' ? cmp : -cmp
+    })
+
   if (loader.loading && !subjects.length) return <AdminLayout><PageSpinner /></AdminLayout>
 
   return (
@@ -131,16 +161,34 @@ export default function AdminSubjects() {
         </p>
       </div>
 
+      <div className="flex flex-wrap gap-3 mb-4">
+        <div className="relative flex-1 min-w-[180px] max-w-xs">
+          <Search size={15} className="absolute left-3 top-1/2 -translate-y-1/2 text-ink-faint" />
+          <input className="form-input pl-9" placeholder="Search subjects…"
+                 value={search} onChange={e => setSearch(e.target.value)} />
+        </div>
+        <select className="form-input w-auto" value={filterStatus} onChange={e => setFilterStatus(e.target.value)}>
+          <option value="all">All Status</option>
+          <option value="active">Active</option>
+          <option value="inactive">Inactive</option>
+        </select>
+        <span className="text-xs text-ink-muted self-center">{filtered.length} of {subjects.length}</span>
+      </div>
+
       <div className="table-wrap">
         <table className="table-base">
           <thead>
             <tr>
-              <th>Subject</th><th>Description</th><th>Weightage</th>
-              <th>Questions</th><th>Status</th><th>Actions</th>
+              <th><button className="flex items-center" onClick={() => toggleSort('subject_name')}>Subject<SortIcon col="subject_name" /></button></th>
+              <th>Description</th>
+              <th><button className="flex items-center" onClick={() => toggleSort('weightage')}>Weightage<SortIcon col="weightage" /></button></th>
+              <th><button className="flex items-center" onClick={() => toggleSort('questions')}>Questions<SortIcon col="questions" /></button></th>
+              <th><button className="flex items-center" onClick={() => toggleSort('is_active')}>Status<SortIcon col="is_active" /></button></th>
+              <th>Actions</th>
             </tr>
           </thead>
           <tbody>
-            {subjects.map(s => {
+            {filtered.map(s => {
               const qCount = qCounts[s.id] || 0
               const pct    = totalWeight > 0 ? ((s.weightage / totalWeight) * 100).toFixed(1) : 0
               return (
