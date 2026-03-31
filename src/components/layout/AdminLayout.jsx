@@ -1,4 +1,5 @@
 import { Sidebar, MobileNav } from './Sidebar'
+import { Footer } from './Footer'
 
 export function AdminLayout({ children }) {
   return (
@@ -11,6 +12,7 @@ export function AdminLayout({ children }) {
             {children}
           </div>
         </main>
+        <Footer />
       </div>
     </div>
   )

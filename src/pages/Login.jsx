@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
+import { Footer } from '../components/layout/Footer'
 import { BookOpen, Eye, EyeOff } from 'lucide-react'
 
 export default function Login() {
@@ -34,12 +35,12 @@ export default function Login() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-dark via-primary to-secondary-dark flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-primary-dark via-primary to-secondary-dark flex flex-col items-center justify-center p-4">
       {/* Background texture */}
       <div className="absolute inset-0 opacity-5"
            style={{ backgroundImage: 'radial-gradient(circle at 25% 25%, white 1px, transparent 1px), radial-gradient(circle at 75% 75%, white 1px, transparent 1px)', backgroundSize: '48px 48px' }} />
 
-      <div className="relative z-10 w-full max-w-md">
+      <div className="relative z-10 w-full max-w-md flex-1 flex flex-col items-center justify-center">
         {/* Logo */}
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/15 backdrop-blur mb-4">
@@ -50,7 +51,7 @@ export default function Login() {
         </div>
 
         {/* Card */}
-        <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-xl3 p-5 sm:p-8 shadow-lift">
+        <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-xl3 p-5 sm:p-8 shadow-lift w-full">
           <h2 className="font-display text-2xl text-white mb-6">Sign In</h2>
 
           <form onSubmit={handleSubmit} className="flex flex-col gap-4" noValidate>
@@ -102,6 +103,10 @@ export default function Login() {
             Hint: Use your roll_number@iub.edu.pk as email.
           </p>
         </div>
+      </div>
+
+      <div className="relative z-10 w-full">
+        <Footer light />
       </div>
     </div>
   )
