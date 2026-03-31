@@ -134,3 +134,13 @@
 - Expertise: Artificial Intelligence, Image Segmentation, Machine Vision, Machine Learning
 - Google Scholar: https://scholar.google.com/citations?hl=en&user=VsdkzoEAAAAJ
 - Notes: Recent international research internship in the UK
+
+---
+
+## 12. Ms. Saba Tahir
+- Profile: N/A
+- Designation: Lecturer
+- Qualification: MS(CS)
+- Email: Saba.Tahir@iub.edu.pk
+- Phone: N/A
+- Expertise: Computer Science

@@ -75,5 +75,12 @@
     "expertise": "Artificial Intelligence, Image Segmentation, Machine Vision, Machine Learning",
     "email": "muzammil.rehman@iub.edu.pk",
     "password": "DAI@IUB890764"
+  },
+  {
+    "teacher_name": "Saba Tahir",
+    "designation": "Lecturer",
+    "expertise": "Computer Science",
+    "email": "Saba.Tahir@iub.edu.pk",
+    "password": "DAI@IUB848821"
   }
 ]
