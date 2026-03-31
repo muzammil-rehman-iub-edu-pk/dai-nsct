@@ -201,7 +201,7 @@ function BulkUploadModal({ open, onClose, onDone, sections }) {
 }
 
 // ─── Main Page ────────────────────────────────────────────────────────────────
-export default function AdminStudents() {
+export default function AdminStudents({ isReadOnly = false }) {
   const [students,  setStudents]  = useState([])
   const [sections,  setSections]  = useState([])
   const [modalOpen, setModal]     = useState(false)
@@ -326,8 +326,10 @@ export default function AdminStudents() {
           <p className="text-ink-muted text-sm mt-1">{students.length} enrolled</p>
         </div>
         <div className="flex gap-2">
-          <button className="btn-outline" onClick={() => setBulkOpen(true)}><Upload size={16} /> Bulk Upload</button>
-          <button className="btn-primary" onClick={openAdd}><Plus size={16} /> Add Student</button>
+          {!isReadOnly && <>
+            <button className="btn-outline" onClick={() => setBulkOpen(true)}><Upload size={16} /> Bulk Upload</button>
+            <button className="btn-primary" onClick={openAdd}><Plus size={16} /> Add Student</button>
+          </>}
         </div>
       </div>
 
@@ -377,14 +379,17 @@ export default function AdminStudents() {
                 <td><span className={`badge ${s.is_active ? 'badge-success' : 'badge-danger'}`}>{s.is_active ? 'Active' : 'Inactive'}</span></td>
                 <td>
                   <div className="flex items-center gap-1">
-                    <button className="btn-ghost p-1.5" onClick={() => openEdit(s)}><Edit2 size={14} /></button>
-                    <button className="btn-ghost p-1.5" onClick={() => toggleActive(s)} disabled={mutator.loading}>
-                      {s.is_active ? <ToggleRight size={14} className="text-success" /> : <ToggleLeft size={14} className="text-ink-faint" />}
-                    </button>
-                    <button className="btn-ghost p-1.5 text-danger"
-                      onClick={() => setConfirm({ action: () => deleteStudent(s), msg: `Delete "${s.student_name}"?` })}>
-                      <Trash2 size={14} />
-                    </button>
+                    {!isReadOnly && <>
+                      <button className="btn-ghost p-1.5" onClick={() => openEdit(s)}><Edit2 size={14} /></button>
+                      <button className="btn-ghost p-1.5" onClick={() => toggleActive(s)} disabled={mutator.loading}>
+                        {s.is_active ? <ToggleRight size={14} className="text-success" /> : <ToggleLeft size={14} className="text-ink-faint" />}
+                      </button>
+                      <button className="btn-ghost p-1.5 text-danger"
+                        onClick={() => setConfirm({ action: () => deleteStudent(s), msg: `Delete "${s.student_name}"?` })}>
+                        <Trash2 size={14} />
+                      </button>
+                    </>}
+                    {isReadOnly && <span className="text-xs text-ink-faint italic">View only</span>}
                   </div>
                 </td>
               </tr>

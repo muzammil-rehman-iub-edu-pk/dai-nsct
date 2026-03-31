@@ -10,7 +10,7 @@ import { PageSpinner } from '../../components/ui/Spinner'
 import { ToastContainer } from '../../components/ui/Toast'
 import { Plus, Edit2, Trash2, ToggleLeft, ToggleRight, FlaskConical, Info, Search, ArrowUpDown, ArrowUp, ArrowDown } from 'lucide-react'
 
-export default function AdminSubjects() {
+export default function AdminSubjects({ isReadOnly = false }) {
   const [subjects, setSubjects] = useState([])
   const [qCounts, setQCounts]   = useState({})
   const [modalOpen, setModal]   = useState(false)
@@ -149,7 +149,7 @@ export default function AdminSubjects() {
           <h1 className="page-title">Subjects</h1>
           <p className="text-ink-muted text-sm mt-1">{subjects.length} subjects</p>
         </div>
-        <button className="btn-primary" onClick={openAdd}><Plus size={16} /> Add Subject</button>
+        {!isReadOnly && <button className="btn-primary" onClick={openAdd}><Plus size={16} /> Add Subject</button>}
       </div>
 
       <div className="card mb-6 flex items-center gap-3 p-4">
@@ -220,14 +220,17 @@ export default function AdminSubjects() {
                   </td>
                   <td>
                     <div className="flex gap-1">
-                      <button className="btn-ghost p-1.5" onClick={() => openEdit(s)}><Edit2 size={14} /></button>
-                      <button className="btn-ghost p-1.5" onClick={() => toggleActive(s)} disabled={mutator.loading}>
-                        {s.is_active ? <ToggleRight size={14} className="text-success" /> : <ToggleLeft size={14} />}
-                      </button>
-                      <button className="btn-ghost p-1.5 text-danger"
-                        onClick={() => setConfirm({ action: () => deleteSubject(s), msg: `Delete "${s.subject_name}" and all its questions?` })}>
-                        <Trash2 size={14} />
-                      </button>
+                      {!isReadOnly && <>
+                        <button className="btn-ghost p-1.5" onClick={() => openEdit(s)}><Edit2 size={14} /></button>
+                        <button className="btn-ghost p-1.5" onClick={() => toggleActive(s)} disabled={mutator.loading}>
+                          {s.is_active ? <ToggleRight size={14} className="text-success" /> : <ToggleLeft size={14} />}
+                        </button>
+                        <button className="btn-ghost p-1.5 text-danger"
+                          onClick={() => setConfirm({ action: () => deleteSubject(s), msg: `Delete "${s.subject_name}" and all its questions?` })}>
+                          <Trash2 size={14} />
+                        </button>
+                      </>}
+                      {isReadOnly && <span className="text-xs text-ink-faint italic">View only</span>}
                     </div>
                   </td>
                 </tr>

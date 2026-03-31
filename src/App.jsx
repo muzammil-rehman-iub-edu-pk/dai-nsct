@@ -16,6 +16,11 @@ const AdminUserPasswords = lazy(() => import('./pages/admin/UserPasswords'))
 const TeacherDashboard = lazy(() => import('./pages/teacher/Dashboard'))
 const TeacherSections  = lazy(() => import('./pages/teacher/SectionProgress'))
 const TeacherDataBank  = lazy(() => import('./pages/admin/DataBank'))
+const TeacherTeachers  = lazy(() => import('./pages/admin/Teachers'))
+const TeacherStudents  = lazy(() => import('./pages/admin/Students'))
+const TeacherSectionsList = lazy(() => import('./pages/admin/Sections'))
+const TeacherSubjects  = lazy(() => import('./pages/admin/Subjects'))
+const TeacherStats     = lazy(() => import('./pages/admin/Dashboard'))
 const StudentDashboard = lazy(() => import('./pages/student/Dashboard'))
 const ExamLanding      = lazy(() => import('./pages/student/ExamLanding'))
 const ExamRoom         = lazy(() => import('./pages/student/ExamRoom'))
@@ -104,6 +109,11 @@ export default function App() {
             <Route path="/teacher" element={<RequireAuth role="teacher"><TeacherDashboard /></RequireAuth>} />
             <Route path="/teacher/sections" element={<RequireAuth role="teacher"><TeacherSections /></RequireAuth>} />
             <Route path="/teacher/databank" element={<RequireAuth role="teacher"><TeacherDataBank /></RequireAuth>} />
+            <Route path="/teacher/stats" element={<RequireAuth role="teacher"><TeacherStats /></RequireAuth>} />
+            <Route path="/teacher/all-teachers" element={<RequireAuth role="teacher"><TeacherTeachers isReadOnly /></RequireAuth>} />
+            <Route path="/teacher/all-students" element={<RequireAuth role="teacher"><TeacherStudents isReadOnly /></RequireAuth>} />
+            <Route path="/teacher/all-sections" element={<RequireAuth role="teacher"><TeacherSectionsList isReadOnly /></RequireAuth>} />
+            <Route path="/teacher/all-subjects" element={<RequireAuth role="teacher"><TeacherSubjects isReadOnly /></RequireAuth>} />
 
             {/* ── Student ── */}
             <Route path="/student" element={<RequireAuth role="student"><StudentDashboard /></RequireAuth>} />
