@@ -66,9 +66,7 @@ export function Sidebar() {
       {/* Brand */}
       <div className="px-5 py-5 border-b border-white/10">
         <div className="flex items-center gap-2.5 mb-0.5">
-          <div className="w-8 h-8 rounded-lg bg-white/20 flex items-center justify-center flex-shrink-0 overflow-hidden">
-            <img src="/dai-logo.png" alt="DAI" className="w-full h-full object-contain p-0.5" />
-          </div>
+          <img src="/dai-logo.png" alt="DAI" className="w-8 h-8 rounded-lg object-cover flex-shrink-0" />
           <span className="font-display text-lg font-bold text-white tracking-tight">DAI-NSCT</span>
         </div>
         <p className="text-[11px] text-white/40 pl-10 leading-tight">Dept. of AI - National Skills Competency Test</p>
@@ -136,9 +134,7 @@ export function MobileNav() {
         shadow-sm
       `}>
         <div className="flex items-center gap-2.5">
-          <div className="w-7 h-7 rounded-md bg-white/20 flex items-center justify-center flex-shrink-0 overflow-hidden">
-            <img src="/dai-logo.png" alt="DAI" className="w-full h-full object-contain p-0.5" />
-          </div>
+          <img src="/dai-logo.png" alt="DAI" className="w-7 h-7 rounded-md object-cover flex-shrink-0" />
           <span className="font-display text-base font-bold text-white tracking-tight">DAI-NSCT</span>
         </div>
 
@@ -170,9 +166,7 @@ export function MobileNav() {
         {/* Drawer header */}
         <div className="flex items-center justify-between px-5 py-5 border-b border-white/10">
           <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-lg bg-white/20 flex items-center justify-center overflow-hidden">
-              <img src="/dai-logo.png" alt="DAI" className="w-full h-full object-contain p-0.5" />
-            </div>
+            <img src="/dai-logo.png" alt="DAI" className="w-8 h-8 rounded-lg object-cover flex-shrink-0" />
             <span className="font-display text-lg font-bold text-white">DAI-NSCT</span>
           </div>
           <button onClick={() => setOpen(false)}
