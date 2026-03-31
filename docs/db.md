@@ -1,7 +1,7 @@
-# NSCT — Database Reference
+# DAI-NSCT — Database Reference
 
 > Knowledge base for developers and AI agents.
-> Last updated: 2026-03-29 (rev 2)
+> Last updated: 2026-04-01 (rev 3)
 > Database: Supabase PostgreSQL (free tier)
 
 ---
@@ -313,26 +313,29 @@ RLS enabled on all 9 tables. `rls_forced = false` — service_role key bypasses 
 | profile_update_admin | UPDATE | `get_my_role() = 'admin'` |
 | profile_delete_admin | DELETE | `get_my_role() = 'admin'` |
 
-### teachers (4 policies)
+### teachers (5 policies)
 | Policy | CMD | Rule |
 |---|---|---|
 | teachers_select | SELECT | `get_my_role() = 'admin' OR user_id = auth.uid()` |
+| teachers_read_all_by_teacher | SELECT | `get_my_role() = 'teacher'` — read-only view of all teachers |
 | teachers_insert_admin | INSERT | `get_my_role() = 'admin'` |
 | teachers_update_admin | UPDATE | `get_my_role() = 'admin'` |
 | teachers_delete_admin | DELETE | `get_my_role() = 'admin'` |
 
-### sections (4 policies)
+### sections (5 policies)
 | Policy | CMD | Rule |
 |---|---|---|
 | sections_select | SELECT | `get_my_role() = 'admin' OR id IN (get_my_teacher_section_ids()) OR id = get_my_section_id()` |
+| sections_read_all_by_teacher | SELECT | `get_my_role() = 'teacher'` — read-only view of all sections |
 | sections_insert_admin | INSERT | `get_my_role() = 'admin'` |
 | sections_update_admin | UPDATE | `get_my_role() = 'admin'` |
 | sections_delete_admin | DELETE | `get_my_role() = 'admin'` |
 
-### students (5 policies)
+### students (6 policies)
 | Policy | CMD | Rule |
 |---|---|---|
 | students_select | SELECT | `get_my_role() = 'admin' OR section_id IN (get_my_teacher_section_ids()) OR user_id = auth.uid()` |
+| students_read_all_by_teacher | SELECT | `get_my_role() = 'teacher'` — read-only view of all students |
 | students_insert_admin | INSERT | `get_my_role() = 'admin'` |
 | students_update_admin | UPDATE | `get_my_role() = 'admin'` |
 | students_update_own | UPDATE | `user_id = auth.uid()` (USING + WITH CHECK) |
@@ -349,7 +352,7 @@ RLS enabled on all 9 tables. `rls_forced = false` — service_role key bypasses 
 |---|---|---|
 | questions_all_admin | ALL | `get_my_role() = 'admin'` |
 | questions_all_teacher | ALL | `get_my_role() = 'teacher'` |
-| questions_read_student | SELECT | `is_active = true AND get_my_role() = 'student' AND EXISTS (active in_progress attempt)` |
+| questions_read_student | SELECT | `is_active = true AND get_my_role() = 'student'` |
 
 ### exam_settings (2 policies)
 | Policy | CMD | Rule |
@@ -357,18 +360,19 @@ RLS enabled on all 9 tables. `rls_forced = false` — service_role key bypasses 
 | admin_manage_settings | ALL | `get_my_role() = 'admin'` |
 | others_read_settings | SELECT | `get_my_role() IN ('teacher', 'student')` |
 
-### exam_attempts (3 policies)
+### exam_attempts (4 policies)
 | Policy | CMD | Rule |
 |---|---|---|
 | admin_all_attempts | ALL | `get_my_role() = 'admin'` |
 | student_own_attempts | ALL | `student_id = get_my_student_id()` |
 | teacher_section_attempts | SELECT | `student_id IN (students in teacher's sections) OR get_my_role() = 'admin'` |
+| attempts_read_all_by_teacher | SELECT | `get_my_role() = 'teacher'` — read-only view of all attempts |
 
 ### exam_question_snapshots (3 policies)
 | Policy | CMD | Rule |
 |---|---|---|
 | admin_all_snapshots | ALL | `get_my_role() = 'admin'` |
-| snapshots_read_own | SELECT | `attempt_id IN (attempts where student.user_id = auth.uid())` — roles: authenticated |
+| snapshots_read_own | SELECT | `attempt_id IN (attempts where student.user_id = auth.uid())` |
 | teacher_snapshots | SELECT | `attempt_id IN (attempts for teacher's section students) OR get_my_role() = 'admin'` |
 
 ---
@@ -385,3 +389,4 @@ Applied in this order:
 6. `insert_questions.sql` — inserted 4,732 questions across all 11 subjects
 7. `recommendations.sql` — applied DB improvements (indexes, constraints, schema fixes)
 8. `feature_shared_reports.sql` — added `shared_reports` table for password-protected public exam report URLs
+9. `teacher_readonly_rls.sql` — added read-all SELECT policies for teachers on teachers, sections, students, exam_attempts tables

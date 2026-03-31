@@ -1,7 +1,7 @@
 # DAI-NSCT — Project Overview
 
 > Knowledge base for developers and AI agents.
-> Last updated: 2026-03-29 (rev 2)
+> Last updated: 2026-04-01 (rev 3)
 
 ---
 
@@ -9,11 +9,11 @@
 
 | Field | Value |
 |---|---|
-| App Name | NSCT |
-| Full Name | National Skills Competency Test |
+| App Name | DAI-NSCT |
+| Full Name | Department of Artificial Intelligence - National Skills Competency Test |
 | Version | 1.0.0 |
 | Type | Web Application (SPA) |
-| Purpose | Online MCQ-based competency examination platform |
+| Purpose | Online MCQ-based competency examination platform for DAI, IUB |
 | Default Admin Email | admin@dai-nsct.vercel.app |
 | Default Admin Password | Admin@1234 (forced change on first login) |
 
@@ -212,3 +212,6 @@ Never commit real values — use `.env.local` locally and Vercel environment var
 9. Edge Functions for user creation and password management — service_role key never exposed to browser
 10. `rls_auto_enable` DB trigger — any new table created in public schema gets RLS automatically
 11. Public shareable reports — password-protected, no auth required, token-based URL
+12. Teacher read-only views — teachers see all data via RLS SELECT policies; write operations remain admin-only
+13. IUB-specific sort logic — students sorted by reg_number pattern, sections sorted by semester/shift pattern
+14. `RequireTeacher` guard — injects `isReadOnly=true` via `React.cloneElement`, enforces teacher role on `/*/view` routes

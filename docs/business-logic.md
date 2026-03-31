@@ -1,8 +1,7 @@
-
-# NSCT — Business Logic Reference
+# DAI-NSCT — Business Logic Reference
 
 > Knowledge base for developers and AI agents.
-> Last updated: 2026-03-29 (rev 2)
+> Last updated: 2026-04-01 (rev 3)
 
 ---
 
@@ -32,12 +31,11 @@ NSCT (National Skills Competency Test) is a standardized online MCQ examination 
 
 ### Teacher
 - Created by admin only
-- Can view their assigned sections and the students within them
-- Can view all exam attempts and scores for students in their sections
+- Can view ALL teachers, students, sections, subjects, and exam attempts (read-only via RLS)
+- Can view and manage their assigned sections and students within them (Section Progress page)
 - Can add, edit, and delete questions in the data bank
-- Can change passwords for students in their assigned sections (via Section Progress page)
-- Cannot manage users, sections, subjects, or exam settings
-- Cannot see students outside their assigned sections
+- Can change passwords for students in their assigned sections only
+- Cannot manage users, sections, subjects, or exam settings (no write access)
 - Cannot change passwords for admins, other teachers, or students outside their sections
 
 ### Student
@@ -235,10 +233,9 @@ For each selected question:
 - Set attempt status to anything other than in_progress/completed/timed_out (DB CHECK)
 
 ### What teacher CANNOT do
-- See students outside their assigned sections (RLS)
-- Manage users, sections, subjects, or exam settings (RLS)
-- See exam snapshots for students outside their sections (RLS)
+- Write to teachers, sections, students, subjects, or exam_settings tables (RLS — SELECT only)
 - Change passwords for admins, other teachers, or students outside their sections (Edge Function scope check)
+- Access exam question snapshots outside their assigned section students (RLS)
 
 ### What student CANNOT do
 - See other students' data (RLS)
@@ -350,3 +347,62 @@ For each selected question:
 | Large tables in admin views | Pagination at 50 rows per page |
 | Initial page load | All pages lazy-loaded via React.lazy |
 | Supabase free tier pausing | UptimeRobot ping every 10 minutes |
+
+---
+
+## 19. Student Sorting Logic (IUB Reg Number)
+
+Students are sorted by `reg_number` using `compareRegNumbers()` from `src/utils/formatters.js`.
+
+**Pattern:** `[S|F][YY][Campus][Dept][Program][Shift][Prefix][Serial]`
+**Example:** `S23BARIN1M01037`
+
+| Segment | Example | Meaning |
+|---|---|---|
+| S / F | S | Semester: Spring (S) or Fall (F) |
+| YY | 23 | Year of admission (2023) |
+| Campus+Dept | BARIN | Bahawalpur, Artificial Intelligence |
+| Program | 1 | 1=BS Morning, 2=BS Evening, 7=ADP |
+| Shift | M | M=Morning, E=Evening |
+| Prefix | 01 | Program prefix |
+| Serial | 037 | Student serial number |
+
+**Sort priority (ascending):**
+1. Year (older batches first)
+2. Semester: Spring (0) before Fall (1) within same year
+3. Program number: 1 → 2 → 7
+4. Shift: Morning (0) before Evening (1)
+5. Serial number
+
+Applied in: `Students.jsx` (default sort), `SectionProgress.jsx` (within each section), `teacher/Dashboard.jsx` (within sections overview), `admin/Dashboard.jsx` (top students tie-breaking).
+
+---
+
+## 20. Section Sorting Logic (IUB Section Name)
+
+Sections are sorted by `section_name` using `compareSectionNames()` from `src/utils/formatters.js`.
+
+**Pattern:** `BSARIN-[N]TH-[Num][Shift]`
+**Example:** `BSARIN-7TH-1M`
+
+| Segment | Example | Meaning |
+|---|---|---|
+| BSARIN | BSARIN | Department prefix (fixed) |
+| NTH | 7TH | Semester number |
+| Num | 1 | Section number within semester |
+| Shift | M | M=Morning, E=Evening |
+
+**Sort priority (ascending):**
+1. Semester number (7TH < 8TH < 9TH)
+2. Section number (1 < 2 < 3)
+3. Shift: Morning (M=0) before Evening (E=1)
+
+**Example sorted order:**
+1. BSARIN-7TH-1M
+2. BSARIN-7TH-2M
+3. BSARIN-7TH-3M
+4. BSARIN-8TH-1M
+5. BSARIN-8TH-2M
+6. BSARIN-8TH-1E
+
+Applied in: `Sections.jsx` (card grid + sort button), `Students.jsx` (section filter dropdown), `SectionProgress.jsx` (tab buttons + default selection), `teacher/Dashboard.jsx` (sections overview), `admin/Dashboard.jsx` (teacher stats sections).

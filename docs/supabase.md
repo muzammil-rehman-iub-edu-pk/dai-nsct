@@ -1,7 +1,7 @@
-# NSCT — Supabase Reference
+# DAI-NSCT — Supabase Reference
 
 > Knowledge base for developers and AI agents.
-> Last updated: 2026-03-29 (rev 2)
+> Last updated: 2026-04-01 (rev 3)
 
 ---
 
@@ -173,14 +173,16 @@ All have `SET search_path TO 'public'` — protected against search_path injecti
 | Table | Admin | Teacher | Student |
 |---|---|---|---|
 | user_profiles | Full | Own row only | Own row only |
-| teachers | Full | Own row (SELECT) | None |
-| sections | Full | Own sections (SELECT) | Own section (SELECT) |
-| students | Full | Own section students (SELECT) | Own row (SELECT + UPDATE) |
+| teachers | Full | All rows (SELECT only) | None |
+| sections | Full | All rows (SELECT only) | Own section (SELECT) |
+| students | Full | All rows (SELECT only) | Own row (SELECT + UPDATE) |
 | subjects | Full | Active only (SELECT) | Active only (SELECT, only during active exam) |
 | questions | Full | Full | Active only (SELECT, only during active exam) |
 | exam_settings | Full | Read only | Read only |
-| exam_attempts | Full | Own section students (SELECT) | Own rows (Full) |
+| exam_attempts | Full | All rows (SELECT only) | Own rows (Full) |
 | exam_question_snapshots | Full | Own section students (SELECT) | Own attempts (SELECT) |
+
+Note: Teachers have SELECT on ALL records in teachers/sections/students/exam_attempts via `teacher_readonly_rls.sql`. Write operations remain admin-only.
 
 ---
 
@@ -270,6 +272,7 @@ Authentication → Providers → Email → disable "Confirm email"
 | Students couldn't read snapshots for review page | `add_show_results_setting.sql` — added `snapshots_read_own` policy |
 | Duplicate student snapshot policies | `recommendations.sql` — dropped redundant `student_own_snapshots` |
 | exam_settings.updated_by FK was NO ACTION | `recommendations.sql` — changed to SET NULL |
+| Teachers could only see own row / own sections / own section students | `teacher_readonly_rls.sql` — added read-all SELECT policies for teachers on teachers, sections, students, exam_attempts |
 
 ---
 
@@ -295,12 +298,12 @@ Authentication → Providers → Email → disable "Confirm email"
 | Table | Admin | Teacher | Student | Anon |
 |---|---|---|---|---|
 | user_profiles | Full | Own row only | Own row only | None |
-| teachers | Full | Own row (SELECT) | None | None |
-| sections | Full | Own sections (SELECT) | Own section (SELECT) | None |
-| students | Full | Own section students (SELECT) | Own row (SELECT + UPDATE) | None |
+| teachers | Full | All rows (SELECT only) | None | None |
+| sections | Full | All rows (SELECT only) | Own section (SELECT) | None |
+| students | Full | All rows (SELECT only) | Own row (SELECT + UPDATE) | None |
 | subjects | Full | Active only (SELECT) | Active only (SELECT, only during active exam) | None |
 | questions | Full | Full | Active only (SELECT, only during active exam) | None |
 | exam_settings | Full | Read only | Read only | None |
-| exam_attempts | Full | Own section students (SELECT) | Own rows (Full) | None |
+| exam_attempts | Full | All rows (SELECT only) | Own rows (Full) | None |
 | exam_question_snapshots | Full | Own section students (SELECT) | Own attempts (SELECT) | None |
 | shared_reports | Full | None | Own attempts (INSERT + SELECT) | SELECT by token |
