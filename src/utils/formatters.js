@@ -106,3 +106,51 @@ export function formatNumber(n) {
   if (n === null || n === undefined) return '—'
   return Number(n).toLocaleString()
 }
+
+/**
+ * parseRegNumber — extracts sortable components from IUB reg number.
+ *
+ * Pattern: [S|F][YY][Campus][Dept][Program][Shift][Prefix][Serial]
+ * Example: S23BARIN1M01037
+ *
+ * Sort priority:
+ *   1. Year (ascending)
+ *   2. Semester within year: Spring (S) before Fall (F)
+ *   3. Program number (1=BS Morning, 2=BS Evening, 7=ADP)
+ *   4. Shift: Morning (M) before Evening (E)
+ *   5. Serial (ascending)
+ */
+export function parseRegNumber(reg) {
+  if (!reg || typeof reg !== 'string') return null
+  // Match: semester(S/F), year(2 digits), campus+dept(variable), program(digit), shift(M/E), prefix(2 digits), serial(3 digits)
+  const m = reg.match(/^([SF])(\d{2})[A-Z]+(\d)([ME])\d{2}(\d{3})/)
+  if (!m) return null
+  const [, semester, year, program, shift, serial] = m
+  return {
+    year:     parseInt(year, 10),
+    semester: semester === 'S' ? 0 : 1,   // Spring=0 (first), Fall=1 (second)
+    program:  parseInt(program, 10),       // 1=BS Morning, 2=BS Evening, 7=ADP
+    shift:    shift === 'M' ? 0 : 1,       // Morning=0, Evening=1
+    serial:   parseInt(serial, 10),
+  }
+}
+
+/**
+ * compareRegNumbers — comparator for sorting by reg number.
+ * Returns negative/zero/positive like Array.sort comparator.
+ */
+export function compareRegNumbers(a, b) {
+  const pa = parseRegNumber(a)
+  const pb = parseRegNumber(b)
+  // Unparseable reg numbers fall to the end
+  if (!pa && !pb) return a.localeCompare(b)
+  if (!pa) return 1
+  if (!pb) return -1
+  return (
+    pa.year     - pb.year     ||
+    pa.semester - pb.semester ||
+    pa.program  - pb.program  ||
+    pa.shift    - pb.shift    ||
+    pa.serial   - pb.serial
+  )
+}

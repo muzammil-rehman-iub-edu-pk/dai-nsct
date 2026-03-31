@@ -10,6 +10,7 @@ import { Modal } from '../../components/ui/Modal'
 import { ToastContainer } from '../../components/ui/Toast'
 import { setUserPassword } from '../../lib/adminApi'
 import { ChevronDown, ChevronUp, Users, KeyRound, Eye, EyeOff, ShieldCheck } from 'lucide-react'
+import { compareRegNumbers } from '../../utils/formatters'
 
 function formatTime(secs) {
   if (!secs) return '—'
@@ -156,16 +157,18 @@ export default function TeacherSectionProgress() {
       )
       const processed = (secs || []).map(sec => ({
         ...sec,
-        students: sec.students.map(stu => ({
-          ...stu,
-          attempts: [...(stu.exam_attempts || [])]
-            .filter(a => a.status !== 'in_progress')
-            .sort((a, b) => new Date(b.started_at) - new Date(a.started_at)),
-          avg: (() => {
-            const done = stu.exam_attempts.filter(a => a.status === 'completed')
-            return done.length ? done.reduce((s, a) => s + a.score_percent, 0) / done.length : 0
-          })(),
-        })),
+        students: sec.students
+          .map(stu => ({
+            ...stu,
+            attempts: [...(stu.exam_attempts || [])]
+              .filter(a => a.status !== 'in_progress')
+              .sort((a, b) => new Date(b.started_at) - new Date(a.started_at)),
+            avg: (() => {
+              const done = stu.exam_attempts.filter(a => a.status === 'completed')
+              return done.length ? done.reduce((s, a) => s + a.score_percent, 0) / done.length : 0
+            })(),
+          }))
+          .sort((a, b) => compareRegNumbers(a.reg_number, b.reg_number)),
       }))
       setSections(processed)
       if (processed.length) setSelSec(processed[0].id)

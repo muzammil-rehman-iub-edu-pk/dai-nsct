@@ -6,6 +6,7 @@ import { useApiCall } from '../../hooks/useApiCall'
 import { useAuth } from '../../contexts/AuthContext'
 import { PageSpinner } from '../../components/ui/Spinner'
 import { TrendingUp, Users, ClipboardList, Award } from 'lucide-react'
+import { compareRegNumbers } from '../../utils/formatters'
 
 export default function TeacherDashboard() {
   const { user } = useAuth()
@@ -21,7 +22,7 @@ export default function TeacherDashboard() {
       )
       const sections = await dbQuery(
         supabase.from('sections')
-          .select('id, section_name, students(id, student_name, exam_attempts(score_percent, status))')
+          .select('id, section_name, students(id, student_name, reg_number, exam_attempts(score_percent, status))')
           .eq('teacher_id', teacher.id)
       )
       const allAttempts = (sections || []).flatMap(sec =>
@@ -29,7 +30,12 @@ export default function TeacherDashboard() {
       )
       const avgScore = allAttempts.length
         ? allAttempts.reduce((s, a) => s + a.score_percent, 0) / allAttempts.length : 0
-      setData({ teacher, sections: sections || [], allAttempts, avgScore })
+      // Sort students within each section by reg number
+      const sortedSections = (sections || []).map(sec => ({
+        ...sec,
+        students: [...sec.students].sort((a, b) => compareRegNumbers(a.reg_number, b.reg_number)),
+      }))
+      setData({ teacher, sections: sortedSections, allAttempts, avgScore })
     })
   }
 

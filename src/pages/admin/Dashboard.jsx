@@ -5,6 +5,7 @@ import { dbQuery } from '../../lib/db'
 import { useApiCall } from '../../hooks/useApiCall'
 import { PageSpinner } from '../../components/ui/Spinner'
 import { Users, UserCheck, BookOpen, School, ClipboardList, Database, TrendingUp, Award } from 'lucide-react'
+import { compareRegNumbers } from '../../utils/formatters'
 
 export default function AdminDashboard() {
   const [stats, setStats]       = useState(null)
@@ -61,7 +62,7 @@ export default function AdminDashboard() {
       }
       const ranked = Object.values(studentMap).map(s => ({
         ...s, avg: s.scores.reduce((x, y) => x + y, 0) / s.scores.length, count: s.scores.length,
-      })).sort((a, b) => b.avg - a.avg).slice(0, 10)
+      })).sort((a, b) => b.avg - a.avg || compareRegNumbers(a.reg_number, b.reg_number)).slice(0, 10)
       setTop(ranked)
 
       // By teacher

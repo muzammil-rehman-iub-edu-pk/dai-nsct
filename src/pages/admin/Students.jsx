@@ -10,6 +10,7 @@ import { ConfirmDialog } from '../../components/ui/ConfirmDialog'
 import { PageSpinner } from '../../components/ui/Spinner'
 import { ToastContainer } from '../../components/ui/Toast'
 import { Plus, Edit2, Trash2, ToggleLeft, ToggleRight, Search, GraduationCap, Upload, X, CheckCircle, AlertTriangle, ArrowUpDown, ArrowUp, ArrowDown } from 'lucide-react'
+import { compareRegNumbers } from '../../utils/formatters'
 
 const emptyForm = { reg_number: '', student_name: '', father_name: '', section_id: '', email: '', password: '' }
 
@@ -212,7 +213,7 @@ export default function AdminStudents({ isReadOnly = false }) {
   const [search,    setSearch]    = useState('')
   const [filterSection, setFilterSection] = useState('')
   const [filterStatus,  setFilterStatus]  = useState('all')
-  const [sortKey,   setSortKey]   = useState('student_name')
+  const [sortKey,   setSortKey]   = useState('reg_number')
   const [sortDir,   setSortDir]   = useState('asc')
 
   function toggleSort(key) {
@@ -234,7 +235,7 @@ export default function AdminStudents({ isReadOnly = false }) {
   async function load() {
     await loader.run(async () => {
       const [studs, secs] = await Promise.all([
-        dbQuery(supabase.from('students').select('*, sections(section_name)').order('student_name')),
+        dbQuery(supabase.from('students').select('*, sections(section_name)').order('reg_number')),
         dbQuery(supabase.from('sections').select('id, section_name').eq('is_active', true).order('section_name')),
       ])
       setStudents(studs || [])
@@ -307,11 +308,16 @@ export default function AdminStudents({ isReadOnly = false }) {
       return matchSearch && matchSection && matchStatus
     })
     .sort((a, b) => {
-      let av, bv
-      if (sortKey === 'section') { av = a.sections?.section_name || ''; bv = b.sections?.section_name || '' }
-      else if (sortKey === 'is_active') { av = a.is_active ? 1 : 0; bv = b.is_active ? 1 : 0 }
-      else { av = a[sortKey] || ''; bv = b[sortKey] || '' }
-      const cmp = typeof av === 'number' ? av - bv : String(av).localeCompare(String(bv))
+      let cmp
+      if (sortKey === 'reg_number') {
+        cmp = compareRegNumbers(a.reg_number, b.reg_number)
+      } else if (sortKey === 'section') {
+        cmp = (a.sections?.section_name || '').localeCompare(b.sections?.section_name || '')
+      } else if (sortKey === 'is_active') {
+        cmp = (a.is_active ? 1 : 0) - (b.is_active ? 1 : 0)
+      } else {
+        cmp = String(a[sortKey] || '').localeCompare(String(b[sortKey] || ''))
+      }
       return sortDir === 'asc' ? cmp : -cmp
     })
 
