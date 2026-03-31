@@ -10,7 +10,7 @@ import { Modal } from '../../components/ui/Modal'
 import { ToastContainer } from '../../components/ui/Toast'
 import { setUserPassword } from '../../lib/adminApi'
 import { ChevronDown, ChevronUp, Users, KeyRound, Eye, EyeOff, ShieldCheck } from 'lucide-react'
-import { compareRegNumbers } from '../../utils/formatters'
+import { compareRegNumbers, compareSectionNames } from '../../utils/formatters'
 
 function formatTime(secs) {
   if (!secs) return '—'
@@ -171,7 +171,7 @@ export default function TeacherSectionProgress() {
           .sort((a, b) => compareRegNumbers(a.reg_number, b.reg_number)),
       }))
       setSections(processed)
-      if (processed.length) setSelSec(processed[0].id)
+      if (processed.length) setSelSec([...processed].sort((a, b) => compareSectionNames(a.section_name, b.section_name))[0].id)
     })
   }
 
@@ -189,7 +189,7 @@ export default function TeacherSectionProgress() {
       </div>
 
       <div className="flex gap-2 mb-6 flex-wrap overflow-x-auto pb-1">
-        {sections.map(sec => (
+        {[...sections].sort((a, b) => compareSectionNames(a.section_name, b.section_name)).map(sec => (
           <button key={sec.id}
             className={`px-4 py-2 rounded-xl text-sm font-medium transition-colors
                         ${selSection === sec.id ? 'bg-secondary text-white shadow-sm' : 'bg-white border border-surface-border text-ink-muted hover:text-ink'}`}

@@ -5,7 +5,7 @@ import { dbQuery } from '../../lib/db'
 import { useApiCall } from '../../hooks/useApiCall'
 import { PageSpinner } from '../../components/ui/Spinner'
 import { Users, UserCheck, BookOpen, School, ClipboardList, Database, TrendingUp, Award } from 'lucide-react'
-import { compareRegNumbers } from '../../utils/formatters'
+import { compareRegNumbers, compareSectionNames } from '../../utils/formatters'
 
 export default function AdminDashboard() {
   const [stats, setStats]       = useState(null)
@@ -67,7 +67,8 @@ export default function AdminDashboard() {
 
       // By teacher
       const teacherStats = (teachers || []).map(t => {
-        const allAttempts = t.sections.flatMap(sec =>
+        const sortedSections = [...t.sections].sort((a, b) => compareSectionNames(a.section_name, b.section_name))
+        const allAttempts = sortedSections.flatMap(sec =>
           sec.students.flatMap(stu => stu.exam_attempts.filter(a => a.status === 'completed'))
         )
         const avg = allAttempts.length

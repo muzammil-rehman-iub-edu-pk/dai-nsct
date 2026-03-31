@@ -154,3 +154,41 @@ export function compareRegNumbers(a, b) {
     pa.serial   - pb.serial
   )
 }
+
+/**
+ * parseSectionName — extracts sortable components from IUB section name.
+ *
+ * Pattern: BSARIN-[Semester]TH-[Number][Shift]
+ * Example: BSARIN-7TH-1M
+ *
+ * Sort priority:
+ *   1. Semester number (ascending — lower semester first)
+ *   2. Section number (1 < 2 < 3)
+ *   3. Shift: Morning (M) before Evening (E)
+ */
+export function parseSectionName(name) {
+  if (!name || typeof name !== 'string') return null
+  const m = name.match(/(\d+)TH-(\d+)([ME])/i)
+  if (!m) return null
+  return {
+    semester: parseInt(m[1], 10),
+    number:   parseInt(m[2], 10),
+    shift:    m[3].toUpperCase() === 'M' ? 0 : 1,
+  }
+}
+
+/**
+ * compareSectionNames — comparator for sorting by section name.
+ */
+export function compareSectionNames(a, b) {
+  const pa = parseSectionName(a)
+  const pb = parseSectionName(b)
+  if (!pa && !pb) return a.localeCompare(b)
+  if (!pa) return 1
+  if (!pb) return -1
+  return (
+    pa.semester - pb.semester ||
+    pa.number   - pb.number   ||
+    pa.shift    - pb.shift
+  )
+}

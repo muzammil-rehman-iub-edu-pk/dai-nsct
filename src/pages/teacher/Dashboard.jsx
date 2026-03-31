@@ -6,7 +6,7 @@ import { useApiCall } from '../../hooks/useApiCall'
 import { useAuth } from '../../contexts/AuthContext'
 import { PageSpinner } from '../../components/ui/Spinner'
 import { TrendingUp, Users, ClipboardList, Award } from 'lucide-react'
-import { compareRegNumbers } from '../../utils/formatters'
+import { compareRegNumbers, compareSectionNames } from '../../utils/formatters'
 
 export default function TeacherDashboard() {
   const { user } = useAuth()
@@ -31,10 +31,12 @@ export default function TeacherDashboard() {
       const avgScore = allAttempts.length
         ? allAttempts.reduce((s, a) => s + a.score_percent, 0) / allAttempts.length : 0
       // Sort students within each section by reg number
-      const sortedSections = (sections || []).map(sec => ({
-        ...sec,
-        students: [...sec.students].sort((a, b) => compareRegNumbers(a.reg_number, b.reg_number)),
-      }))
+      const sortedSections = (sections || [])
+        .map(sec => ({
+          ...sec,
+          students: [...sec.students].sort((a, b) => compareRegNumbers(a.reg_number, b.reg_number)),
+        }))
+        .sort((a, b) => compareSectionNames(a.section_name, b.section_name))
       setData({ teacher, sections: sortedSections, allAttempts, avgScore })
     })
   }

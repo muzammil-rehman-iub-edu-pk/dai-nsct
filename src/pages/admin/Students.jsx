@@ -10,7 +10,7 @@ import { ConfirmDialog } from '../../components/ui/ConfirmDialog'
 import { PageSpinner } from '../../components/ui/Spinner'
 import { ToastContainer } from '../../components/ui/Toast'
 import { Plus, Edit2, Trash2, ToggleLeft, ToggleRight, Search, GraduationCap, Upload, X, CheckCircle, AlertTriangle, ArrowUpDown, ArrowUp, ArrowDown } from 'lucide-react'
-import { compareRegNumbers } from '../../utils/formatters'
+import { compareRegNumbers, compareSectionNames } from '../../utils/formatters'
 
 const emptyForm = { reg_number: '', student_name: '', father_name: '', section_id: '', email: '', password: '' }
 
@@ -239,7 +239,7 @@ export default function AdminStudents({ isReadOnly = false }) {
         dbQuery(supabase.from('sections').select('id, section_name').eq('is_active', true).order('section_name')),
       ])
       setStudents(studs || [])
-      setSections(secs || [])
+      setSections([...(secs || [])].sort((a, b) => compareSectionNames(a.section_name, b.section_name)))
     })
   }
 

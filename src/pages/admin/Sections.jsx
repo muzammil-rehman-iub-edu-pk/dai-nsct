@@ -9,6 +9,7 @@ import { ConfirmDialog } from '../../components/ui/ConfirmDialog'
 import { PageSpinner } from '../../components/ui/Spinner'
 import { ToastContainer } from '../../components/ui/Toast'
 import { Plus, Edit2, Trash2, ToggleLeft, ToggleRight, School, Search, Users } from 'lucide-react'
+import { compareSectionNames } from '../../utils/formatters'
 
 export default function AdminSections({ isReadOnly = false }) {
   const [sections, setSections] = useState([])
@@ -108,6 +109,9 @@ export default function AdminSections({ isReadOnly = false }) {
     })
     .sort((a, b) => {
       let av, bv
+      if (sortKey === 'section_name') return sortDir === 'asc'
+        ? compareSectionNames(a.section_name, b.section_name)
+        : compareSectionNames(b.section_name, a.section_name)
       if (sortKey === 'teacher') { av = a.teachers?.teacher_name || ''; bv = b.teachers?.teacher_name || '' }
       else if (sortKey === 'is_active') { av = a.is_active ? 1 : 0; bv = b.is_active ? 1 : 0 }
       else if (sortKey === 'students') { av = a.students?.length ?? 0; bv = b.students?.length ?? 0 }
