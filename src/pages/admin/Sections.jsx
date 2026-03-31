@@ -8,7 +8,7 @@ import { Modal } from '../../components/ui/Modal'
 import { ConfirmDialog } from '../../components/ui/ConfirmDialog'
 import { PageSpinner } from '../../components/ui/Spinner'
 import { ToastContainer } from '../../components/ui/Toast'
-import { Plus, Edit2, Trash2, ToggleLeft, ToggleRight, School, Search } from 'lucide-react'
+import { Plus, Edit2, Trash2, ToggleLeft, ToggleRight, School, Search, Users } from 'lucide-react'
 
 export default function AdminSections({ isReadOnly = false }) {
   const [sections, setSections] = useState([])
@@ -38,7 +38,7 @@ export default function AdminSections({ isReadOnly = false }) {
   async function load() {
     await loader.run(async () => {
       const [secs, tchs] = await Promise.all([
-        dbQuery(supabase.from('sections').select('*, teachers(teacher_name)').order('section_name')),
+        dbQuery(supabase.from('sections').select('*, teachers(teacher_name), students(id)').order('section_name')),
         dbQuery(supabase.from('teachers').select('id, teacher_name').eq('is_active', true).order('teacher_name')),
       ])
       setSections(secs || [])
@@ -110,6 +110,7 @@ export default function AdminSections({ isReadOnly = false }) {
       let av, bv
       if (sortKey === 'teacher') { av = a.teachers?.teacher_name || ''; bv = b.teachers?.teacher_name || '' }
       else if (sortKey === 'is_active') { av = a.is_active ? 1 : 0; bv = b.is_active ? 1 : 0 }
+      else if (sortKey === 'students') { av = a.students?.length ?? 0; bv = b.students?.length ?? 0 }
       else { av = a[sortKey] || ''; bv = b[sortKey] || '' }
       const cmp = typeof av === 'number' ? av - bv : String(av).localeCompare(String(bv))
       return sortDir === 'asc' ? cmp : -cmp
@@ -143,7 +144,7 @@ export default function AdminSections({ isReadOnly = false }) {
           <option value="inactive">Inactive</option>
         </select>
         <div className="flex gap-1 self-center">
-          {[['section_name','Name'],['teacher','Teacher'],['is_active','Status']].map(([key, label]) => (
+          {[['section_name','Name'],['teacher','Teacher'],['students','Students'],['is_active','Status']].map(([key, label]) => (
             <button key={key} onClick={() => toggleSort(key)}
               className={`px-2.5 py-1 rounded-lg text-xs font-medium border transition-colors
                 ${sortKey === key ? 'bg-primary text-white border-primary' : 'border-surface-border text-ink-muted hover:border-ink-faint'}`}>
@@ -170,6 +171,10 @@ export default function AdminSections({ isReadOnly = false }) {
               <span className={`badge ${s.is_active ? 'badge-success' : 'badge-danger'}`}>
                 {s.is_active ? 'Active' : 'Inactive'}
               </span>
+            </div>
+            <div className="flex items-center gap-1.5 text-xs text-ink-muted border-t border-surface-border pt-2">
+              <Users size={13} className="text-primary" />
+              <span><span className="font-semibold text-ink">{s.students?.length ?? 0}</span> student{s.students?.length !== 1 ? 's' : ''}</span>
             </div>
             <div className="flex items-center gap-1 justify-end pt-1 border-t border-surface-border">
               {!isReadOnly && <>
