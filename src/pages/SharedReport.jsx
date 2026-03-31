@@ -28,8 +28,8 @@ function PasswordGate({ onUnlock }) {
     <div className="min-h-screen bg-surface flex items-center justify-center p-4">
       <div className="w-full max-w-sm">
         <div className="text-center mb-8">
-          <div className="w-14 h-14 rounded-2xl bg-primary flex items-center justify-center mx-auto mb-4">
-            <span className="text-white font-display font-bold text-xl">D</span>
+          <div className="w-14 h-14 rounded-2xl bg-primary flex items-center justify-center mx-auto mb-4 overflow-hidden">
+            <img src="/dai-logo.png" alt="DAI" className="w-full h-full object-contain p-1" />
           </div>
           <h1 className="font-display text-2xl text-ink">DAI-NSCT Exam Report</h1>
           <p className="text-ink-muted text-sm mt-2">This report is password protected</p>
@@ -82,8 +82,8 @@ function ReportView({ attempt, questions }) {
     <div className="min-h-screen bg-surface">
       {/* Top bar */}
       <div className="bg-white border-b border-surface-border px-4 py-3 flex items-center gap-3">
-        <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-          <span className="text-white font-display font-bold text-sm">D</span>
+        <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center overflow-hidden">
+          <img src="/dai-logo.png" alt="DAI" className="w-full h-full object-contain p-0.5" />
         </div>
         <div className="flex-1">
           <div className="text-sm font-display font-semibold text-ink">DAI-NSCT Exam Report</div>

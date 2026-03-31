@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
 import { Footer } from '../components/layout/Footer'
-import { BookOpen, Eye, EyeOff } from 'lucide-react'
+import { Eye, EyeOff } from 'lucide-react'
 
 export default function Login() {
   const { signIn, profile, loading } = useAuth()
@@ -43,8 +43,8 @@ export default function Login() {
       <div className="relative z-10 w-full max-w-md flex-1 flex flex-col items-center justify-center">
         {/* Logo */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-white/15 backdrop-blur mb-4">
-            <BookOpen size={32} className="text-white" />
+          <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-white/15 backdrop-blur mb-4 overflow-hidden">
+            <img src="/dai-logo.png" alt="DAI Logo" className="w-full h-full object-contain p-1" />
           </div>
           <h1 className="font-display text-4xl font-bold text-white mb-1">DAI-NSCT</h1>
           <p className="text-white/60 text-sm">Department of Artificial Intelligence - National Skills Competency Test</p>
