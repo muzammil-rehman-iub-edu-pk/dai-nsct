@@ -274,6 +274,7 @@ Authentication → Providers → Email → disable "Confirm email"
 | exam_settings.updated_by FK was NO ACTION | `recommendations.sql` — changed to SET NULL |
 | Teachers could only see own row / own sections / own section students | `teacher_readonly_rls.sql` — added read-all SELECT policies for teachers on teachers, sections, students, exam_attempts |
 | Teachers couldn't INSERT into shared_reports for student attempts | `teacher_shared_reports_rls.sql` — added ALL policy for teachers scoped to their section students |
+| UserPasswords page showed empty list for admin | Missing `supabase` import after refactor — re-added import to `UserPasswords.jsx` |
 
 ---
 

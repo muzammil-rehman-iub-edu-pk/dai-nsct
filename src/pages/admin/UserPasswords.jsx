@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { AdminLayout } from '../../components/layout/Layout'
+import { supabase } from '../../lib/supabase'
 import { dbQuery } from '../../lib/db'
 import { useApiCall } from '../../hooks/useApiCall'
 import { useToast } from '../../hooks/useToast'
