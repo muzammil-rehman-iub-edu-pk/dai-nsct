@@ -1,7 +1,7 @@
 # DAI-NSCT — Supabase Reference
 
 > Knowledge base for developers and AI agents.
-> Last updated: 2026-04-01 (rev 3)
+> Last updated: 2026-04-02 (rev 4)
 
 ---
 
@@ -273,6 +273,7 @@ Authentication → Providers → Email → disable "Confirm email"
 | Duplicate student snapshot policies | `recommendations.sql` — dropped redundant `student_own_snapshots` |
 | exam_settings.updated_by FK was NO ACTION | `recommendations.sql` — changed to SET NULL |
 | Teachers could only see own row / own sections / own section students | `teacher_readonly_rls.sql` — added read-all SELECT policies for teachers on teachers, sections, students, exam_attempts |
+| Teachers couldn't INSERT into shared_reports for student attempts | `teacher_shared_reports_rls.sql` — added ALL policy for teachers scoped to their section students |
 
 ---
 
@@ -306,4 +307,4 @@ Authentication → Providers → Email → disable "Confirm email"
 | exam_settings | Full | Read only | Read only | None |
 | exam_attempts | Full | All rows (SELECT only) | Own rows (Full) | None |
 | exam_question_snapshots | Full | Own section students (SELECT) | Own attempts (SELECT) | None |
-| shared_reports | Full | None | Own attempts (INSERT + SELECT) | SELECT by token |
+| shared_reports | Full | Own section students' attempts (ALL) | Own attempts (INSERT + SELECT) | SELECT by token |

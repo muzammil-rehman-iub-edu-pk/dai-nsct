@@ -15,6 +15,7 @@ const AdminSettings    = lazy(() => import('./pages/admin/Settings'))
 const AdminUserPasswords = lazy(() => import('./pages/admin/UserPasswords'))
 const TeacherDashboard = lazy(() => import('./pages/teacher/Dashboard'))
 const TeacherSections  = lazy(() => import('./pages/teacher/SectionProgress'))
+const TeacherAttemptReview = lazy(() => import('./pages/teacher/AttemptReview'))
 const StudentDashboard = lazy(() => import('./pages/student/Dashboard'))
 const ExamLanding      = lazy(() => import('./pages/student/ExamLanding'))
 const ExamRoom         = lazy(() => import('./pages/student/ExamRoom'))
@@ -121,6 +122,7 @@ export default function App() {
             <Route path="/teacher" element={<RequireAuth role="teacher"><TeacherDashboard /></RequireAuth>} />
             <Route path="/teacher/sections" element={<RequireAuth role="teacher"><TeacherSections /></RequireAuth>} />
             <Route path="/teacher/databank" element={<RequireAuth role="teacher"><AdminDataBank /></RequireAuth>} />
+            <Route path="/teacher/attempt/review/:attemptId" element={<RequireAuth role="teacher"><TeacherAttemptReview /></RequireAuth>} />
             <Route path="/teacher/stats" element={<RequireAuth role="teacher"><AdminDashboard /></RequireAuth>} />
 
             {/* ── Teacher read-only views (teacher role enforced + isReadOnly injected) ── */}

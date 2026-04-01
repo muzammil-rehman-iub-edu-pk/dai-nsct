@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { TeacherLayout } from '../../components/layout/Layout'
 import { supabase } from '../../lib/supabase'
 import { dbQuery } from '../../lib/db'
@@ -9,7 +10,7 @@ import { PageSpinner } from '../../components/ui/Spinner'
 import { Modal } from '../../components/ui/Modal'
 import { ToastContainer } from '../../components/ui/Toast'
 import { setUserPassword } from '../../lib/adminApi'
-import { ChevronDown, ChevronUp, Users, KeyRound, Eye, EyeOff, ShieldCheck } from 'lucide-react'
+import { ChevronDown, ChevronUp, Users, KeyRound, Eye, EyeOff, ShieldCheck, FileText, Share2, Copy, Check } from 'lucide-react'
 import { compareRegNumbers, compareSectionNames } from '../../utils/formatters'
 
 function formatTime(secs) {
@@ -129,13 +130,84 @@ function ChangePasswordModal({ student, open, onClose, onSuccess }) {
   )
 }
 
+// ─── Share Report Modal ───────────────────────────────────────────────────────
+function ShareModal({ attempt, open, onClose }) {
+  const [shareData,  setShareData]  = useState(null)
+  const [generating, setGenerating] = useState(false)
+  const [copiedUrl,  setCopiedUrl]  = useState(false)
+  const [copiedPw,   setCopiedPw]   = useState(false)
+  const [error,      setError]      = useState('')
+
+  useEffect(() => {
+    if (open && attempt) { setShareData(null); setError(''); generate() }
+  }, [open, attempt?.id])
+
+  async function generate() {
+    setGenerating(true)
+    try {
+      const { data: existing } = await supabase
+        .from('shared_reports').select('token, password_plain')
+        .eq('attempt_id', attempt.id).maybeSingle()
+      if (existing) {
+        setShareData({ url: `${window.location.origin}/report/${existing.token}`, password: existing.password_plain })
+        return
+      }
+      const token    = crypto.randomUUID().replace(/-/g, '')
+      const chars    = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*'
+      const password = Array.from({ length: 16 }, () => chars[Math.floor(Math.random() * chars.length)]).join('')
+      const { error: e } = await supabase.from('shared_reports').insert({
+        attempt_id: attempt.id, token, password_hash: password, password_plain: password,
+      })
+      if (e) throw new Error(e.message)
+      setShareData({ url: `${window.location.origin}/report/${token}`, password })
+    } catch (err) { setError(err.message) }
+    finally { setGenerating(false) }
+  }
+
+  async function copy(text, set) { await navigator.clipboard.writeText(text); set(true); setTimeout(() => set(false), 2000) }
+
+  return (
+    <Modal open={open} onClose={onClose} title="Share Exam Report" size="sm">
+      <p className="text-sm text-ink-muted mb-4">Share this student's report using the link and password below.</p>
+      {generating && <div className="flex justify-center py-6 text-ink-muted gap-2"><span className="w-5 h-5 border-2 border-primary/30 border-t-primary rounded-full animate-spin" />Generating…</div>}
+      {error && <p className="form-error mb-3">{error}</p>}
+      {shareData && !generating && (
+        <div className="flex flex-col gap-4">
+          <div>
+            <label className="form-label mb-1">Report URL</label>
+            <div className="flex gap-2">
+              <input className="form-input flex-1 text-xs font-mono bg-surface" value={shareData.url} readOnly onFocus={e => e.target.select()} />
+              <button className="btn-outline px-3" onClick={() => copy(shareData.url, setCopiedUrl)}>
+                {copiedUrl ? <Check size={14} className="text-success" /> : <Copy size={14} />}
+              </button>
+            </div>
+          </div>
+          <div>
+            <label className="form-label mb-1">Password</label>
+            <div className="flex gap-2">
+              <input className="form-input flex-1 font-mono tracking-widest bg-surface" value={shareData.password} readOnly onFocus={e => e.target.select()} />
+              <button className="btn-outline px-3" onClick={() => copy(shareData.password, setCopiedPw)}>
+                {copiedPw ? <Check size={14} className="text-success" /> : <Copy size={14} />}
+              </button>
+            </div>
+          </div>
+          <p className="text-xs text-ink-muted">The same link and password will be shown if you share this attempt again.</p>
+        </div>
+      )}
+      <div className="flex justify-end mt-4"><button className="btn-outline" onClick={onClose}>Close</button></div>
+    </Modal>
+  )
+}
+
 // ─── Main Page ────────────────────────────────────────────────────────────────
 export default function TeacherSectionProgress() {
   const { user } = useAuth()
-  const [sections,   setSections]   = useState([])
-  const [selSection, setSelSec]     = useState('')
-  const [expanded,   setExpanded]   = useState({})
-  const [pwStudent,  setPwStudent]  = useState(null)  // student selected for password change
+  const navigate = useNavigate()
+  const [sections,     setSections]     = useState([])
+  const [selSection,   setSelSec]       = useState('')
+  const [expanded,     setExpanded]     = useState({})
+  const [pwStudent,    setPwStudent]    = useState(null)
+  const [shareAttempt, setShareAttempt] = useState(null)
   const loader = useApiCall()
   const { toasts, toast, dismiss } = useToast()
 
@@ -256,7 +328,7 @@ export default function TeacherSectionProgress() {
                       : (
                         <table className="table-base">
                           <thead>
-                            <tr><th>#</th><th>Date</th><th>Score</th><th>Correct</th><th>Time</th><th>Status</th></tr>
+                            <tr><th>#</th><th>Date</th><th>Score</th><th>Correct</th><th>Time</th><th>Status</th><th></th></tr>
                           </thead>
                           <tbody>
                             {stu.attempts.map((a, i) => (
@@ -274,6 +346,18 @@ export default function TeacherSectionProgress() {
                                   <span className={`badge ${a.status === 'completed' ? 'badge-success' : 'badge-accent'}`}>
                                     {a.status}
                                   </span>
+                                </td>
+                                <td>
+                                  <div className="flex gap-1">
+                                    <button className="btn-ghost p-1.5" title="Review"
+                                      onClick={() => navigate(`/teacher/attempt/review/${a.id}`)}>
+                                      <FileText size={14} />
+                                    </button>
+                                    <button className="btn-ghost p-1.5" title="Share"
+                                      onClick={() => setShareAttempt(a)}>
+                                      <Share2 size={14} />
+                                    </button>
+                                  </div>
                                 </td>
                               </tr>
                             ))}
@@ -296,6 +380,11 @@ export default function TeacherSectionProgress() {
         open={!!pwStudent}
         onClose={() => setPwStudent(null)}
         onSuccess={() => toast(`Password updated for ${pwStudent?.student_name}`, 'success')}
+      />
+      <ShareModal
+        attempt={shareAttempt}
+        open={!!shareAttempt}
+        onClose={() => setShareAttempt(null)}
       />
     </TeacherLayout>
   )

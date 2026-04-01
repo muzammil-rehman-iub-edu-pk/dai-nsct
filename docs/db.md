@@ -1,7 +1,7 @@
 # DAI-NSCT — Database Reference
 
 > Knowledge base for developers and AI agents.
-> Last updated: 2026-04-01 (rev 3)
+> Last updated: 2026-04-02 (rev 4)
 > Database: Supabase PostgreSQL (free tier)
 
 ---
@@ -184,6 +184,7 @@ RLS policies on shared_reports:
 - `shared_reports_student_own` — authenticated students can INSERT/SELECT their own attempt's reports
 - `shared_reports_admin` — admin full access
 - `shared_reports_public_read` — anon role can SELECT by token (for password gate page)
+- `shared_reports_teacher` — teachers can INSERT/SELECT/UPDATE/DELETE reports for attempts belonging to their section students
 
 ---
 
@@ -390,3 +391,4 @@ Applied in this order:
 7. `recommendations.sql` — applied DB improvements (indexes, constraints, schema fixes)
 8. `feature_shared_reports.sql` — added `shared_reports` table for password-protected public exam report URLs
 9. `teacher_readonly_rls.sql` — added read-all SELECT policies for teachers on teachers, sections, students, exam_attempts tables
+10. `teacher_shared_reports_rls.sql` — added ALL policy for teachers on shared_reports for their section students' attempts

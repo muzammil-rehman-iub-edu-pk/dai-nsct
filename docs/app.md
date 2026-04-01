@@ -1,7 +1,7 @@
 # DAI-NSCT — Application Reference
 
 > Knowledge base for developers and AI agents.
-> Last updated: 2026-04-01 (rev 3)
+> Last updated: 2026-04-02 (rev 4)
 
 ---
 
@@ -25,6 +25,7 @@ All routes are defined in `src/App.jsx`. Pages are lazy-loaded via `React.lazy` 
 | `/teacher/sections` | TeacherSectionProgress | teacher | Assigned sections only |
 | `/teacher/databank` | AdminDataBank (shared) | teacher | Full question access |
 | `/teacher/stats` | AdminDashboard (shared) | teacher | Read-only stats view |
+| `/teacher/attempt/review/:attemptId` | TeacherAttemptReview | teacher | Full question review for a student's attempt |
 | `/teachers/view` | AdminTeachers (isReadOnly) | teacher only | RequireTeacher guard |
 | `/students/view` | AdminStudents (isReadOnly) | teacher only | RequireTeacher guard |
 | `/sections/view` | AdminSections (isReadOnly) | teacher only | RequireTeacher guard |
@@ -153,7 +154,21 @@ Methods:
 - Section selector tabs sorted by `compareSectionNames`; default selects first section in sorted order
 - Students within each section sorted by `compareRegNumbers`
 - Each student row: expandable attempts table + "Password" button (if user_id exists)
+- Each attempt row has two action buttons:
+  - **Review** (FileText icon) — navigates to `/teacher/attempt/review/:attemptId`
+  - **Share** (Share2 icon) — opens inline ShareModal to generate a password-protected public link
+- ShareModal: generates token + password, inserts into `shared_reports`, shows copyable URL and password
 - Password change modal: teacher scope enforced server-side (own sections only)
+
+### Teacher Attempt Review (`src/pages/teacher/AttemptReview.jsx`)
+- Route: `/teacher/attempt/review/:attemptId`
+- Loads attempt (with student name + reg number) and all snapshots
+- Shows student name, reg number, date in header alongside score and grade
+- Summary bar: correct, wrong, skipped counts
+- Full question list with correct (green) / wrong (red) / skipped indicators
+- Correct answer determined from snapshot `is_correct` field (randomized order, not DB option_a)
+- Back button navigates to `/teacher/sections`
+- No `show_results_to_students` gate — teachers always have access
 
 ### Teacher Read-Only Views
 All four pages reuse admin components with `isReadOnly={true}` injected by `RequireTeacher`:

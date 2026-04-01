@@ -1,7 +1,7 @@
 # DAI-NSCT — Business Logic Reference
 
 > Knowledge base for developers and AI agents.
-> Last updated: 2026-04-01 (rev 3)
+> Last updated: 2026-04-02 (rev 4)
 
 ---
 
@@ -33,6 +33,8 @@ NSCT (National Skills Competency Test) is a standardized online MCQ examination 
 - Created by admin only
 - Can view ALL teachers, students, sections, subjects, and exam attempts (read-only via RLS)
 - Can view and manage their assigned sections and students within them (Section Progress page)
+- Can review full question-by-question detail of any student attempt in their sections
+- Can generate and share password-protected public report links for any student attempt in their sections
 - Can add, edit, and delete questions in the data bank
 - Can change passwords for students in their assigned sections only
 - Cannot manage users, sections, subjects, or exam settings (no write access)
